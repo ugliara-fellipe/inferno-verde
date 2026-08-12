@@ -1,0 +1,465 @@
+O INFERNO VERDE — REGRAS ESSENCIAIS
+Versão organizada para consulta e aprendizado
+
+1. MECÂNICA BÁSICA
+
+Toda ação incerta usa um dado de seis lados (d6).
+
+Resultado normal:
+- 4, 5 ou 6: sucesso.
+- 1, 2 ou 3: falha.
+
+Situação favorável:
+- Role 2d6.
+- Basta um dos dados ter sucesso.
+- A ação só falha se os dois dados falharem.
+
+Situação desfavorável:
+- Role 2d6.
+- Os dois dados precisam ter sucesso.
+- Se um deles falhar, a ação falha.
+
+
+2. CRIAÇÃO DE PERSONAGEM
+
+Passo 1 — Escolha uma Ocupação.
+A Ocupação define quem o personagem era e o que sabe fazer.
+
+Passo 2 — Distribua 14 pontos entre Presença e Bagagem.
+- Cada atributo deve começar entre 4 e 10.
+
+Presença:
+- Representa saúde física, resistência e estabilidade mental.
+- Presença alta significa que o personagem está firme no mundo.
+- Presença 0 significa morte definitiva.
+
+Bagagem:
+- É o número máximo de espaços que o personagem suporta.
+- Pertences e Provações ocupam os mesmos espaços.
+
+Passo 3 — Escolha 2 Aptidões ligadas à Ocupação.
+- Aptidões representam poderes, técnicas e truques.
+- Muitas aptidões fortes custam 1 ponto de Presença.
+
+Passo 4 — Escolha os Pertences iniciais.
+O personagem começa com:
+- 1 arma de Ocupação.
+- 1 proteção inicial, se aplicável.
+- 2 utilitários da profissão.
+- 1 ração seca.
+
+A soma dos espaços dos Pertences não pode ultrapassar a Bagagem máxima.
+
+Passo 5 — Defina nome
+
+
+3. PRESENÇA, BAGAGEM E COLAPSO
+
+Presença:
+É a saúde total do personagem, física e mental.
+
+Bagagem:
+É o limite de espaços ocupados por:
+- Pertences: armas, proteções, ferramentas e suprimentos.
+- Provações: fome, sede, doenças, ferimentos e traumas.
+
+Colapso:
+A fonte descreve Colapso quando a Bagagem chega ao limite de espaços ocupados.
+Em outro trecho, a ficha indica Colapso quando o valor ocupado ultrapassa o máximo.
+Como as fontes não resolvem essa diferença, ela deve ser definida pelo mestre antes do jogo.
+
+
+4. PROVAÇÕES
+
+Provações ocupam espaços de Bagagem e representam desgaste físico ou mental.
+
+Sede Extrema — 1 espaço
+- Causada por falta de água ou água contaminada.
+- Impede a recuperação de Presença Mental em descansos curtos.
+
+Fome Debilitante — 1 espaço
+- Causada por falta de alimento.
+- Aplica penalidade aos testes físicos ou de agilidade.
+
+Febre das Selvas / Malária — 2 espaços
+- Causada por insetos em áreas tropicais e pantanosas.
+- Provoca calafrios e delírios.
+- Longe de um Posto Avançado, pode drenar Presença até ser tratada.
+
+Ferimento Infeccionado — 1 espaço
+- Surge quando um ferimento infecciona.
+- Impede recuperar Presença Física durante descanso.
+
+Paranoia do Novo Mundo / da Selva — 1 espaço
+- Representa medo, isolamento e desconfiança.
+- Pode impedir que o personagem receba ajuda ou bônus de aliados.
+
+Escorbuto — 1 a 2 espaços em uma versão inicial da fonte.
+- Relacionado à falta prolongada de alimentos frescos.
+- Causa fraqueza e sangramentos.
+
+Delírio da Selva — 1 espaço
+- Pode ser provocado por vegetação venenosa.
+- Impede o uso de Aptidões Intelectuais e bônus de Cartografia enquanto durar.
+
+
+5. OCUPAÇÕES
+
+Militares / Força
+
+Soldado de Infantaria
+- Combate a pé.
+- Usa arcabuz ou besta.
+- Sabe proteger pólvora e manter formação militar.
+
+Conquistador de Terras
+- Especialista em combate corporal, sobrevivência e liderança pela força.
+
+Especialistas / Campo
+
+Batedor da Vanguarda
+- Avança à frente do grupo.
+- Rastreia, se esconde e identifica emboscadas.
+
+Guia Nativo Aliado / Intérprete
+- Conhece caminhos, alimentos locais, línguas e costumes.
+- Ajuda em negociação e sobrevivência.
+
+Mateiro / Abrite-Caminho
+- Abre trilhas, constrói passagens e transporta cargas pesadas.
+
+Herbolário da Expedição
+- Encontra plantas úteis.
+- Trata ferimentos, venenos e água contaminada.
+
+Almocárem / Condutor de Carga
+- Organiza peso, suprimentos e proteção da carga.
+
+Eruditos / Suporte
+
+Cartógrafo da Coroa
+- Orientação, leitura do terreno e produção de mapas.
+
+Médico de Bordo / Cirurgião-Barbeiro
+- Diagnóstico, estabilização e cirurgia de campo.
+
+Padre Jesuíta
+- Suporte psicológico e espiritual.
+
+Geógrafo de Campo
+- Analisa relevo, distâncias, abrigos e minerais.
+
+Cronista de Fronteira
+- Registra fauna, flora e povos.
+- Observa padrões e mantém a calma sob pressão.
+
+
+6. APTIDÕES
+
+Regra geral:
+- Cada personagem escolhe 2 Aptidões da sua Ocupação.
+- Muitas Aptidões importantes custam 1 ponto de Presença.
+
+Batedor da Vanguarda
+Passo Fantasma:
+- Usa fadiga temporária de Bagagem para atravessar vegetação sem rastros ou ruído.
+
+Sentido de Emboscada:
+- Percebe quando o grupo está prestes a sofrer uma emboscada.
+
+Emboscar as Sombras:
+- Se iniciar escondido, o primeiro ataque causa dano extra e impede bloqueio com escudo.
+
+Passo de Esquiva:
+- Gasta Presença para reduzir o dano recebido.
+
+Guia Nativo Aliado / Intérprete
+Banquete da Mata:
+- Encontra alimento suficiente para remover Fome de aliados.
+
+Língua da Terra:
+- Permite comunicação rudimentar por sinais, dialetos e costumes.
+
+Táticas de Guerrilha:
+- Gasta Presença para dar cobertura temporária ao grupo.
+
+Contra-ataque com Peçonha:
+- Pode aplicar Ferimento Infeccionado com uma lâmina envenenada.
+
+Mateiro / Abrite-Caminho
+Golpe de Desbravar:
+- Ignora vantagens de cobertura ou camuflagem na vegetação.
+
+Mula de Carga:
+- Aumenta a Bagagem máxima em 2 espaços.
+
+Fúria do Machado / Terçado:
+- Gasta Presença para atingir dois inimigos próximos.
+
+Quebrador de Escudos:
+- Pode destruir a DUR de um escudo inimigo em um único impacto.
+
+Soldado de Infantaria
+Disciplina de Ferro:
+- Quando está abaixo da metade da Presença, recebe bônus em ataques.
+
+Pólvora Protegida:
+- Evita desgaste climático automático de armas de fogo.
+
+Chuva de Chumbo / Recarga sob Pressão:
+- Gasta Presença para recarregar e disparar uma arma pesada na mesma rodada.
+
+Parede de Aço:
+- Gasta Presença para absorver um ataque destinado a um aliado adjacente.
+
+Conquistador de Terras
+Investida Devastadora:
+- Avança em linha reta e aumenta o dano.
+- Se acertar, pode destruir a proteção do alvo conforme descrito na fonte.
+
+Golpe Intimidador:
+- Gasta Presença para amedrontar inimigos após um ataque brutal.
+
+Cartógrafo da Coroa
+Leitura do Terreno:
+- Gasta Presença para encontrar caminho rápido, abrigo ou água.
+
+Navegação Terrestre:
+- Evita que o grupo se perca e anula efeitos de desorientação.
+
+Médico de Bordo
+Diagnóstico Rápido:
+- Gasta Presença para remover uma Provação biológica leve ou estabilizar uma grave.
+
+Cirurgia de Campo:
+- Recupera 2 pontos de Presença de um aliado.
+- Desgasta as ferramentas médicas em 1 DUR.
+
+Padre Jesuíta
+Palavra de Alento:
+- Gasta Presença para remover Paranoia ou outro trauma psicológico de um aliado.
+
+Martírio Inabalável:
+- Transfere uma Provação de um aliado para si.
+
+Herbolário da Expedição
+Triagem de Campo:
+- Coleta um ingrediente natural que ocupa 1 espaço.
+- Depois pode usá-lo para curar Ferimento Infeccionado.
+
+Destilar Antitoxinas:
+- Gasta Presença para neutralizar veneno imediatamente.
+
+Geógrafo de Campo
+Olho para o Minério:
+- Identifica minerais valiosos.
+- Materiais encontrados podem valer mais no escambo.
+
+Avaliação de Riscos:
+- Protege Pertences contra perda de DUR em acidentes ambientais.
+
+Cronista de Fronteira
+Estudo de Costumes:
+- Observa padrões de inimigos e ajuda o grupo contra emboscadas.
+
+Mente Analítica / Sangue Frio:
+- Gasta Presença para reduzir o impacto mental de eventos aterrorizantes.
+
+
+7. PERTENCES E ESPAÇOS
+
+Armas
+
+Facão de Mato / Terçado
+- Espaço: 1
+- Dano: 1
+- DUR: 4
+
+Espada Pesada de Toledo
+- Espaço: 1
+- Dano: 2
+- DUR: 5
+
+Alabarda / Lança de Caça
+- Espaço: 2
+- Dano: 2
+- DUR: 3
+
+Besta de Caça / Balestra
+- Espaço: 2
+- Dano: 3
+- DUR: 4
+
+Arcabuz / Mosquete de Mecha
+- Espaço: 2
+- Dano: 4
+- DUR: 3
+
+Proteções
+
+Colete de Couro Endurecido
+- Espaço: 1
+- DUR: 2
+- Absorve até 1 de dano por ataque.
+
+Armadura de Peito de Aço / Couraça
+- Espaço: 2
+- DUR: 4
+- Absorve até 2 de dano por ataque.
+
+Escudo de Madeira e Couro / Rodela
+- Espaço: 1
+- DUR: 3
+- Pode anular um ataque inteiro ao perder 1 DUR.
+
+Utilitários
+
+Barril de Pólvora Seca
+- Espaço: 1
+- Rende 10 tiros.
+
+Bolsa de Balas de Chumbo
+- Espaço: 1
+- Rende 10 tiros.
+
+Cordas de Cânhamo e Ganchos
+- Espaço: 1
+- DUR: 2
+
+Kit de Limpeza e Óleo Animal
+- Espaço: 1
+- 2 usos
+- Pode restaurar DUR de equipamentos conforme a situação descrita na fonte.
+
+
+8. DURABILIDADE E REPARO
+
+Durabilidade (DUR):
+- Mede o estado de armas, ferramentas e proteções.
+
+DUR 0:
+- O item fica Quebrado.
+- Não cumpre sua função.
+- Continua ocupando Bagagem até ser descartado ou reparado.
+
+Proteções:
+- Recebem dano antes da Presença.
+- A fonte apresenta regras de absorção específicas para cada proteção.
+
+Armas e ferramentas:
+- Podem perder DUR por falhas críticas, uso extremo, barro, umidade ou desgaste.
+
+Reparo:
+- É feito durante pausa segura ou em Postos Avançados.
+- Pode exigir recursos de manutenção.
+- Especialistas podem realizar reparos melhores.
+
+
+9. COMBATE E DANO
+
+Fluxo básico:
+1. O ataque acerta.
+2. O personagem pode usar Escudo, quando aplicável.
+3. A Armadura absorve dano conforme sua capacidade e DUR.
+4. O dano que não for protegido atinge a Presença.
+5. Presença 0 significa morte definitiva.
+
+Escudo:
+- Pode anular todo o dano de um ataque.
+- Perde 1 DUR quando usado dessa forma.
+
+Armadura:
+- Absorve dano até seu limite por ataque.
+- A DUR é reduzida conforme o dano absorvido.
+
+Sem proteção funcional:
+- O dano reduz diretamente a Presença.
+
+
+10. POSTOS AVANÇADOS
+
+Postos Avançados são pontos de segurança e civilização no interior.
+
+Ações principais:
+
+Descansar
+- Recupera Presença.
+- Remove Provações biológicas leves.
+- Provações graves precisam de tratamento específico.
+
+Reparar
+- Restaura DUR de equipamentos.
+- Pode consumir peças, couro, metal, óleo ou outros recursos.
+
+Fazer Negócios / Escambo
+- Não há uma economia baseada em moedas na fronteira descrita pelo jogo.
+- A troca é direta.
+- O valor depende da necessidade e utilidade do item.
+- Rações, pólvora e ferramentas podem ser mais úteis do que objetos de luxo.
+
+
+11. PERIGOS AMBIENTAIS
+
+Chuva Torrencial Tropical
+- Pode inutilizar pólvora desprotegida.
+- Pode reduzir a DUR de proteções de couro.
+
+Areia Movediça / Lamaçal Profundo
+- Obriga o personagem a aliviar sua carga ou sofrer dano.
+- A versão da fonte manda descartar Pertences equivalentes à metade da Bagagem ocupada.
+
+Cipó-Venenoso
+- Uma falha crítica ao abrir caminho pode causar Delírio da Selva.
+
+
+12. CRIATURAS E AMEAÇAS
+
+Onça-Pintada
+- Dano: 2.
+- Pode ignorar escudos em emboscada.
+- Se ferir diretamente a Presença, pode causar Ferimento Infeccionado.
+
+Sucuri Gigante
+- Dano: 1 por turno durante constrição.
+- Pode obrigar a vítima a perder Presença ou destruir a DUR da proteção.
+
+Enxames de insetos / parasitas
+- Não causam dano direto.
+- Podem aplicar Febre das Selvas.
+
+Guerreiros da Fronteira Oculta
+- Presença do grupo: 5.
+- Ataque com dardos: 1 de dano.
+- Pode ignorar proteção leve e aplicar Provações por veneno.
+
+
+13. RESUMO PARA MEMORIZAR
+
+Teste:
+- 4+ = sucesso.
+
+Favorável:
+- 2d6, basta 1 sucesso.
+
+Desfavorável:
+- 2d6, precisa de 2 sucessos.
+
+Personagem:
+- Presença + Bagagem = 14 pontos iniciais.
+- Cada um começa entre 4 e 10.
+- 2 Aptidões por Ocupação.
+
+Presença:
+- Saúde física e mental.
+- 0 = morte.
+
+Bagagem:
+- Pertences + Provações usam os mesmos espaços.
+
+DUR:
+- Equipamento chega a 0 = Quebrado.
+
+Posto Avançado:
+- Descansar.
+- Reparar.
+- Fazer escambo.

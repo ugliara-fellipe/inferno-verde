@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="dark light" name="color-scheme"/>
+<title>O Inferno Verde — O Preço da Expedição</title>
+<style>
+:root{
+  --ink:#1a1b18; --ink-soft:#35372f; --paper:#eee3c8; --paper-2:#f6eedb;
+  --green:#17251d; --green-2:#263a2d; --rust:#6c3d2d; --gold:#8b7544; --line:#786d54;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#090d0b;color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55}
+.site-shell{display:grid;grid-template-columns:270px minmax(0,880px);gap:34px;justify-content:center;align-items:start;padding:28px 28px 70px}
+.sidebar{position:sticky;top:18px;max-height:calc(100vh - 36px);overflow:auto;background:#101713;border:1px solid #344338;border-radius:10px;padding:18px;color:#d8d0bb;box-shadow:0 15px 45px #0008}
+.sidebar .brand{font-size:1.05rem;letter-spacing:.08em;text-transform:uppercase;color:#eee4c8;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid #405145}
+.sidebar a{display:block;color:#c9c3b2;text-decoration:none;font-size:.88rem;padding:5px 4px;border-left:2px solid transparent}
+.sidebar a:hover{color:#fff1c8;border-left-color:#9d8452;background:#ffffff08}
+.book{background:var(--paper);box-shadow:0 24px 70px #000b;border:1px solid #453f31;min-width:0;overflow:hidden}
+#book-content{padding:0 64px 70px;background:linear-gradient(90deg,#e5d8ba 0,#f4ecd9 5%,#f4ecd9 95%,#e5d8ba 100%)}
+#book-content>h1,#book-content>h2,#book-content>h3,#book-content>p,#book-content>ul,#book-content>ol,#book-content>blockquote,#book-content>table,#book-content>hr{max-width:740px;margin-left:auto;margin-right:auto}
+h1{font-size:2.1rem;line-height:1.08;letter-spacing:.025em;text-transform:uppercase;margin-top:3.4rem;padding-top:1.2rem;border-top:3px double var(--line);color:#15251b}
+h2{font-size:1.45rem;line-height:1.2;color:#27372a;margin-top:2rem}
+h3{font-size:1.08rem;line-height:1.25;color:#543427;margin-top:1.5rem}
+p,li{font-size:1.03rem}
+strong{color:#15291c}
+a{color:#294b35}
+hr{border:0;height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent);margin-top:2.5rem;margin-bottom:2.5rem}
+blockquote{background:#e3d5b6;border-left:5px solid #5b412c;margin-top:1.6rem;margin-bottom:1.6rem;padding:16px 22px;color:#2d2921;box-shadow:inset 0 0 0 1px #8a7b5b55}
+blockquote p{margin:.5em 0}
+table{border-collapse:collapse;width:100%;background:#f7efd9;margin-top:1.2rem;margin-bottom:1.8rem;font-size:.95rem}
+th,td{border:1px solid #8b8068;padding:8px 10px;vertical-align:top} th{background:#d9ccb0;color:#17251d;text-align:left}
+.cover-page,.closing-page,.scene-page{margin:0 -64px;max-width:none!important;display:flex;justify-content:center;background:#0b100d}
+.cover-page img,.closing-page img,.scene-page img{display:block;width:100%;height:auto;object-fit:contain}
+.scene-page{margin-top:40px;margin-bottom:30px;padding:18px;background:#151c17}
+.scene-page img{max-height:86vh;width:auto;max-width:100%}
+.visual-section{max-width:820px;margin:52px auto 68px;padding-top:20px;border-top:3px double #7b6c50}
+.visual-heading{text-align:center;text-transform:uppercase;letter-spacing:.08em;font-size:1.2rem}
+.plate-group{margin:34px 0 54px}.plate-group>h3{text-align:center;text-transform:uppercase;letter-spacing:.06em}
+.card-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start}
+.card-link{display:block;background:#e8dcc1;border:1px solid #756a55;padding:5px;box-shadow:0 4px 12px #0002;transition:transform .12s ease,box-shadow .12s ease}
+.card-link:hover{transform:translateY(-2px);box-shadow:0 7px 18px #0004}
+.card-link img{width:100%;height:auto;display:block}
+.print-only{display:none}
+.top-mobile{display:none}
+@media(max-width:1050px){.site-shell{grid-template-columns:1fr;padding:0}.sidebar{display:none}.book{border:0}.top-mobile{display:block;position:sticky;top:0;z-index:5;background:#0f1712;color:#e9dfc6;padding:10px 16px;border-bottom:1px solid #38493c}.top-mobile a{color:#e9dfc6}.site-shell{display:block}}
+@media(max-width:720px){#book-content{padding:0 24px 54px}.cover-page,.closing-page,.scene-page{margin-left:-24px;margin-right:-24px}.card-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:1.72rem}p,li{font-size:1rem}}
+@media(max-width:440px){.card-gallery{grid-template-columns:1fr}}
+
+@page{size:A4;margin:18mm 17mm 20mm 19mm;@bottom-center{content:'O Inferno Verde  •  ' counter(page);font-family:Georgia,serif;font-size:8pt;color:#635a49}}
+@page fullbleed{size:A4;margin:0;@bottom-center{content:none}}
+@page plate{size:A4;margin:7mm;@bottom-center{content:none}}
+@media print{
+  html,body{background:white}
+  body{font-size:10.4pt;line-height:1.42}
+  .site-shell{display:block;padding:0}.sidebar,.top-mobile,.screen-only{display:none!important}.print-only{display:block!important}
+  .book{border:0;box-shadow:none}.book,#book-content{background:#fff;color:#171713}
+  #book-content{padding:0}
+  #book-content>h1,#book-content>h2,#book-content>h3,#book-content>p,#book-content>ul,#book-content>ol,#book-content>blockquote,#book-content>table,#book-content>hr{max-width:none}
+  h1{break-before:page;font-size:22pt;margin-top:0;padding-top:2mm;border-top:2px solid #6d654f;orphans:3;widows:3}
+  h2{font-size:14pt;break-after:avoid}h3{font-size:11pt;break-after:avoid}
+  p,li{font-size:10.4pt;orphans:3;widows:3}
+  table,blockquote{break-inside:avoid}
+  .cover-page,.closing-page,.scene-page{page:fullbleed;break-before:page;break-after:page;margin:0;width:210mm;height:297mm;padding:0;background:#111;display:flex;align-items:center;justify-content:center}
+  .cover-page{break-before:auto}
+  .cover-page img,.closing-page img,.scene-page img{width:210mm;height:297mm;object-fit:contain;max-width:none;max-height:none}
+  .visual-section{margin:0;padding:0;border:0;max-width:none}.visual-heading{display:none}.plate-group{margin:0}.plate-group>h3{display:none}
+  .print-plate{page:plate;break-before:page;break-after:page;margin:0;width:196mm;height:283mm;display:flex!important;flex-direction:column;align-items:center;justify-content:center}
+  .print-plate img{max-width:196mm;max-height:274mm;width:auto;height:auto;object-fit:contain}
+  .print-plate figcaption{font-size:8.5pt;margin-top:2mm;color:#4a4437;text-align:center}
+  a{color:inherit;text-decoration:none}
+}
+
+
+/* v2 — imagens integrais na largura do texto */
+.visual-section,.visual-heading,.plate-group,.card-gallery,.card-link,.print-plate{display:none!important}
+.image-stack{max-width:740px;margin:38px auto 46px}
+.book-image{max-width:740px!important;margin:34px auto!important;padding:0;background:transparent;display:block}
+.book-image .image-link{display:block;width:100%;line-height:0;text-decoration:none}
+.book-image img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain;image-rendering:auto}
+.scene-image{background:transparent!important}
+.plate-image{border:0;box-shadow:none}
+@media(max-width:720px){
+  .image-stack,.book-image{max-width:100%!important;margin:26px auto!important}
+}
+@media print{
+  .image-stack,.book-image{max-width:none!important;width:100%!important;margin:7mm auto!important;break-inside:avoid;page:auto!important;height:auto!important;background:transparent!important}
+  .book-image img{width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}
+}
+</style>
+</head>
+<body>
+<div class="top-mobile"><a href="#sumario">☰ Sumário</a> · O Inferno Verde</div>
+<div class="site-shell">
+<aside class="sidebar" id="sumario"><div class="brand">O Inferno Verde<br/><small>O Preço da Expedição</small></div><a href="#sumario">SUMÁRIO</a><a href="#1-a-selva-comeca-aqui">1. A SELVA COMEÇA AQUI</a><a href="#2-a-regra-mais-importante">2. A REGRA MAIS IMPORTANTE</a><a href="#3-criando-um-explorador">3. CRIANDO UM EXPLORADOR</a><a href="#4-presenca-bagagem-e-o-preco-de-continuar">4. PRESENÇA, BAGAGEM E O PREÇO DE CONTINUAR</a><a href="#5-provacoes">5. PROVAÇÕES</a><a href="#6-ocupacoes">6. OCUPAÇÕES</a><a href="#7-aptidoes">7. APTIDÕES</a><a href="#8-pertences-e-durabilidade">8. PERTENCES E DURABILIDADE</a><a href="#9-combate">9. COMBATE</a><a href="#10-postos-avancados-e-escambo">10. POSTOS AVANÇADOS E ESCAMBO</a><a href="#11-exploracao-e-perigos">11. EXPLORAÇÃO E PERIGOS</a><a href="#12-o-desconhecido">12. O DESCONHECIDO</a><a href="#13-reliquias">13. RELÍQUIAS</a><a href="#14-criaturas-e-ameacas">14. CRIATURAS E AMEAÇAS</a><a href="#15-evolucao-do-personagem">15. EVOLUÇÃO DO PERSONAGEM</a><a href="#16-ciclo-de-uma-expedicao">16. CICLO DE UMA EXPEDIÇÃO</a><a href="#17-referencia-rapida">17. REFERÊNCIA RÁPIDA</a><a href="#para-o-mestre-o-tom-do-inferno-verde">PARA O MESTRE: O TOM DO INFERNO VERDE</a><a href="#epilogo-a-volta">EPÍLOGO — A VOLTA</a></aside>
+<article class="book"><main id="book-content"><figure aria-label="Capa de O Inferno Verde - O Preço da Expedição" class="cover-page"><img alt="Capa de O Inferno Verde - O Preço da Expedição" src="assets/scenes/inteira_01.png"/></figure><h1 id="o-inferno-verde">O INFERNO VERDE</h1>
+<h2 id="o-preco-da-expedicao">O PREÇO DA EXPEDIÇÃO</h2>
+<p><strong>Livro de Regras, Sobrevivência e Relatos do Novo Mundo</strong><br>
+<strong>Autor:</strong> Fellipe Augusto Ugliara<br/>
+<strong>Idioma:</strong> pt-BR<br/>
+<strong>Gênero:</strong> RPG de exploração, sobrevivência e dark fantasy<br/>
+<strong>Licença:</strong> Creative Commons Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA)</br></p>
+<hr/>
+<blockquote>
+<p><strong>Um RPG de exploração, sobrevivência, desgaste e horror no Novo Mundo.</strong><br/>
+Séculos XV e XVI. A costa ficou para trás. À frente existem rios sem ponte, mata sem estrada, febres sem nome e lugares que talvez não devam constar em mapa algum.</p>
+</blockquote>
+<hr/>
+<blockquote>
+<p><em>“Casa não se come.”</em><br/>
+— anotação atribuída a um condutor de carga, três dias antes de uma expedição abandonar o ouro que carregava.</p>
+</blockquote>
+<hr/>
+<h2 id="o-que-e-este-livro">O que é este livro</h2>
+<p><strong>O Inferno Verde</strong> é um RPG sobre expedições terrestres pelas Américas Central e do Sul nos séculos XV e XVI. O centro do jogo não é conquistar monstros ou acumular tesouros: é <strong>continuar avançando quando tudo ocupa espaço, tudo se desgasta e toda escolha cobra alguma coisa</strong>.</p>
+<p>A selva é uma ameaça constante. A água pode adoecer. A chuva pode inutilizar pólvora. Uma couraça pode salvar uma vida e, ao mesmo tempo, tornar a marcha um tormento. Uma bolsa de minério pode valer uma fortuna em outro lugar e ser apenas peso quando a comida acaba.</p>
+<p>E, às vezes, existe algo além disso.</p>
+<p>Há relatos de acontecimentos que ninguém consegue explicar com segurança. Muitos personagens podem atravessar a vida sem encontrar nada que desafie definitivamente uma explicação comum. Outros podem voltar de uma ruína com uma cicatriz que nenhum médico entende — ou convencidos de que tudo não passou de febre, medo ou coincidência.</p>
+<p>Este livro apresenta as regras junto do cenário e de relatos de exploração, para que cada mecânica apareça dentro do mundo em que ela importa.</p>
+<hr/>
+<h1 id="sumario">SUMÁRIO</h1>
+<ol>
+<li>A Selva Começa Aqui</li>
+<li>A Regra Mais Importante</li>
+<li>Criando um Explorador</li>
+<li>Presença, Bagagem e o Preço de Continuar</li>
+<li>Provações</li>
+<li>Ocupações</li>
+<li>Aptidões</li>
+<li>Pertences e Durabilidade</li>
+<li>Combate</li>
+<li>Postos Avançados e Escambo</li>
+<li>Exploração e Perigos</li>
+<li>O Desconhecido</li>
+<li>Relíquias</li>
+<li>Criaturas e Ameaças</li>
+<li>Evolução do Personagem</li>
+<li>Ciclo de uma Expedição</li>
+<li>Referência Rápida</li>
+</ol>
+<hr/>
+<figure aria-label="Ilustração integral - 1. A SELVA COMEÇA AQUI" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_03.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 1. A SELVA COMEÇA AQUI" decoding="async" src="assets/scenes/inteira_03.png"/></a></figure><h1 id="1-a-selva-comeca-aqui">1. A SELVA COMEÇA AQUI</h1>
+<p>A aventura começa quando a segurança da costa deixa de ser útil.</p>
+<p>O grupo entra no continente e perde contato fácil com a civilização. O caminho precisa ser descoberto, aberto ou negociado. Rios interrompem a marcha. Pântanos escondem profundidade sob uma camada de folhas. O calor transforma metal em castigo. A umidade entra em cordas, couro, pólvora e feridas.</p>
+<p>O ambiente não é apenas cenário. <strong>Ele participa do jogo.</strong></p>
+<p>Uma expedição precisa administrar:</p>
+<ul>
+<li>água;</li>
+<li>alimento;</li>
+<li>pólvora e munição;</li>
+<li>ferramentas;</li>
+<li>proteção;</li>
+<li>capacidade de carga;</li>
+<li>ferimentos e doenças;</li>
+<li>orientação;</li>
+<li>distância até um Posto Avançado;</li>
+<li>confiança entre os próprios exploradores.</li>
+</ul>
+<p>Rumores de ouro, impérios distantes, riquezas ocultas, fontes da juventude e lugares impossíveis empurram pessoas para dentro da mata. O problema é que a riqueza só tem valor enquanto alguém consegue carregá-la para fora.</p>
+<h3 id="fragmento-de-campo-o-peso-do-ouro">Fragmento de campo — O Peso do Ouro</h3>
+<blockquote>
+<p>O saco de minério pesa quase tanto quanto as rações abandonadas na margem. Hernán sorri: “Quando voltarmos, cada pedra dessas compra uma casa.”</p>
+<p>O condutor de carga olha para as duas últimas porções de carne seca. “Casa não se come.”</p>
+<p>Na manhã seguinte, o geógrafo esfrega uma pedra entre os dedos. “Mica.”</p>
+<p>Atrás deles alguém pergunta: “E a comida?”</p>
+<p>Ninguém responde.</p>
+</blockquote>
+<p><strong>Essa é a lógica de O Inferno Verde:</strong> o valor de um objeto depende de onde você está e do que falta para sobreviver.</p>
+<hr/>
+<h1 id="2-a-regra-mais-importante">2. A REGRA MAIS IMPORTANTE</h1>
+<p>Toda ação incerta usa <strong>d6</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Situação</th>
+<th style="text-align:right">Rolagem</th>
+<th>Sucesso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Normal</td>
+<td style="text-align:right">1d6</td>
+<td>4, 5 ou 6</td>
+</tr>
+<tr>
+<td>Favorável</td>
+<td style="text-align:right">2d6</td>
+<td>basta um dado obter 4+</td>
+</tr>
+<tr>
+<td>Desfavorável</td>
+<td style="text-align:right">2d6</td>
+<td>os dois dados precisam obter 4+</td>
+</tr>
+</tbody>
+</table>
+<p>Se uma ação é simples, segura e não existe consequência interessante para falhar, não é necessário rolar.</p>
+<h2 id="situacao-normal">Situação normal</h2>
+<p>Role <strong>1d6</strong>.</p>
+<ul>
+<li><strong>4, 5 ou 6:</strong> sucesso.</li>
+<li><strong>1, 2 ou 3:</strong> falha.</li>
+</ul>
+<h2 id="situacao-favoravel">Situação favorável</h2>
+<p>Role <strong>2d6</strong>.</p>
+<p>Basta <strong>um</strong> dos dados ter sucesso. A ação só falha se ambos falharem.</p>
+<p>Uma situação pode se tornar favorável por experiência profissional, uma Especialidade, ajuda adequada, ferramenta apropriada, boa posição ou uma Aptidão.</p>
+<h2 id="situacao-desfavoravel">Situação desfavorável</h2>
+<p>Role <strong>2d6</strong>.</p>
+<p>Os <strong>dois</strong> dados precisam ter sucesso. Se um deles falhar, a ação falha.</p>
+<p>Uma situação pode se tornar desfavorável por lama, escuridão, desorientação, ferimentos, falta de descanso, equipamento inadequado, uma Provação ou outra dificuldade concreta.</p>
+<h2 id="favoravel-e-desfavoravel-ao-mesmo-tempo">Favorável e desfavorável ao mesmo tempo</h2>
+<p>Vantagens do mesmo tipo <strong>não se acumulam</strong>. Duas razões para um teste ser favorável continuam resultando em apenas 2d6; o mesmo vale para situações desfavoráveis.</p>
+<p>Se uma situação for ao mesmo tempo favorável e desfavorável, as duas condições se anulam e o teste é <strong>normal</strong>.</p>
+<h2 id="ajuda">Ajuda</h2>
+<p>Um aliado pode ajudar quando participa de forma concreta da ação. Para conceder situação favorável, a ajuda precisa ser plausível e a Ocupação ou uma Especialidade do ajudante deve ser relevante para o problema.</p>
+<p>Apenas um aliado precisa ajudar; ajuda adicional não acumula dados.</p>
+<h2 id="falha-critica">Falha crítica</h2>
+<p>Algumas regras mencionam <strong>falha crítica</strong>.</p>
+<ul>
+<li>Em um teste normal, ocorre quando o dado mostra <strong>1</strong>.</li>
+<li>Em um teste com 2d6, ocorre apenas quando <strong>os dois dados mostram 1</strong>.</li>
+</ul>
+<p>Uma falha crítica só produz uma consequência adicional quando uma regra, um perigo ou a situação indicar isso.</p>
+<blockquote>
+<h3 id="regra-em-uma-frase">Regra em uma frase</h3>
+<p><strong>Normal: 1d6. Favorável: 2d6 e basta um sucesso. Desfavorável: 2d6 e ambos precisam ter sucesso.</strong></p>
+</blockquote>
+<hr/>
+<figure aria-label="Ilustração integral - 3. CRIANDO UM EXPLORADOR" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_06.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 3. CRIANDO UM EXPLORADOR" decoding="async" src="assets/scenes/inteira_06.png"/></a></figure><div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_22.png" title="Abrir imagem original em alta resolução"><img alt="Regras da Expedição" decoding="async" loading="lazy" src="assets/plates/plate_22.png"/></a></figure></div><h1 id="3-criando-um-explorador">3. CRIANDO UM EXPLORADOR</h1>
+<p>Criar um personagem exige cinco passos.</p>
+<h2 id="passo-1-escolha-uma-ocupacao">Passo 1 — Escolha uma Ocupação</h2>
+<p>A Ocupação diz quem o personagem era antes ou durante a expedição, quais tarefas conhece bem e de onde vem sua experiência.</p>
+<p>Quando uma ação incerta estiver diretamente relacionada à Ocupação, o jogador explica como essa experiência ajuda. Se a relação fizer sentido, o teste é <strong>favorável</strong>.</p>
+<p>A Ocupação não garante sucesso e não serve para qualquer ação. A vantagem precisa nascer de uma relação clara entre a experiência do personagem e aquilo que ele está tentando fazer.</p>
+<p><strong>Exemplos:</strong></p>
+<ul>
+<li>um Cartógrafo da Coroa interpretando relevo ou procurando uma rota segura realiza um teste favorável;</li>
+<li>um Médico de Bordo reconhecendo uma infecção ou estabilizando um ferido realiza um teste favorável;</li>
+<li>um Soldado de Infantaria operando um arcabuz ou mantendo posição sob fogo pode justificar um teste favorável;</li>
+<li>um Herbolário da Expedição identificando uma planta ou preparando um tratamento com ervas pode justificar um teste favorável.</li>
+</ul>
+<h2 id="passo-2-distribua-14-pontos">Passo 2 — Distribua 14 pontos</h2>
+<p>Divida <strong>14 pontos</strong> entre:</p>
+<ul>
+<li><strong>Presença</strong></li>
+<li><strong>Bagagem</strong></li>
+</ul>
+<p>Cada valor deve começar entre <strong>4 e 10</strong>.</p>
+<h3 id="presenca">Presença</h3>
+<p>É a firmeza do personagem no mundo: saúde física, resistência e estabilidade mental.</p>
+<ul>
+<li>Presença alta significa que o personagem ainda suporta o desgaste.</li>
+<li>Presença baixa indica ferimentos, exaustão ou abalo.</li>
+<li><strong>Presença 0 significa morte definitiva.</strong></li>
+</ul>
+<h3 id="bagagem">Bagagem</h3>
+<p>É o número máximo de espaços que o personagem suporta.</p>
+<p>A Bagagem é ocupada por:</p>
+<ol>
+<li><strong>Pertences</strong> — armas, ferramentas, comida, proteção e objetos encontrados;</li>
+<li><strong>Provações</strong> — fome, sede, febre, ferimentos, paranoia e consequências de ocorrências inexplicáveis.</li>
+</ol>
+<p>Adoecer, ferir-se ou carregar algo novo reduz o espaço disponível para o restante da expedição.</p>
+<h2 id="passo-3-escolha-2-aptidoes">Passo 3 — Escolha 2 Aptidões</h2>
+<p>Escolha <strong>duas Aptidões livremente</strong>. Qualquer personagem pode escolher qualquer Aptidão.</p>
+<p>Aptidões representam técnicas, recursos e capacidades especiais. Algumas exigem gasto de <strong>1 ponto de Presença</strong>.</p>
+<p>Gastar Presença representa esforço real. Se esse gasto reduzir a Presença a 0, o personagem morre como em qualquer outra perda de Presença.</p>
+<h2 id="passo-4-escolha-os-pertences-iniciais">Passo 4 — Escolha os Pertences iniciais</h2>
+<p>O personagem começa com:</p>
+<ul>
+<li>1 arma coerente com a Ocupação;</li>
+<li>1 proteção inicial, se aplicável;</li>
+<li>2 utilitários coerentes com sua experiência;</li>
+<li>1 Ração Seca.</li>
+</ul>
+<p>A soma dos espaços ocupados não pode ultrapassar a Bagagem. Se o conjunto inicial não couber, escolha versões mais leves ou abra mão de itens até respeitar o limite.</p>
+<p>Armas que exigem munição ou recarga precisam dos suprimentos correspondentes para funcionar durante a expedição.</p>
+<h2 id="passo-5-de-um-nome">Passo 5 — Dê um nome</h2>
+<p>Depois disso, o personagem está pronto para entrar na mata.</p>
+<blockquote>
+<h3 id="exemplo-rapido">Exemplo rápido</h3>
+<p><strong>Isabel, Cartógrafa da Coroa</strong><br/>
+Presença 7, Bagagem 7.<br/>
+Aptidões: Leitura do Terreno e Navegação Terrestre.<br/>
+Ela pode suportar sete espaços somando Pertences e Provações.</p>
+</blockquote>
+<hr/>
+<figure aria-label="Ilustração integral - 4. PRESENÇA, BAGAGEM E O PREÇO DE CONTINUAR" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_08.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 4. PRESENÇA, BAGAGEM E O PREÇO DE CONTINUAR" decoding="async" src="assets/scenes/inteira_08.png"/></a></figure><h1 id="4-presenca-bagagem-e-o-preco-de-continuar">4. PRESENÇA, BAGAGEM E O PREÇO DE CONTINUAR</h1>
+<p>Esses dois valores sustentam todo o jogo.</p>
+<h2 id="presenca-e-quanto-de-voce-ainda-resta">Presença é quanto de você ainda resta</h2>
+<p>Dano de combate reduz Presença. Algumas doenças e efeitos também podem drená-la. Certas Aptidões exigem Presença como preço.</p>
+<p>A Presença atual nunca pode ultrapassar seu valor máximo. Quando chega a <strong>0</strong>, o personagem morre.</p>
+<h2 id="bagagem-e-tudo-o-que-voce-insiste-em-levar">Bagagem é tudo o que você insiste em levar</h2>
+<p>Cada Pertence ocupa espaço. As Provações também.</p>
+<p>Um explorador com Bagagem 7 pode carregar, por exemplo:</p>
+<ul>
+<li>arcabuz: 2 espaços;</li>
+<li>pólvora: 1;</li>
+<li>munição: 1;</li>
+<li>couraça: 2;</li>
+<li>corda: 1.</li>
+</ul>
+<p>Total: <strong>7 espaços</strong>.</p>
+<p>Se adquirir <strong>Ferimento Infeccionado</strong>, que ocupa 1 espaço, o total passa para 8 e ultrapassa sua Bagagem.</p>
+<h2 id="colapso">Colapso</h2>
+<p>Sempre que os espaços ocupados ultrapassarem a Bagagem, faça imediatamente um teste para resistir ao <strong>Colapso</strong>.</p>
+<ul>
+<li><strong>Sucesso:</strong> o personagem continua agindo apesar do excesso até o fim da cena atual.</li>
+<li><strong>Falha:</strong> perde 1 ponto de Presença e entra em Colapso. Enquanto permanecer acima do limite de Bagagem, só pode abandonar Pertences, aceitar ajuda, receber tratamento ou realizar ações indispensáveis para sair daquela condição.</li>
+<li>Se o personagem continuar sobrecarregado na cena seguinte, adquirir ainda mais espaços ou sofrer novo esforço intenso, deverá testar novamente.</li>
+</ul>
+<p>Reduzir os espaços ocupados para um valor igual ou inferior à Bagagem encerra o Colapso.</p>
+<p>Isso força escolhas concretas:</p>
+<ul>
+<li>abandonar equipamento;</li>
+<li>abandonar tesouro;</li>
+<li>tratar uma Provação;</li>
+<li>entregar carga a um aliado;</li>
+<li>correr o risco de continuar.</li>
+</ul>
+<h3 id="fragmento-de-campo-a-bagagem-de-martin">Fragmento de campo — A Bagagem de Martín</h3>
+<blockquote>
+<p>A lama chega aos joelhos. Martín cai de lado, com corda, munição, panela, manta, ferramentas e um saco de farinha presos às costas.</p>
+<p>“Solta o saco!”, gritam.</p>
+<p>“É a última comida!”</p>
+<p>A lama sobe até a boca. Por fim ele larga a carga. O saco desaparece primeiro.</p>
+<p>Martín olha para o lugar vazio. “Agora eu peso menos que a fome.”</p>
+</blockquote>
+<p>A Bagagem transforma inventário em decisão dramática. <strong>Não existe espaço gratuito.</strong></p>
+<hr/>
+<h1 id="5-provacoes">5. PROVAÇÕES</h1>
+<p>Provações representam desgaste físico ou mental e ocupam Bagagem.</p>
+<p>Elas não são apenas penalidades abstratas: são consequências que permanecem com o personagem até que a causa seja resolvida ou exista tratamento adequado.</p>
+<h2 id="provacoes-comuns">Provações comuns</h2>
+<table>
+<thead>
+<tr>
+<th>Provação</th>
+<th style="text-align:right">Espaço</th>
+<th>Efeito</th>
+<th>Remoção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sede Extrema</td>
+<td style="text-align:right">1</td>
+<td>O personagem não recupera Presença por descanso.</td>
+<td>Beber água segura em quantidade suficiente.</td>
+</tr>
+<tr>
+<td>Fome Debilitante</td>
+<td style="text-align:right">1</td>
+<td>Testes de esforço físico, corrida, escalada e combate corpo a corpo são desfavoráveis.</td>
+<td>Fazer uma refeição suficiente.</td>
+</tr>
+<tr>
+<td>Febre das Selvas / Malária</td>
+<td style="text-align:right">2</td>
+<td>Ao fim de cada dia de viagem sem estabilização ou tratamento, o personagem perde 1 ponto de Presença.</td>
+<td>Tratamento adequado; apenas descansar não basta.</td>
+</tr>
+<tr>
+<td>Ferimento Infeccionado</td>
+<td style="text-align:right">1</td>
+<td>O personagem não recupera Presença em descanso de campo.</td>
+<td>Tratamento adequado seguido de descanso completo.</td>
+</tr>
+<tr>
+<td>Paranoia da Selva</td>
+<td style="text-align:right">1</td>
+<td>O personagem não pode receber situação favorável por ajuda de aliados enquanto a desconfiança dominar a cena.</td>
+<td>Apoio adequado, segurança e descanso, ou uma Aptidão capaz de removê-la.</td>
+</tr>
+<tr>
+<td>Escorbuto</td>
+<td style="text-align:right">1–2</td>
+<td>Testes de esforço físico são desfavoráveis. Se a causa persistir após outro dia de viagem, pode aumentar de 1 para 2 espaços.</td>
+<td>Alimentação fresca adequada e descanso; casos de 2 espaços podem exigir tratamento.</td>
+</tr>
+<tr>
+<td>Delírio da Selva</td>
+<td style="text-align:right">1</td>
+<td>Testes de orientação, percepção e interpretação são desfavoráveis.</td>
+<td>Afastar a causa e completar um descanso, ou receber tratamento apropriado.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tratando-provacoes">Tratando Provações</h2>
+<p>Uma Provação só desaparece quando sua causa pode ser enfrentada.</p>
+<ul>
+<li>Provações de <strong>1 espaço</strong> normalmente podem ser removidas depois que a causa é resolvida e o personagem recebe tratamento ou um descanso adequado.</li>
+<li>Provações de <strong>2 espaços</strong> representam condições graves. Elas precisam de tratamento apropriado; apenas descansar não basta.</li>
+<li>Uma Provação que esteja sendo <strong>estabilizada</strong> continua ocupando Bagagem e produzindo seus efeitos, mas não piora até que o tratamento deixe de valer.</li>
+<li>Receber novamente uma Provação que o personagem já possui não cria automaticamente uma cópia. Se a situação piorar, o Mestre pode aumentar sua gravidade quando houver espaço indicado, causar perda de Presença ou aplicar outra consequência coerente.</li>
+</ul>
+<h3 id="a-ultima-cabaca-de-agua">A Última Cabaça de Água</h3>
+<blockquote>
+<p>Baltasar ajoelha diante do riacho escuro.<br/>
+“Não beba”, diz o herbolário.<br/>
+“Então morro seco olhando água correr?”</p>
+<p>Ao anoitecer, Baltasar treme tanto que os dentes batem mais alto que os insetos. Quando abre os olhos, sussurra:<br/>
+“A água ainda está falando comigo.”</p>
+</blockquote>
+<p>A água resolve a sede apenas quando é segura o bastante para não trazer outro problema.</p>
+<h2 id="provacoes-nao-precisam-vir-de-combate">Provações não precisam vir de combate</h2>
+<p>Uma expedição pode se destruir sem enfrentar uma única criatura.</p>
+<p>Chuva, fome, insetos, água contaminada, isolamento, infecção e medo são ameaças centrais.</p>
+<hr/>
+<div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_07.png" title="Abrir imagem original em alta resolução"><img alt="Provações do Desconhecido" decoding="async" loading="lazy" src="assets/plates/plate_07.png"/></a></figure></div><h1 id="6-ocupacoes">6. OCUPAÇÕES</h1>
+<p>O grupo funciona melhor quando pessoas diferentes trazem experiências diferentes para a expedição.</p>
+<p>A principal função mecânica da Ocupação é tornar <strong>favoráveis</strong> os testes relacionados à experiência profissional do personagem. Quando houver uma ligação clara, o jogador descreve por que sua Ocupação ajuda e realiza o teste como situação favorável.</p>
+<p>A Ocupação descreve experiência; ela não limita quais Aptidões o personagem pode aprender.</p>
+<table>
+<thead>
+<tr>
+<th>Ocupação</th>
+<th>Experiência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Soldado de Infantaria</td>
+<td>Combate a pé, arcabuz, besta, pólvora e formação militar.</td>
+</tr>
+<tr>
+<td>Conquistador de Terras</td>
+<td>Combate corporal, sobrevivência e liderança pela força.</td>
+</tr>
+<tr>
+<td>Batedor da Vanguarda</td>
+<td>Rastreamento, furtividade, reconhecimento e identificação de emboscadas.</td>
+</tr>
+<tr>
+<td>Guia Nativo Aliado / Intérprete</td>
+<td>Caminhos, alimentos locais, línguas, costumes, negociação e sobrevivência.</td>
+</tr>
+<tr>
+<td>Mateiro / Abrite-Caminho</td>
+<td>Abertura de trilhas, passagens improvisadas e transporte de carga.</td>
+</tr>
+<tr>
+<td>Herbolário da Expedição</td>
+<td>Plantas úteis, venenos, ferimentos e tratamento de água contaminada.</td>
+</tr>
+<tr>
+<td>Almocárem / Condutor de Carga</td>
+<td>Organização de peso, suprimentos e proteção da carga.</td>
+</tr>
+<tr>
+<td>Cartógrafo da Coroa</td>
+<td>Orientação, leitura do terreno, mapas e rotas.</td>
+</tr>
+<tr>
+<td>Médico de Bordo / Cirurgião-Barbeiro</td>
+<td>Diagnóstico, estabilização e cirurgia de campo.</td>
+</tr>
+<tr>
+<td>Padre Jesuíta</td>
+<td>Apoio psicológico, espiritualidade, ritos e mediação de medo e superstição.</td>
+</tr>
+<tr>
+<td>Geógrafo de Campo</td>
+<td>Relevo, distâncias, abrigos e minerais.</td>
+</tr>
+<tr>
+<td>Cronista de Fronteira</td>
+<td>Registro de fauna, flora, povos, padrões e acontecimentos.</td>
+</tr>
+<tr>
+<td>Caçador de Relíquias</td>
+<td>Localização, transporte e avaliação de objetos incomuns e relatos inexplicáveis.</td>
+</tr>
+<tr>
+<td>Penitente de Fronteira</td>
+<td>Resistência ao sofrimento, disciplina, fé e vigílias.</td>
+</tr>
+<tr>
+<td>Coveiro de Missão</td>
+<td>Cadáveres, fossas, contaminação e mortes incomuns.</td>
+</tr>
+<tr>
+<td>Caçador de Feras</td>
+<td>Rastreamento de grandes predadores, armadilhas, iscas e leitura de ataques animais.</td>
+</tr>
+<tr>
+<td>Guarda de Relicário</td>
+<td>Proteção de documentos, objetos religiosos e cargas consideradas perigosas.</td>
+</tr>
+<tr>
+<td>Naturalista Herege</td>
+<td>Criaturas, deformidades e fenômenos que desafiam explicações aceitas.</td>
+</tr>
+<tr>
+<td>Sobrevivente Marcado</td>
+<td>Experiência direta com ocorrências inexplicáveis e suas consequências.</td>
+</tr>
+<tr>
+<td>Caçador de Bruxaria</td>
+<td>Rituais, acusações, fraudes, medo coletivo e relatos sem explicação segura.</td>
+</tr>
+<tr>
+<td>Vigia Noturno</td>
+<td>Guarda de acampamento, ruídos, rastros e invasões durante a noite.</td>
+</tr>
+<tr>
+<td>Recuperador de Mortos</td>
+<td>Recuperação de corpos, documentos e Pertences em ruínas e áreas perdidas.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Ocupação é experiência, não uma classe.</strong><br/>
+Quando essa experiência se aplica diretamente ao problema, ela pode transformar um teste normal em favorável.</p>
+</blockquote>
+<hr/>
+<div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_03.png" title="Abrir imagem original em alta resolução"><img alt="Ocupações - I" decoding="async" loading="lazy" src="assets/plates/plate_03.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_04.png" title="Abrir imagem original em alta resolução"><img alt="Ocupações - II" decoding="async" loading="lazy" src="assets/plates/plate_04.png"/></a></figure></div><h1 id="7-aptidoes">7. APTIDÕES</h1>
+<p>Cada personagem escolhe <strong>2 Aptidões livremente</strong>. Qualquer personagem pode escolher qualquer Aptidão, independentemente da Ocupação.</p>
+<p>A Ocupação concede situação favorável quando sua experiência se aplica a um teste. As Aptidões fazem algo além disso: criam exceções, reduzem riscos, ampliam possibilidades ou permitem esforço extraordinário.</p>
+<p>Quando uma Aptidão torna um teste favorável, ela segue a regra normal de situações favoráveis e não acumula dados extras.</p>
+<table>
+<thead>
+<tr>
+<th>Aptidão</th>
+<th>Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Passo Fantasma</td>
+<td>Gaste 1 Presença para atravessar um trecho de vegetação sem deixar rastros legíveis nem produzir ruído suficiente para denunciar sua passagem, salvo quando isso for fisicamente impossível.</td>
+</tr>
+<tr>
+<td>Sentido de Emboscada</td>
+<td>Uma vez por cena, quando o grupo seria surpreendido por uma emboscada, você percebe um sinal do perigo antes do primeiro ataque. A emboscada deixa de conceder iniciativa automática aos inimigos.</td>
+</tr>
+<tr>
+<td>Emboscar as Sombras</td>
+<td>Se começar escondido, seu primeiro ataque na cena causa +1 ponto de dano e não pode ser anulado por escudo.</td>
+</tr>
+<tr>
+<td>Passo de Esquiva</td>
+<td>Uma vez por rodada, ao sofrer dano, gaste 1 Presença para reduzir esse dano em 2 pontos, até o mínimo de 0.</td>
+</tr>
+<tr>
+<td>Banquete da Mata</td>
+<td>Uma vez por dia, em ambiente onde exista alimento possível, faça uma ação de busca. Em caso de sucesso, encontra comida suficiente para alimentar até quatro pessoas naquele dia, impedindo ou removendo Fome Debilitante delas.</td>
+</tr>
+<tr>
+<td>Língua da Terra</td>
+<td>Permite comunicação rudimentar por sinais, palavras conhecidas, dialetos próximos e costumes compartilhados quando existe alguma base possível de entendimento.</td>
+</tr>
+<tr>
+<td>Táticas de Guerrilha</td>
+<td>Gaste 1 Presença quando o grupo tiver vegetação, ruínas ou terreno semelhante para se proteger. Até o início de seu próximo turno, ataques à distância contra o grupo são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Contra-ataque com Peçonha</td>
+<td>Quando tiver acesso a veneno apropriado e causar dano direto à Presença com uma lâmina, pode aplicar Ferimento Infeccionado se a ficção permitir.</td>
+</tr>
+<tr>
+<td>Golpe de Desbravar</td>
+<td>Cobertura vegetal e camuflagem natural não tornam seus ataques corpo a corpo desfavoráveis.</td>
+</tr>
+<tr>
+<td>Mula de Carga</td>
+<td>Você pode carregar 1 espaço adicional de Pertence sem que ele conte para sua Bagagem. Provações nunca podem ocupar esse espaço adicional.</td>
+</tr>
+<tr>
+<td>Fúria do Machado / Terçado</td>
+<td>Gaste 1 Presença para realizar um ataque contra dois inimigos próximos na mesma ação. Faça um teste separado para cada alvo.</td>
+</tr>
+<tr>
+<td>Quebrador de Escudos</td>
+<td>Depois de acertar um alvo protegido por escudo, gaste 1 Presença para reduzir imediatamente a Durabilidade restante desse escudo a 0.</td>
+</tr>
+<tr>
+<td>Disciplina de Ferro</td>
+<td>Enquanto sua Presença estiver abaixo da metade do valor máximo, seus ataques são favoráveis.</td>
+</tr>
+<tr>
+<td>Pólvora Protegida</td>
+<td>Pólvora e armas de fogo transportadas por você não perdem utilidade automaticamente por chuva ou umidade comum. Imersão, abandono ou dano extremo ainda podem afetá-las.</td>
+</tr>
+<tr>
+<td>Chuva de Chumbo / Recarga sob Pressão</td>
+<td>Gaste 1 Presença para recarregar e disparar, na mesma ação, uma arma que normalmente exige uma ação de recarga.</td>
+</tr>
+<tr>
+<td>Parede de Aço</td>
+<td>Gaste 1 Presença para receber em seu lugar um ataque dirigido a um aliado ao seu alcance. Você pode usar seu próprio escudo e sua própria armadura contra esse ataque.</td>
+</tr>
+<tr>
+<td>Investida Devastadora</td>
+<td>Uma vez por cena, se avançar em linha reta até um alvo e acertar um ataque corpo a corpo, cause +1 ponto de dano. Se uma proteção absorver parte do golpe, ela perde 1 Durabilidade adicional.</td>
+</tr>
+<tr>
+<td>Golpe Intimidador</td>
+<td>Depois de causar 2 ou mais pontos de dano em um único ataque, gaste 1 Presença para forçar um adversário capaz de sentir medo a recuar, hesitar ou realizar sua próxima ação de forma desfavorável.</td>
+</tr>
+<tr>
+<td>Leitura do Terreno</td>
+<td>Gaste 1 Presença para identificar uma possibilidade plausível de caminho mais rápido, abrigo próximo ou fonte de água. A informação é útil, mas não garante que o local esteja livre de perigo.</td>
+</tr>
+<tr>
+<td>Navegação Terrestre</td>
+<td>Uma vez por dia de viagem, ignore uma consequência que faria o grupo se perder ou ficar desorientado. O tempo ou os recursos já gastos não são recuperados.</td>
+</tr>
+<tr>
+<td>Diagnóstico Rápido</td>
+<td>Gaste 1 Presença para remover uma Provação comum de 1 espaço causada por ferimento, doença ou veneno, se houver meios adequados, ou para estabilizar uma Provação comum de 2 espaços até o próximo descanso.</td>
+</tr>
+<tr>
+<td>Cirurgia de Campo</td>
+<td>Recupere 2 pontos de Presença de um aliado. Os instrumentos médicos perdem 1 Durabilidade. Um mesmo personagem só pode receber esse benefício uma vez entre descansos completos.</td>
+</tr>
+<tr>
+<td>Palavra de Alento</td>
+<td>Gaste 1 Presença para remover Paranoia da Selva ou outra Provação mental comum de 1 espaço de um aliado, quando houver tempo para conversar e acalmá-lo.</td>
+</tr>
+<tr>
+<td>Martírio Inabalável</td>
+<td>Gaste 1 Presença para transferir para si uma Provação mental de 1 espaço de um aliado. A Provação mantém o mesmo efeito e continua ocupando Bagagem.</td>
+</tr>
+<tr>
+<td>Triagem de Campo</td>
+<td>Uma vez por dia, em ambiente adequado, faça uma ação de busca. Em caso de sucesso, recolha um ingrediente natural que ocupa 1 espaço e pode ser consumido para remover Ferimento Infeccionado.</td>
+</tr>
+<tr>
+<td>Destilar Antitoxinas</td>
+<td>Gaste 1 Presença e use materiais adequados para neutralizar um veneno antes que ele provoque uma nova Provação ou perda adicional de Presença.</td>
+</tr>
+<tr>
+<td>Olho para o Minério</td>
+<td>Você distingue minério promissor de material sem valor evidente e reconhece sinais de qualidade. Quando houver dúvida ou risco, testes relacionados à avaliação mineral são favoráveis.</td>
+</tr>
+<tr>
+<td>Avaliação de Riscos</td>
+<td>Uma vez por perigo ambiental, impeça a perda de 1 Durabilidade de um Pertence que você consiga proteger ou preparar a tempo.</td>
+</tr>
+<tr>
+<td>Estudo de Costumes</td>
+<td>Depois de observar um grupo, ritual, padrão de patrulha ou comportamento recorrente, escolha um aliado. O próximo teste desse aliado para prever ou evitar uma ação daquele grupo é favorável.</td>
+</tr>
+<tr>
+<td>Mente Analítica / Sangue Frio</td>
+<td>Quando receber uma Provação mental de 1 espaço, gaste 1 Presença para ignorar seu efeito mecânico até o fim da cena. A Provação continua ocupando Bagagem.</td>
+</tr>
+<tr>
+<td>Luvas Antes da Curiosidade</td>
+<td>Uma vez por expedição, evite uma Provação causada apenas pelo contato físico inicial com uma relíquia ou objeto associado ao desconhecido. Isso não protege contra uma tentativa deliberada de provocar seu efeito.</td>
+</tr>
+<tr>
+<td>Peso da História</td>
+<td>Ao examinar um objeto antigo, identifica sinais de uso, transporte, reparo ou ocultação que seriam perceptíveis a um observador experiente. Isso não revela a causa de ocorrências inexplicáveis.</td>
+</tr>
+<tr>
+<td>Embalar o Impossível</td>
+<td>Escolha um objeto associado ao desconhecido que você esteja transportando. Enquanto permanecer cuidadosamente embalado e sob sua guarda, ele não ocupa espaço de Bagagem. Apenas um objeto pode receber esse benefício por vez.</td>
+</tr>
+<tr>
+<td>Dor Familiar</td>
+<td>Uma vez por descanso, ignore até o fim da cena os efeitos mecânicos de uma Provação de 1 espaço. A Provação continua ocupando Bagagem.</td>
+</tr>
+<tr>
+<td>Vigília Penitente</td>
+<td>Gaste 1 Presença para permanecer acordado por uma noite inteira sem sofrer as penalidades de falta de descanso. Você não recupera Presença nessa noite.</td>
+</tr>
+<tr>
+<td>Última Oração</td>
+<td>Quando um aliado chegaria a 0 Presença, gaste 1 Presença para mantê-lo com 1 Presença até o fim da cena. Se ele não receber cura antes do fim da cena e ainda depender dessa Aptidão para permanecer com 1 Presença, morre. Cada aliado só pode receber esse benefício uma vez por expedição.</td>
+</tr>
+<tr>
+<td>Olho para a Morte</td>
+<td>Ao examinar um cadáver, identifica sinais evidentes de doença, violência, veneno, tempo aproximado de morte ou decomposição anormal quando essas pistas existem.</td>
+</tr>
+<tr>
+<td>Mãos de Cal</td>
+<td>Testes para lidar com fossas, cadáveres contaminados e descarte de restos perigosos são favoráveis. Uma falha comum não causa contaminação automática; outra consequência ainda pode ocorrer.</td>
+</tr>
+<tr>
+<td>Nada se Levanta Duas Vezes</td>
+<td>Contra uma criatura que parecia morta ou completamente imóvel antes de atacar, seu primeiro ataque contra ela é favorável e ignora 1 ponto de absorção de proteção natural, se houver.</td>
+</tr>
+<tr>
+<td>Sangue no Mato</td>
+<td>Depois de encontrar um rastro de sangue recente, você consegue seguir a criatura ferida mesmo sob chuva ou vegetação fechada, salvo quando algo realmente apaga ou interrompe a trilha.</td>
+</tr>
+<tr>
+<td>Isca Cruel</td>
+<td>Com tempo e material apropriado, prepare uma isca. Se a criatura-alvo se aproximar para investigá-la, ela revela sua presença antes de poder receber vantagem de emboscada.</td>
+</tr>
+<tr>
+<td>Mira no Tendão</td>
+<td>Depois de acertar um ataque, gaste 1 Presença para reduzir a mobilidade do alvo até o fim da cena ou até que ele consiga se libertar, tratar ou compensar o ferimento.</td>
+</tr>
+<tr>
+<td>Corpo entre a Relíquia e o Mundo</td>
+<td>Quando uma consequência física imediata atingiria o portador de um objeto que você esteja protegendo e você puder alcançá-lo, pode receber essa consequência em seu lugar.</td>
+</tr>
+<tr>
+<td>Lacre de Segurança</td>
+<td>Com materiais comuns, prepara um lacre que revela se um recipiente, porta ou embrulho foi aberto, movido ou violado.</td>
+</tr>
+<tr>
+<td>Juramento de Custódia</td>
+<td>Enquanto transportar um objeto designado, testes para resistir a intimidação ou coerção destinadas a fazê-lo abandonar esse objeto são favoráveis. Se for forçado fisicamente, a Aptidão não impede a perda.</td>
+</tr>
+<tr>
+<td>Anatomia Impossível</td>
+<td>Depois de observar uma criatura durante uma rodada, identifica uma característica física explorável. O próximo aliado a agir contra ela realiza o teste de ataque de forma favorável.</td>
+</tr>
+<tr>
+<td>Coleção Repugnante</td>
+<td>Pode retirar uma amostra de criatura ou fenômeno quando houver material recuperável. A amostra ocupa 1 espaço e pode servir posteriormente para investigação ou escambo especializado.</td>
+</tr>
+<tr>
+<td>Teoria que Ninguém Aceita</td>
+<td>Gaste 1 Presença para formular uma hipótese útil sobre um fenômeno estranho. O Mestre informa uma possibilidade plausível sustentada pelas pistas disponíveis, nunca uma certeza.</td>
+</tr>
+<tr>
+<td>Já Vi Pior</td>
+<td>A primeira Provação mental causada por uma ocorrência inexplicável em cada expedição ocupa 1 espaço a menos, até o mínimo de 0.</td>
+</tr>
+<tr>
+<td>Cicatriz que Arde</td>
+<td>Uma vez por expedição, pergunte ao Mestre se há nas proximidades algum sinal semelhante às ocorrências inexplicáveis que já marcaram seu personagem. A resposta indica apenas presença ou ausência de um indício, nunca natureza ou localização exata.</td>
+</tr>
+<tr>
+<td>Voltar do Limiar</td>
+<td>Uma vez por expedição, quando uma Provação do Desconhecido faria você entrar em Colapso, descarte imediatamente um Pertence de pelo menos 1 espaço. Se voltar ao limite de Bagagem, não sofre os efeitos do Colapso.</td>
+</tr>
+<tr>
+<td>Fraude Antes do Demônio</td>
+<td>Testes para identificar truques, falsos milagres, encenações e manipulações são favoráveis. Em caso de sucesso, o Mestre aponta pelo menos um indício concreto que sustenta a fraude.</td>
+</tr>
+<tr>
+<td>Interrogatório de Superstição</td>
+<td>Depois de ouvir várias testemunhas, consegue separar detalhes que se repetem de rumores contraditórios. Isso não determina qual versão é verdadeira.</td>
+</tr>
+<tr>
+<td>Círculo de Precaução</td>
+<td>Gaste 1 Presença e materiais comuns para preparar um perímetro simbólico. Durante uma noite, testes do grupo para perceber aproximações ou violações do acampamento são favoráveis. Ninguém sabe dizer se o efeito vem do ritual, da disciplina ou da coincidência.</td>
+</tr>
+<tr>
+<td>Sono de Um Olho</td>
+<td>Você pode cumprir um período normal de vigília durante a noite e ainda receber todos os benefícios de um descanso de campo.</td>
+</tr>
+<tr>
+<td>Contar Passos no Escuro</td>
+<td>Quando o ambiente permite ouvir a aproximação, identifica aproximadamente o número, a direção e o porte de criaturas antes de vê-las.</td>
+</tr>
+<tr>
+<td>Fogo Baixo</td>
+<td>Você mantém uma fogueira funcional com pouca luz e fumaça. Testes feitos à distância para localizar o acampamento pelo fogo são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Nada Fica para Trás</td>
+<td>Quando o tempo só permitir recuperar um Pertence de um cadáver ou ruína antes que o perigo piore, você consegue retirar dois.</td>
+</tr>
+<tr>
+<td>Conheço o Cheiro</td>
+<td>Quando cheiro ou sinais de decomposição podem ser percebidos, você identifica sua direção aproximada sem teste. Testes para localizar precisamente cadáveres ocultos ou locais recentemente abandonados são favoráveis.</td>
+</tr>
+<tr>
+<td>Saída Antes da Ganância</td>
+<td>Uma vez por cena, ao abandonar voluntariamente saque ou carga para escapar, o primeiro teste de fuga é favorável.</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h1 id="8-pertences-e-durabilidade">8. PERTENCES E DURABILIDADE</h1>
+<p>Na selva, equipamento é proteção contra o ambiente — e também peso.</p>
+<p>Os valores de Durabilidade indicados abaixo são os valores máximos dos itens quando estão em bom estado.</p>
+<h2 id="armas-e-ferramentas-de-combate">Armas e ferramentas de combate</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align:right">Espaço</th>
+<th style="text-align:right">Dano</th>
+<th style="text-align:right">Durabilidade</th>
+<th style="text-align:right">Mãos</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Facão de Mato / Terçado</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">1</td>
+<td>Abre vegetação e serve para combate próximo.</td>
+</tr>
+<tr>
+<td>Espada Pesada de Toledo</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">1</td>
+<td>Arma robusta para golpes fortes e uso prolongado.</td>
+</tr>
+<tr>
+<td>Alabarda / Lança de Caça</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">2</td>
+<td>Mantém ameaças à distância e auxilia na caça.</td>
+</tr>
+<tr>
+<td>Besta de Caça / Balestra</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+<td>Disparo silencioso. Depois de atirar, exige uma ação para recarregar.</td>
+</tr>
+<tr>
+<td>Arcabuz / Mosquete de Mecha</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">2</td>
+<td>Exige pólvora e bala. Depois de atirar, exige uma ação para recarregar.</td>
+</tr>
+<tr>
+<td>Machado Curto de Lenhador</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">1</td>
+<td>Corta madeira, abre caminho e funciona como arma pesada.</td>
+</tr>
+<tr>
+<td>Pique de Caça</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+<td>Ajuda a manter criaturas grandes à distância.</td>
+</tr>
+<tr>
+<td>Pistola de Roda</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">1</td>
+<td>Exige pólvora e bala. Depois de atirar, exige uma ação para recarregar.</td>
+</tr>
+<tr>
+<td>Martelo de Guerra</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">1</td>
+<td>Útil contra superfícies rígidas e proteções.</td>
+</tr>
+<tr>
+<td>Rede de Captura</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">—</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td>Em um teste bem-sucedido, pode restringir um alvo de tamanho compatível; os testes físicos do alvo tornam-se desfavoráveis até ele se libertar.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="protecoes">Proteções</h2>
+<p>Apenas <strong>uma armadura</strong> pode fornecer absorção de dano por vez. Colete e Couraça não acumulam suas absorções.</p>
+<p>Escudos exigem uma mão livre. Enquanto estiver usando uma arma de duas mãos, o personagem não pode manter um Escudo pronto para bloquear.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align:right">Espaço</th>
+<th style="text-align:right">Durabilidade</th>
+<th>Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Colete de Couro Endurecido</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">2</td>
+<td>Absorve até 1 ponto de dano por ataque.</td>
+</tr>
+<tr>
+<td>Armadura de Peito de Aço / Couraça</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">4</td>
+<td>Absorve até 2 pontos de dano por ataque.</td>
+</tr>
+<tr>
+<td>Escudo de Madeira e Couro / Rodela</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">3</td>
+<td>Uma vez por rodada, pode anular um ataque inteiro ao perder 1 Durabilidade.</td>
+</tr>
+<tr>
+<td>Casaco de Couro Encerado</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">3</td>
+<td>Protege suprimentos pessoais contra chuva e umidade leve.</td>
+</tr>
+<tr>
+<td>Elmo de Ferro</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">3</td>
+<td>Quando um impacto ou queda ameaça diretamente a cabeça, pode perder 1 Durabilidade para reduzir em 1 o dano recebido.</td>
+</tr>
+<tr>
+<td>Manto Mosquiteiro</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">2</td>
+<td>Testes para evitar insetos e parasitas durante o descanso são favoráveis.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ferramentas-e-suprimentos">Ferramentas e suprimentos</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align:right">Espaço</th>
+<th>Durabilidade / Usos</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ração Seca</td>
+<td style="text-align:right">1</td>
+<td>1 dia</td>
+<td>Alimenta uma pessoa durante um dia de viagem.</td>
+</tr>
+<tr>
+<td>Barril de Pólvora Seca</td>
+<td style="text-align:right">1</td>
+<td>10 tiros</td>
+<td>Cada disparo de arma de fogo consome uma carga de pólvora.</td>
+</tr>
+<tr>
+<td>Bolsa de Balas de Chumbo</td>
+<td style="text-align:right">1</td>
+<td>10 tiros</td>
+<td>Cada disparo de arma de fogo consome uma bala.</td>
+</tr>
+<tr>
+<td>Aljava de Virotes</td>
+<td style="text-align:right">1</td>
+<td>10 tiros</td>
+<td>Cada disparo de besta consome um virote.</td>
+</tr>
+<tr>
+<td>Cordas de Cânhamo e Ganchos</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 2</td>
+<td>Travessias, escaladas, resgates e amarrações.</td>
+</tr>
+<tr>
+<td>Kit de Limpeza e Óleo Animal</td>
+<td style="text-align:right">1</td>
+<td>2 usos</td>
+<td>Em pausa segura, cada uso restaura 1 Durabilidade de uma arma ou ferramenta.</td>
+</tr>
+<tr>
+<td>Instrumentos Médicos</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 3</td>
+<td>Necessários para Cirurgia de Campo e procedimentos médicos mais invasivos.</td>
+</tr>
+<tr>
+<td>Lampião de Óleo</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 2</td>
+<td>Fonte portátil e controlável de luz.</td>
+</tr>
+<tr>
+<td>Frasco de Óleo</td>
+<td style="text-align:right">1</td>
+<td>3 usos</td>
+<td>Combustível, manutenção e improvisos.</td>
+</tr>
+<tr>
+<td>Caixa de Sal</td>
+<td style="text-align:right">1</td>
+<td>4 usos</td>
+<td>Conserva alimentos e pode ser valiosa em escambo.</td>
+</tr>
+<tr>
+<td>Pá Curta</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 4</td>
+<td>Escava solo, fossas e trincheiras.</td>
+</tr>
+<tr>
+<td>Serra de Campo</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 3</td>
+<td>Corta madeira com mais eficiência que uma lâmina de combate.</td>
+</tr>
+<tr>
+<td>Estojo de Costura Pesada</td>
+<td style="text-align:right">1</td>
+<td>3 usos</td>
+<td>Repara tecidos, mochilas, correias e mosquiteiros.</td>
+</tr>
+<tr>
+<td>Cantil de Metal</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 4</td>
+<td>Quando cheio, guarda água suficiente para uma pessoa durante um dia de viagem.</td>
+</tr>
+<tr>
+<td>Manta Encerada</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 3</td>
+<td>Protege carga ou pessoa da chuva durante o repouso.</td>
+</tr>
+<tr>
+<td>Caixa de Velas</td>
+<td style="text-align:right">1</td>
+<td>6 usos</td>
+<td>Iluminação pequena e transportável.</td>
+</tr>
+<tr>
+<td>Corrente e Cadeado</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 4</td>
+<td>Protege caixas, portas improvisadas ou cargas sensíveis.</td>
+</tr>
+<tr>
+<td>Kit de Coleta Naturalista</td>
+<td style="text-align:right">1</td>
+<td>Durabilidade 2</td>
+<td>Permite retirar e preservar amostras.</td>
+</tr>
+<tr>
+<td>Mortalha de Linho</td>
+<td style="text-align:right">1</td>
+<td>2 usos</td>
+<td>Transporta cadáveres, cobre contaminados ou serve como tecido resistente.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="durabilidade">Durabilidade</h2>
+<p>Quando a Durabilidade chega a <strong>0</strong>:</p>
+<ul>
+<li>o item fica <strong>Quebrado</strong>;</li>
+<li>não cumpre sua função;</li>
+<li>continua ocupando Bagagem;</li>
+<li>precisa ser descartado ou reparado.</li>
+</ul>
+<p>Armas e ferramentas podem perder Durabilidade por falha crítica quando a falha realmente força o equipamento, além de uso extremo, barro, umidade, quedas ou outros desgastes coerentes.</p>
+<p>Armaduras perdem Durabilidade igual ao dano que absorvem. Um item nunca perde mais Durabilidade do que ainda possui.</p>
+<h2 id="reparo">Reparo</h2>
+<p>Em uma pausa segura, ferramentas adequadas podem recuperar equipamentos quando a situação permitir.</p>
+<p>O <strong>Kit de Limpeza e Óleo Animal</strong> restaura 1 Durabilidade por uso em armas ou ferramentas. Reparos maiores, proteções danificadas e itens quebrados normalmente exigem um Posto Avançado e materiais apropriados.</p>
+<h3 id="fragmento-de-campo-a-polvora-molhada">Fragmento de campo — A Pólvora Molhada</h3>
+<blockquote>
+<p>A chuva cai de lado. Tomás cobre o arcabuz com o corpo.<br/>
+“Acende a mecha!”</p>
+<p>Uma tentativa. Duas. Três. Nada.</p>
+<p>Entre as folhas algo pesado se move.</p>
+<p>“Está molhada.”<br/>
+“Eu sei que está molhada!”</p>
+<p>Tomás saca a espada. “Então hoje descobrimos quanto vale o ferro.”</p>
+<p>Dois olhos aparecem na vegetação.<br/>
+“Menos que pólvora seca”, responde o companheiro.</p>
+</blockquote>
+<p>Equipamento forte não significa equipamento confiável em qualquer condição.</p>
+<hr/>
+<div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_01.png" title="Abrir imagem original em alta resolução"><img alt="Armas de Expedição" decoding="async" loading="lazy" src="assets/plates/plate_01.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_02.png" title="Abrir imagem original em alta resolução"><img alt="Proteções e Equipamentos" decoding="async" loading="lazy" src="assets/plates/plate_02.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_06.png" title="Abrir imagem original em alta resolução"><img alt="Pertences de Campo" decoding="async" loading="lazy" src="assets/plates/plate_06.png"/></a></figure></div><h1 id="9-combate">9. COMBATE</h1>
+<p>O combate usa a mesma mecânica das demais ações incertas.</p>
+<h2 id="rodadas-e-acoes">Rodadas e ações</h2>
+<p>Em uma rodada, cada personagem e cada ameaça capaz de agir recebe <strong>um turno</strong>.</p>
+<p>Em seu turno, alguém pode se deslocar uma distância curta e realizar <strong>uma ação relevante</strong>, como:</p>
+<ul>
+<li>atacar;</li>
+<li>recarregar;</li>
+<li>tentar se libertar;</li>
+<li>usar uma ferramenta;</li>
+<li>prestar primeiros socorros;</li>
+<li>realizar outra ação que caiba em poucos segundos.</li>
+</ul>
+<p>O lado que iniciou o confronto ou surpreendeu o outro age primeiro. Quando isso não estiver claro, os jogadores escolhem um personagem para agir primeiro. Depois, os lados alternam turnos sempre que possível até todos terem agido.</p>
+<h2 id="ataques">Ataques</h2>
+<p>Um ataque é uma ação incerta.</p>
+<ul>
+<li>Personagens fazem seus próprios testes de ataque.</li>
+<li>O Mestre testa os ataques das ameaças.</li>
+<li>Ocupação, terreno, surpresa, cobertura, Aptidões e Provações podem tornar o ataque favorável ou desfavorável.</li>
+</ul>
+<p>Quando um ataque acerta:</p>
+<ol>
+<li>o alvo pode usar um Escudo, se tiver direito a fazê-lo;</li>
+<li>a Armadura absorve dano;</li>
+<li>o dano restante reduz Presença;</li>
+<li>Presença 0 significa morte.</li>
+</ol>
+<h2 id="recarga">Recarga</h2>
+<p>Depois de disparar uma <strong>besta, arcabuz, mosquete ou pistola</strong>, a arma fica descarregada.</p>
+<p>É preciso gastar uma ação para recarregá-la antes de disparar novamente.</p>
+<p>Armas de fogo também consomem uma carga de pólvora e uma bala por disparo. Bestas consomem um virote.</p>
+<p>Essa recarga é o principal contrapeso para o dano elevado das armas à distância.</p>
+<h2 id="escudos">Escudos</h2>
+<p>Um Escudo pode <strong>anular todo o dano de um ataque</strong> ao perder 1 Durabilidade.</p>
+<p>Isso só pode ser feito <strong>uma vez por rodada</strong> e exige que o personagem esteja consciente, com o escudo em mãos e capaz de perceber ou reagir ao ataque.</p>
+<h2 id="armaduras">Armaduras</h2>
+<p>A Armadura absorve dano até seu limite por ataque.</p>
+<p>Sua Durabilidade diminui em quantidade igual ao dano absorvido. Quando chega a 0, deixa de proteger.</p>
+<h2 id="sem-protecao">Sem proteção</h2>
+<p>Dano não absorvido reduz diretamente a Presença.</p>
+<h2 id="combate-e-perigoso-porque-tudo-se-soma">Combate é perigoso porque tudo se soma</h2>
+<p>Um personagem pode vencer uma luta e ainda sair pior para a expedição:</p>
+<ul>
+<li>perdeu Presença;</li>
+<li>gastou munição;</li>
+<li>perdeu Durabilidade;</li>
+<li>ganhou uma Provação;</li>
+<li>teve de abandonar um Pertence para evitar Colapso.</li>
+</ul>
+<blockquote>
+<h3 id="o-objetivo-nao-e-vencer-todos-os-confrontos">O objetivo não é vencer todos os confrontos</h3>
+<p>O objetivo é <strong>sobreviver à expedição inteira</strong>.</p>
+</blockquote>
+<hr/>
+<figure aria-label="Ilustração integral - 10. POSTOS AVANÇADOS E ESCAMBO" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_07.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 10. POSTOS AVANÇADOS E ESCAMBO" decoding="async" src="assets/scenes/inteira_07.png"/></a></figure><h1 id="10-postos-avancados-e-escambo">10. POSTOS AVANÇADOS E ESCAMBO</h1>
+<p>Postos Avançados são os principais refúgios dentro do continente.</p>
+<p>Podem ser:</p>
+<ul>
+<li>paliçadas;</li>
+<li>missões;</li>
+<li>acampamentos fortificados;</li>
+<li>pontos isolados de presença organizada.</li>
+</ul>
+<p>Ali, a expedição pode respirar.</p>
+<h2 id="descansar">Descansar</h2>
+<p>Uma noite completa em um Posto Avançado, com água e alimento, recupera <strong>2 pontos de Presença</strong>.</p>
+<p>O personagem pode continuar descansando em noites seguintes para recuperar mais Presença, respeitando seu valor máximo.</p>
+<p>Provações comuns de 1 espaço podem ser removidas se sua causa tiver sido resolvida e houver tratamento adequado. Provações de 2 espaços exigem tratamento específico. Provações do Desconhecido não desaparecem automaticamente em um Posto.</p>
+<h2 id="reparar">Reparar</h2>
+<p>Com materiais e ferramentas disponíveis, um Posto Avançado pode restaurar a Durabilidade de equipamentos até o valor máximo indicado na tabela.</p>
+<p>Materiais raros, peças específicas ou itens severamente danificados podem exigir escambo ou trabalho especializado.</p>
+<h2 id="fazer-escambo">Fazer escambo</h2>
+<p>Não existe uma economia de fronteira baseada apenas em moedas.</p>
+<p>As trocas são diretas. O valor depende da necessidade.</p>
+<p>Em determinado momento:</p>
+<ul>
+<li>uma ração pode valer mais que prata;</li>
+<li>pólvora seca pode valer mais que joias;</li>
+<li>uma ferramenta pode valer mais que ouro;</li>
+<li>uma relíquia pode ser valiosa ou simplesmente perigosa demais para carregar.</li>
+</ul>
+<h3 id="o-posto-vazio">O Posto Vazio</h3>
+<blockquote>
+<p>A paliçada surge ao fim da tarde. Portão aberto. Nenhuma sentinela.</p>
+<p>Dentro, camas feitas, água nos barris, comida nas mesas.</p>
+<p>O cronista encontra uma página presa sob uma caneca:</p>
+<p><strong>NÃO DURMAM AQUI.</strong></p>
+<p>“Isso é brincadeira”, diz o soldado.</p>
+<p>Do andar de cima vem o som de alguém arrastando uma cadeira.</p>
+</blockquote>
+<p>Nem todo lugar que parece um Posto continua sendo um refúgio.</p>
+<hr/>
+<figure aria-label="Ilustração integral - 11. EXPLORAÇÃO E PERIGOS" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_05.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 11. EXPLORAÇÃO E PERIGOS" decoding="async" src="assets/scenes/inteira_05.png"/></a></figure><div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_19.png" title="Abrir imagem original em alta resolução"><img alt="Estruturas da Expedição" decoding="async" loading="lazy" src="assets/plates/plate_19.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_21.png" title="Abrir imagem original em alta resolução"><img alt="Postos Avançados e Refúgios" decoding="async" loading="lazy" src="assets/plates/plate_21.png"/></a></figure></div><h1 id="11-exploracao-e-perigos">11. EXPLORAÇÃO E PERIGOS</h1>
+<p>A exploração é principalmente terrestre.</p>
+<p>A floresta é densa, úmida, escura e lenta. Rios quebram rotas. Lama segura pernas. Insetos transformam uma noite de descanso em início de febre.</p>
+<h2 id="comida-e-agua">Comida e água</h2>
+<p>Ao fim de cada dia de viagem, cada personagem precisa ter consumido:</p>
+<ul>
+<li><strong>1 Ração Seca</strong> ou alimento equivalente;</li>
+<li>água segura suficiente para o dia.</li>
+</ul>
+<p>Sem alimento, recebe <strong>Fome Debilitante</strong>. Sem água segura, recebe <strong>Sede Extrema</strong>.</p>
+<p>Um Cantil de Metal cheio guarda a quantidade diária de água de uma pessoa e pode ser reabastecido quando o grupo encontra uma fonte considerada segura. Beber água duvidosa pode evitar a Sede e ainda assim provocar doença ou outra Provação.</p>
+<h2 id="descanso-de-campo">Descanso de campo</h2>
+<p>Uma noite completa de descanso em acampamento razoavelmente seguro, com alimento e água, recupera <strong>1 ponto de Presença</strong>.</p>
+<p>Quem passa a noite inteira sem dormir não recupera Presença e, até completar um descanso, realiza de forma desfavorável testes de percepção, orientação e esforço físico.</p>
+<p>Algumas Provações podem impedir essa recuperação.</p>
+<h2 id="perigos">Perigos</h2>
+<p>Os perigos abaixo podem cobrar tempo, recursos, orientação, Durabilidade, Presença ou Provações.</p>
+<table>
+<thead>
+<tr>
+<th>Perigo</th>
+<th>Consequência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chuva Torrencial</td>
+<td>Molha pólvora, estraga materiais e transforma o solo em lama.</td>
+</tr>
+<tr>
+<td>Lamaçal / Areia Movediça</td>
+<td>Pode prender exploradores e obrigá-los a abandonar carga; em situação severa, pode exigir descartar Pertences equivalentes à metade da Bagagem ocupada.</td>
+</tr>
+<tr>
+<td>Cipó-Venenoso / Vegetação Hostil</td>
+<td>Uma falha crítica ao abrir caminho pode causar Delírio da Selva.</td>
+</tr>
+<tr>
+<td>Rios</td>
+<td>Interrompem rotas, exigem travessias e podem carregar pessoas e Pertences.</td>
+</tr>
+<tr>
+<td>Insetos e Parasitas</td>
+<td>Podem aplicar Febre das Selvas; armas comuns pouco ajudam contra enxames.</td>
+</tr>
+<tr>
+<td>Chuva de Cinzas</td>
+<td>Contamina água exposta.</td>
+</tr>
+<tr>
+<td>Névoa dos Sussurros</td>
+<td>Uma falha ao navegar pode aplicar Vozes na Mata.</td>
+</tr>
+<tr>
+<td>Trilha que Retorna</td>
+<td>Consome tempo e rações antes de o erro ser percebido.</td>
+</tr>
+<tr>
+<td>Poço de Ossos</td>
+<td>Uma queda pode causar 1 ponto de dano e Ferimento Infeccionado.</td>
+</tr>
+<tr>
+<td>Água que Não Reflete</td>
+<td>Beber pode causar Pesadelos Recorrentes.</td>
+</tr>
+<tr>
+<td>Flores do Sono</td>
+<td>O pólen pode provocar sono profundo e separar o grupo.</td>
+</tr>
+<tr>
+<td>Lama de Sangue</td>
+<td>Contato prolongado pode causar Ferimento Infeccionado.</td>
+</tr>
+<tr>
+<td>Chuva de Vermes</td>
+<td>Sem abrigo, uma falha pode causar Febre das Selvas.</td>
+</tr>
+<tr>
+<td>Clareira Silenciosa</td>
+<td>Um descanso de campo pode não recuperar Presença.</td>
+</tr>
+<tr>
+<td>Árvore dos Enforcados</td>
+<td>Cipós podem prender o personagem e causar 1 ponto de dano.</td>
+</tr>
+<tr>
+<td>Rio Invertido</td>
+<td>Navegação é desfavorável e travessias podem deslocar o grupo.</td>
+</tr>
+<tr>
+<td>Ponte de Cadáveres</td>
+<td>Pode desabar, causar uma queda e aplicar Paranoia da Selva.</td>
+</tr>
+<tr>
+<td>Solo Febril</td>
+<td>Dormir no local pode aplicar Febre das Selvas.</td>
+</tr>
+<tr>
+<td>Pântano Luminoso</td>
+<td>Seguir as luzes conduz a lama profunda.</td>
+</tr>
+<tr>
+<td>Chuva sem Nuvens</td>
+<td>Pode inutilizar pólvora desprotegida.</td>
+</tr>
+<tr>
+<td>Eco Adiantado</td>
+<td>Pode provocar Paranoia da Selva ou revelar perigo segundos antes.</td>
+</tr>
+<tr>
+<td>Ninho de Parasitas</td>
+<td>Descansar no local pode aplicar Febre das Selvas.</td>
+</tr>
+<tr>
+<td>Ruína que Geme</td>
+<td>Permanência prolongada pode causar Pesadelos Recorrentes.</td>
+</tr>
+<tr>
+<td>Caminho dos Nomes</td>
+<td>Reconhecer os nomes pode aplicar Paranoia da Selva.</td>
+</tr>
+<tr>
+<td>Água Negra</td>
+<td>Beber exige um teste; uma falha causa Sede Extrema ou outra doença apropriada.</td>
+</tr>
+<tr>
+<td>Mosquitos de Cinza</td>
+<td>Podem aplicar Marca do Impossível.</td>
+</tr>
+<tr>
+<td>Chão de Raízes</td>
+<td>Pode prender pés, animais e carga.</td>
+</tr>
+<tr>
+<td>Sombra sem Dono</td>
+<td>Exposição prolongada pode aplicar Presença Seguinte.</td>
+</tr>
+<tr>
+<td>Frio Tropical</td>
+<td>Um descanso de campo sem proteção adequada não recupera Presença.</td>
+</tr>
+<tr>
+<td>Acampamento Duplicado</td>
+<td>Pode aplicar Memória Ausente ou Paranoia da Selva.</td>
+</tr>
+<tr>
+<td>Pedra de Voz</td>
+<td>Escutar por tempo demais pode aplicar Vozes na Mata.</td>
+</tr>
+<tr>
+<td>Frutos de Carne</td>
+<td>Podem impedir a Fome Debilitante naquele dia, mas aplicar Fome de Cinzas.</td>
+</tr>
+<tr>
+<td>Tempestade Seca</td>
+<td>Pode causar incêndios, perda de Durabilidade e dispersão de animais.</td>
+</tr>
+<tr>
+<td>Cemitério Afundado</td>
+<td>Pode causar doença, perda de carga ou encontro com uma ameaça.</td>
+</tr>
+<tr>
+<td>Horizonte Imóvel</td>
+<td>Consome tempo, água e alimento até a estratégia mudar.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fragmento-de-campo-o-horizonte-imovel">Fragmento de campo — O Horizonte Imóvel</h3>
+<blockquote>
+<p>A montanha continua à mesma distância depois de seis horas.<br/>
+“Estamos andando em círculos”, diz o soldado.</p>
+<p>O guia olha para trás. A trilha é reta.<br/>
+“Não.”</p>
+<p>“Então o quê?”</p>
+<p>O guia observa a montanha.<br/>
+“Talvez seja ela que esteja andando.”</p>
+</blockquote>
+<hr/>
+<figure aria-label="Ilustração integral - 12. O DESCONHECIDO" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_09.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 12. O DESCONHECIDO" decoding="async" src="assets/scenes/inteira_09.png"/></a></figure><div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_15.png" title="Abrir imagem original em alta resolução"><img alt="Perigos da Jornada - I" decoding="async" loading="lazy" src="assets/plates/plate_15.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_17.png" title="Abrir imagem original em alta resolução"><img alt="Perigos da Jornada - II" decoding="async" loading="lazy" src="assets/plates/plate_17.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_18.png" title="Abrir imagem original em alta resolução"><img alt="Perigos da Jornada - III" decoding="async" loading="lazy" src="assets/plates/plate_18.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_20.png" title="Abrir imagem original em alta resolução"><img alt="Travessias e Vestígios" decoding="async" loading="lazy" src="assets/plates/plate_20.png"/></a></figure></div><h1 id="12-o-desconhecido">12. O DESCONHECIDO</h1>
+<p>Há lugares, objetos e acontecimentos para os quais ninguém possui uma explicação confiável.</p>
+<p>Alguns juram ter testemunhado coisas impossíveis. Outros atribuem os mesmos relatos à febre, ao medo, à fraude, à coincidência, a venenos, a fenômenos naturais ainda desconhecidos ou aos exageros de pessoas isoladas por tempo demais.</p>
+<p>Nada disso constitui prova.</p>
+<p>Os relatos sobre o desconhecido compartilham algumas características:</p>
+<ol>
+<li><strong>são raros</strong> — a maioria das jornadas pode transcorrer sem qualquer ocorrência verdadeiramente inexplicável;</li>
+<li><strong>não são compreendidos</strong> — não existe conhecimento capaz de explicar ou reproduzir esses acontecimentos de forma confiável;</li>
+<li><strong>admitem interpretações diferentes</strong> — testemunhas podem discordar completamente sobre o que ocorreu;</li>
+<li><strong>podem ser perigosos</strong> — investigar aquilo que ninguém compreende pode deixar consequências reais, seja qual for sua causa.</li>
+</ol>
+<p>Uma mesma ocorrência pode ser interpretada como:</p>
+<ul>
+<li>superstição;</li>
+<li>fraude;</li>
+<li>febre;</li>
+<li>delírio;</li>
+<li>coincidência;</li>
+<li>fenômeno natural desconhecido;</li>
+<li>milagre;</li>
+<li>maldição;</li>
+<li>feitiçaria;</li>
+<li>presença demoníaca;</li>
+<li>espírito;</li>
+<li>algo para o qual ainda não existe nome.</li>
+</ul>
+<p>Nenhuma interpretação é definitiva. Em muitos casos, ninguém consegue descobrir o que realmente aconteceu.</p>
+<h2 id="o-preco-de-tocar-o-desconhecido">O preço de tocar o desconhecido</h2>
+<p>Certos objetos, lugares e fenômenos parecem provocar consequências em quem insiste em examiná-los, reproduzi-los ou utilizá-los.</p>
+<p><strong>Essas consequências aparecem como Provações.</strong></p>
+<p>Sempre que um personagem tentar provocar deliberadamente um efeito atribuído a algo inexplicável:</p>
+<ul>
+<li>recebe pelo menos <strong>1 espaço de Provação do Desconhecido</strong>, mesmo quando consegue o que pretendia;</li>
+<li>ocorrências especialmente intensas podem cobrar <strong>2 ou mais espaços</strong>;</li>
+<li>exposições passivas podem cobrar um preço por permanência prolongada, falha ou contato intenso;</li>
+<li>o Mestre pode ocultar a origem da Provação.</li>
+</ul>
+<p>Quando um custo indicar <strong>1 espaço</strong>, escolha uma Provação do Desconhecido de 1 espaço adequada ao acontecimento. Quando indicar <strong>2 espaços</strong>, pode ser uma Provação de 2 espaços ou duas Provações diferentes de 1 espaço.</p>
+<p>Receber uma Provação do Desconhecido <strong>não confirma a existência de qualquer força oculta</strong>. O personagem pode ter sido afetado por trauma, febre, veneno, sugestão, doença, coincidência ou algo ainda sem explicação.</p>
+<h2 id="provacoes-do-desconhecido">Provações do Desconhecido</h2>
+<table>
+<thead>
+<tr>
+<th>Provação</th>
+<th style="text-align:right">Espaço</th>
+<th>Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pesadelos Recorrentes</td>
+<td style="text-align:right">1</td>
+<td>Descansos de campo não recuperam Presença enquanto os pesadelos persistirem.</td>
+</tr>
+<tr>
+<td>Sangramento sem Ferida</td>
+<td style="text-align:right">1</td>
+<td>Tratamentos físicos realizados às pressas são desfavoráveis até que o sangramento seja estabilizado.</td>
+</tr>
+<tr>
+<td>Vozes na Mata</td>
+<td style="text-align:right">1</td>
+<td>Testes de orientação e percepção em momentos de tensão são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Memória Ausente</td>
+<td style="text-align:right">1</td>
+<td>Testes para recordar informações recentes são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Marca do Impossível</td>
+<td style="text-align:right">1</td>
+<td>Pessoas supersticiosas ou assustadas podem reagir inicialmente de forma hostil ou desconfiada.</td>
+</tr>
+<tr>
+<td>Sonho Compartilhado</td>
+<td style="text-align:right">1</td>
+<td>Depois de descansar, o primeiro teste que exigir concentração é desfavorável.</td>
+</tr>
+<tr>
+<td>Fome de Cinzas</td>
+<td style="text-align:right">1</td>
+<td>Comida comum não remove Fome Debilitante enquanto essa Provação persistir.</td>
+</tr>
+<tr>
+<td>Olhar do Outro Lado</td>
+<td style="text-align:right">2</td>
+<td>Testes de percepção e orientação são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Corpo Estranho</td>
+<td style="text-align:right">2</td>
+<td>Testes físicos delicados são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Presença Seguinte</td>
+<td style="text-align:right">2</td>
+<td>Dormir sozinho não recupera Presença.</td>
+</tr>
+</tbody>
+</table>
+<p>Provações do Desconhecido raramente desaparecem apenas com descanso. Médicos, religiosos, herbolários e outros especialistas podem tentar tratá-las, mas nenhum método é garantido.</p>
+<h3 id="fragmento-de-campo-a-fome-de-cinzas">Fragmento de campo — A Fome de Cinzas</h3>
+<blockquote>
+<p>Depois de tocar o cálice, Vicente para de comer. Carne, farinha, frutas: tudo o faz vomitar.</p>
+<p>No terceiro dia o médico o encontra junto da fogueira, colocando cinzas na boca.</p>
+<p>“Pare com isso.”</p>
+<p>Vicente mastiga devagar. “Tem gosto de pão.”</p>
+<p>Depois começa a chorar.<br/>
+“Eu sei que é cinza.”</p>
+<p>“Então por que come?”</p>
+<p>“Porque alguma coisa em mim está com fome.”</p>
+</blockquote>
+<hr/>
+<div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_16.png" title="Abrir imagem original em alta resolução"><img alt="Sinais do Interior" decoding="async" loading="lazy" src="assets/plates/plate_16.png"/></a></figure></div><h1 id="13-reliquias">13. RELÍQUIAS</h1>
+<p>Alguns objetos são associados a relatos que desafiam explicações comuns. Eles não funcionam como ferramentas previsíveis, e ninguém consegue demonstrar com segurança por que certos acontecimentos parecem ocorrer ao redor deles.</p>
+<table>
+<thead>
+<tr>
+<th>Regra</th>
+<th>Aplicação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Espaço</td>
+<td>Cada objeto ocupa 1 espaço, salvo indicação diferente.</td>
+</tr>
+<tr>
+<td>Tentativa deliberada</td>
+<td>Tentar provocar o efeito atribuído ao objeto cobra o custo indicado, mesmo quando a tentativa falha.</td>
+</tr>
+<tr>
+<td>Testes</td>
+<td>Quando o resultado for incerto, use o teste normal, favorável ou desfavorável conforme as circunstâncias.</td>
+</tr>
+<tr>
+<td>Falha</td>
+<td>Pode resultar em inércia, efeito incompleto ou consequência inesperada, além do custo normal.</td>
+</tr>
+<tr>
+<td>Durabilidade</td>
+<td>Esses objetos não usam Durabilidade comum, salvo indicação específica.</td>
+</tr>
+<tr>
+<td>Permanência</td>
+<td>Podem quebrar, desaparecer ou tornar-se inertes sem explicação segura.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reliquias-e-objetos-incompreensiveis">Relíquias e objetos incompreensíveis</h2>
+<p>Os efeitos abaixo são atribuídos aos objetos por testemunhas e exploradores; sua causa continua incerta.</p>
+<h3 id="1-rosario-de-dentes-negros">1. Rosário de Dentes Negros</h3>
+<p>Rosário de dentes vitrificados. Pode silenciar por um curto momento sons próximos sem origem identificável. <strong>Custo: 1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="2-espelho-de-agua-morta">2. Espelho de Água Morta</h3>
+<p>Metal polido que às vezes não reflete o portador. Pode revelar uma presença, ausência ou detalhe impossível de confirmar por outros meios. <strong>Custo: 1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="3-medalhao-do-sol-afogado">3. Medalhão do Sol Afogado</h3>
+<p>Disco dourado que permanece seco sob chuva. Pode manter um pequeno objeto seco durante chuva ou imersão breve. <strong>Custo: 1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="4-faca-que-nao-enferruja">4. Faca que Não Enferruja</h3>
+<p>Lâmina que nunca apresenta ferrugem. Causa 1 ponto de dano. Feridas provocadas por ela às vezes cicatrizam de forma incomum. Usá-la como uma faca comum não cobra custo; tentar deliberadamente provocar sua propriedade estranha cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="5-sino-sem-badalo">5. Sino sem Badalo</h3>
+<p>Pode produzir um som percebido apenas por determinadas pessoas. <strong>Custo: 1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="6-mapa-de-pele">6. Mapa de Pele</h3>
+<p>Novas trilhas parecem surgir depois que o portador se perde. Seguir deliberadamente uma rota recém-aparecida cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="7-vela-de-sebo-frio">7. Vela de Sebo Frio</h3>
+<p>Sua chama não produz calor e pode revelar sombras sem objeto correspondente. Permanecer observando essas sombras cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="8-cranio-de-cristal-opaco">8. Crânio de Cristal Opaco</h3>
+<p>Parece ficar mais pesado perto de cadáveres ocultos. Usá-lo deliberadamente para procurar mortos cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="9-moeda-do-homem-morto">9. Moeda do Homem Morto</h3>
+<p>Colocada sobre os olhos de um cadáver, pode provocar um único gesto, som ou palavra. <strong>Custo: 2 espaços de Provação do Desconhecido</strong>.</p>
+<h3 id="10-corda-dos-enforcados">10. Corda dos Enforcados</h3>
+<p>Seus nós às vezes se desfazem antes de um perigo. Interpretar o acontecimento como aviso não cobra custo; tentar provocar deliberadamente esse comportamento cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="11-mascara-do-segundo-rosto">11. Máscara do Segundo Rosto</h3>
+<p>Há relatos de que permite enxergar no escuro ou através de fumaça por alguns instantes, ao preço de confusão sobre rostos familiares. <strong>Custo: 2 espaços de Provação do Desconhecido</strong>.</p>
+<h3 id="12-frasco-de-chuva">12. Frasco de Chuva</h3>
+<p>Um recipiente selado com gotas que parecem subir em vez de cair. Há relatos de chuva começando ou cessando em pequena área após sua abertura. <strong>Custo: 2 espaços de Provação do Desconhecido</strong>.</p>
+<h3 id="13-agulha-do-norte-morto">13. Agulha do Norte Morto</h3>
+<p>Aponta para algo que não é o norte. Seguir deliberadamente sua indicação cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="14-livro-sem-letras">14. Livro sem Letras</h3>
+<p>Depois de certos sonhos, desenhos podem aparecer em páginas antes vazias. Estudar as novas páginas cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="15-anel-de-ferro-morno">15. Anel de Ferro Morno</h3>
+<p>Permanece morno em água fria e às vezes aquece perto de certos acontecimentos. Observar a mudança passivamente não cobra custo; tentar forçar uma resposta cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="16-pedra-que-respira">16. Pedra que Respira</h3>
+<p>Expande e contrai lentamente como um pulmão. Seu ritmo parece mudar perto de morte ou grande perigo. Usá-la deliberadamente como indicador cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="17-olho-de-ambar">17. Olho de Âmbar</h3>
+<p>Uma esfera com mancha semelhante a uma pupila. Às vezes parece indicar direção de movimento oculto. Confiar deliberadamente nessa indicação cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="18-chave-sem-fechadura">18. Chave sem Fechadura</h3>
+<p>Há relatos de passagens sem fechadura que se abriram quando a chave foi usada. <strong>Custo: 2 espaços de Provação do Desconhecido</strong>.</p>
+<h3 id="19-calice-de-cinzas">19. Cálice de Cinzas</h3>
+<p>Líquidos deixados nele podem amanhecer transformados em cinza. Manipular, ingerir ou estudar deliberadamente o resultado cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="20-medalha-do-santo-apagado">20. Medalha do Santo Apagado</h3>
+<p>Alguns afirmam que algo hesita antes de atravessar uma entrada quando a medalha está presente. Tentar usá-la deliberadamente dessa forma cobra <strong>1 espaço de Provação do Desconhecido</strong>.</p>
+<h3 id="fragmento-de-campo-a-moeda-do-morto">Fragmento de campo — A Moeda do Morto</h3>
+<blockquote>
+<p>A moeda fica quente sobre o olho do cadáver.</p>
+<p>O morto inspira. Uma vez. A mão sobe e aponta para dentro da mata.</p>
+<p>“Ele está vivo?”</p>
+<p>A boca se abre.<br/>
+“Ainda.”</p>
+<p>Depois tudo fica imóvel.</p>
+<p>Naquela noite, o Caçador de Relíquias não consegue lembrar o próprio sobrenome.</p>
+</blockquote>
+<hr/>
+<figure aria-label="Ilustração integral - 14. CRIATURAS E AMEAÇAS" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_10.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 14. CRIATURAS E AMEAÇAS" decoding="async" src="assets/scenes/inteira_10.png"/></a></figure><div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_08.png" title="Abrir imagem original em alta resolução"><img alt="Relíquias - I" decoding="async" loading="lazy" src="assets/plates/plate_08.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_09.png" title="Abrir imagem original em alta resolução"><img alt="Relíquias - II" decoding="async" loading="lazy" src="assets/plates/plate_09.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_10.png" title="Abrir imagem original em alta resolução"><img alt="Relíquias - III" decoding="async" loading="lazy" src="assets/plates/plate_10.png"/></a></figure></div><h1 id="14-criaturas-e-ameacas">14. CRIATURAS E AMEAÇAS</h1>
+<p>Nem toda ameaça possui uma explicação clara — e nenhuma aparência estranha, por si só, prova algo além do que os personagens conseguem observar.</p>
+<p>Uma criatura pode ser um animal desconhecido, uma deformidade, uma interpretação equivocada, um delírio ou algo para o qual ainda não existe explicação.</p>
+<p>Presença funciona para ameaças como funciona para personagens: ao chegar a 0, a ameaça deixa de conseguir lutar. Isso pode significar morte, fuga, dispersão ou incapacidade, conforme sua natureza.</p>
+<table>
+<thead>
+<tr>
+<th>Ameaça</th>
+<th style="text-align:right">Presença</th>
+<th style="text-align:right">Dano</th>
+<th>Comportamento ou efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Onça-Pintada</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+<td>Predador de emboscada; seu primeiro ataque pode ser favorável. Se causar dano direto à Presença, pode aplicar Ferimento Infeccionado.</td>
+</tr>
+<tr>
+<td>Sucuri Gigante</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">1 por rodada</td>
+<td>Em um ataque bem-sucedido, pode iniciar constrição. A vítima precisa usar uma ação para tentar escapar; enquanto estiver presa, sofre 1 ponto de dano por rodada.</td>
+</tr>
+<tr>
+<td>Enxames de Insetos / Parasitas</td>
+<td style="text-align:right">—</td>
+<td style="text-align:right">—</td>
+<td>Não são derrotados por ataques comuns; exposição pode aplicar Febre das Selvas.</td>
+</tr>
+<tr>
+<td>Guerreiros da Fronteira Oculta</td>
+<td style="text-align:right">5 (grupo)</td>
+<td style="text-align:right">1</td>
+<td>Agem como um único grupo. Dardos podem ignorar proteção leve quando a emboscada ou o veneno justificar.</td>
+</tr>
+<tr>
+<td>Cão de Lama</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">1</td>
+<td>Ao ser destruído, quem o observa de perto pode receber Delírio da Selva.</td>
+</tr>
+<tr>
+<td>Viúva das Bromélias</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">1</td>
+<td>Um ataque de emboscada que cause dano direto à Presença pode aplicar Ferimento Infeccionado.</td>
+</tr>
+<tr>
+<td>Homem-Oco</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">2</td>
+<td>O primeiro ataque que acertá-lo não reduz Presença; apenas revela sua anatomia incomum.</td>
+</tr>
+<tr>
+<td>Boca do Pântano</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">1 por rodada</td>
+<td>Aprisiona quem pisa sobre ela. A vítima precisa usar uma ação para tentar escapar.</td>
+</tr>
+<tr>
+<td>Macaco sem Face</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">1</td>
+<td>Imita vozes conhecidas e pode separar membros da expedição.</td>
+</tr>
+<tr>
+<td>Onça Branca</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">2</td>
+<td>Seu primeiro ataque em emboscada é favorável.</td>
+</tr>
+<tr>
+<td>Carrapato-Rei</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">—</td>
+<td>Se permanecer preso sem ser percebido, pode aplicar Fome Debilitante após exposição prolongada.</td>
+</tr>
+<tr>
+<td>Devorador de Velas</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">1</td>
+<td>Ao atacar, apaga uma pequena fonte de fogo próxima.</td>
+</tr>
+<tr>
+<td>Cobra de Ossos</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">1</td>
+<td>Dano direto à Presença pode aplicar Corpo Estranho.</td>
+</tr>
+<tr>
+<td>Peregrino Sem Cabeça</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">2</td>
+<td>Segundo alguns relatos, ignora personagens que permanecem completamente imóveis até serem ameaçados.</td>
+</tr>
+<tr>
+<td>Crianças do Lodo</td>
+<td style="text-align:right">4 (grupo)</td>
+<td style="text-align:right">1</td>
+<td>Preferem roubar Pertences e fugir em vez de permanecer em combate.</td>
+</tr>
+<tr>
+<td>Porco de Espinhos</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+<td>Em falha crítica de um ataque corpo a corpo contra ele, o atacante perde 1 ponto de Presença.</td>
+</tr>
+<tr>
+<td>Sanguessuga Branca</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">—</td>
+<td>Se permanecer presa, pode aplicar Sangramento sem Ferida.</td>
+</tr>
+<tr>
+<td>Coro dos Afogados</td>
+<td style="text-align:right">5 (grupo)</td>
+<td style="text-align:right">1</td>
+<td>O canto pode aplicar Vozes na Mata antes ou durante uma travessia.</td>
+</tr>
+<tr>
+<td>Mãe dos Mosquitos</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">—</td>
+<td>Enquanto permanecer na região, testes para evitar Febre das Selvas são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Veado de Olhos Humanos</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">1</td>
+<td>Testes de orientação durante uma perseguição são desfavoráveis.</td>
+</tr>
+<tr>
+<td>Padre de Musgo</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">1</td>
+<td>Ouvir suas orações por tempo demais pode aplicar Paranoia da Selva.</td>
+</tr>
+<tr>
+<td>Caranguejo de Cadáver</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">1</td>
+<td>Usa corpos abandonados como cobertura; ataques à distância contra ele podem ser desfavoráveis enquanto estiver protegido.</td>
+</tr>
+<tr>
+<td>Homem das Abelhas</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">1</td>
+<td>Armaduras não absorvem seu dano; escudos ainda podem ser usados se fizer sentido na cena.</td>
+</tr>
+<tr>
+<td>Peixe de Dentes Negros</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2 na água</td>
+<td>Ataques contra vítimas que já perderam Presença são favoráveis.</td>
+</tr>
+<tr>
+<td>Guardião de Pedra</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">2</td>
+<td>Sua proteção natural absorve 1 ponto de dano de cada ataque.</td>
+</tr>
+<tr>
+<td>Mula sem Pegadas</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">1</td>
+<td>Segui-la pode alterar a rota da expedição; sua utilidade ou hostilidade nunca é evidente de início.</td>
+</tr>
+<tr>
+<td>Sombra de Cipó</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">1</td>
+<td>Antes de causar dano à Presença, pode reduzir em 1 a Durabilidade de um Pertence exposto.</td>
+</tr>
+<tr>
+<td>Homem de Sal</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">1</td>
+<td>Seus ataques são desfavoráveis sob chuva forte.</td>
+</tr>
+<tr>
+<td>Noiva das Águas</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">1</td>
+<td>Quem responder à voz e se aproximar precisa testar para resistir; em falha, avança em direção à água.</td>
+</tr>
+<tr>
+<td>Abutre Vermelho</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">1</td>
+<td>Prioriza personagens com pouca Presença.</td>
+</tr>
+<tr>
+<td>Devorador de Sonhos</td>
+<td style="text-align:right">—</td>
+<td style="text-align:right">—</td>
+<td>Não é enfrentado por combate comum enquanto sua origem não for localizada; pode aplicar Pesadelos Recorrentes ao grupo.</td>
+</tr>
+<tr>
+<td>Gigante da Folhagem</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">3</td>
+<td>Ataques à distância contra ele são desfavoráveis enquanto permanecer imóvel na vegetação.</td>
+</tr>
+<tr>
+<td>Santo de Carne</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">2</td>
+<td>Na primeira aproximação, um personagem pode precisar resistir ao medo; em falha, recebe Paranoia da Selva.</td>
+</tr>
+<tr>
+<td>Sem-Rosto do Rio</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">2</td>
+<td>Move-se em água sem sofrer desvantagens de correnteza.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fragmento-de-campo-a-onca-branca">Fragmento de campo — A Onça Branca</h3>
+<blockquote>
+<p>O batedor ergue a mão. Sobre um tronco, quase invisível ao luar, há uma onça pálida.</p>
+<p>“Não atire”, diz o guia.<br/>
+“Por quê?”<br/>
+“Porque ela ainda não decidiu que somos caça.”</p>
+<p>O tiro vem mesmo assim.</p>
+<p>Quando a fumaça baixa, o tronco está vazio.<br/>
+“Errei?”</p>
+<p>Atrás deles, bem perto, uma mulher começa a chorar.</p>
+</blockquote>
+<hr/>
+<div class="image-stack"><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_05.png" title="Abrir imagem original em alta resolução"><img alt="Criaturas e Ameaças" decoding="async" loading="lazy" src="assets/plates/plate_05.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_11.png" title="Abrir imagem original em alta resolução"><img alt="Bestiário da Mata - I" decoding="async" loading="lazy" src="assets/plates/plate_11.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_12.png" title="Abrir imagem original em alta resolução"><img alt="Bestiário da Mata - II" decoding="async" loading="lazy" src="assets/plates/plate_12.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_13.png" title="Abrir imagem original em alta resolução"><img alt="Bestiário do Desconhecido" decoding="async" loading="lazy" src="assets/plates/plate_13.png"/></a></figure><figure class="book-image plate-image"><a class="image-link" href="assets/plates/plate_14.png" title="Abrir imagem original em alta resolução"><img alt="Criaturas Menores e Parasitas" decoding="async" loading="lazy" src="assets/plates/plate_14.png"/></a></figure></div><h1 id="15-evolucao-do-personagem">15. EVOLUÇÃO DO PERSONAGEM</h1>
+<p>Sobreviver muda um explorador.</p>
+<p>A evolução não acontece por níveis. Ela vem de jornadas concluídas, experiências acumuladas e marcas deixadas pela mata.</p>
+<h2 id="marcas-de-expedicao">Marcas de Expedição</h2>
+<p>Ao fim de cada expedição, um personagem pode receber no máximo <strong>1 Marca de Expedição</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Uma Marca pode ser recebida quando o personagem...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sobrevive a uma situação que colocou a expedição em risco real;</td>
+</tr>
+<tr>
+<td>descobre um lugar, rota ou informação importante;</td>
+</tr>
+<tr>
+<td>retorna carregando uma Provação relevante;</td>
+</tr>
+<tr>
+<td>sacrifica um Pertence, recurso ou vantagem para salvar alguém ou permitir que a expedição continue;</td>
+</tr>
+<tr>
+<td>traz algo valioso, raro ou especialmente útil de volta a um Posto Avançado;</td>
+</tr>
+<tr>
+<td>aceita uma nova Cicatriz causada por uma Provação de 2 espaços, outra consequência especialmente grave ou por Colapso.</td>
+</tr>
+</tbody>
+</table>
+<p>Cumprir várias condições na mesma expedição continua concedendo apenas <strong>1 Marca</strong>.</p>
+<h2 id="avancos">Avanços</h2>
+<p>A cada <strong>3 Marcas de Expedição</strong>, escolha <strong>1 avanço</strong> e apague essas 3 Marcas.</p>
+<table>
+<thead>
+<tr>
+<th>Avanço</th>
+<th>Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Presença</td>
+<td>Aumente Presença máxima e atual em 1, até o máximo de 10.</td>
+</tr>
+<tr>
+<td>Bagagem</td>
+<td>Aumente Bagagem máxima em 1, até o máximo de 10.</td>
+</tr>
+<tr>
+<td>Nova Aptidão</td>
+<td>Aprenda 1 nova Aptidão.</td>
+</tr>
+<tr>
+<td>Especialidade</td>
+<td>Adquira 1 nova Especialidade.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="especialidades">Especialidades</h2>
+<p>Especialidades representam conhecimentos aprendidos durante as jornadas. Elas não precisam estar ligadas à Ocupação original.</p>
+<p>Quando uma Especialidade se aplicar claramente a uma ação incerta, o teste é <strong>favorável</strong>.</p>
+<p>Uma Especialidade deve ser mais estreita que uma Ocupação. Exemplos: Navegação por Rios, Cirurgia de Campo, Rastros de Grandes Animais, Armas de Fogo, Plantas Venenosas, Ruínas Antigas, Negociação na Fronteira, Travessias, Acampamentos e Recuperação de Cadáveres.</p>
+<p>A <strong>Ocupação</strong> representa aquilo que o personagem já sabia quando entrou na expedição. As <strong>Especialidades</strong> representam aquilo que aprendeu depois.</p>
+<h2 id="cicatrizes">Cicatrizes</h2>
+<p>Quando um personagem sobrevive a uma Provação de 2 espaços, a outra consequência especialmente grave ou ao Colapso, pode receber uma <strong>Cicatriz</strong>: uma consequência duradoura que passa a fazer parte de sua história.</p>
+<p>Exemplos: Mão Trêmula, Pulmão Ferido, Medo de Água Profunda, Cicatriz de Onça, Sono Leve, Memória Fragmentada e Febres Recorrentes.</p>
+<p>Quando uma Cicatriz atrapalhar diretamente uma ação, o teste pode se tornar <strong>desfavorável</strong>.</p>
+<p>Uma Cicatriz pode ser a razão pela qual o personagem recebe sua Marca de Expedição, mas <strong>nunca concede uma segunda Marca na mesma expedição</strong>.</p>
+<p>Cicatrizes não surgem de qualquer ferimento pequeno e não desaparecem com descanso comum. Elas representam acontecimentos que deixaram uma marca permanente ou muito difícil de superar.</p>
+<h2 id="experiencia-sem-seguranca">Experiência sem segurança</h2>
+<p>Um veterano conhece mais caminhos, desenvolve técnicas e aprende a carregar melhor o peso da expedição, mas ainda pode adoecer, ficar sem água, perder equipamento, sofrer Colapso, desaparecer ou morrer.</p>
+<p>A experiência oferece mais opções. Ela nunca remove o risco.</p>
+<hr/>
+<figure aria-label="Ilustração integral - 16. CICLO DE UMA EXPEDIÇÃO" class="book-image scene-image"><a class="image-link" href="assets/scenes/inteira_04.png" title="Abrir imagem original em alta resolução"><img alt="Ilustração integral - 16. CICLO DE UMA EXPEDIÇÃO" decoding="async" src="assets/scenes/inteira_04.png"/></a></figure><h1 id="16-ciclo-de-uma-expedicao">16. CICLO DE UMA EXPEDIÇÃO</h1>
+<p>O jogo funciona como uma sequência de decisões de risco.</p>
+<h2 id="1-sair-do-posto-avancado">1. Sair do Posto Avançado</h2>
+<p>Escolha destino, carga e objetivo.</p>
+<p>Tudo o que levar ocupa espaço. Tudo o que deixar pode fazer falta.</p>
+<h2 id="2-entrar-em-territorio-desconhecido">2. Entrar em território desconhecido</h2>
+<p>A marcha encontra:</p>
+<ul>
+<li>rios;</li>
+<li>lama;</li>
+<li>vegetação;</li>
+<li>doenças;</li>
+<li>pessoas;</li>
+<li>rumores;</li>
+<li>ruínas;</li>
+<li>sinais estranhos.</li>
+</ul>
+<h2 id="3-gastar-recursos">3. Gastar recursos</h2>
+<p>Comida acaba. Pólvora se molha. Equipamento perde Durabilidade. Aptidões podem consumir Presença.</p>
+<h2 id="4-acumular-provacoes">4. Acumular Provações</h2>
+<p>Fome, sede, febre, infecção, medo e consequências de ocorrências inexplicáveis ocupam Bagagem.</p>
+<h2 id="5-fazer-a-escolha-dificil">5. Fazer a escolha difícil</h2>
+<p>Continuar, recuar ou abandonar alguma coisa.</p>
+<p>Esse é o coração do jogo.</p>
+<h2 id="6-encontrar-ou-retornar-a-um-posto">6. Encontrar ou retornar a um Posto</h2>
+<p>Se houver um Posto.</p>
+<h2 id="7-descansar-tratar-reparar-e-negociar">7. Descansar, tratar, reparar e negociar</h2>
+<p>A expedição tenta reconstruir aquilo que a mata consumiu.</p>
+<h2 id="8-preparar-a-proxima-marcha">8. Preparar a próxima marcha</h2>
+<p>Porque sempre existe um rumor mais fundo na floresta.</p>
+<h3 id="o-preco-de-continuar">O Preço de Continuar</h3>
+<blockquote>
+<p>A expedição está a um dia do Posto quando encontra uma escadaria de pedra descendo para dentro da colina.</p>
+<p>O Caçador de Relíquias sorri. “Uma hora lá dentro.”</p>
+<p>O médico aponta para o homem febril, os cantis quase vazios e a correia rompida.<br/>
+“Uma hora pode nos custar três homens.”</p>
+<p>“Ou pode nos tornar ricos.”</p>
+<p>O capitão fica em silêncio.</p>
+<p>Da escuridão sob a colina vem outra voz:</p>
+<p><strong>“Continuem.”</strong></p>
+</blockquote>
+<hr/>
+<h1 id="17-referencia-rapida">17. REFERÊNCIA RÁPIDA</h1>
+<h2 id="testes">Testes</h2>
+<ul>
+<li><strong>Normal:</strong> 1d6; 4+ é sucesso.</li>
+<li><strong>Favorável:</strong> 2d6; basta 1 sucesso.</li>
+<li><strong>Desfavorável:</strong> 2d6; precisa de 2 sucessos.</li>
+<li>Favorável e desfavorável juntos resultam em teste normal.</li>
+<li>Condições do mesmo tipo não acumulam dados.</li>
+<li><strong>Falha crítica:</strong> 1 em um teste normal ou dois resultados 1 em um teste de 2d6.</li>
+<li><strong>Ocupação:</strong> se a experiência profissional ajudar diretamente, o teste é favorável.</li>
+<li><strong>Ajuda:</strong> um aliado com Ocupação ou Especialidade relevante pode tornar o teste favorável.</li>
+</ul>
+<h2 id="personagem">Personagem</h2>
+<ul>
+<li>Presença + Bagagem = <strong>14 pontos</strong>.</li>
+<li>Cada valor começa entre <strong>4 e 10</strong>.</li>
+<li>Escolha <strong>1 Ocupação</strong>.</li>
+<li>Escolha <strong>2 Aptidões livremente</strong>, sem restrição de Ocupação.</li>
+<li>Comece com arma, proteção quando aplicável, 2 utilitários e 1 Ração Seca.</li>
+</ul>
+<h2 id="presenca-2">Presença</h2>
+<ul>
+<li>Representa saúde física, resistência e estabilidade mental.</li>
+<li>Dano e alguns efeitos reduzem Presença.</li>
+<li>Algumas Aptidões gastam Presença.</li>
+<li><strong>0 = morte definitiva.</strong></li>
+</ul>
+<h2 id="bagagem-e-colapso">Bagagem e Colapso</h2>
+<ul>
+<li>Pertences e Provações usam os mesmos espaços.</li>
+<li>Ultrapassar o máximo exige um teste de Colapso.</li>
+<li>Em falha, perca 1 Presença e reduza a carga antes de voltar a agir normalmente.</li>
+</ul>
+<h2 id="provacoes">Provações</h2>
+<ul>
+<li>Representam fome, sede, doença, trauma, infecção e consequências de ocorrências inexplicáveis.</li>
+<li>Ocupam Bagagem.</li>
+<li>Provações de 2 espaços normalmente exigem tratamento específico.</li>
+</ul>
+<h2 id="viagem-e-descanso">Viagem e descanso</h2>
+<ul>
+<li>Ao fim de cada dia, cada personagem precisa de alimento e água segura.</li>
+<li>Descanso de campo recupera <strong>1 ponto de Presença</strong>.</li>
+<li>Descanso em Posto Avançado recupera <strong>2 pontos de Presença</strong>.</li>
+<li>Uma noite inteira sem descanso torna percepção, orientação e esforço físico desfavoráveis até o próximo descanso completo.</li>
+</ul>
+<h2 id="durabilidade-2">Durabilidade</h2>
+<ul>
+<li>Mede o estado de equipamentos.</li>
+<li><strong>0 = Quebrado.</strong></li>
+<li>Armaduras perdem Durabilidade igual ao dano que absorvem.</li>
+<li>Item quebrado continua ocupando Bagagem até ser reparado ou descartado.</li>
+</ul>
+<h2 id="combate">Combate</h2>
+<ul>
+<li>Cada participante age uma vez por rodada.</li>
+<li>Um turno permite deslocamento curto e uma ação.</li>
+<li>Ataques usam o teste básico.</li>
+<li>Escudo pode anular um ataque uma vez por rodada ao perder 1 Durabilidade.</li>
+<li>Armadura absorve dano; o restante reduz Presença.</li>
+<li>Besta e armas de fogo exigem uma ação de recarga depois de disparar.</li>
+</ul>
+<h2 id="o-desconhecido">O Desconhecido</h2>
+<ul>
+<li>ocorrências inexplicáveis são raras;</li>
+<li>não existe explicação confiável para elas;</li>
+<li>diferentes testemunhas podem chegar a conclusões incompatíveis;</li>
+<li>tentar provocar deliberadamente um efeito atribuído ao desconhecido cobra Provações.</li>
+</ul>
+<h2 id="evolucao">Evolução</h2>
+<ul>
+<li>máximo de <strong>1 Marca de Expedição por expedição</strong>;</li>
+<li>a cada <strong>3 Marcas</strong>, escolha 1 avanço e apague as 3 Marcas gastas;</li>
+<li>avanços: +1 em Presença, +1 em Bagagem, nova Aptidão ou nova Especialidade;</li>
+<li>Especialidades tornam testes relacionados favoráveis;</li>
+<li>Cicatrizes podem tornar testes relacionados desfavoráveis e podem justificar a Marca da expedição.</li>
+</ul>
+<h2 id="posto-avancado">Posto Avançado</h2>
+<ul>
+<li>descansar;</li>
+<li>tratar;</li>
+<li>reparar;</li>
+<li>reorganizar Bagagem;</li>
+<li>fazer escambo;</li>
+<li>preparar nova expedição.</li>
+</ul>
+<hr/>
+<h1 id="para-o-mestre-o-tom-do-inferno-verde">PARA O MESTRE: O TOM DO INFERNO VERDE</h1>
+<p>A selva deve ser tão importante quanto qualquer inimigo.</p>
+<p>Não transforme o inexplicável em rotina. Quanto mais raro ele for, mais perturbador será quando surgir.</p>
+<p>Apresente pistas contraditórias e deixe que os personagens decidam no que acreditar.</p>
+<p>Um homem pode ouvir vozes porque:</p>
+<ul>
+<li>está febril;</li>
+<li>bebeu água contaminada;</li>
+<li>está traumatizado;</li>
+<li>alguém o está enganando;</li>
+<li>algo está realmente chamando seu nome.</li>
+</ul>
+<p>Enquanto não surgirem provas suficientes, todas essas respostas podem continuar plausíveis.</p>
+<p>Use riqueza como tentação, não como solução.</p>
+<p>Use a Bagagem para tornar escolhas concretas.</p>
+<p>Use Provações para transformar consequências em peso.</p>
+<p>Use os Postos Avançados para dar contraste: calor de comida, paredes, ferramentas, gente — e o medo de ter de sair novamente.</p>
+<p>E lembre-se:</p>
+<blockquote>
+<p><strong>O Inferno Verde não pergunta se os exploradores são fortes o bastante para vencer a selva.</strong></p>
+<p><strong>Pergunta quanto eles estão dispostos a abandonar para continuar andando.</strong></p>
+</blockquote>
+<hr/>
+<h1 id="epilogo-a-volta">EPÍLOGO — A VOLTA</h1>
+<blockquote>
+<p>Meses depois, diante do mar, o cronista abre o diário para escrever a última página.</p>
+<p>“Terminou?”, pergunta o médico.</p>
+<p>Ele folheia as anotações: febres, mortos, rios, ruínas, vozes, ouro falso e coisas que não sabe nomear.</p>
+<p>“Não.”</p>
+<p>“Pretende voltar?”</p>
+<p>O cronista fecha o diário. Em uma página que nunca escreveu existe apenas uma frase:</p>
+<p><strong>VOCÊ AINDA NÃO SAIU.</strong></p>
+<p>Ele guarda o livro.<br/>
+“Pretendo nunca mais voltar.”</p>
+<p>Da floresta vem um sino distante.</p>
+</blockquote>
+<hr/>
+<h2 id="creditos-e-licenca">Créditos e licença</h2>
+<p><strong>Autor:</strong> Fellipe Augusto Ugliara.</p>
+<p>Este material é distribuído sob a licença:</p>
+<p><strong>Creative Commons Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA).</strong></p>
+<p>É permitido compartilhar e adaptar com atribuição, sem uso comercial, mantendo a mesma licença nas adaptações.</p>
+<figure aria-label="Página ornamental de encerramento" class="closing-page"><img alt="Página ornamental de encerramento" src="assets/scenes/inteira_02.png"/></figure></main></article>
+</div>
+</body></html>
