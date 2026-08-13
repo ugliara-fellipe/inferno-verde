@@ -1,4 +1,0 @@
-- Não use as diretivas no texto do livro
-- Use como referencia as fontes com maior versão nome.versão.txt
-- A cada pedido crie uma nova versão dos arquivos que forem alterados e adicione a nova versão aos sources
-- Não use abreviações

@@ -1,0 +1,4 @@
+- Tudo nesse arquivo só se aplica a coisas criadas para o itch
+- As imagens deve ter menos que 2.9mb
+- Devem ser png
+- A arte de cover tem como requisito minimo 315x250 , recomandado 630x500

@@ -1,0 +1,548 @@
+O INFERNO VERDE — CENÁRIO ESSENCIAL
+Versão revisada para coerência com Regras.v28
+
+Título:
+O Inferno Verde: O Preço da Expedição
+
+Referência histórica e tecnológica:
+Inspirada nos séculos XV e XVI.
+
+Local:
+Uma vasta terra tropical fictícia, inspirada nas Américas desse período e nas expedições que avançaram da costa para regiões pouco conhecidas pelos estrangeiros. Sua geografia, seus povos, seus reinos, seus rios e sua história pertencem ao cenário e não correspondem diretamente a países ou territórios reais.
+
+Proposta:
+Um RPG de exploração terrestre, sobrevivência, desgaste e escambo durante expedições que deixam os assentamentos costeiros e avançam pelo interior dessa terra.
+
+A ENTRADA NO CONTINENTE
+
+A aventura se concentra depois que a expedição deixa a costa e começa a penetrar o interior.
+
+Ao entrar no continente, os exploradores:
+- perdem contato fácil com portos, povoados e bases costeiras;
+- avançam por terras desconhecidas;
+- dependem de orientação, negociação e sobrevivência;
+- enfrentam perigos naturais, doenças e conflitos;
+- precisam administrar seus recursos até alcançar outro Posto Avançado.
+
+A exploração é principalmente terrestre: lama, floresta fechada, rios, pântanos, calor e caminhos abertos à força.
+
+A SELVA VIVA E DEVORADORA
+
+A floresta tropical é um obstáculo constante.
+
+Características:
+- vegetação muito densa;
+- pouca luz no chão da mata;
+- calor pesado e úmido;
+- armaduras de metal extremamente desconfortáveis;
+- rios interrompendo rotas terrestres;
+- correntezas capazes de levar pessoas e Pertences;
+- lamaçais, animais e plantas perigosas dificultando o avanço.
+
+O ambiente deve parecer tão ameaçador quanto os inimigos.
+
+DESGASTE E PROVAÇÕES
+
+Doença, trauma e desgaste fazem parte da jornada tanto quanto feras, armas e terreno.
+
+Riscos frequentes:
+- água contaminada;
+- falta de água;
+- fome;
+- insetos e parasitas;
+- infecções;
+- febres tropicais;
+- ferimentos mal tratados;
+- exaustão;
+- isolamento;
+- medo do desconhecido.
+
+Nas regras, essas consequências aparecem principalmente como Provações. Elas ocupam a mesma Bagagem usada por armas, ferramentas, água e alimento. Quanto mais um explorador sofre, menos margem possui para carregar aquilo que o mantém vivo.
+
+Provações comuns sempre admitem alguma saída plausível, mesmo sem o especialista ideal. Conhecimento, ferramentas e Ajuda tornam o tratamento mais seguro, mas a falta de uma Ocupação específica não deve condenar automaticamente a expedição.
+
+Provações do Desconhecido são diferentes. Elas podem exigir investigação, uma Condição de Cura ou, em certos casos, a aceitação de uma Cicatriz. O objetivo é prolongar a inquietação sem retirar dos jogadores a capacidade de escolher como reagir.
+
+FRONTEIRAS, CONTATO E CONFLITO
+
+Os exploradores atravessam territórios habitados por povos que conhecem profundamente a região.
+
+A sobrevivência não depende apenas de armas. Também são importantes:
+- rastrear;
+- interpretar sinais;
+- reconhecer costumes;
+- negociar;
+- encontrar caminhos seguros;
+- evitar emboscadas;
+- suportar o isolamento.
+
+Conflitos podem surgir por território, alianças, medo, saque ou incompreensão.
+
+AMBIÇÃO E OURO
+
+A ambição é um dos motores do cenário.
+
+Rumores sobre ouro, riquezas ocultas, impérios distantes, lugares impossíveis e fontes da juventude levam exploradores a arriscar a própria saúde e sanidade.
+
+O ouro não garante sobrevivência. Na selva, água limpa, alimento, Munição de Fogo seca, ferramentas e equipamento funcional podem ter mais valor imediato do que uma Relíquia preciosa.
+
+A EXPEDIÇÃO
+
+Uma expedição sobrevive melhor quando pessoas com experiências diferentes dependem umas das outras.
+
+Entre as Ocupações mais comuns estão soldados, conquistadores, batedores, guias, mateiros, herbolários, almocárens, cartógrafos, médicos, padres, geógrafos e cronistas. Nas fronteiras mais estranhas também aparecem caçadores de relíquias, penitentes, coveiros, caçadores de feras, guardas de relicário, naturalistas hereges, sobreviventes marcados, caçadores de bruxaria, vigias noturnos e recuperadores de mortos.
+
+Ocupação representa experiência profissional ampla, mas não determina tudo que um personagem pode fazer. Aptidões são compartilhadas por grupos de Ocupações e Especialidades podem surgir com as jornadas. Dois exploradores com a mesma Ocupação podem, portanto, terminar muito diferentes.
+
+A expedição funciona melhor quando o grupo distribui carga, ferramentas, alimento, água e munição em conjunto. Nem todo explorador precisa carregar pessoalmente tudo aquilo que consome.
+
+POSTOS E ESCAMBO
+
+Postos Avançados
+
+Postos Avançados são os principais pontos de segurança e reorganização no interior. Podem ser paliçadas, missões religiosas, acampamentos fortificados, povoados aliados ou bases temporárias capazes de cumprir a mesma função.
+
+Quando um Posto realmente está seguro, o grupo pode:
+- descansar de forma adequada;
+- tratar ferimentos e Provações;
+- reparar equipamento e recuperar Integridade;
+- reabastecer água, alimento e munição;
+- redistribuir Pertences;
+- fazer escambo;
+- obter mapas, rumores, trabalho e novas oportunidades;
+- decidir quem ou o que seguirá para a próxima jornada.
+
+Uma paliçada abandonada ou tomada por perigo não oferece segurança apenas por ser chamada de Posto. Segurança é uma condição da situação, não da construção. Quanto mais longe de um lugar seguro, maior a pressão sobre a expedição.
+
+Escambo na Fronteira
+
+As trocas são diretas e não dependem de uma tabela fixa de preços.
+
+Para orientar o valor no momento da negociação, os bens podem ser percebidos como:
+- Comuns: disponíveis com relativa facilidade naquela região;
+- Procurados: escassos, necessários ou especialmente úteis naquele momento;
+- Raros: difíceis de substituir, perigosos de obter ou excepcionais para aquela comunidade.
+
+Essas categorias mudam conforme necessidade e lugar. Uma caixa de ferramentas pode ser comum numa base bem abastecida e rara depois de semanas de isolamento. Água limpa, alimento, Munição de Fogo, remédios e peças de reparo podem valer mais que joias.
+
+Bens úteis incluem Rações Secas, recipientes com água limpa, Munição de Fogo, virotes, ferramentas, materiais para reparo, armas, proteções, objetos de luxo, minerais, informações, mapas e Relíquias quando alguém aceita correr esse risco.
+
+A tensão vem da Bagagem: mercadoria também ocupa o espaço que poderia carregar suprimentos, ferramentas ou absorver novas Provações.
+
+PERIGOS DA JORNADA
+
+Perigos Naturais
+
+Chuva Torrencial
+- Ameaça fogo, documentos, roupas, Munição de Fogo e equipamento exposto.
+- Proteção adequada pode evitar a perda; negligência pode tornar munição temporariamente inútil ou reduzir a Integridade de um Pertence.
+
+Lamaçal / Solo Instável
+- Prende pernas, animais e carga.
+- O perigo deve cobrar esforço, tempo, Presença, Integridade ou Pertences, não manter alguém preso sem opção de saída.
+- Cordas, ferramentas, Ajuda e abandono de carga podem mudar a situação.
+
+Vegetação Hostil
+- Espinhos, seivas e toxinas podem ferir, infectar ou provocar delírios.
+- Um facão ou machado ajuda a abrir passagem, mas nem toda planta perigosa é vencida apenas cortando.
+
+Rios
+- Interrompem rotas e exigem decisões sobre travessia.
+- Correnteza pode separar pessoas, deslocar o grupo ou levar Pertences.
+- Recuar e procurar outra passagem deve continuar sendo uma opção quando a ficção permitir.
+
+Insetos e Parasitas
+- Não são resolvidos como inimigos comuns.
+- Fumaça, roupas, abrigo, mudança de lugar e conhecimento local podem afastá-los.
+- Exposição prolongada pode trazer Febre das Selvas e outras Provações.
+
+O perigo funciona melhor quando apresenta sinais antes do preço: cheiro de água ruim, nuvens de insetos, terreno afundando, correnteza forte, árvores quebradas ou relatos de quem passou antes.
+
+Perigos Estranhos
+
+Esses fenômenos devem ser raros e preservar alguma dúvida sobre sua origem.
+
+Chuva de Cinzas
+Cinzas frias caem sem incêndio visível e contaminam água aberta.
+
+Névoa dos Sussurros
+Vozes conhecidas parecem chamar de dentro da neblina.
+
+Trilha que Retorna
+O grupo avança por horas e retorna ao mesmo ponto sem perceber como.
+
+Poço de Ossos
+Solo frágil cede sobre uma cavidade cheia de restos humanos.
+
+Água que Não Reflete
+Um lago não produz reflexos e provoca forte desconforto em quem bebe dele.
+
+Flores do Sono
+Pólen causa sonolência profunda e sonhos compartilhados. Companheiros podem acordar e retirar alguém da área; quem estiver sozinho desperta depois, pagando em tempo, posição ou recursos.
+
+Lama de Sangue
+Solo avermelhado gruda à pele e provoca infecções rapidamente.
+
+Chuva de Vermes
+Após tempestades, pequenos parasitas caem das árvores junto com a água.
+
+Clareira Silenciosa
+Insetos, aves e vento desaparecem completamente do som local.
+
+Árvore dos Enforcados
+Cipós assumem formas semelhantes a laços e se fecham sob peso. Cortá-los, receber ajuda ou abandonar aquilo que ficou preso pode abrir uma saída.
+
+Rio Invertido
+Durante algumas horas, um trecho parece correr contra sua direção normal.
+
+Ponte de Cadáveres
+Uma travessia improvisada antiga é sustentada por restos humanos ocultos sob madeira e lama.
+
+Solo Febril
+O chão permanece quente durante a noite e o acampamento provoca febres.
+
+Pântano Luminoso
+Luzes atraentes flutuam sobre áreas profundas e instáveis.
+
+Chuva sem Nuvens
+Uma pequena área recebe chuva constante sob céu limpo.
+
+Eco Adiantado
+Sons são ouvidos segundos antes de serem produzidos.
+
+Ninho de Parasitas
+Abrigo aparentemente seguro contém ovos e larvas sob o solo.
+
+Ruína que Geme
+Pedras produzem sons semelhantes a respiração quando a temperatura cai.
+
+Caminho dos Nomes
+Troncos próximos à trilha apresentam nomes de membros da expedição entalhados recentemente.
+
+Água Negra
+Água potável torna-se escura após ser armazenada durante a noite.
+
+Mosquitos de Cinza
+Enxames surgem sem som e deixam manchas escuras sob a pele.
+
+Chão de Raízes
+Raízes se movem lentamente e podem prender pés, animais e carga. Ferramentas, ajuda ou abandono temporário da carga permitem mudar a tentativa.
+
+Sombra sem Dono
+Uma sombra acompanha a expedição sem corresponder a pessoa alguma.
+
+Frio Tropical
+Uma pequena região da mata apresenta frio impossível para o clima.
+
+Acampamento Duplicado
+A expedição encontra restos de um acampamento idêntico ao seu, inclusive com objetos parecidos.
+
+Pedra de Voz
+Uma formação rochosa repete conversas antigas com vozes desconhecidas.
+
+Frutos de Carne
+Frutos avermelhados possuem textura e cheiro perturbadoramente semelhantes a carne.
+
+Tempestade Seca
+Relâmpagos atingem a floresta sem chuva, causando incêndios isolados e comportamento errático de animais.
+
+Cemitério Afundado
+Cruzes, lápides ou marcadores emergem de um pântano após queda do nível da água.
+
+Horizonte Imóvel
+Durante horas, um ponto distante parece nunca se aproximar apesar da marcha contínua. Insistir consome tempo e suprimentos; mudar rota, referência ou estratégia oferece uma nova possibilidade.
+
+FAUNA, CRIATURAS E AMEAÇAS
+
+Ameaças Naturais e Humanas
+
+Sucuri Gigante
+- Ameaça rios e pântanos.
+- Imobiliza e esmaga, tornando Ajuda e mudança de posição tão importantes quanto causar dano.
+
+Jacaré de Lodo
+- Permanece quase invisível em água turva e margens enlameadas.
+- É mais perigoso quando ninguém percebe os sinais de aproximação.
+
+Enxames de Insetos e Parasitas
+- Não são vencidos com espada ou arcabuz.
+- Exigem prevenção, fumaça, abrigo, recursos ou conhecimento.
+
+Guerreiros da Fronteira Oculta
+- Conhecem terreno, rotas e locais de emboscada.
+- Usam mobilidade, venenos e posição em vez de confronto frontal.
+- Representam conflitos territoriais e humanos; não precisam ser inimigos inevitáveis, e negociação, retirada ou entendimento podem alterar a situação.
+
+As ameaças mais perigosas devem mudar a cena — separar, agarrar, apagar luz, bloquear caminho ou atacar carga — em vez de existir apenas como grandes reservas de resistência.
+
+Ameaças do Desconhecido
+
+Essas criaturas devem permanecer raras. Algumas podem ser explicadas como animais desconhecidos, doenças, deformidades ou alucinações.
+
+Cão de Lama
+Quadrúpede coberto por lodo e raízes. Parece se desfazer quando ferido, deixando pegadas que continuam andando sozinhas.
+
+Viúva das Bromélias
+Aranha enorme que cobre vítimas com flores e folhas. Seus ninhos parecem jardins.
+
+Homem-Oco
+Figura humana extremamente magra. Ferimentos revelam um interior escuro e aparentemente vazio.
+
+Boca do Pântano
+Massa vegetal que imita terreno firme. Fecha-se lentamente sobre quem pisa nela.
+
+Macaco sem Face
+Primata pálido cuja cabeça parece lisa à distância. Imita vozes humanas ouvidas poucas horas antes.
+
+Carrapato-Rei
+Parasita do tamanho de uma mão. Pode permanecer preso sem ser percebido enquanto enfraquece a vítima.
+
+Devorador de Velas
+Criatura semelhante a um grande morcego atraída por luz artificial. Sua aproximação apaga chamas.
+
+Cobra de Ossos
+Serpente cuja pele parece transparente, revelando ossos em movimento. Seu veneno provoca rigidez e sonhos vívidos.
+
+Peregrino Sem Cabeça
+Figura armada que caminha por antigas trilhas. Não ataca quem permanece imóvel, segundo alguns relatos.
+
+Crianças do Lodo
+Pequenas formas humanoides que emergem de margens enlameadas e tentam carregar objetos para a água.
+
+Porco de Espinhos
+Animal agressivo coberto por espinhos semelhantes a lascas de madeira apodrecida.
+
+Sanguessuga Branca
+Parasita de rio quase transparente. Feridas causadas por ela não param de sangrar facilmente.
+
+Coro dos Afogados
+Grupo de figuras vistas sob a superfície de rios profundos. Cantos parecem vir de direções impossíveis.
+
+Mãe dos Mosquitos
+Enorme massa pulsante escondida em árvores ocas. Sua presença atrai enxames por quilômetros.
+
+Veado de Olhos Humanos
+Animal silencioso que observa acampamentos. Quem o persegue tende a se perder.
+
+Padre de Musgo
+Forma humana coberta de musgo e tecido apodrecido. Repete fragmentos de orações sem reagir a perguntas.
+
+Caranguejo de Cadáver
+Crustáceo que ocupa corpos abandonados e os movimenta de forma desajeitada.
+
+Homem das Abelhas
+Silhueta humana composta por enxames compactos. Pode desaparecer quando o enxame se dispersa.
+
+Peixe de Dentes Negros
+Predador de água doce atraído por sangue. Seus dentes parecem feitos de pedra escura.
+
+Guardião de Pedra
+Figura imóvel encontrada em ruínas. Pode aparecer em outro lugar quando ninguém está olhando.
+
+Mula sem Pegadas
+Animal de carga que surge próximo a expedições perdidas. Leva quem a segue para caminhos desconhecidos.
+
+Sombra de Cipó
+Massa de cipós que se desloca apenas na escuridão. Pode envolver equipamentos antes de atacar pessoas.
+
+Homem de Sal
+Figura coberta por crostas brancas encontrada longe do mar. Desmancha parcialmente sob chuva.
+
+Noiva das Águas
+Silhueta humana vista nos rios. Chama pessoas pelo nome com vozes de parentes distantes.
+
+Abutre Vermelho
+Ave de grande porte que acompanha pessoas febris. Parece antecipar mortes.
+
+Devorador de Sonhos
+Presença jamais vista diretamente. Pessoas próximas começam a ter o mesmo pesadelo. Sua origem deixa pistas e pode ser investigada; abandonar a área também interrompe a exposição.
+
+Gigante da Folhagem
+Massa de folhas, galhos e carne que só é percebida quando começa a se mover.
+
+Santo de Carne
+Figura encontrada em nichos ou altares improvisados. Parece uma estátua até respirar.
+
+O Sem-Rosto do Rio
+Humanoide visto caminhando contra correntezas profundas. Não deixa pegadas quando alcança a margem.
+
+RUMORES E SINAIS DO IMPOSSÍVEL
+
+Rumores, acontecimentos estranhos e fenômenos difíceis de explicar podem funcionar como pistas, avisos ou pontos de partida para uma expedição. Nem todos precisam ser sobrenaturais.
+
+O Sino Fantasma
+Durante a madrugada, um sino parece soar no interior da floresta, onde não deveria existir uma igreja. A repetição do som provoca inquietação e paranoia.
+
+O Rio de Ouro Falso
+Um riacho brilha como se estivesse cheio de ouro. Quem carrega o minério descobre depois que levou apenas mica, desperdiçando espaço de Bagagem.
+
+As Árvores que Choram
+Árvores de uma clareira vertem seiva vermelha semelhante a sangue. Povos locais evitam o lugar e o tratam como solo profanado.
+
+A Trilha dos Ossos
+A expedição encontra esqueletos presos a árvores, com armaduras enferrujadas e flechas desconhecidas. Não restam Pertences úteis: apenas um aviso.
+
+O Colecionador Silencioso
+Pequenos Pertences desaparecem durante a noite. No lugar deles surgem pegadas humanoides de três dedos.
+
+A Voz Debaixo da Terra
+Durante a noite, alguém escuta seu próprio nome vindo debaixo do solo. Pela manhã, não há pegadas ou sinais de escavação.
+
+O Homem que Não Apodrece
+Uma expedição encontra um cadáver antigo ainda preservado, apesar do calor e da umidade. Ninguém consegue determinar há quanto tempo morreu.
+
+A Chuva Negra
+Por poucos minutos, uma chuva escura cai sobre uma pequena área da mata. A água desaparece sem deixar resíduos, mas animais evitam o lugar por semanas.
+
+O Mapa que Muda
+Um mapa antigo parece mostrar caminhos diferentes cada vez que é aberto. Alguns juram que é apenas tinta borrada pela umidade.
+
+A Criança sem Sombra
+Moradores de um povoado abandonado contam que uma criança aparecia ao entardecer sem projetar sombra. Não existem registros confiáveis de que a criança tenha existido.
+
+A Missa sem Padre
+Em uma capela tomada pela mata, exploradores escutam uma celebração religiosa durante a madrugada. Ao entrar, encontram apenas bancos podres e um altar coberto de raízes.
+
+O Sangue das Pedras
+Pedras de uma ruína antiga começam a liberar um líquido vermelho quando quebradas. O material perde a cor depois de alguns minutos e nenhum estudioso consegue explicar sua origem.
+
+O DESCONHECIDO
+
+A magia pode existir, mas quase ninguém consegue compreendê-la. Ela não faz parte da vida cotidiana e não é tratada como força conhecida ou confiável. Relatos se confundem com superstição, fraude, febre, delírio, coincidência, fenômenos naturais mal compreendidos e histórias alteradas por medo e isolamento.
+
+Muitos exploradores, religiosos, eruditos e soldados duvidam de sua existência. Mesmo os que acreditam raramente concordam sobre origem, intenção ou funcionamento.
+
+O Desconhecido pode aparecer como acontecimentos impossíveis de explicar, lugares que parecem violar a ordem natural, Relíquias, sonhos, pessoas marcadas e criaturas cuja existência permanece incerta.
+
+Princípios
+
+- Raro. A maioria das jornadas pode terminar sem qualquer manifestação claramente sobrenatural.
+- Incompreendido. Não existe teoria confiável que permita explicar ou reproduzir magia.
+- Ambíguo. Sempre que possível, deve existir dúvida sobre o que realmente aconteceu.
+- Tem um preço. Contato deliberado com o impossível pode deixar Provações, Cicatrizes ou consequências que atravessam várias expedições.
+
+Um acontecimento estranho pode admitir explicação natural, psicológica, religiosa ou sobrenatural. Nem personagens nem jogadores precisam receber confirmação imediata sobre o que realmente ocorreu.
+
+Pessoas Tocadas
+
+Pessoas associadas ao sobrenatural são raríssimas e não são tratadas como magos tradicionais. Podem ser curandeiros cujos tratamentos às vezes produzem resultados impossíveis, profetas que souberam algo que não poderiam conhecer, sobreviventes de lugares onde todos os outros desapareceram, indivíduos marcados por doenças, Sequelas, Cicatrizes ou mudanças inexplicáveis e pessoas que afirmam ouvir vozes ou sonhos vindos da floresta.
+
+Mesmo quando algo sobrenatural realmente acontece, essas pessoas podem não entender o que fizeram. Algumas temem repetir o fenômeno. Outras são perseguidas, veneradas, exploradas ou acusadas de fraude.
+
+Uma Sequela representa uma consequência duradoura da sobrevivência. Uma Cicatriz é uma maneira de encerrar uma Provação do Desconhecido sem apagar aquilo que ocorreu. Nenhuma das duas precisa provar que magia existe.
+
+Fé, Superstição e Medo
+
+Uma mesma ocorrência pode ser interpretada como milagre, maldição, feitiçaria, sinal divino, presença demoníaca, espírito, doença, alucinação ou fenômeno natural desconhecido.
+
+Essas interpretações podem causar conflitos tão perigosos quanto o próprio fenômeno. O medo pode levar pessoas a abandonar companheiros, destruir objetos valiosos, atacar inocentes, recusar caminhos seguros, esconder descobertas ou cometer atos extremos para evitar uma suposta maldição.
+
+O Preço do Impossível
+
+Interagir deliberadamente com o sobrenatural nunca é seguro. Tocar, carregar, estudar, ativar, seguir ou tentar reproduzir um fenômeno impossível pode causar Provações do Desconhecido, mesmo quando o efeito parece benéfico.
+
+A magia não consome uma reserva própria de energia. Ela cobra seu preço no corpo, na mente e na Bagagem. Esse preço pode aparecer como pesadelos, febres e fraqueza, sangramentos, perda de memória, paranoia, marcas no corpo, compulsões, sensação de estar sendo observado, dificuldade de reconhecer lugares ou pessoas e alterações temporárias nos sentidos.
+
+Uma Provação do Desconhecido não precisa ter uma solução única preparada pelo Mestre. Pistas, especialistas, ritos, retorno ao local, abandono de um objeto, confissão, investigação ou uma ideia coerente dos jogadores podem revelar uma Condição de Cura.
+
+Quando a cura não apaga completamente o acontecimento, o personagem pode terminar carregando uma Cicatriz. Outros sofrimentos podem deixar Sequelas e Marcas de Expedição.
+
+O preço deve criar investigação, escolhas e mudança no personagem. Não deve funcionar como uma armadilha sem saída. Uma pessoa pode sobreviver a uma manifestação sobrenatural sem jamais acreditar que ela foi mágica.
+
+RELÍQUIAS E OBJETOS INCOMPREENSÍVEIS
+
+Alguns objetos parecem possuir propriedades impossíveis. Eles são extremamente raros, não funcionam como equipamento mágico previsível e não podem ser fabricados de forma confiável.
+
+Uma Relíquia pode produzir um fenômeno inexplicável, exigir uma condição desconhecida, permanecer inativa durante anos, reagir de forma diferente a pessoas diferentes, desaparecer, tornar-se inerte ou trazer consequências piores que o benefício oferecido.
+
+Eruditos podem estudá-las; religiosos podem chamá-las de milagres, heresias ou obras malignas; povos locais podem possuir interpretações próprias. Nenhuma explicação precisa estar completamente correta.
+
+Nas regras, usar deliberadamente uma Relíquia ligada ao Desconhecido cobra Provação. O efeito pode ajudar, mas o preço não é opcional apenas porque o uso foi bem-sucedido.
+
+Rosário de Dentes Negros
+Parece um rosário feito de dentes humanos vitrificados. Quando apertado durante uma noite de terror, silencia por alguns instantes sons que não deveriam existir. Depois, o portador pode acordar com sangue nos ouvidos.
+
+Espelho de Água Morta
+Uma pequena lâmina de metal polido que não reflete o rosto do portador em certos lugares. Às vezes mostra alguém que não está presente.
+
+Medalhão do Sol Afogado
+Um disco dourado coberto por manchas escuras. Sob chuva forte, permanece completamente seco. Quem o usa por muito tempo sonha com uma cidade submersa.
+
+Faca que Não Enferruja
+Uma lâmina simples encontrada em ruínas antigas. Nunca apresenta ferrugem, mas feridas causadas por ela cicatrizam de maneira incomum.
+
+Sino sem Badalo
+Um pequeno sino de bronze que não possui badalo. Em certas madrugadas, pode ser ouvido mesmo sem produzir movimento.
+
+Mapa de Pele
+Um mapa desenhado sobre material semelhante a couro. Novas trilhas aparecem depois que seu portador se perde.
+
+Vela de Sebo Frio
+Sua chama não produz calor. Quando acesa em ruínas, projeta sombras de coisas que não estão ali.
+
+Crânio de Cristal Opaco
+Um pequeno crânio mineral que parece ficar mais pesado próximo a cadáveres escondidos.
+
+Moeda do Homem Morto
+Uma moeda sem reino reconhecível. Quando colocada sobre os olhos de um cadáver, pode provocar um único movimento ou palavra.
+
+Corda dos Enforcados
+Uma corda antiga que nunca apodrece. Nós feitos nela às vezes se desfazem sozinhos antes de acontecimentos perigosos.
+
+Máscara do Segundo Rosto
+Uma máscara de madeira sem abertura para os olhos. Quem a veste afirma enxergar através de escuridão ou fumaça, mas pode não reconhecer os próprios companheiros.
+
+Frasco de Chuva
+Um pequeno recipiente selado contendo gotas que sobem em vez de cair. Abrir o frasco pode alterar o clima por poucos minutos.
+
+Agulha do Norte Morto
+Uma agulha magnética que aponta para algo diferente do norte em determinadas regiões.
+
+Livro sem Letras
+Um volume de páginas vazias. Depois de sonhos intensos, algumas páginas amanhecem cobertas por desenhos desconhecidos.
+
+Anel de Ferro Morno
+Permanece morno mesmo em água fria. Próximo a determinados fenômenos, torna-se dolorosamente quente.
+
+Pedra que Respira
+Uma pedra porosa que expande e contrai lentamente como um pulmão. Pode parar de se mover quando alguém morre nas proximidades.
+
+Olho de Âmbar
+Uma esfera de âmbar com uma mancha semelhante a uma pupila. Às vezes parece indicar a direção de movimentos que ninguém mais percebeu.
+
+Chave sem Fechadura
+Uma chave pesada de metal negro. Já foi encontrada abrindo portas que não possuíam fechadura.
+
+Cálice de Cinzas
+Um cálice de prata manchada. Líquidos deixados nele durante a noite podem amanhecer transformados em cinza seca.
+
+Medalha do Santo Apagado
+Uma medalha religiosa cujo rosto foi completamente gasto. Algumas pessoas afirmam que ela impede uma presença de atravessar uma porta; outras desaparecem mesmo carregando-a.
+
+O TOM DO INFERNO VERDE
+
+O mundo é cruel, decadente e indiferente. O horror não nasce apenas de monstros, mas também de fome, doença, violência, fanatismo, ganância, isolamento, culpa, ruínas, desaparecimentos e decisões tomadas quando os recursos parecem insuficientes.
+
+O sobrenatural não substitui os perigos reais da selva; ele os intensifica. Uma febre pode produzir um sonho que depois parece verdadeiro. Uma ruína pode parecer amaldiçoada e ainda ser perigosa por desabamentos, fungos, animais e água contaminada. Uma Relíquia pode produzir um efeito impossível uma vez e permanecer inerte durante anos.
+
+O cenário combina exploração, sobrevivência, desgaste físico e mental, ambição, escambo, superstição, dúvida, perda e reparo de equipamento, necessidade de escolher o que carregar e sobrevivência por pouco.
+
+A selva desgasta o corpo por doenças e ferimentos, a mente por medo e isolamento, os Pertences pela perda de Integridade e a expedição pela distância de lugares seguros. Ouro pode valer menos que água limpa; um Posto Avançado seguro pode mudar tudo; continuar avançando quase sempre cobra alguma coisa.
+
+O jogo funciona melhor quando existe a possibilidade de recuar, abandonar carga, pedir Ajuda, improvisar tratamento ou aceitar um custo. Escolhas ruins e consequências duras fazem parte do tom; retirar toda escolha, não.
+
+Sobreviver pode deixar Sequelas, o Desconhecido pode deixar Cicatrizes e expedições concluídas podem deixar Marcas de Expedição. Um veterano possui mais opções, Aptidões e Especialidades, mas nunca se torna imune à floresta.
+
+LICENÇA
+
+Autor: Fellipe Augusto Ugliara.
+
+Licença indicada na fonte:
+Creative Commons Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA).
+
+Em resumo:
+- é permitido compartilhar;
+- é permitido adaptar;
+- deve ser dado crédito ao autor;
+- não deve ser usado para fins comerciais;
+- adaptações devem ser distribuídas sob a mesma licença.

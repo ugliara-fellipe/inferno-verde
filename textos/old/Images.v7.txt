@@ -1,0 +1,355 @@
+O INFERNO VERDE — GUIA VISUAL DE IMAGENS
+Versão 5 — especificação objetiva para livro físico, livro digital e página web
+
+REGRA DE PRIORIDADE
+
+Este arquivo é a referência visual obrigatória para todas as imagens do projeto.
+Quando existir conflito com versões anteriores do guia de imagens, prevalece a versão de número mais alto.
+
+As regras abaixo só podem ser ignoradas quando o pedido de uma imagem específica disser explicitamente o contrário.
+
+
+1. PALETA
+
+Obrigatório:
+- Usar somente preto, branco e tons de cinza neutros.
+- Usar fundo branco.
+- Manter contraste alto o suficiente para impressão monocromática.
+- Usar branco negativo, preto sólido, hachuras e diferentes densidades de traço para separar formas e planos.
+
+Proibido:
+- Qualquer cor.
+- Sépia.
+- Fundo amarelado.
+- Pergaminho colorido.
+- Cinzas tão próximos entre si que desapareçam em impressão.
+
+
+2. ESTILO VISUAL
+
+Todas as imagens devem pertencer à mesma coleção visual.
+
+O estilo obrigatório é:
+- gravura histórica;
+- xilogravura;
+- água-forte;
+- ilustração editorial em tinta;
+- acabamento limpo e detalhado;
+- hachuras visíveis;
+- silhuetas legíveis;
+- contraste forte;
+- aspecto de impressão em preto sobre papel branco.
+
+A referência histórica é a linguagem visual de gravuras naturalistas e relatos de viagem dos séculos XV e XVI, reinterpretada com acabamento contemporâneo de ilustração editorial.
+
+Proibido:
+- aparência de pintura digital colorida convertida para preto e branco;
+- estética fotográfica;
+- renderização 3D;
+- anime;
+- quadrinhos de super-herói;
+- estética moderna de fantasia heroica;
+- elementos gráficos modernos incompatíveis com o cenário.
+
+
+3. CENÁRIO VISUAL
+
+As imagens representam uma terra tropical fictícia inspirada nas Américas dos séculos XV e XVI e nas expedições desse período.
+
+A imagem não deve afirmar que a cena ocorre em um país, reino, cidade ou região histórica real, salvo pedido explícito.
+
+A arquitetura, roupas, armas, ferramentas, embarcações pequenas, acampamentos, postos, vegetação e materiais devem parecer compatíveis com o período de referência e com a terra fictícia do cenário.
+
+Não inserir objetos, roupas, construções, veículos, armas ou tecnologia moderna.
+
+
+4. PESSOAS
+
+O conjunto de imagens deve mostrar diversidade visível de pessoas.
+
+Obrigatório ao longo de uma série de imagens ou de uma prancha:
+- incluir homens e mulheres;
+- variar idade aparente;
+- variar altura;
+- variar peso;
+- variar musculatura;
+- variar proporções corporais;
+- variar rostos, cabelos, narizes, mandíbulas e posturas;
+- variar condição física e grau de desgaste.
+
+Devem aparecer, distribuídos pelo conjunto:
+- pessoas magras;
+- pessoas gordas;
+- pessoas franzinas;
+- pessoas fortes;
+- pessoas baixas;
+- pessoas altas;
+- pessoas jovens adultas;
+- pessoas mais velhas.
+
+Nenhuma Ocupação deve ser vinculada a um único gênero ou tipo corporal.
+
+É proibido representar todo o elenco como:
+- atlético;
+- musculoso;
+- jovem;
+- saudável;
+- limpo;
+- heroicamente idealizado.
+
+Exploradores devem frequentemente apresentar sinais coerentes com a expedição, como:
+- cansaço;
+- olheiras;
+- suor;
+- sujeira;
+- roupas gastas ou remendadas;
+- roupa molhada quando a cena exigir;
+- cicatrizes;
+- ferimentos;
+- sinais de fome;
+- sinais de febre ou doença quando a cena exigir;
+- tensão;
+- medo;
+- exaustão;
+- postura cansada;
+- equipamento gasto e pouco polido.
+
+Esses sinais não devem aparecer obrigatoriamente em todos os personagens ao mesmo tempo. Devem ser distribuídos de maneira natural pelo conjunto.
+
+Proibido:
+- caricaturar peso, doença, idade, deficiência, cansaço ou aparência física;
+- usar o mesmo rosto ou corpo como base evidente para vários personagens da mesma prancha;
+- transformar personagens fortes em fisiculturistas por padrão;
+- tratar personagens magros como necessariamente frágeis;
+- tratar personagens gordos como necessariamente lentos, fracos ou cômicos;
+- limitar mulheres a funções de suporte;
+- limitar homens a funções de combate.
+
+
+5. RESTRIÇÕES ABSOLUTAS
+
+- Não representar onças.
+- Não representar jaguares.
+- Não usar silhuetas, peles, brasões, ornamentos ou imagens decorativas de onças ou jaguares.
+- Não incluir animais felinos que possam ser confundidos visualmente com onças ou jaguares, salvo pedido explícito por outro felino específico.
+- Não usar elementos modernos.
+- Não usar cor.
+- Não usar fundo sépia ou amarelado.
+
+
+6. FORMATO A — PAISAGEM HORIZONTAL
+
+Uso:
+- transição entre trechos;
+- abertura de capítulo;
+- passagem atmosférica;
+- cena ampla de viagem ou exploração.
+
+Composição obrigatória:
+- orientação horizontal;
+- proporção padrão entre 2:1 e 3:1 quando nenhuma proporção específica for solicitada;
+- fluxo visual principal da direita para a esquerda;
+- a ação, direção dos personagens, linhas do terreno ou sequência de planos deve conduzir o olhar da direita para a esquerda;
+- manter todos os elementos narrativos importantes dentro de uma margem interna de segurança;
+- usar silhuetas fortes e leitura clara mesmo quando a imagem for reduzida;
+- distribuir detalhes ao longo da largura, evitando concentrar todo o interesse visual no centro.
+
+Texto dentro da imagem:
+- proibido, salvo pedido explícito.
+
+
+7. FORMATO B — PÁGINA INTEIRA
+
+Uso:
+- capa interna;
+- abertura de capítulo importante;
+- criatura;
+- Relíquia;
+- cena de Relato;
+- descoberta;
+- desastre;
+- encontro com o Desconhecido;
+- retorno da expedição.
+
+Composição obrigatória:
+- orientação vertical, salvo pedido explícito por página horizontal;
+- se a proporção da página não for informada, usar 2:3;
+- imagem concebida para preencher toda a página;
+- composição com um foco visual principal claro;
+- manter rostos, mãos, armas, Relíquias e outros elementos narrativos essenciais afastados das áreas de corte;
+- permitir sangria nas bordas com elementos não essenciais;
+- não depender de corte agressivo para funcionar.
+
+Texto dentro da imagem:
+- proibido, salvo pedido explícito.
+
+
+8. FORMATO C — PRANCHA DE CARDS
+
+Uso:
+- Ocupações;
+- Aptidões;
+- armas;
+- equipamentos;
+- Provações;
+- criaturas;
+- perigos;
+- Relíquias;
+- Postos;
+- personagens;
+- elementos ambientais.
+
+Grid:
+- usar exatamente o grid solicitado.
+- se nenhum grid for solicitado, usar 3 colunas por 4 linhas.
+- cada célula deve ter proporção de carta de baralho padrão: 5:7, em orientação vertical.
+- todas as células devem ter exatamente a mesma largura, altura e proporção.
+- todas as divisões devem ser retas e alinhadas.
+- usar separadores brancos uniformes entre as células para facilitar o corte.
+- a proporção geral da prancha deve resultar diretamente do número de colunas e linhas, preservando a proporção 5:7 de cada card.
+- só usar card horizontal em proporção 7:5 quando o pedido solicitar explicitamente orientação horizontal.
+
+Cada célula deve funcionar como uma imagem independente.
+
+Obrigatório em cada card:
+- composição completa dentro da própria célula;
+- margem interna consistente;
+- personagem, objeto ou criatura principal completamente contido na célula;
+- fundo próprio;
+- contraste próprio;
+- nenhum elemento necessário para compreender o card pode depender da célula vizinha.
+
+Proibido:
+- personagens atravessando divisões;
+- armas atravessando divisões;
+- braços, pernas, chapéus, ferramentas, caudas ou ornamentos atravessando divisões;
+- cenário contínuo atravessando mais de um card;
+- elementos decorativos compartilhados entre células;
+- composição panorâmica dividida artificialmente em vários cards.
+
+Texto:
+- não inserir nomes, títulos, números ou legendas nos cards, salvo pedido explícito.
+- quando o pedido exigir texto, cada texto deve permanecer inteiramente dentro da célula correspondente.
+
+Diversidade em pranchas com pessoas:
+- distribuir gêneros, idades aparentes e tipos corporais pelo grid;
+- evitar duas células adjacentes com personagens visualmente quase idênticos;
+- variar pose, postura, equipamento e condição de desgaste;
+- não repetir o mesmo arquétipo corporal como padrão da prancha.
+
+
+9. RESOLUÇÃO E ARQUIVOS FINAIS
+
+A arte usada no produto final deve ser vetorial.
+
+Fluxo obrigatório:
+- a geração inicial pode ser raster;
+- a imagem raster inicial é apenas material intermediário;
+- a arte aprovada deve ser vetorizada antes de ser considerada arquivo final de produção;
+- o arquivo mestre final deve ser SVG.
+
+SVG:
+- deve manter linhas e formas nítidas em qualquer escala;
+- deve usar apenas preto, branco e cinzas neutros;
+- não deve incorporar fundos coloridos;
+- deve preservar as divisões de grid quando for uma prancha de cards;
+- deve permanecer adequado para impressão e exibição em telas de alta resolução, inclusive 4K, sem perda de nitidez causada por escala;
+- deve usar formas vetoriais limpas e simplificadas;
+- deve evitar excesso de nós, polígonos, microformas e fragmentos gerados por vetorização automática;
+- hachuras muito densas devem ser simplificadas em padrões maiores e legíveis quando a vetorização produzir ruído;
+- detalhes pequenos que não alteram a leitura da imagem devem ser removidos em vez de convertidos em centenas de formas;
+- contornos principais, silhuetas, rostos, mãos, armas e objetos narrativos têm prioridade sobre microtexturas;
+- o arquivo final deve permanecer leve, editável e organizado em grupos lógicos;
+- formas repetidas ou visualmente equivalentes devem ser consolidadas quando isso não alterar a aparência;
+- não usar traçado automático bruto como arquivo final sem uma etapa de limpeza e simplificação.
+
+Texto em SVG:
+- texto nunca deve ser convertido junto com a ilustração por traçado automático;
+- títulos, nomes e legendas devem ser reconstruídos como texto vetorial real ou como curvas tipográficas limpas e independentes;
+- letras devem permanecer separadas da arte e facilmente legíveis em ampliação ou redução;
+- não permitir que hachuras, ornamentos ou contornos invadam a área reservada ao texto;
+- em pranchas, todos os nomes devem seguir o mesmo alinhamento, tamanho relativo e margem interna;
+- se uma fonte precisar ser convertida em curvas para produção, converter apenas o texto final já revisado, usando um caminho limpo por glifo, nunca uma vetorização raster do texto.
+
+
+10. LEGIBILIDADE PARA IMPRESSÃO E TELA
+
+Toda imagem deve funcionar em:
+- livro físico;
+- PDF digital;
+- telas grandes;
+- página web em formato de livro corrido.
+
+Obrigatório:
+- contornos principais claros;
+- separação visual entre personagem e fundo;
+- hachuras que não se transformem em manchas ilegíveis quando reduzidas;
+- detalhes finos suficientes para impressão, sem depender deles para compreender a cena;
+- contraste que sobreviva à impressão monocromática comum;
+- áreas brancas suficientes para a imagem respirar sobre uma página branca.
+
+
+11. CONSISTÊNCIA ENTRE IMAGENS
+
+Todas as imagens do projeto devem parecer parte da mesma publicação.
+
+Manter constantes:
+- linguagem de hachuras;
+- contraste;
+- acabamento de linha;
+- tratamento da vegetação;
+- tratamento de roupas e tecidos;
+- tratamento de metal, madeira, couro e pedra;
+- aparência geral dos Postos e expedições;
+- escala visual do Desconhecido;
+- ausência de cor;
+- fundo branco.
+
+Variar entre imagens:
+- pessoas;
+- poses;
+- idade aparente;
+- gênero;
+- corpo;
+- enquadramento;
+- clima;
+- grau de desgaste;
+- densidade da vegetação;
+- situação narrativa.
+
+
+12. ORDEM DE PRIORIDADE AO CRIAR UMA IMAGEM
+
+Ao criar qualquer imagem, seguir esta ordem:
+
+- primeiro: respeitar as Restrições Absolutas;
+- segundo: respeitar o formato solicitado — Paisagem Horizontal, Página Inteira ou Prancha de Cards;
+- terceiro: respeitar a paleta e o estilo visual;
+- quarto: representar corretamente o cenário e o período de referência;
+- quinto: aplicar diversidade e desgaste coerentes às pessoas;
+- sexto: garantir legibilidade para impressão e tela;
+- sétimo: preparar a composição para vetorização e produção final em SVG.
+
+Se duas instruções deste guia parecerem entrar em conflito, seguir a instrução que estiver mais acima nesta ordem de prioridade.
+
+14. TEXTO VETORIAL EM SVG
+
+Regras obrigatórias:
+- textos devem permanecer como elementos vetoriais independentes da ilustração;
+- caixas associadas a texto devem ter fundo totalmente transparente;
+- caixas associadas a texto não devem possuir borda;
+- usar `fill="none"` e `stroke="none"` em qualquer retângulo ou contêiner usado apenas para posicionar texto;
+- é proibido usar retângulo branco, knockout, máscara opaca ou placa sólida atrás do texto;
+- títulos e legendas devem ficar visualmente integrados à composição sem criar uma caixa branca artificial;
+- o fundo geral da arte pode continuar branco quando o formato exigir, mas isso não deve ser obtido por uma caixa individual atrás de cada texto.
+
+SEPARAÇÃO OBRIGATÓRIA ENTRE ARTE E TEXTO VETORIAL
+
+- A arte vetorizada não pode conter letras, palavras, números ou fragmentos de tipografia herdados da imagem raster gerada.
+- Antes da vetorização final, qualquer texto existente na imagem intermediária deve ser removido da própria arte.
+- Títulos, nomes, legendas e demais textos devem existir somente na camada tipográfica SVG.
+- É proibido colocar texto SVG real por cima de letras vetorizadas da ilustração.
+- A camada de texto deve permanecer independente, editável e sem retângulo de fundo.
+- Caixas associadas a texto usam fill="none" e stroke="none".
+- A área atrás do texto deve permanecer transparente em relação à composição; não criar placas brancas, knockouts ou contornos para esconder texto antigo.
+

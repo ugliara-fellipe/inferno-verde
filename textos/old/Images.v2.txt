@@ -1,0 +1,146 @@
+Perfeito. Vou tratar toda a arte do livro a partir de agora como pertencente a **três formatos fixos**, para manter consistência entre livro físico, PDF digital e página web em formato de livro corrido.
+
+### 1. Paisagens horizontais
+
+São imagens largas que atravessam visualmente a página **da direita para a esquerda**, funcionando como cenas de transição, abertura de capítulo ou interrupção atmosférica do texto.
+
+Vou pensá-las para:
+
+* composição horizontal bem ampla;
+* elementos importantes distribuídos pela largura;
+* leitura visual preferencialmente **da direita para a esquerda**, como você definiu;
+* possibilidade de aparecer em uma página inteira horizontalmente ou atravessar uma área equivalente à largura do texto no site;
+* evitar detalhes essenciais muito próximos das bordas;
+* resolução suficiente para impressão;
+* funcionar também em monitores grandes sem parecer pequena ou desfocada.
+
+Exemplos: expedição atravessando um rio, fila de exploradores entrando na mata, Posto Avançado visto à distância, ruínas surgindo entre árvores, grupo avançando sob chuva.
+
+### 2. Ilustrações de página inteira
+
+São as imagens mais importantes e cinematográficas.
+
+Devem ser compostas desde o início para **ocupar uma página inteira**, sem depender de cortes agressivos. O enquadramento deve considerar margens de segurança para impressão, mas a arte pode chegar até as bordas.
+
+Servirão especialmente para:
+
+* abertura do livro;
+* abertura de grandes capítulos;
+* cenas marcantes dos Relatos;
+* criaturas importantes;
+* encontros com o Desconhecido;
+* Relíquias;
+* momentos de descoberta, desastre ou retorno.
+
+Aqui podemos usar composições verticais, geralmente com uma cena dominante e bastante profundidade.
+
+### 3. Pranchas de Cards
+
+Esse será um sistema separado.
+
+Geraremos uma **imagem maior contendo vários cards organizados em um grid perfeitamente regular**. Depois essa imagem poderá ser cortada pelas divisões do grid, e cada célula deverá funcionar como uma ilustração independente.
+
+O importante é que **nenhum elemento de um card atravesse para outro**.
+
+Por exemplo, uma prancha `3 × 3` gera:
+
+`9 cards independentes`
+
+Uma `4 × 3`:
+
+`12 cards independentes`
+
+Cada célula terá:
+
+* mesmo tamanho;
+* mesma proporção;
+* margem visual interna;
+* ilustração completa dentro da célula;
+* nenhum texto, a menos que decidamos especificamente criar cards tipográficos;
+* fundo e composição próprios;
+* bordas do grid suficientemente claras para permitir corte preciso.
+
+Essas pranchas poderão reunir categorias como **Ocupações, Aptidões, armas, equipamentos, Provações, criaturas, perigos, Relíquias, Postos, personagens e elementos ambientais**.
+
+Também vou seguir uma regra importante para o conjunto: **a arte será pensada como uma única coleção**, e não como imagens isoladas. Personagens, vegetação, arquitetura, roupas, armas, iluminação, criaturas e o Desconhecido precisam parecer pertencentes à mesma terra fictícia inspirada nas expedições e nas Américas dos séculos XV–XVI.
+
+Para organizar a produção, eu sugiro que construamos primeiro um **guia visual mestre** — aparência dos exploradores, povos, vegetação, arquitetura, materiais, iluminação, cores, grau de realismo e representação do Desconhecido — e depois usemos esse guia nas três categorias de imagem. Isso vai evitar que o livro pareça uma coleção de artes de estilos diferentes.
+
+
+Perfeito. Então a direção visual oficial fica:
+
+* **Preto, branco e tons de cinza apenas**
+* Fundo pensado para **página branca**
+* Contraste alto o bastante para impressão, sem depender de cinzas muito sutis
+* Aparência de **gravura, xilogravura, água-forte e ilustração editorial histórica**, mas com acabamento limpo
+* Sombras construídas por hachuras, manchas e densidade de traço, não por cores
+* Composição legível tanto em papel quanto em telas grandes
+* Sem fundos amarelados, sépia ou pergaminho colorido
+* Sem elementos modernos
+
+Para os três formatos:
+
+**Paisagens horizontais**
+
+* proporção bem larga
+* leitura visual da direita para a esquerda
+* silhuetas fortes
+* áreas de respiro para integrar com texto
+* detalhe suficiente para impressão grande
+
+**Página inteira**
+
+* composição vertical
+* maior riqueza de detalhe
+* contraste forte
+* elementos importantes afastados das áreas de corte
+* adequada para sangria
+
+**Pranchas de cards**
+
+* grid perfeitamente regular
+* cada célula completamente independente
+* nenhum personagem, arma ou ornamento atravessando divisões
+* margens internas consistentes
+* fundos claros ou brancos para facilitar o recorte
+
+Há apenas uma limitação técnica importante: **a geração de imagem produz originalmente uma imagem raster**, não um vetor SVG nativo. Para atender ao que você quer, o fluxo ideal é gerar a arte já com estética própria para vetorização — formas bem definidas, hachuras limpas, fundo branco e poucos níveis de cinza — e depois **vetorizar e entregar as versões finais em SVG**, além de PNG de alta resolução para uso imediato.
+
+Isso também é melhor para o livro: podemos manter um **SVG mestre escalável** e derivar dele PNGs específicos para PDF e web sem perder qualidade.
+
+Eu usaria como identidade principal algo próximo de **gravura naturalista do século XVI reinterpretada como ilustração sombria moderna**, com bastante preto sólido, hachuras e branco negativo. Isso combina muito bem com o cenário e com a impressão monocromática.
+
+### 4. Pessoas e diversidade visual
+
+As pessoas retratadas não devem parecer uniformemente saudáveis, atléticas ou heroicas.
+
+O elenco visual deve mostrar diversidade real de aparência e condição corporal:
+
+* homens e mulheres;
+* pessoas magras, gordas, franzinas, fortes, baixas, altas e de constituições variadas;
+* diferenças de idade aparente;
+* rostos, cabelos, narizes, mandíbulas, posturas e proporções corporais variadas;
+* assimetrias naturais e marcas individuais;
+* nenhuma ocupação deve ser associada a um único tipo físico.
+
+Exploradores devem frequentemente demonstrar o desgaste da expedição:
+
+* cansaço e olheiras;
+* suor e sujeira;
+* roupas gastas, remendadas ou molhadas;
+* cicatrizes e ferimentos;
+* sinais de doença, febre ou fome quando apropriado;
+* tensão, medo, exaustão ou postura cansada;
+* equipamento usado e pouco polido.
+
+Personagens fortes não precisam parecer fisiculturistas; personagens magros não devem parecer necessariamente frágeis; pessoas gordas podem ser resistentes, fortes ou experientes; pessoas franzinas podem exercer qualquer Ocupação. A variedade física deve parecer natural e distribuída pelo conjunto de imagens.
+
+Evitar repetir o mesmo rosto, corpo ou arquétipo heroico entre cards diferentes.
+
+Nas pranchas de Ocupações, distribuir deliberadamente essa diversidade entre os cards para que o conjunto pareça formado por pessoas diferentes reunidas numa expedição, e não por variações do mesmo personagem.
+
+### 5. Restrições recorrentes
+
+* Não representar onças ou jaguares em nenhuma imagem do projeto.
+* Não usar estética de herói idealizado ou elenco excessivamente limpo e saudável.
+* Não transformar diferenças corporais, doença, idade ou desgaste em caricatura.

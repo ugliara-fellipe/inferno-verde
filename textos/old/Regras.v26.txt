@@ -1,0 +1,2199 @@
+O INFERNO VERDE — REGRAS ESSENCIAIS
+Versão revisada, reorganizada, balanceada e simplificada para jogo — v25
+
+SUMÁRIO
+
+Introdução ao Jogo
+
+- Regras de Ação
+- Termos de Jogo
+- Presença e Bagagem
+- Desgaste e Descanso
+- Ocupações
+- Equipamento e Integridade
+- Combate
+- Aptidões
+- Criando o Explorador
+- Postos e Escambo
+- Perigos da Jornada
+- Criaturas e Ameaças
+- Evolução
+- O Desconhecido
+- Relíquias
+- Guia do Mestre
+- Referência Rápida
+
+
+INTRODUÇÃO AO JOGO
+
+O Inferno Verde é um RPG de exploração e sobrevivência. A partida acontece como uma conversa entre o Mestre e os jogadores.
+
+O Mestre descreve o mundo, interpreta as pessoas e ameaças encontradas e mostra as consequências das escolhas do grupo.
+
+Cada jogador controla um explorador e decide o que ele diz, faz, carrega, abandona e arrisca. Não é necessário atuar ou falar sempre em primeira pessoa; basta deixar clara a intenção do personagem.
+
+O jogo segue um fluxo simples:
+- o Mestre descreve a situação;
+- os jogadores dizem o que seus personagens fazem;
+- se o resultado for evidente, ele acontece;
+- se o resultado for incerto e importante, faça uma Ação Incerta;
+- o resultado muda a situação e a conversa continua.
+
+Exemplo Rápido de Jogo
+
+Mestre: “A chuva fez o rio subir. A ponte improvisada está quase cedendo.”
+
+Jogador: “Vou atravessar usando a corda para me prender às árvores.”
+
+Mestre: “A corda ajuda, mas a correnteza ainda torna a travessia arriscada. Faça uma Ação Incerta.”
+
+O jogador rola o dado. Se conseguir sucesso, atravessa. Se falhar, o Mestre descreve uma consequência coerente, como perder parte do equipamento, ficar preso ou ser arrastado para uma posição pior. Depois disso, os jogadores decidem o que fazer diante da nova situação.
+
+Esse é o jogo: o Mestre apresenta uma situação, os jogadores escolhem como agir e as regras entram quando o resultado realmente está em dúvida.
+
+Não role dados para ações simples sem risco relevante. Os dados existem para resolver dúvida quando alguma consequência importa.
+
+O Mestre não é adversário dos jogadores. Seu papel é apresentar um mundo perigoso e coerente. Os jogadores escolhem como enfrentá-lo e quanto estão dispostos a arriscar para continuar a expedição.
+
+1. REGRAS DE AÇÃO
+
+Toda Ação Incerta usa um dado de seis lados (d6).
+
+Resultado Normal:
+- 4, 5 ou 6: sucesso.
+- 1, 2 ou 3: falha.
+
+Situação Favorável:
+- Role 2d6.
+- Basta um dos dados ter sucesso.
+- A ação só falha se os dois dados falharem.
+
+Situação Desfavorável:
+- Role 2d6.
+- Os dois dados precisam ter sucesso.
+- Se um deles falhar, a ação falha.
+
+Probabilidades:
+- Normal: 50% de sucesso.
+- Favorável: 75% de sucesso.
+- Desfavorável: 25% de sucesso.
+
+Favorável e Desfavorável não acrescentam dados além de 2d6.
+- Uma condição Favorável e uma Desfavorável se anulam.
+- Depois de considerar as condições relevantes, se restar uma vantagem concreta, a ação é Favorável.
+- Se restarem duas ou mais vantagens concretas e independentes, a ação é Favorável e recebe Preparo.
+- Se restar uma desvantagem concreta, a ação é Desfavorável. Várias desvantagens não tornam o teste pior que Desfavorável.
+- O Mestre considera apenas fatores realmente diferentes. Duas descrições da mesma vantagem não contam duas vezes.
+
+Preparo
+Preparo representa uma vantagem adicional além do necessário para tornar a ação Favorável.
+- A rolagem continua sendo 2d6 Favorável.
+- Se falhar, a ação falha, mas o personagem evita uma consequência secundária ligada à exposição ou complexidade da tentativa.
+- Se não houver consequência secundária, o Preparo pode gerar progresso limitado sem concluir o objetivo, quando isso fizer sentido.
+- Em combate, se um ataque com Preparo falhar e não houver consequência secundária para evitar, o personagem pode manter cobertura, preservar uma posição vantajosa ou fazer um reposicionamento curto quando a ficção permitir. Isso nunca atinge o alvo, causa Dano, reduz Integridade ou aplica uma condição.
+- Preparo nunca transforma falha em sucesso nem cancela a consequência principal anunciada.
+- Vantagens além das necessárias para obter Preparo não concedem benefício extra.
+
+Falha Grave:
+- Algumas regras citam uma Falha Grave.
+- Em uma Ação Incerta Normal, uma Falha Grave acontece apenas quando o d6 mostra 1.
+- Em uma Ação Incerta Favorável, uma Falha Grave acontece apenas quando os dois dados mostram 1.
+- Em uma Ação Incerta Desfavorável, uma Falha Grave acontece quando os dois dados falham e pelo menos um deles mostra 1.
+- Isso corresponde a aproximadamente 16,7% em um teste Normal, 2,8% em um teste Favorável e 13,9% em um teste Desfavorável.
+- Uma Falha Grave só produz uma consequência adicional quando uma regra, perigo ou situação disser que ela importa.
+- Preparo não impede uma consequência específica de Falha Grave quando uma regra disser que ela ocorre.
+
+O Mestre só pede uma Ação Incerta quando existe dúvida relevante e alguma consequência para falhar.
+
+Ajuda
+- Um aliado pode ajudar quando participa de forma concreta e plausível da ação.
+- Fora de combate, ajudar exige tempo suficiente para participar da tarefa. Em combate, ajudar normalmente consome a ação do aliado.
+- A ajuda conta como uma condição Favorável independente. Se a ação já for Favorável por outro motivo, ela pode contribuir para Preparo.
+- Apenas um aliado concede esse benefício; ajuda adicional não acrescenta novas vantagens mecânicas.
+- Se a ajuda expuser o aliado ao mesmo perigo, ele também pode sofrer uma consequência coerente em uma Falha Grave.
+- Ajuda nunca substitui um recurso fisicamente indispensável, mas pode permitir uma tentativa que seria impossível sozinho quando a cooperação resolve essa limitação.
+
+Ações do Grupo
+- Quando uma única ação decide um resultado compartilhado para o grupo, como orientar a mesma marcha, procurar a mesma passagem ou fugir pela mesma rota, apenas um personagem faz a Ação Incerta. Escolha quem está mais exposto, melhor posicionado ou conduzindo o plano; um aliado pode usar Ajuda normalmente.
+- Quando a consequência é individual, como resistir a veneno, medo, doença ou queda que afeta cada pessoa separadamente, cada personagem afetado faz sua própria Ação Incerta.
+- Personagens podem fazer rolagens separadas quando estiverem realmente executando tarefas independentes, em lugares, momentos ou abordagens diferentes.
+- Trocar apenas quem segura os dados não cria uma nova tentativa nem permite que o grupo repita a mesma ação até alguém obter sucesso.
+
+Repetir uma Tentativa
+- Depois de falhar em uma Ação Incerta, o personagem ou o grupo não rola novamente exatamente a mesma ação nas mesmas condições.
+- Trocar apenas o personagem que faz a rolagem não conta como mudança concreta.
+- Uma nova tentativa exige mudança real: outra abordagem, Ajuda, ferramenta, gasto de recurso, nova informação, passagem de tempo ou aceitação de um risco maior.
+- Quando o personagem estiver preso em perigo imediato e precisar tentar novamente para escapar, a repetição é permitida, mas cada nova tentativa deve trazer um custo ou agravamento claro.
+- Uma única falha nunca deve tornar uma ação necessária permanentemente impossível sem que exista outra opção de recuo, ajuda, pagamento de custo ou mudança de abordagem.
+
+2. TERMOS DE JOGO
+
+Estes termos aparecem ao longo das regras:
+
+Presença — quanto desgaste físico e mental o explorador suporta. Dano reduz Presença; Presença 0 significa morte definitiva.
+
+Bagagem — limite de espaços que o explorador suporta. Pertences e Provações ocupam Bagagem.
+
+Espaço — unidade usada para medir quanto algo ocupa na Bagagem.
+
+Pertence — qualquer item carregado: arma, proteção, ferramenta, munição, suprimento ou objeto especial.
+
+Provação — condição de desgaste, como fome, sede, doença, ferimento, trauma ou efeito do Desconhecido. Também ocupa Bagagem.
+
+Ocupação — experiência profissional anterior à expedição. Define áreas de competência e acesso a grupos de Aptidões.
+
+Aptidão — técnica, treinamento ou recurso especial que amplia o que o explorador consegue fazer.
+
+Especialidade — conhecimento específico e mais estreito que uma Ocupação, adquirido durante as jornadas.
+
+Integridade — resistência de armas, proteções e ferramentas. Integridade 0 deixa o item Quebrado.
+
+Dano — perda de Presença causada por ataques, acidentes ou perigos quando a regra usa explicitamente a palavra Dano. Escudo, Armadura e outras proteções só reduzem Dano quando sua descrição permitir.
+
+Perda de Presença — redução direta de Presença que não é chamada de Dano. Ignora Escudo e Armadura, salvo regra específica.
+
+Gasto de Presença — custo voluntário pago para usar uma Aptidão ou efeito. Não é Dano nem Perda de Presença e nunca pode reduzir voluntariamente o personagem a 0.
+
+Cena — situação contínua com um objetivo ou problema imediato; termina quando a situação muda de forma significativa.
+
+Rodada — ciclo de ações usado quando a ordem importa, principalmente em combate.
+
+Turno — momento em que um participante age dentro de uma rodada.
+
+Expedição — jornada que começa ao deixar um lugar seguro com um objetivo e termina ao retornar à segurança, concluir ou abandonar esse objetivo.
+
+Posto Avançado — lugar seguro o bastante para descansar, tratar, reparar, reorganizar carga e fazer escambo.
+
+Sequela — consequência duradoura de ferimento, doença, trauma ou sofrimento intenso.
+
+Desconhecido — fenômenos, criaturas e objetos que escapam à compreensão comum e permanecem raros ou ambíguos.
+
+Provação do Desconhecido — Provação ligada a um encontro inexplicável e removida por regras próprias.
+
+Cicatriz — forma de encerrar a última parte de uma Provação do Desconhecido preservando uma consequência narrativa permanente.
+
+Relíquia — objeto ligado ao Desconhecido; pode produzir efeitos incomuns, sempre com risco, custo ou incerteza.
+
+Marca de Expedição — registro de experiências importantes usado na Evolução.
+
+3. PRESENÇA E BAGAGEM
+
+Presença
+
+Presença é a saúde total do personagem, física e mental.
+
+- Dano reduz Presença e pode ser reduzido por proteção quando a regra permitir.
+- Perda de Presença reduz Presença diretamente e não é reduzida por proteção, salvo indicação específica.
+- Algumas Aptidões exigem Gasto de Presença, um custo voluntário que também não é Dano.
+- Presença nunca pode ultrapassar o valor máximo definido na criação.
+- Presença 0 significa morte definitiva.
+- Um personagem não pode pagar voluntariamente um custo de Presença que o levaria a 0.
+
+Morte e Continuidade do Jogador
+
+Presença 0 continua significando morte definitiva do personagem. A morte do personagem, porém, nunca remove o jogador da partida.
+
+Quando um personagem morre:
+- o jogador pode assumir temporariamente um aliado, carregador, guia, prisioneiro libertado, sobrevivente ou outro personagem secundário já presente, com concordância do Mestre;
+- se não existir ninguém plausível na cena, o jogador cria um novo explorador usando o capítulo 9 e, em campanha veterana, aplica também a regra de Novos Exploradores do capítulo 13; ele entra assim que surgir uma oportunidade ficcional razoável;
+- em um Posto Avançado, a entrada do novo explorador pode ser imediata;
+- no interior da mata, a introdução pode ocorrer por encontro com sobreviventes, outra expedição, resgate, povoado, missão ou qualquer situação coerente.
+
+O Mestre deve priorizar o retorno do jogador à ação. Não é necessário esperar o fim da sessão apenas para preservar uma introdução perfeita.
+
+Pertences recuperados do personagem morto pertencem à ficção: o grupo só pode usá-los se conseguir realmente recuperar o corpo ou a carga.
+
+Bagagem
+
+Bagagem é o limite de espaços ocupados por:
+- Pertences: armas, proteções, ferramentas, munição e suprimentos;
+- Provações: fome, sede, doenças, ferimentos, traumas e efeitos do Desconhecido.
+
+Algumas Aptidões criam espaços especiais apenas para Pertences. Esses espaços não aumentam a resistência contra Provações e não alteram a Bagagem original do personagem.
+
+Excesso de Bagagem
+
+Quando os espaços ocupados ultrapassam o limite de Bagagem:
+- O jogador pode imediatamente abandonar, entregar ou redistribuir Pertences até voltar ao limite.
+- Se continuar acima do limite, deve fazer uma Ação Incerta para resistir ao excesso.
+- Se estiver 1 espaço acima do limite, o teste é normal.
+- Se estiver 2 ou mais espaços acima do limite, o teste é Desfavorável.
+
+Sucesso:
+- O personagem permanece consciente.
+- Enquanto continuar acima do limite, ações que exijam esforço, movimento rápido, combate corporal, escalada ou fuga são desfavoráveis.
+- Um novo espaço adquirido enquanto já estiver acima do limite exige uma nova resistência.
+
+Falha:
+- O personagem entra em Colapso.
+
+Colapso
+
+Em Colapso, o personagem cai ou não consegue continuar agindo normalmente. Não pode atacar, correr ou realizar Ações Incertas, mas pode falar, largar Pertences e receber ajuda.
+
+Se a ocupação de Bagagem voltar ao limite ou abaixo dele, sai do Colapso após alguns minutos de segurança; em combate, volta a agir no próximo turno.
+
+Se o excesso vier de Provações que não podem ser largadas, o Colapso ainda pode ser estabilizado:
+- fora de perigo, alguns minutos de repouso e auxílio bastam;
+- em perigo imediato, um aliado pode gastar sua ação para estabilizar;
+- sozinho, o personagem pode sofrer Perda de 1 Presença para levantar no próximo turno, desde que isso não o leve a 0;
+- se não puder pagar, levanta na próxima oportunidade de agir, caso ainda esteja vivo, e o Mestre aplica um custo coerente de tempo ou posição. Esse custo nunca o mantém em Colapso indefinidamente.
+
+Se for estabilizado ainda acima da Bagagem, fica Debilitado pelo Excesso:
+- volta a agir, mas todas as Ações Incertas são desfavoráveis;
+- não pode realizar marcha forçada;
+- se adquirir outro espaço de Provação, sofre Perda de 1 Presença e entra em novo Colapso.
+
+Debilitado pelo Excesso termina quando a ocupação volta ao limite ou abaixo dele. Colapso não causa Dano automaticamente, salvo regra específica ou o gasto voluntário de Presença para levantar.
+
+4. DESGASTE E DESCANSO
+
+Provações
+
+Provações ocupam espaços de Bagagem e representam desgaste físico ou mental.
+
+Uma mesma Provação não se acumula além do número de espaços indicado em sua descrição. Se o personagem sofrer novamente a mesma fonte enquanto já possui aquela Provação, o Mestre pode causar 1 Dano ou outra consequência coerente, no máximo uma vez por cena, em vez de duplicar indefinidamente a Provação.
+
+Efeitos iguais de Provações diferentes não se multiplicam:
+- duas ou mais Provações que tornariam a mesma ação Desfavorável continuam resultando apenas em situação Desfavorável;
+- duas ou mais Provações que impedem recuperação continuam apenas impedindo a recuperação, sem causar perda adicional automática;
+- quando efeitos diferentes forem relevantes, todos podem existir narrativamente, mas a rolagem continua limitada às regras normais de Favorável e Desfavorável.
+
+Toda Provação comum deve possuir pelo menos uma saída acessível a qualquer composição de grupo: tratamento improvisado, recurso encontrado, tempo, retorno à segurança ou outra ação plausível. Especialistas tornam a saída melhor ou mais rápida; não são requisito absoluto para continuar jogando.
+
+Quando uma Provação tornar uma ação Desfavorável, isso só acontece quando seu efeito for realmente relevante para aquela ação.
+
+Natureza das Provações
+Algumas Aptidões interagem com a natureza de uma Provação. Uma Provação pode ter mais de uma natureza; se possuir qualquer natureza exigida por um efeito, ela é válida para esse efeito.
+- Física: ferimentos, alterações corporais ou limitações diretamente ligadas ao corpo.
+- Biológica: fome, sede, doença, infecção, veneno, parasita ou deficiência do organismo.
+- Mental: medo, paranoia, memória, compulsão, delírio ou perturbação da percepção.
+- Do Desconhecido: toda Provação apresentada no capítulo 14; ela também pode ser Física, Biológica ou Mental quando sua descrição indicar.
+
+Sede Extrema — 1 espaço · Biológica
+- Surge por falta de água ou consumo de água imprópria.
+- Enquanto estiver ativa, o personagem não recupera Presença por descanso.
+- Remoção: consumir uma porção suficiente de água limpa e passar algum tempo em repouso seguro.
+
+Fome Debilitante — 1 espaço · Biológica
+- Surge por falta prolongada de alimento.
+- Ações de marcha forçada, escalada, natação, fuga e esforço físico prolongado tornam-se desfavoráveis.
+- Remoção: consumir uma porção completa de alimento e completar um Descanso de Campo ou Descanso Seguro.
+
+Febre das Selvas — 2 espaços · Biológica
+- Pode surgir após exposição a insetos, parasitas, água contaminada ou outras condições insalubres.
+- Provoca calafrios, fraqueza e delírios.
+- Ao final de cada dia completo longe de segurança, faça uma Ação Incerta Normal. Em falha, sofra Perda de 1 Presença.
+- Remoção: um tratamento bem-sucedido pelas regras de Tratamento e Estabilização reduz a Provação de 2 para 1 espaço. Um Descanso Seguro posterior remove o espaço restante.
+
+Ferimento Infeccionado — 1 espaço · Física e Biológica
+- Surge quando uma ferida se contamina.
+- Enquanto estiver ativo, o personagem não recupera Presença por descanso.
+- Remoção: um tratamento bem-sucedido pelas regras de Tratamento e Estabilização seguido de um Descanso de Campo ou Descanso Seguro.
+
+Paranoia da Selva — 1 espaço · Mental
+- Representa medo, isolamento e desconfiança.
+- Quando a situação exigir confiar em alguém, dormir sob guarda alheia ou distinguir ameaça real de suspeita, a ação pode se tornar Desfavorável.
+- Remoção: um Descanso Seguro em companhia confiável ou tratamento apropriado, como Palavra de Alento.
+
+Escorbuto — 2 espaços · Biológica
+- Surge depois de privação prolongada de alimentos frescos, quando isso for relevante para uma viagem longa.
+- Ações de esforço físico prolongado tornam-se desfavoráveis.
+- Remoção: alimentação adequada durante dois dias consecutivos de segurança reduz 1 espaço por dia.
+
+Delírio da Selva — 1 espaço · Mental e Biológica
+- Pode ser causado por toxinas, febre, exaustão ou vegetação perigosa.
+- Ações de orientação, investigação cuidadosa e tarefas delicadas de concentração tornam-se desfavoráveis.
+- Remoção: afastar-se da fonte e completar um Descanso de Campo; tratamento adequado pode tornar a recuperação imediata a critério do Mestre.
+
+Tratamento e Estabilização
+
+Nenhuma Provação comum exige uma Ocupação específica. Especialistas tratam melhor, mas qualquer personagem pode tentar quando houver um método plausível.
+
+Um tratamento comum leva alguns minutos e exige condições mínimas para trabalhar. Não pode ser feito como ação de combate, salvo Aptidão ou regra específica.
+
+Determine se o personagem possui:
+- conhecimento relevante: Ocupação, Especialidade ou Aptidão apropriada;
+- material adequado: Kit Médico, ervas, água limpa, abrigo, instrumentos ou outro recurso coerente.
+
+A dificuldade é:
+- sem conhecimento e sem material: Desfavorável;
+- com um dos dois: normal;
+- com ambos: Favorável.
+
+Conhecimento e material já estão incluídos nessa escala. Uma vantagem realmente diferente, como Ajuda especializada ou preparo excepcional, pode conceder Preparo.
+
+Em sucesso, remova 1 espaço quando a descrição da Provação permitir tratamento; se ela também exigir descanso, alimentação, água ou segurança, essa etapa continua necessária. Em falha, a Provação permanece e materiais consumíveis podem ser perdidos. Uma nova tentativa exige mudança concreta. Em Falha Grave, o Mestre pode consumir recurso adicional, causar Perda de 1 Presença ou criar complicação coerente, mas nunca tornar a condição permanentemente intratável.
+
+Se faltar um recurso fisicamente indispensável para o tratamento completo, ainda é possível estabilizar quando houver um método plausível. Use a mesma escala. Em sucesso, a Provação permanece e continua produzindo seus efeitos, mas a próxima ocorrência prevista de agravamento ou Perda de Presença causada por ela é ignorada. Depois disso, a estabilização termina. Um Descanso Seguro ou tratamento completo pode encerrar a condição antes, conforme a regra da própria Provação.
+
+Quando o tratamento de campo não for possível, recuar para um Posto Avançado ou outro lugar seguro continua sendo uma opção sempre que houver rota. A condição de remoção escrita em cada Provação tem prioridade sobre esta regra geral.
+
+Suprimentos Diários
+
+Para jornadas em que sobrevivência e distância importam:
+- cada personagem consome 1 porção de alimento por dia;
+- cada personagem consome 1 porção de água por dia;
+- calor extremo, marcha forçada ou condições excepcionais podem exigir mais água, mas o Mestre deve avisar antes que o custo seja aplicado.
+
+Se o grupo não tiver o recurso necessário ao final do dia, aplique Fome Debilitante ou Sede Extrema conforme a situação.
+
+A porção diária de alimento e a porção diária de água também satisfazem o requisito de alimento e água do Descanso de Campo ou Descanso Seguro daquele dia. Não cobre uma segunda porção apenas porque o personagem descansou.
+
+O Mestre pode ignorar essa contagem em cenas curtas ou quando os recursos não estiverem sob pressão.
+
+Forrageamento Comum
+Quando houver tempo e alimento plausível na região, o grupo pode dedicar parte significativa do dia a procurar comida. Isso é uma Ação do Grupo e normalmente permite uma tentativa por região ou etapa de viagem antes que algo mude.
+- Sucesso: encontre 2 porções de alimento.
+- Falha: não encontre porções úteis e perca tempo ou exponha o grupo a uma complicação coerente.
+- Ambiente abundante ou escasso pode tornar a tentativa Favorável ou Desfavorável.
+A Aptidão Banquete da Mata substitui este rendimento pela regra própria dela.
+
+Descanso de Campo
+
+Um Descanso de Campo exige aproximadamente uma noite ou pelo menos 6 horas em um local razoavelmente protegido.
+
+Se o personagem tiver água, alimento e condições mínimas para dormir:
+- recupera 1 Presença, no máximo uma vez por dia;
+- pode realizar tratamentos e reparos permitidos pelas regras;
+- Provações que impedem recuperação continuam impedindo esse ganho.
+
+Uma vigília completa normalmente impede que o personagem receba o benefício do descanso, salvo Aptidão ou situação que diga o contrário.
+
+Descanso Seguro
+
+Um Descanso Seguro normalmente acontece em um Posto Avançado ou outro local realmente protegido.
+
+- Recupera 2 Presença.
+- Permite tratamento de Provações conforme suas condições de remoção.
+- Permite reparos mais completos.
+- Ainda exige alimento, água e tempo suficiente.
+- Nunca recupera Presença acima do máximo.
+
+Limite de Recuperação por Descanso
+A recuperação total de Presença obtida por descansos é limitada a 2 por dia. Um Descanso de Campo recupera até 1; um Descanso Seguro recupera até 2. Se o personagem já recuperou 1 Presença com Descanso de Campo e depois alcança segurança no mesmo dia, o Descanso Seguro recupera apenas 1 adicional. Repetir descansos no mesmo dia não concede nova recuperação. Descansos extras ainda podem permitir tempo, tratamento ou reparo quando fizer sentido, mas não reiniciam efeitos limitados por dia.
+
+5. OCUPAÇÕES
+
+Regra de Experiência Profissional
+
+A Ocupação possui efeito mecânico mesmo quando o personagem não escolheu uma Aptidão relacionada. Quando a experiência profissional descrita pela Ocupação ajudar diretamente em uma Ação Incerta, o teste é Favorável.
+
+Exemplos:
+- Médico tratando ou diagnosticando;
+- Cartógrafo lendo relevo ou mapas;
+- Soldado usando armas e disciplina militar;
+- Herbolário identificando ou preparando plantas;
+- Almocárem organizando carga;
+- Batedor rastreando ou procurando emboscadas.
+
+A experiência profissional conta como uma condição Favorável própria. Se uma Especialidade, Aptidão, ferramenta ou Ajuda fornecer outra vantagem independente, a ação pode receber Preparo. Aptidões continuam importantes porque também permitem efeitos que experiência profissional sozinha não produz.
+
+Militares / Força
+
+Soldado de Infantaria
+- Combate a pé.
+- Usa armas de guerra e sabe manter pólvora, formação e disciplina.
+
+Conquistador de Terras
+- Especialista em combate corporal, sobrevivência e liderança pela força.
+
+Especialistas / Campo
+
+Batedor da Vanguarda
+- Avança à frente do grupo.
+- Rastreia, se esconde e identifica emboscadas.
+
+Guia Nativo Aliado / Intérprete
+- Conhece caminhos, alimentos locais, línguas e costumes.
+- Ajuda em negociação e sobrevivência.
+
+Mateiro / Abrite-Caminho
+- Abre trilhas, constrói passagens e transporta cargas pesadas.
+
+Herbolário da Expedição
+- Encontra plantas úteis.
+- Trata ferimentos, venenos e água contaminada.
+
+Almocárem / Condutor de Carga
+- Organiza peso, suprimentos e proteção da carga.
+
+Eruditos / Suporte
+
+Cartógrafo da Coroa
+- Orientação, leitura do terreno e produção de mapas.
+
+Médico de Bordo / Cirurgião-Barbeiro
+- Diagnóstico, estabilização e cirurgia de campo.
+
+Padre Jesuíta
+- Suporte psicológico e espiritual.
+
+Geógrafo de Campo
+- Analisa relevo, distâncias, abrigos e minerais.
+
+Cronista de Fronteira
+- Registra fauna, flora e povos.
+- Observa padrões e mantém a calma sob pressão.
+
+Ocupações de Fronteira e do Desconhecido
+
+Caçador de Relíquias
+- Especialista em localizar, transportar e avaliar objetos incomuns.
+- Não compreende verdadeiramente a magia, mas conhece histórias e padrões de risco.
+
+Penitente de Fronteira
+- Sobrevive por disciplina, fé e resistência ao sofrimento.
+- Frequentemente acompanha missões, peregrinos e expedições condenadas.
+
+Coveiro de Missão
+- Acostumado a cadáveres, doenças, fossas e locais contaminados.
+- Sabe reconhecer quando uma morte parece errada.
+
+Caçador de Feras
+- Rastreia grandes predadores e criaturas desconhecidas.
+- Especialista em armadilhas, iscas e leitura de ataques animais.
+
+Guarda de Relicário
+- Protege objetos religiosos, documentos e cargas consideradas sagradas ou perigosas.
+- Treinado para resistir a roubo, pânico e profanação.
+
+Naturalista Herege
+- Estuda criaturas, deformidades e fenômenos que contradizem conhecimentos aceitos.
+- Muitas vezes é tratado como charlatão ou blasfemo.
+
+Sobrevivente Marcado
+- Já esteve em contato com algo impossível e retornou vivo.
+- Conhece sinais que outros ignoram e pode carregar marcas narrativas do que viveu. A Ocupação não concede automaticamente uma Sequela na criação.
+
+Caçador de Bruxaria
+- Investiga acusações, rituais e fenômenos suspeitos.
+- Pode ser cético, fanático ou simplesmente experiente em fraudes e medo coletivo.
+
+Vigia Noturno
+- Especialista em guarda de acampamento, ruídos, rastros e invasões durante a noite.
+- Dorme pouco e observa muito.
+
+Recuperador de Mortos
+- Entra em áreas perigosas para recuperar corpos, documentos e Pertences de expedições perdidas.
+- Acostumado a ruínas, campos de batalha e lugares abandonados.
+
+6. EQUIPAMENTO E INTEGRIDADE
+
+Integridade
+
+Integridade mede o desgaste de armas, ferramentas e proteções. Com Integridade 0, o item fica Quebrado: não cumpre sua função e continua ocupando Bagagem até ser descartado ou reparado.
+
+Um item só perde Integridade quando sua regra disser isso, uma proteção absorver Dano, o ambiente atingir diretamente o item ou uma Falha Grave em uso extremo justificar desgaste. Não reduza Integridade em toda falha comum.
+
+Armaduras absorvem até o valor indicado, nunca mais do que sua Integridade restante, e perdem Integridade igual ao Dano absorvido. Escudos seguem sua própria regra.
+
+Disponibilidade
+- Pertences sem indicação de disponibilidade são Comuns.
+- Um Pertence Procurado é mais difícil de obter. Na criação, cada personagem pode começar com no máximo 1 Pertence Procurado, desde que seja coerente com sua Ocupação ou conceito.
+- Um Pertence Raro não é escolhido normalmente na criação; exige concordância do Mestre e justificativa clara na ficção.
+- A Disponibilidade indicada no perfil é a referência padrão para criação e acesso inicial, não um preço fixo.
+- Durante o jogo, a procura local pode alterar o valor de Escambo de qualquer Pertence, seguindo o capítulo 10.
+
+Armas e Ferramentas de Combate
+
+Facão de Mato / Terçado
+- Espaços: 1
+- Dano: 1
+- Integridade: 4
+- Vegetação comum pode ser aberta com tempo sem Ação Incerta. Quando vegetação densa, cipós ou espinhos exigirem uma Ação Incerta para abrir caminho, usar o Facão torna a ação Favorável.
+
+Espada Pesada de Toledo
+- Espaços: 1
+- Dano: 2
+- Integridade: 5
+- Confiável: ignora a primeira Falha Grave de cada combate que reduziria a Integridade da própria espada.
+
+Alabarda / Lança de Caça
+- Espaços: 2
+- Dano: 2
+- Integridade: 4
+- Alcance: pode atacar através de aliado adjacente, abertura estreita ou barreira baixa quando a posição permitir.
+
+Besta de Caça / Balestra
+- Espaços: 2
+- Dano: 3
+- Integridade: 4
+- Recarrega com uma ação; consome 1 virote por disparo.
+- Silenciosa: não revela automaticamente a posição para ameaças distantes.
+
+Arcabuz / Mosquete de Mecha
+- Espaços: 2
+- Dano: 4
+- Integridade: 3
+- Disponibilidade: Procurado
+- Recarrega com uma ação; consome 1 disparo de Munição de Fogo.
+- Barulhento: revela a presença da expedição a grande distância quando o ambiente permitir.
+- Chuva ou imersão podem impedir o disparo se arma ou munição não estiverem protegidas.
+
+Machado Curto de Lenhador
+- Espaços: 1
+- Dano: 2
+- Integridade: 4
+- Serve para abrir caminho; romper, derrubar ou cortar madeira resistente é Favorável.
+
+Pique de Caça
+- Espaços: 2
+- Dano: 2
+- Integridade: 4
+- Preparado contra criatura que avança diretamente, o primeiro ataque é Favorável; se acertar uma criatura grande, ela para o avanço ou aceita posição pior coerente.
+
+Pistola de Roda
+- Espaços: 1
+- Dano: 3
+- Integridade: 2
+- Disponibilidade: Raro
+- Recarrega com uma ação; consome 1 disparo de Munição de Fogo.
+- Se já estiver carregada, pode ser sacada e disparada na mesma ação.
+- Barulhenta: um disparo pode revelar a presença da expedição quando o ambiente permitir.
+- Chuva ou imersão podem impedir o disparo se arma ou munição não estiverem protegidas.
+
+Martelo de Guerra
+- Espaços: 1
+- Dano: 2
+- Integridade: 4
+- Uma vez por cena, ao acertar alvo com proteção rígida, reduz a Integridade dessa proteção em 1 adicional.
+
+Rede de Captura
+- Espaços: 1
+- Integridade: 2
+- Arremessar sobre alvo compatível exige Ação Incerta.
+- Em sucesso, o alvo fica Restrito: movimento é Desfavorável até escapar com uma ação e Ação Incerta bem-sucedida ou até a rede ser cortada.
+
+Proteções e Vestimentas
+
+Colete de Couro Endurecido
+- Espaços: 1
+- Integridade: 2
+- Absorve até 1 Dano por ataque e perde Integridade igual ao Dano absorvido.
+
+Armadura de Peito de Aço / Couraça
+- Espaços: 2
+- Integridade: 4
+- Disponibilidade: Procurado
+- Absorve até 2 Dano por ataque e perde Integridade igual ao Dano absorvido.
+
+Escudo de Madeira e Couro / Rodela
+- Espaços: 1
+- Integridade: 3
+- Uma vez por rodada, reduz em 1 o Dano de um ataque percebido e perde 1 Integridade.
+- Não bloqueia ataques que a ficção torne impossíveis de aparar.
+
+Casaco de Couro Encerado
+- Espaços: 1
+- Integridade: 3
+- Ignora a primeira consequência diária de chuva ou umidade contra um pequeno Pertence guardado sob ele.
+
+Elmo de Ferro
+- Espaços: 1
+- Integridade: 3
+- Contra queda, desabamento ou impacto direto na cabeça, pode reduzir o Dano em 1 e perder 1 Integridade.
+
+Manto Mosquiteiro
+- Espaços: 1
+- Integridade: 2
+- Ações Incertas para evitar Provações causadas por insetos durante um descanso são favoráveis.
+
+Munição e Consumíveis
+
+Bolsa de Pólvora e Chumbo / Munição de Fogo
+- Espaços: 1
+- Quantidade: 10 disparos
+- Representa pólvora e projéteis preparados. Cada tiro de Arcabuz, Mosquete ou Pistola consome 1 dos 10 disparos.
+
+Feixe de Virotes
+- Espaços: 1
+- Quantidade: 10 virotes
+
+Ração Seca
+- Espaços: 1
+- Quantidade: 3 porções
+
+Cabaça de Água
+- Espaços: 1
+- Quantidade: 2 porções
+- Pode ser reabastecida em fonte adequada.
+
+Ferramentas e Utilitários
+
+Cordas de Cânhamo e Ganchos
+- Espaços: 1
+- Integridade: 2
+
+Kit de Limpeza e Óleo Animal
+- Espaços: 1
+- Quantidade: 2 usos
+- Durante um descanso, cada uso restaura 1 Integridade de arma, proteção ou ferramenta apropriada, até o máximo.
+
+Kit Médico de Campo
+- Espaços: 1
+- Integridade: 3
+- Disponibilidade: Procurado
+- Necessário para Cirurgia de Campo e tratamentos que exijam instrumentos médicos.
+
+Lampião de Óleo
+- Espaços: 1
+- Integridade: 2
+- Um uso de óleo fornece luz ampla e controlável por uma longa cena ou algumas horas.
+- Pode ser colocado ou pendurado para iluminar uma área de trabalho e sua chama resiste a vento leve melhor que uma vela.
+
+Frasco de Óleo
+- Espaços: 1
+- Quantidade: 3 usos
+- Serve para lampiões, manutenção ou improvisos.
+
+Caixa de Sal
+- Espaços: 1
+- Quantidade: 4 usos
+- Um uso protege uma porção de alimento contra deterioração ou conserva alimento fresco para viagem.
+
+Pá Curta
+- Espaços: 1
+- Integridade: 4
+- Escava solo, fossas e trincheiras.
+
+Serra de Campo
+- Espaços: 1
+- Integridade: 3
+- Corta madeira de forma mais eficiente que lâminas de combate.
+
+Estojo de Costura Pesada
+- Espaços: 1
+- Quantidade: 3 usos
+- Durante um descanso, um uso restaura 1 Integridade de Pertence de tecido, couro leve, correias ou mosquiteiro, até o máximo.
+
+Cantil de Metal
+- Espaços: 1
+- Integridade: 4
+- Quantidade: 3 porções de água
+- Disponibilidade: Procurado
+- Mais resistente que uma Cabaça e normalmente não perde conteúdo em queda comum.
+
+Manta Encerada
+- Espaços: 1
+- Integridade: 3
+- Protege uma pessoa ou até 2 espaços de carga contra chuva durante um Descanso de Campo.
+
+Caixa de Velas
+- Espaços: 1
+- Quantidade: 6 usos
+- Cada uso fornece iluminação pequena por uma longa cena.
+- A chama é fácil de ocultar, mas vento forte ou chuva a apagam sem proteção.
+
+Corrente e Cadeado
+- Espaços: 1
+- Integridade: 4
+- Protege caixas, portas improvisadas ou objetos perigosos.
+
+Kit de Coleta Naturalista
+- Espaços: 1
+- Integridade: 2
+- Frascos, pinças e lâminas para guardar amostras.
+
+Mortalha de Linho
+- Espaços: 1
+- Quantidade: 2 usos
+- Serve para transportar cadáveres, cobrir contaminados ou improvisar tecido resistente.
+
+Reparo
+
+Durante um Descanso de Campo, um Kit de Limpeza e Óleo restaura Integridade conforme sua descrição. Outras ferramentas apropriadas podem permitir Ação Incerta para restaurar 1 Integridade. Cada item recebe no máximo um reparo de campo por descanso, salvo Aptidão ou recurso específico; em falha, tempo ou material usado é gasto.
+
+Em um Posto Avançado, tempo e materiais coerentes podem restaurar um item até sua Integridade máxima. O Mestre pode exigir escambo, peças, trabalho especializado ou tempo quando isso importar.
+
+7. COMBATE
+
+O combate usa as mesmas Ações Incertas do restante do jogo.
+
+Rodadas e Turnos
+
+Quando a ordem importa, divida a luta em rodadas.
+
+- Cada participante age uma vez por rodada.
+- Se um lado surpreender claramente o outro, ele realiza a primeira ação.
+- Em caso de dúvida sobre quem começa, um jogador escolhido pelo grupo faz uma Ação Incerta: sucesso significa que um jogador age primeiro; falha significa que uma ameaça age primeiro.
+- Depois disso, os lados alternam um participante por vez sempre que possível.
+- Se um lado tiver mais participantes, os restantes agem depois que o outro lado tiver usado todos os seus participantes naquela rodada.
+- Ao começar a rodada seguinte, preserve a alternância através da fronteira entre rodadas: sempre que possível, começa o lado que não realizou a última ação da rodada anterior. Isso evita sequências artificiais de várias ações do mesmo lado apenas porque a rodada terminou.
+
+No turno, um personagem normalmente pode:
+- mover-se uma distância curta e realizar uma ação;
+- atacar;
+- recarregar;
+- ajudar alguém;
+- usar um Pertence;
+- tentar fugir;
+- realizar outra ação coerente com a situação.
+
+Ataques
+
+Um ataque é uma Ação Incerta feita pelo atacante.
+
+Normalmente é um teste Normal.
+
+Pode ser Favorável por:
+- emboscada;
+- alvo imobilizado;
+- posição claramente superior;
+- Aptidão apropriada.
+
+Pode ser Desfavorável por:
+- escuridão;
+- alvo protegido por cobertura;
+- terreno que impeça o movimento;
+- alcance ruim;
+- Provação relevante.
+
+Sucesso:
+- o ataque causa o Dano da arma ou ameaça.
+
+Falha:
+- o ataque não causa Dano e a situação continua.
+- Uma Falha Grave pode provocar perda de Integridade ou outra consequência se houver motivo concreto.
+
+Desarmado e Armas Improvisadas
+- Um personagem nunca fica sem opção de ataque apenas porque perdeu sua arma.
+- Ataque desarmado causa 1 Dano.
+- Uma ferramenta, pedra, galho resistente, coronha ou outro objeto improvisado apropriado normalmente causa 1 Dano.
+- Um objeto especialmente pesado, afiado ou adequado pode causar 2 Dano se o Mestre considerar que seu uso é comparável a uma arma real, mas uma Falha Grave pode quebrá-lo ou torná-lo inutilizável.
+- Armas improvisadas não recebem automaticamente as propriedades de uma arma listada.
+
+Proteção e Dano
+
+Quando um personagem sofre Dano:
+- Pode usar Escudo, se aplicável à fonte.
+- A Armadura absorve Dano até seu limite e Integridade restante quando a ficção permitir que ela proteja daquela fonte.
+- O Dano restante reduz Presença.
+
+Perda de Presença e Gasto de Presença não são Dano e ignoram Escudo e Armadura, salvo regra específica.
+
+Presença 0 significa morte definitiva.
+
+Recarga e Munição
+
+- Besta, Arcabuz, Mosquete e Pistola de Roda precisam de uma ação para recarregar depois de cada disparo.
+- A arma só pode disparar se estiver carregada.
+- Um disparo consome sua munição no momento em que acontece.
+- Chuva, imersão ou perda de suprimentos podem impedir a recarga de armas de fogo.
+
+Ameaças e Efeitos Especiais
+
+Ameaças usam a mesma regra de ataque.
+
+Quando um perfil disser que um ataque pode causar uma Provação:
+- a Provação normalmente só é aplicada se o ataque causar pelo menos 1 Dano à Presença;
+- se o efeito não depender de Dano, como canto, olhar ou presença, o alvo recebe uma Ação Incerta para resistir, normalmente normal, salvo descrição diferente.
+
+Perfis com “Presença do grupo” representam vários inimigos tratados como uma única ameaça mecânica. O grupo age uma vez por rodada e deixa de lutar quando sua Presença chega a 0, seja por morte, fuga ou dispersão.
+
+Ameaças Solitárias
+
+Uma única ameaça de Presença 7 ou mais enfrentando quatro ou mais personagens pode agir duas vezes por rodada para continuar perigosa. Presença 6 continua normalmente com uma ação; não aumente uma ameaça para 7 apenas para obter a segunda ação.
+- Suas duas ações não devem ocorrer consecutivamente se houver outros participantes capazes de agir entre elas.
+- Ela perde essa ação adicional quando estiver acompanhada por outras ameaças relevantes.
+- O Mestre deve avisar pela descrição quando uma criatura ou presença é rápida, enorme ou perigosa o bastante para justificar essa regra.
+
+Fuga
+
+Se nada impedir a retirada, fugir simplesmente acontece.
+
+Se um inimigo, terreno ou perigo puder contestar a fuga, faça uma Ação Incerta. Quando o grupo fugir junto pela mesma rota, uma única Ação Incerta pode resolver a retirada do grupo; escolha o personagem cuja posição, Ocupação ou plano seja mais relevante e aplique Ajuda normalmente.
+
+Sucesso:
+- a retirada acontece sem custo adicional.
+
+Falha:
+- a retirada ainda acontece, mas cobra um preço coerente e anunciado sempre que possível;
+- exemplos: abandonar 1 espaço de carga, perder tempo, emergir da fuga com o grupo temporariamente separado, sofrer Perda de 1 Presença, perder 1 Integridade de um Pertence exposto ou terminar em uma posição ruim.
+- Separação como custo significa que os personagens escaparam por rotas ou pontos diferentes e precisarão se reencontrar; não deixe automaticamente um jogador sozinho no confronto que o grupo acabou de abandonar, salvo se esse risco tiver sido anunciado e o jogador o aceitar conscientemente.
+- Quando uma única rolagem resolver a fuga do grupo, um custo normalmente atinge um personagem, um Pertence ou um recurso compartilhado; não aplique automaticamente o mesmo custo a todos.
+
+Falha Grave:
+- a retirada ainda acontece, mas o Mestre pode aplicar dois custos diferentes ou uma consequência equivalente mais séria.
+
+Se uma barreira tornar fisicamente impossível sair antes de ser vencida, o teste não é uma fuga: primeiro resolva a barreira. O Mestre deve deixar essa limitação clara. Uma falha em fuga nunca obriga o grupo a permanecer lutando até a morte apenas porque o dado falhou.
+
+8. APTIDÕES
+
+Regra Geral de Aptidões
+
+As Aptidões não pertencem mais a uma única Ocupação.
+
+Elas são organizadas em grupos amplos de treinamento. Cada Ocupação dá acesso a três grupos, representando áreas de experiência que podem ser compartilhadas por profissões diferentes.
+
+Na criação:
+- escolha 2 Aptidões entre quaisquer grupos aos quais sua Ocupação tenha acesso;
+- as duas Aptidões podem vir do mesmo grupo ou de grupos diferentes;
+- uma Aptidão nunca pode ser escolhida duas vezes;
+- a Ocupação concede acesso ao grupo, mas não concede automaticamente nenhuma Aptidão.
+
+Regras gerais:
+- Aptidões que não mencionam custo são passivas ou dependem apenas da situação descrita.
+- Quando uma Aptidão diz “gaste 1 Presença”, o custo é pago antes do efeito, salvo indicação contrária.
+- Um personagem não pode gastar Presença voluntariamente se isso o levaria a 0.
+- Em combate, a mesma Aptidão com custo de Presença só pode ser usada uma vez por rodada, salvo indicação diferente.
+- Situação Favorável concedida por Aptidão conta como uma vantagem independente. Se a ação já for Favorável por outro motivo, ela pode contribuir para Preparo.
+- Um personagem com 1 Presença continua podendo realizar ações comuns normalmente; apenas Aptidões que exigem Gasto de Presença ficam indisponíveis.
+- Aptidões ampliam opções, mas nunca devem ser a única forma de resolver um obstáculo essencial. Se uma Aptidão paga resolver um problema, deve existir também alguma possibilidade de tentativa comum, ajuda, uso de recursos, rota alternativa ou recuo quando a ficção permitir.
+
+A divisão em grupos serve para ampliar as escolhas sem apagar a identidade das Ocupações. Aptidões semelhantes podem fazer sentido para várias profissões; o acesso abaixo é a regra mecânica usada para decidir quem pode aprendê-las.
+
+Acesso das Ocupações aos Grupos
+
+Todas as Ocupações apresentadas no capítulo 5 aparecem nesta lista para que todo personagem use a mesma regra de Aptidões.
+
+Soldado de Infantaria
+- Combate e Proteção
+- Sobrevivência e Logística
+- Medicina, Fé e Resistência
+
+Conquistador de Terras
+- Combate e Proteção
+- Sobrevivência e Logística
+- Exploração, Caça e Vigilância
+
+Batedor da Vanguarda
+- Exploração, Caça e Vigilância
+- Combate e Proteção
+- Conhecimento e Investigação
+
+Guia Nativo Aliado / Intérprete
+- Exploração, Caça e Vigilância
+- Conhecimento e Investigação
+- Sobrevivência e Logística
+
+Mateiro / Abrite-Caminho
+- Exploração, Caça e Vigilância
+- Sobrevivência e Logística
+- Medicina, Fé e Resistência
+
+Herbolário da Expedição
+- Medicina, Fé e Resistência
+- Exploração, Caça e Vigilância
+- Conhecimento e Investigação
+
+Almocárem / Condutor de Carga
+- Sobrevivência e Logística
+- Conhecimento e Investigação
+- Combate e Proteção
+
+Cartógrafo da Coroa
+- Exploração, Caça e Vigilância
+- Conhecimento e Investigação
+- Sobrevivência e Logística
+
+Médico de Bordo / Cirurgião-Barbeiro
+- Medicina, Fé e Resistência
+- Conhecimento e Investigação
+- Sobrevivência e Logística
+
+Padre Jesuíta
+- Medicina, Fé e Resistência
+- Desconhecido e Relíquias
+- Conhecimento e Investigação
+
+Geógrafo de Campo
+- Conhecimento e Investigação
+- Exploração, Caça e Vigilância
+- Medicina, Fé e Resistência
+
+Cronista de Fronteira
+- Conhecimento e Investigação
+- Desconhecido e Relíquias
+- Exploração, Caça e Vigilância
+
+Caçador de Relíquias
+- Desconhecido e Relíquias
+- Conhecimento e Investigação
+- Sobrevivência e Logística
+
+Penitente de Fronteira
+- Medicina, Fé e Resistência
+- Desconhecido e Relíquias
+- Combate e Proteção
+
+Coveiro de Missão
+- Medicina, Fé e Resistência
+- Sobrevivência e Logística
+- Desconhecido e Relíquias
+
+Caçador de Feras
+- Exploração, Caça e Vigilância
+- Combate e Proteção
+- Desconhecido e Relíquias
+
+Guarda de Relicário
+- Combate e Proteção
+- Sobrevivência e Logística
+- Desconhecido e Relíquias
+
+Naturalista Herege
+- Exploração, Caça e Vigilância
+- Medicina, Fé e Resistência
+- Desconhecido e Relíquias
+
+Sobrevivente Marcado
+- Desconhecido e Relíquias
+- Exploração, Caça e Vigilância
+- Sobrevivência e Logística
+
+Caçador de Bruxaria
+- Conhecimento e Investigação
+- Desconhecido e Relíquias
+- Combate e Proteção
+
+Vigia Noturno
+- Combate e Proteção
+- Exploração, Caça e Vigilância
+- Medicina, Fé e Resistência
+
+Recuperador de Mortos
+- Combate e Proteção
+- Conhecimento e Investigação
+- Medicina, Fé e Resistência
+
+Combate e Proteção
+
+Técnicas para atacar, proteger aliados, aproveitar posição e resistir durante confrontos.
+
+Emboscar as Sombras:
+- Se iniciar escondido, o primeiro ataque que acertar na cena causa +1 de Dano.
+- O alvo não pode usar Escudo contra esse ataque.
+
+Passo de Esquiva:
+- Depois de ser atingido e antes da proteção, gaste 1 Presença para reduzir o Dano do ataque em 2, mínimo 0.
+- Só pode ser usado uma vez por rodada.
+
+Táticas de Guerrilha:
+- Gaste 1 Presença e escolha até dois aliados próximos que estejam usando cobertura.
+- Até o início do seu próximo turno, ataques contra esses aliados são desfavoráveis.
+
+Contra-ataque com Peçonha:
+- Se possuir uma dose de veneno ou ingrediente adequado, pode consumi-la depois de acertar um ataque corpo a corpo para causar +1 de Dano.
+- Uma mesma dose só pode ser usada uma vez.
+
+Golpe de Desbravar:
+- Ataques do personagem ignoram situação Desfavorável causada apenas por vegetação, galhos, cipós ou cobertura natural leve.
+
+Fúria do Machado / Terçado:
+- Gaste 1 Presença antes de atacar com um Machado Curto, Facão de Mato / Terçado ou arma corpo a corpo equivalente.
+- Faça um ataque corpo a corpo separado contra até dois inimigos próximos ao alcance.
+- Cada ataque é resolvido normalmente.
+
+Quebrador de Escudos:
+- Uma vez por cena, quando causar Dano com uma arma corpo a corpo, reduza a Integridade de uma proteção usada pelo alvo em 1.
+
+Disciplina de Ferro:
+- Quando estiver com metade ou menos da Presença máxima, seus ataques tornam-se favoráveis se seriam normais.
+
+Chuva de Chumbo / Recarga sob Pressão:
+- Gaste 1 Presença para recarregar e disparar uma arma que exige recarga usando uma única ação.
+
+Parede de Aço:
+- Quando um aliado adjacente for atingido, gaste 1 Presença para tornar-se o alvo do ataque.
+- Aplique seu Escudo e sua Armadura normalmente.
+- Só pode ser usado uma vez por rodada.
+
+Investida Devastadora:
+- Gaste 1 Presença antes de avançar em linha reta contra um alvo e fazer um ataque corpo a corpo.
+- Se o ataque acertar, causa +1 de Dano e reduz a Integridade de uma proteção usada pelo alvo em 1.
+- Exige espaço suficiente para a investida.
+
+Golpe Intimidador:
+- Depois de causar Dano à Presença de um inimigo, gaste 1 Presença.
+- Um inimigo que testemunhe o golpe hesita: sua próxima ação ofensiva é Desfavorável ou ele recua, conforme fizer mais sentido para a ficção.
+
+Mira no Tendão:
+- Depois de acertar, gaste 1 Presença.
+- Até o fim do próximo turno do alvo, sua primeira ação que dependa de correr, saltar, perseguir ou fugir é Desfavorável.
+
+Exploração, Caça e Vigilância
+
+Técnicas para atravessar a mata, rastrear, orientar-se, encontrar recursos, perceber perigo e manter guarda.
+
+Passo Fantasma:
+- Gaste 1 Presença para atravessar vegetação ou terreno difícil sem deixar rastros claros e com pouco ruído.
+- Se houver alguém procurando ativamente pelo personagem, a próxima Ação Incerta para passar despercebido é Favorável.
+
+Sentido de Emboscada:
+- A primeira Ação Incerta para perceber ou evitar uma emboscada em cada cena é Favorável.
+
+Banquete da Mata:
+- Quando o personagem conduzir a tentativa de Forrageamento Comum do grupo, use esta Aptidão no lugar do rendimento normal, no máximo uma vez por dia.
+- Em sucesso, encontre 3 porções de alimento.
+- Em falha, encontre 1 porção e a busca consome tempo ou expõe o grupo a uma complicação.
+- O Mestre pode tornar a ação Favorável ou Desfavorável conforme o ambiente.
+
+Navegação Terrestre:
+- A primeira Ação Incerta de navegação em cada dia de viagem é Favorável.
+- Depois de um sucesso, o grupo não se perde por causas mundanas enquanto o terreno e as condições não mudarem significativamente.
+
+Rota de Retorno:
+- Depois de registrar adequadamente uma rota percorrida, o grupo pode retornar pelo mesmo caminho sem nova Ação Incerta de navegação, salvo se chuva, deslizamento, inimigos ou outro acontecimento tiver alterado a rota.
+
+Abrigo Natural:
+- Uma vez por dia de viagem, faça uma Ação Incerta para encontrar um local adequado para acampamento.
+- Em sucesso, o grupo pode realizar um Descanso de Campo sem uma penalidade ambiental que seria causada apenas pelo terreno ou clima comum.
+
+Sangue no Mato:
+- Segue uma criatura ferida mesmo sob chuva ou vegetação fechada, salvo fenômenos excepcionais.
+
+Isca Cruel:
+- Prepara uma isca que força uma criatura animal ou monstruosa a revelar sua aproximação antes da emboscada.
+
+Sono de Um Olho:
+- Durante um Descanso de Campo, o personagem pode assumir uma parte normal da vigília do grupo e ainda receber o benefício do descanso, desde que as outras condições sejam atendidas.
+- Esta Aptidão não permite permanecer acordado durante toda a vigília; para isso, use uma regra ou Aptidão específica.
+
+Contar Passos no Escuro:
+- Identifica aproximadamente número e direção de criaturas se aproximando pelo som, quando o ambiente permitir.
+
+Fogo Baixo:
+- Mantém um acampamento menos visível à distância sem extinguir completamente a fogueira.
+- Ações para perceber o fogo do acampamento apenas à distância são desfavoráveis, quando a iluminação for o principal indício.
+
+Conheço o Cheiro:
+- Recebe situação Favorável para perceber cadáveres ocultos, decomposição ou locais recentemente abandonados.
+
+Sobrevivência e Logística
+
+Técnicas para conservar equipamento, organizar carga, administrar suprimentos e manter a expedição funcionando.
+
+Mula de Carga:
+- Ao organizar a Bagagem, escolha um único Pertence que ocupe 2 ou mais espaços. Ele ocupa 1 espaço a menos, mínimo 1.
+- A redução é aplicada antes de somar a Bagagem comum; portanto, pode deixar um espaço normal livre para receber uma Provação.
+- Essa redução representa técnica de transporte, amarração e distribuição de peso; não altera o tamanho real do objeto.
+- Não pode ser combinada com Carga Bem Distribuída para obter mais de 1 espaço permanente de capacidade efetiva.
+
+Pólvora Protegida:
+- A primeira consequência de clima ou umidade de cada dia que inutilizaria um ou mais disparos de Munição de Fogo ou reduziria a Integridade de uma arma de fogo carregada pelo personagem é ignorada.
+
+Comando de Marcha:
+- Uma vez por dia, gaste 1 Presença para tornar Favorável uma Ação Incerta do grupo relacionada a marcha forçada, retirada organizada ou resistência ao desgaste da viagem.
+
+Carga Bem Distribuída:
+- O personagem possui 1 espaço especial adicional apenas para Pertences, registrado fora da Bagagem normal.
+- Esse espaço nunca pode receber Provações e não aumenta o valor de Bagagem usado para calcular Excesso ou resistência ao Colapso.
+- Exemplo: com Bagagem 7, o personagem pode carregar 7 espaços normais e 1 Pertence de 1 espaço nesse espaço especial; se então receber uma Provação de 1 espaço, fica 1 espaço acima da Bagagem normal até reorganizar a carga.
+- Se também possuir Mula de Carga, escolha qual dos dois benefícios está usando sempre que reorganizar a Bagagem; eles não se acumulam.
+
+Nós e Correias:
+- A primeira Ação Incerta de cada cena para impedir que carga seja perdida, molhada, esmagada ou arrastada é Favorável.
+
+Reserva de Emergência:
+- Uma vez por expedição, declare que um suprimento comum de 1 espaço foi separado como reserva: Ração Seca, água, corda, munição compatível ou outro item comum aprovado pelo Mestre.
+- O item passa a existir naquele momento e deve ocupar espaço livre de Bagagem. Se não houver espaço, o personagem deve imediatamente redistribuir ou abandonar carga, ou lidar com Excesso de Bagagem.
+
+Água Segura:
+- O personagem conta como tendo conhecimento relevante ao usar a regra de Tratar Água Suspeita do capítulo 11.
+- Com tempo e material adequado, pode tratar até 2 porções na mesma tentativa, em vez de apenas 1.
+- Em sucesso, todas as porções tratadas se tornam seguras; em falha, continuam suspeitas.
+
+Avaliação de Riscos:
+- Uma vez por perigo ambiental, escolha até dois Pertences antes de resolver a consequência.
+- Ações Incertas para protegê-los de queda, água, lama ou impacto são favoráveis.
+
+Lacre de Segurança:
+- Prepara um recipiente ou embrulho que revela se foi aberto, movido ou violado.
+
+Juramento de Custódia:
+- Enquanto transportar um objeto designado, recebe situação Favorável para resistir a intimidação ou coerção destinada a fazê-lo abandoná-lo.
+
+Nada Fica para Trás:
+- Ao recuperar Pertences de um cadáver ou ruína instável, pode retirar um item adicional antes que o perigo piore.
+
+Saída Antes da Ganância:
+- Uma vez por cena, ao decidir abandonar saque ou carga para escapar, o primeiro teste de fuga recebe situação Favorável.
+
+Medicina, Fé e Resistência
+
+Técnicas de tratamento, disciplina, coragem, cuidado e resistência física ou mental.
+
+Diagnóstico Rápido:
+- Com um Kit Médico, gaste 1 Presença para realizar em poucos instantes um tratamento que normalmente exigiria alguns minutos. Em combate ou perigo imediato, isso consome uma ação.
+- Resolva a tentativa pela escala normal de Tratamento e Estabilização; possuir esta Aptidão conta como conhecimento relevante e o Kit Médico conta como material adequado.
+- Em sucesso, remova 1 espaço de uma Provação biológica quando sua condição de remoção permitir tratamento imediato, ou cumpra a etapa de tratamento exigida pela Provação. Descanso ou outra etapa ainda necessária continua sendo exigida.
+- Em falha, a Provação permanece, mas fica estabilizada até o fim da cena; uma Falha Grave segue as regras normais de tratamento.
+
+Cirurgia de Campo:
+- Durante um Descanso de Campo ou Descanso Seguro, use um Kit Médico com pelo menos 1 ponto de Integridade e faça uma Ação Incerta.
+- Resolva a tentativa primeiro; depois, independentemente do resultado, reduza a Integridade do Kit Médico em 1.
+- Um Kit com Integridade 1 pode ser usado normalmente nessa última tentativa e fica Quebrado somente depois de resolvê-la.
+- Em sucesso, um aliado recupera 2 Presença.
+- Em falha, não recupera Presença.
+- Cada personagem só pode receber Cirurgia de Campo uma vez por dia.
+
+Mãos Firmes:
+- Quando o personagem possui ferramentas adequadas e não está sob ameaça imediata, tratamento médico conta com uma vantagem adicional independente.
+- Se a tentativa já for Favorável por conhecimento e material, ela recebe Preparo.
+
+Palavra de Alento:
+- Gaste 1 Presença e converse, reze ou permaneça ao lado de um aliado por alguns minutos. Não exige material de tratamento.
+- Faça uma Ação Incerta. Em sucesso, remova Paranoia da Selva. Confiança, vínculo pessoal ou segurança podem contar como vantagens independentes.
+- Em falha, a Paranoia permanece, mas o aliado pode ignorar sua desvantagem até o fim da cena atual. Uma nova tentativa de remoção ainda exige mudança concreta pelas regras gerais.
+
+Martírio Inabalável:
+- Uma vez por dia, gaste 1 Presença para transferir para si uma Provação mental ou uma Provação do Desconhecido de 1 espaço pertencente a um aliado disposto.
+- Provações biológicas não podem ser transferidas dessa forma.
+
+Vigília de Fé:
+- Uma vez por noite, a primeira Ação Incerta do grupo para resistir a medo, pânico ou fenômeno que ataque a coragem é Favorável.
+
+Triagem de Campo:
+- Uma vez por dia, em local com vegetação adequada, faça uma Ação Incerta.
+- Em sucesso, colete um ingrediente natural que ocupa 1 espaço.
+- O ingrediente pode ser consumido para tornar Favorável um tratamento de Ferimento Infeccionado, veneno ou outra Provação biológica apropriada.
+
+Destilar Antitoxinas:
+- Gaste 1 Presença e consuma um ingrediente apropriado para neutralizar um veneno ainda ativo antes que ele produza sua próxima consequência.
+- Uma Provação já estabelecida ainda precisa ser tratada normalmente.
+
+Dor Familiar:
+- Uma vez por dia, pode ignorar os efeitos de uma Provação de 1 espaço até o fim da cena.
+- A Provação continua ocupando Bagagem.
+
+Vigília Penitente:
+- Gaste 1 Presença para permanecer acordado durante toda a vigília e ainda receber os benefícios normais de um Descanso de Campo, desde que as outras condições de descanso sejam atendidas.
+- Diferentemente de Sono de Um Olho, esta Aptidão permite guardar o acampamento durante toda a noite sem perder o benefício do descanso.
+
+Última Oração:
+- Quando um aliado chegaria a 0 Presença, gaste 1 Presença para que ele permaneça imediatamente com 1 Presença em vez de morrer.
+- Esta Aptidão só pode ser usada uma vez por expedição pelo personagem que a possui, independentemente do alvo.
+- Um mesmo personagem só pode ser salvo por Última Oração uma vez por expedição, mesmo que mais de um aliado possua a Aptidão.
+
+Mente Analítica / Sangue Frio:
+- Quando receberia uma Provação mental ou do Desconhecido causada principalmente por medo, gaste 1 Presença para reduzir essa Provação em 1 espaço, mínimo 0.
+- Só pode ser usado uma vez por cena.
+
+Conhecimento e Investigação
+
+Técnicas de observação, estudo, interpretação, costumes, cadáveres, minerais e evidências.
+
+Língua da Terra:
+- Permite comunicação rudimentar por sinais, palavras compartilhadas e leitura de costumes quando isso for plausível.
+- A primeira Ação Incerta de negociação em que costumes locais sejam importantes pode ser Favorável.
+
+Olho para o Minério:
+- Identifica minerais e sinais geológicos comuns sem rolagem quando houver tempo para examinar.
+- Uma Ação Incerta pode determinar qualidade, risco de extração ou valor provável.
+- Materiais corretamente avaliados podem valer mais no escambo.
+
+Estudo de Costumes:
+- Depois de observar uma pessoa ou grupo por algum tempo, escolha um aliado.
+- A próxima Ação Incerta desse aliado para negociar, interpretar comportamento ou evitar uma armadilha social daquele grupo é Favorável.
+
+Registro Preciso:
+- Depois de registrar cuidadosamente pistas, testemunhos ou sinais durante alguns minutos, a próxima Ação Incerta do grupo para investigar o mesmo mistério é Favorável.
+- Só pode ser usado uma vez para o mesmo conjunto de pistas.
+
+Olho para a Morte:
+- Examina um cadáver e identifica sinais evidentes de doença, violência, veneno ou decomposição anormal.
+
+Anatomia Impossível:
+- Após observar uma criatura durante uma rodada, pode identificar uma característica física explorável.
+- O próximo aliado a agir contra ela recebe situação Favorável.
+
+Coleção Repugnante:
+- Pode retirar uma amostra de criatura ou fenômeno.
+- Ocupa 1 espaço e pode ser usada posteriormente em investigação ou escambo especializado.
+
+Interrogatório de Superstição:
+- Após conversar com várias testemunhas, consegue separar detalhes repetidos de rumores contraditórios.
+
+Leitura do Terreno:
+- Gaste 1 Presença para estudar a região.
+- O Mestre indica uma opção verdadeira e útil relacionada a caminho, abrigo, água, distância ou obstáculo visível.
+- A informação pode ser incompleta, mas não é falsa.
+
+Nada se Levanta Duas Vezes:
+- Contra uma criatura que aparentava estar morta ou imóvel antes de atacar, o primeiro ataque do personagem recebe situação Favorável.
+
+Mãos de Cal:
+- Recebe situação Favorável ao lidar com fossas, cadáveres contaminados e descarte de restos perigosos.
+
+Desconhecido e Relíquias
+
+Técnicas ligadas a Relíquias, ocorrências inexplicáveis, superstição e sobrevivência ao contato com o que ninguém compreende.
+
+Luvas Antes da Curiosidade:
+- Ao examinar uma Relíquia sem ativá-la, pode evitar a primeira Provação causada apenas por contato físico.
+
+Peso da História:
+- Identifica sinais de uso, transporte ou ocultação de um objeto antigo.
+- Não revela sua verdadeira natureza sobrenatural.
+
+Embalar o Impossível:
+- Até dois objetos sobrenaturais de 1 espaço podem compartilhar o mesmo espaço de Bagagem.
+- Objetos maiores continuam ocupando seu espaço normal.
+- Esta Aptidão altera apenas como esses objetos são embalados; não aumenta a Bagagem. Por isso, pode funcionar junto de um espaço especial de Carga Bem Distribuída e não conta como acumular Mula de Carga com Carga Bem Distribuída.
+
+Corpo entre a Relíquia e o Mundo:
+- Uma vez por cena, quando o portador de uma Relíquia protegida sofreria Dano físico ou uma Provação física de 1 espaço causada diretamente pelo objeto, o personagem pode receber essa consequência em seu lugar.
+
+Teoria que Ninguém Aceita:
+- Gasta 1 Presença para formular uma hipótese útil sobre um fenômeno estranho.
+- O Mestre fornece uma possibilidade plausível, nunca uma certeza absoluta.
+
+Já Vi Pior:
+- A primeira Provação do Desconhecido causada principalmente por medo em cada expedição ocupa 1 espaço a menos, mínimo 0.
+
+Sinal que Arde:
+- Uma vez por dia, quando houver sinais concretos de algo anormal muito próximo, o Mestre pode avisar que um sinal antigo do personagem reage.
+- A Aptidão não revela localização, natureza nem confirma que a causa seja sobrenatural.
+
+Voltar do Limiar:
+- Uma vez por expedição, ao falhar em uma resistência ao Excesso de Bagagem causada diretamente por uma Provação do Desconhecido, descarte imediatamente um Pertence de pelo menos 1 espaço.
+- Trate a resistência como um sucesso, mesmo se ainda permanecer temporariamente acima do limite até o fim da cena.
+- No fim da cena, reorganize a carga. Se ainda estiver acima da Bagagem, aplique normalmente as regras de Excesso de Bagagem e faça nova resistência se ela for exigida.
+
+Fraude Antes do Demônio:
+- Recebe situação Favorável para identificar truques, encenações, falsos milagres e manipulações.
+
+Círculo de Precaução:
+- Gasta 1 Presença e materiais comuns para preparar um perímetro simbólico.
+- Durante uma noite, o grupo recebe situação Favorável para perceber aproximações ou violações do acampamento.
+- Não há garantia de que o círculo possua qualquer poder mágico.
+
+9. CRIANDO O EXPLORADOR
+
+Escolha uma Ocupação
+Escolha uma das Ocupações apresentadas no capítulo 5.
+
+Distribua Presença e Bagagem
+- Cada atributo deve começar entre 5 e 9.
+- A soma sempre deve ser 14.
+
+Use as definições e regras de Presença e Bagagem do capítulo 3.
+
+A limitação entre 5 e 9 evita extremos que tornariam um personagem frágil demais ou fariam um único atributo dominar a criação.
+
+Escolha Duas Aptidões
+- Consulte os grupos disponíveis para sua Ocupação no capítulo 8.
+- As duas Aptidões podem vir do mesmo grupo ou de grupos diferentes.
+- Um personagem nunca pode escolher a mesma Aptidão duas vezes.
+
+Escolha os Pertences Iniciais
+Escolha equipamento do capítulo 6 que seja coerente com a Ocupação e caiba na Bagagem do personagem. Respeite também a Disponibilidade: cada personagem pode começar com no máximo 1 Pertence Procurado; Pertences Raros só entram na criação com concordância do Mestre e justificativa clara na ficção.
+
+Kit recomendado:
+- 1 arma;
+- munição compatível, se a arma exigir;
+- 1 utilitário ligado à profissão;
+- 1 Ração Seca;
+- 1 recipiente com água.
+
+Esse kit é uma referência, não uma obrigação individual. A expedição pode distribuir alimento, água, munição, ferramentas e outros suprimentos entre seus integrantes. Um personagem com Bagagem baixa não precisa carregar pessoalmente tudo o que consome, desde que o grupo realmente transporte os recursos necessários.
+
+Se ainda houver espaço, o personagem pode acrescentar:
+- 1 proteção;
+- outro utilitário;
+- suprimentos adicionais.
+
+Armas que exigem munição só podem ser usadas se alguém da expedição estiver carregando munição compatível acessível. Isso permite que um personagem comece com uma arma de 2 espaços sem ser obrigado a carregar sozinho toda a logística do grupo.
+
+Nenhum personagem começa acima do limite de Bagagem. Equipamento que não couber permanece no Posto Avançado, é carregado por outro integrante disposto ou deve ser trocado por algo mais leve.
+
+Personagens que entram como substitutos durante uma campanha usam o mesmo princípio, mas Pertences entregues pelo grupo, recuperados de outro explorador ou retirados de um estoque já existente contam como parte de seu equipamento inicial. Um substituto não recebe um kit completo adicional por cima desses Pertences. O Mestre pode completar apenas o necessário para formar um kit inicial plausível com itens Comuns disponíveis na ficção, sem gerar estoque excedente por aposentadorias sucessivas.
+
+Defina Nome e Descrição
+
+10. POSTOS E ESCAMBO
+
+Postos Avançados são os principais pontos de segurança e reorganização no interior.
+
+No Posto Avançado
+- Realize Descanso Seguro seguindo as regras de Provações, Suprimentos e Descanso.
+- Faça tratamentos com acesso mais fácil a abrigo, ferramentas, materiais e especialistas.
+- Repare equipamentos seguindo as regras de Integridade e Reparo.
+- Reabasteça água, alimento e munição.
+- Redistribua Pertences e decida o que ficará para trás.
+- Procure informações, mapas, rumores, trabalho e novas oportunidades.
+
+Escambo
+A troca é direta e não usa tabela de preços. Para orientar negociações, classifique aquilo que está sendo oferecido no momento da troca:
+
+Comum
+- disponível com relativa facilidade naquele Posto ou região;
+- normalmente troca por outro bem comum quando ambas as partes têm interesse.
+
+Procurado
+- escasso, necessário ou especialmente útil naquele momento;
+- normalmente exige mais de um bem comum, outro item procurado, informação, trabalho ou favor.
+
+Raro
+- difícil de substituir, perigoso de obter ou excepcionalmente valioso para aquela comunidade;
+- costuma exigir outro bem raro, vários recursos procurados ou uma concessão importante.
+
+A categoria não pertence permanentemente ao objeto. Necessidade local pode elevar ou reduzir seu valor. Água, alimento, Munição de Fogo, ferramentas e tratamento podem valer mais que objetos de luxo em regiões isoladas.
+
+11. PERIGOS DA JORNADA
+
+Ritmo da Viagem
+Para manter sobrevivência importante sem transformar cada dia em contabilidade:
+- em um dia normal de marcha, apresente aproximadamente 1 ou 2 situações significativas antes do consumo diário e do descanso;
+- uma situação significativa pode ser perigo, encontro, obstáculo, descoberta, escolha de rota ou oportunidade de obter recursos;
+- nem todo dia exige combate ou Ação Incerta;
+- regiões excepcionalmente secas, inundadas, contaminadas ou difíceis devem ser sinalizadas antes que alterem fortemente o consumo ou a disponibilidade de recursos.
+
+Água durante a jornada:
+- em uma região comum de floresta, o grupo deve ter pelo menos uma oportunidade razoável por dia de procurar ou reabastecer água;
+- encontrar água não significa automaticamente que ela seja segura ou fácil de alcançar;
+- perigo, contaminação, distância ou inimigos podem exigir escolha, ferramenta ou Ação Incerta;
+- uma região onde não exista oportunidade razoável de água é um perigo especial e deve ser anunciada por sinais, mapas, relatos ou características do terreno antes que a Sede se torne inevitável.
+
+Tratar Água Suspeita
+Qualquer personagem pode tentar tornar água suspeita segura quando houver tempo e um método plausível, como ferver, filtrar, decantar ou usar materiais adequados. Uma tentativa comum trata 1 porção.
+- sem conhecimento relevante e sem material adequado: situação Desfavorável;
+- com conhecimento relevante ou material adequado: situação Normal;
+- com ambos: situação Favorável.
+Em sucesso, a porção torna-se segura. Em falha, continua suspeita e qualquer material consumível utilizado pode ser perdido. Uma nova tentativa exige mudança concreta. Água Segura conta como conhecimento relevante e permite tratar até 2 porções na mesma tentativa.
+
+Regras Gerais
+- Quando a exposição a um perigo tiver resultado incerto, use uma Ação Incerta Normal, Favorável ou Desfavorável conforme preparo e circunstâncias.
+- Quando a descrição disser que algo “pode aplicar” uma Provação, isso normalmente acontece em uma falha na Ação Incerta de resistência.
+- Se um perigo listar ao mesmo tempo Dano e uma Provação como possíveis consequências, uma falha comum aplica a consequência que melhor corresponde à situação; uma Falha Grave pode aplicar ambas.
+- O Mestre deve apresentar sinais sempre que houver oportunidade razoável de perceber o perigo antes da consequência.
+
+Perigos Ambientais Recorrentes
+
+Chuva Torrencial Tropical
+- O Mestre deve avisar quando chuva forte ameaça pólvora, fogo, couro ou documentos.
+- Quando uma Ação Incerta for necessária para proteger a carga, uma falha pode inutilizar 1 disparo de Munição de Fogo, apagar uma mecha ou reduzir a Integridade de um item exposto em 1.
+- Pólvora Protegida e equipamentos adequados podem evitar essa consequência.
+
+Lamaçal Profundo / Solo Instável
+- Ao ficar preso, faça uma Ação Incerta para escapar.
+- Em sucesso, saia sem perda importante.
+- Em falha, escolha: sofrer Perda de 1 Presença pelo esforço ou abandonar até 2 espaços de Pertences para conseguir sair. Ao pagar um desses preços, o personagem consegue sair; a falha determina o custo, não um aprisionamento indefinido.
+- Se o personagem não puder ou não quiser pagar nenhum desses preços, permanece preso e pode tentar novamente em sua próxima oportunidade, mas precisa mudar algo na tentativa ou aceitar um agravamento.
+- Um aliado usando corda, galho, lança, terreno firme ou outra ajuda concreta pode gastar sua ação para aplicar a regra de Ajuda; equipamento especialmente adequado também pode tornar a tentativa Favorável.
+- Cada nova tentativa após uma falha, enquanto nada tiver melhorado, exige escolher antes da rolagem um risco adicional: sofrer Perda de 1 Presença em nova falha, reduzir em 1 a Integridade de um apoio utilizado ou deixar 1 espaço de carga exposto à perda.
+- Uma Falha Grave pode separar o personagem do grupo, destruir um apoio utilizado ou aplicar o risco escolhido imediatamente.
+- O Mestre deve sempre permitir pelo menos uma forma de auxílio, pagamento de custo, abandono de carga ou mudança de abordagem para encerrar a situação.
+
+Cipó-Venenoso / Vegetação Tóxica
+- Quando alguém abre caminho sem proteção em vegetação perigosa, o Mestre pode pedir uma Ação Incerta.
+- Em Falha Grave, o personagem recebe Delírio da Selva.
+- Em uma falha comum, pode perder tempo, sofrer 1 Dano ou danificar um Pertence, conforme a situação.
+
+Perigos Estranhos e do Desconhecido
+
+Chuva de Cinzas
+- Água exposta torna-se imprópria até ser substituída ou tratada pelas regras de Tratar Água Suspeita.
+
+Névoa dos Sussurros
+- Falha ao navegar pode aplicar Vozes na Mata.
+
+Trilha que Retorna
+- Se o grupo não perceber o padrão, perde um período significativo de viagem.
+- Em uma jornada com suprimentos controlados, cada personagem consome 1 porção adicional de água ou alimento, conforme o tempo perdido.
+
+Poço de Ossos
+- Queda pode causar 1 Dano e Ferimento Infeccionado.
+
+Água que Não Reflete
+- Beber pode aplicar Pesadelos Recorrentes.
+
+Flores do Sono
+- Falha causa sono profundo e pode alterar a posição do grupo. Um aliado próximo pode gastar uma ação para acordar o personagem e arrastá-lo ou ajudá-lo a sair da área.
+- Se estiver sozinho, o personagem desperta depois de tempo suficiente; a consequência é perda de tempo, posição ou recursos, nunca permanecer indefinidamente sem poder agir.
+
+Lama de Sangue
+- Contato prolongado pode aplicar Ferimento Infeccionado.
+
+Chuva de Vermes
+- Exige abrigo; falha pode causar Febre das Selvas.
+
+Clareira Silenciosa
+- Um Descanso de Campo realizado no local não recupera Presença se o grupo ignorar os sinais perturbadores e permanecer exposto.
+
+Árvore dos Enforcados
+- Falha ao atravessar pode prender o personagem e causar 1 Dano. Ele pode usar sua próxima ação para se soltar com uma Ação Incerta, aceitar Ajuda ou cortar/abandonar aquilo que o prende quando isso for plausível.
+- Falhas repetidas seguem a regra geral de Repetir uma Tentativa e agravam custo ou posição, mas nunca eliminam todas as formas de saída.
+
+Rio Invertido
+- Navegação torna-se Desfavorável e travessias podem deslocar o grupo.
+
+Ponte de Cadáveres
+- Uma falha durante a travessia pode causar 1 Dano ou perda de carga.
+- Uma Falha Grave também pode causar Paranoia da Selva.
+
+Solo Febril
+- Dormir no local pode aplicar Febre das Selvas.
+
+Pântano Luminoso
+- Seguir as luzes conduz a lama profunda.
+
+Chuva sem Nuvens
+- Pólvora desprotegida pode perder 1 disparo de Munição de Fogo quando a carga não for protegida a tempo.
+
+Eco Adiantado
+- Pode revelar um perigo instantes antes de acontecer.
+- Se alguém tentar seguir os ecos por tempo prolongado, uma falha de orientação pode causar Paranoia da Selva.
+
+Ninho de Parasitas
+- Descanso no local pode aplicar Febre das Selvas.
+
+Ruína que Geme
+- Permanência longa pode aplicar Pesadelos Recorrentes.
+
+Caminho dos Nomes
+- Pode aplicar Paranoia da Selva a quem reconhecer os nomes.
+
+Água Negra
+- Consumir exige teste; falha causa Sede Extrema ou doença.
+
+Mosquitos de Cinza
+- Podem aplicar Marca do Impossível.
+
+Chão de Raízes
+- Pode prender pés e exigir uma ação para se libertar, Ajuda ou abandono temporário de carga. Uma falha deve cobrar custo ou piorar posição, não manter o personagem preso sem nova opção.
+
+Sombra sem Dono
+- Permanência prolongada pode aplicar Presença Seguinte.
+
+Frio Tropical
+- Sem abrigo ou proteção adequada, um Descanso de Campo recupera 0 Presença.
+
+Acampamento Duplicado
+- Pode aplicar Memória Ausente ou Paranoia da Selva.
+
+Pedra de Voz
+- Escutar por muito tempo pode aplicar Vozes na Mata.
+
+Frutos de Carne
+- Comer pode satisfazer a etapa de alimento necessária para remover Fome Debilitante, mas aplicar Fome de Cinzas.
+
+Tempestade Seca
+- Pode causar incêndios, perda de Integridade e dispersão de animais.
+
+Cemitério Afundado
+- Travessia pode causar doença, perda de carga ou encontro com ameaça.
+
+Horizonte Imóvel
+- Cada período inteiro insistindo na mesma direção consome tempo normal de viagem e seus suprimentos correspondentes.
+- Uma mudança concreta de estratégia permite uma nova tentativa de orientação.
+
+12. CRIATURAS E AMEAÇAS
+
+Faixas de Ameaça
+Use estas faixas como referência ao criar ou ajustar criaturas. Capacidades especiais podem justificar exceções.
+- Menor: Presença 2–3, Dano 1. Funciona melhor como complicação, grupo ou ameaça oportunista.
+- Comum: Presença 4–5, Dano 1–2. Pode sustentar um confronto curto e perigoso.
+- Grave: Presença 6–7, normalmente Dano 2 e pelo menos uma capacidade que altere posição, recursos ou opções.
+- Extrema: Presença 8, normalmente Dano 3 e uma capacidade capaz de alterar a cena. Deve apresentar sinais claros antes de um confronto direto.
+
+Ao tornar uma ameaça mais perigosa, prefira capacidades que mudem a situação — separar, agarrar, apagar luz, bloquear rota, destruir cobertura, ameaçar carga — em vez de apenas aumentar Presença.
+
+Estas faixas assumem um grupo de 3 a 5 exploradores, com 4 como referência principal de balanceamento. Com 2 personagens, reduza quantidade de ameaças ou pressão simultânea; com 6 ou mais, prefira objetivos, terreno e complicações adicionais em vez de apenas aumentar Presença e Dano.
+
+Use as regras gerais do capítulo 7.
+- Ataques usam Ação Incerta.
+- Quando uma habilidade indicar que pode causar Provação por meio de um ataque, ela normalmente só se aplica se pelo menos 1 Dano alcançar a Presença.
+- Efeitos de voz, olhar, sonho ou presença que não dependam de ataque permitem resistência por Ação Incerta, salvo indicação diferente.
+- Quando um efeito persistente continuaria exigindo a mesma resistência sem mudança de situação, cada personagem normalmente testa no máximo uma vez por cena. Uma nova resistência só acontece se a ameaça mudar de método, a exposição piorar de forma clara ou a descrição disser outra coisa.
+- Ameaças de Presença 7 ou mais podem usar a regra de Ameaça Solitária quando enfrentarem quatro ou mais personagens.
+
+Ameaças Recorrentes
+
+Sucuri Gigante
+- Presença: 6
+- Dano: 1
+- Se acertar um personagem em posição vulnerável, pode iniciar constrição.
+- Enquanto estiver constrito, o alvo sofre 1 Dano no início de cada turno da criatura até escapar com uma Ação Incerta ou receber ajuda.
+- Em vez de sofrer o Dano de uma rodada, o alvo pode permitir que uma proteção usada perca 1 ponto adicional de Integridade, se isso fizer sentido.
+
+Enxames de Insetos / Parasitas
+- Não possuem Presença normal e não são resolvidos como combate comum.
+- Fumaça, abrigo, roupas adequadas, mudança de local ou outras medidas podem afastá-los.
+- Exposição sem proteção pode exigir uma Ação Incerta; em falha, o personagem pode receber Febre das Selvas.
+
+Guerreiros da Fronteira Oculta
+- Presença do grupo: 5
+- Dano: 1
+- Usam emboscadas, terreno e dardos.
+- O primeiro ataque pode ser Favorável se os personagens não perceberem os sinais da emboscada.
+- Se um ataque envenenado causar Dano à Presença, o alvo deve resistir com uma Ação Incerta; em falha, recebe Ferimento Infeccionado ou outra Provação coerente com o veneno.
+
+Outras Criaturas e Ameaças
+
+Cão de Lama
+- Presença: 3
+- Dano: 1
+- Quando for destruído diante de alguém a curta distância, esse personagem resiste com uma Ação Incerta; em falha, recebe Delírio da Selva.
+
+Viúva das Bromélias
+- Presença: 3
+- Dano: 1
+- Seu primeiro ataque em emboscada é Favorável.
+- Se esse ataque causar Dano à Presença, o alvo recebe Ferimento Infeccionado.
+
+Homem-Oco
+- Presença: 5
+- Dano: 2
+- O primeiro ataque que acertá-lo em cada combate causa 1 Dano a menos, mínimo 0, como se parte do golpe atravessasse algo vazio.
+
+Boca do Pântano
+- Presença: 6
+- Dano: 1 por rodada de aprisionamento
+- Ao pisar sobre ela sem perceber o perigo, o personagem fica preso.
+- Pode escapar usando uma ação e vencendo uma Ação Incerta; aliados podem ajudar normalmente.
+
+Macaco sem Face
+- Presença: 2
+- Dano: 1
+- Imitação de vozes pode levar membros da expedição a rotas diferentes. A separação deve criar uma nova posição e escolhas de reencontro, não retirar de um jogador todas as ações possíveis.
+
+Jacaré de Lodo
+- Presença: 5
+- Dano: 2
+- Enquanto estiver quase totalmente submerso, a primeira Ação Incerta para percebê-lo ou atacá-lo é Desfavorável.
+- Seu primeiro ataque a partir da água pode ser Favorável se ninguém tiver percebido os sinais de sua aproximação.
+
+Carrapato-Rei
+- Presença: 1
+- Seu ataque não causa Dano; em sucesso, prende-se ao alvo.
+- Um personagem pode removê-lo com uma ação quando ele estiver acessível; em perigo imediato ou local difícil de alcançar, o Mestre pode exigir Ação Incerta.
+- Se permanecer preso ao personagem até o fim de uma cena sem ser percebido ou removido, causa 1 Dano e Fome Debilitante.
+
+Devorador de Velas
+- Presença: 2
+- Dano: 1
+- Apaga uma fonte pequena de fogo ao atacar.
+
+Cobra de Ossos
+- Presença: 2
+- Dano: 1
+- Ferimento pode aplicar Corpo Estranho.
+
+Peregrino Sem Cabeça
+- Presença: 6
+- Dano: 2
+- Pode ignorar personagens que permaneçam completamente imóveis.
+
+Crianças do Lodo
+- Presença do grupo: 4
+- Dano: 1
+- Preferem roubar Pertences e fugir.
+
+Porco de Espinhos
+- Presença: 4
+- Dano: 2
+- Em uma Falha Grave ao atacá-lo corpo a corpo, o atacante sofre 1 Dano dos espinhos.
+
+Sanguessuga Branca
+- Presença: 1
+- Seu ataque não causa Dano; em sucesso, prende-se ao alvo.
+- Um personagem pode removê-la com uma ação quando ela estiver acessível; em perigo imediato ou local difícil de alcançar, o Mestre pode exigir Ação Incerta.
+- Se permanecer presa até o fim da cena, o alvo recebe Sangramento sem Ferida.
+
+Coro dos Afogados
+- Presença do grupo: 5
+- Dano: 1
+- Quem permanecer ouvindo o canto deve resistir com uma Ação Incerta; em falha, recebe Vozes na Mata.
+
+Mãe dos Mosquitos
+- Presença: 6
+- Dano: 0
+- Enquanto estiver ativa na região, Ações Incertas para evitar Febre das Selvas causada por insetos são desfavoráveis.
+
+Veado de Olhos Humanos
+- Presença: 3
+- Dano: 1
+- Enquanto alguém o perseguir, a primeira Ação Incerta de orientação dessa perseguição é Desfavorável.
+
+Padre de Musgo
+- Presença: 5
+- Dano: 1
+- Quem responder às orações ou permanecer ouvindo-as deve resistir com uma Ação Incerta; em falha, recebe Paranoia da Selva.
+
+Caranguejo de Cadáver
+- Presença: 3
+- Dano: 1
+- Enquanto permanecer dentro de um cadáver, ataques à distância contra ele são desfavoráveis.
+
+Homem das Abelhas
+- Presença: 4
+- Dano: 1
+- Armaduras não absorvem seu Dano; Escudo ainda pode ser usado se houver espaço para dispersar o enxame.
+
+Peixe de Dentes Negros
+- Presença: 2
+- Dano: 2 em água
+- Situação Favorável contra vítimas feridas.
+
+Guardião de Pedra
+- Presença: 7
+- Dano: 2
+- Armadura natural absorve 1 Dano por ataque.
+
+Mula sem Pegadas
+- Presença: 4
+- Dano: 1
+- Fugir ou segui-la pode alterar a rota da expedição.
+
+Sombra de Cipó
+- Presença: 5
+- Dano: 1
+- Em seu primeiro ataque bem-sucedido vindo da escuridão, pode reduzir a Integridade de um Pertence exposto do alvo em 1 em vez de causar Dano.
+
+Homem de Sal
+- Presença: 4
+- Dano: 1
+- Chuva forte torna seus ataques desfavoráveis.
+
+Noiva das Águas
+- Presença: 5
+- Dano: 1
+- Quando chamar alguém com voz conhecida, o alvo pode resistir com uma Ação Incerta. Em falha, aproxima-se da água antes de recuperar o controle.
+
+Abutre Vermelho
+- Presença: 2
+- Dano: 1
+- Segue prioritariamente personagens com pouca Presença.
+
+Devorador de Sonhos
+- Presença: 4, mas apenas depois que sua origem ou âncora for localizada.
+- Antes disso, não sofre ataques comuns.
+- Sempre que essa ameaça entrar em uma aventura, o Mestre deve colocar pelo menos duas pistas independentes e observáveis que possam levar à origem ou âncora. Nenhuma delas pode depender do sucesso em uma única rolagem.
+- Também deve existir uma forma plausível de abandonar a área ou interromper a exposição, mesmo que fugir custe tempo, recursos ou oportunidade.
+- Investigar uma pista pode exigir Ações Incertas, mas uma falha deve avançar a situação com custo ou informação parcial, não apagar a única possibilidade de localizar a âncora.
+- Depois de uma noite sob sua influência, cada personagem exposto resiste com uma Ação Incerta; em falha, recebe Pesadelos Recorrentes.
+
+Gigante da Folhagem
+- Presença: 8
+- Dano: 3
+- Ataques à distância contra ele são desfavoráveis enquanto estiver imóvel na vegetação.
+
+Santo de Carne
+- Presença: 7
+- Dano: 2
+- Na primeira aproximação, cada personagem que o veja respirar resiste com uma Ação Incerta; em falha, recebe Paranoia da Selva.
+
+O Sem-Rosto do Rio
+- Presença: 6
+- Dano: 2
+- Move-se em água sem sofrer penalidades de correnteza.
+
+13. EVOLUÇÃO
+
+Sobreviver muda um explorador.
+
+A evolução não acontece por níveis. Ela vem de jornadas concluídas, experiências acumuladas e marcas deixadas pela mata.
+
+Marcas de Expedição
+
+O que Conta como uma Expedição
+- Uma expedição começa quando o grupo deixa um Posto Avançado, base ou outro lugar seguro com um objetivo de viagem ou exploração.
+- Ela termina quando o grupo retorna a um lugar seguro e encerra, conclui ou abandona conscientemente aquele objetivo.
+- Uma expedição pode durar várias sessões; continuar a mesma jornada na sessão seguinte não cria uma nova expedição.
+- Se a campanha não usar Postos Avançados, o Mestre define antes da jornada qual lugar ou situação cumpre o papel de base segura.
+- Uma retirada também encerra a expedição quando o grupo consegue alcançar segurança e decide não retomar imediatamente a mesma saída.
+
+Ao fim de cada expedição, um personagem pode receber no máximo 1 Marca de Expedição.
+
+Expedições Longas
+Se a mesma expedição durar três ou mais sessões, o Mestre pode conceder a cada personagem participante 1 Marca intermediária quando o grupo alcançar um objetivo importante que mude claramente a situação: atravessar uma região decisiva, localizar o destino, resgatar alguém, estabelecer uma rota ou sobreviver a uma etapa que poderia ter encerrado a missão.
+- Cada personagem pode receber no máximo 1 Marca intermediária por expedição.
+- A Marca intermediária não elimina a possibilidade da Marca normal ao fim da expedição.
+- Portanto, uma expedição longa concede no máximo 2 Marcas por personagem no total.
+- Não conceda Marca apenas porque uma sessão terminou; ela exige uma conquista ou custo importante.
+
+Uma Marca pode ser recebida quando o personagem:
+- sobrevive a uma situação que colocou a expedição em risco real;
+- descobre um lugar, rota ou informação importante;
+- retorna carregando uma Provação relevante;
+- sacrifica um Pertence, recurso ou vantagem para salvar alguém ou permitir que a expedição continue;
+- traz algo valioso, raro ou especialmente útil de volta a um Posto Avançado;
+- aceita uma nova Sequela causada por uma Provação de 2 espaços, outra consequência especialmente grave ou por Colapso.
+
+Cumprir várias condições continua concedendo apenas 1 Marca no encerramento da expedição. A Marca intermediária de uma Expedição Longa é a única exceção que pode elevar o total daquele personagem naquela expedição para 2.
+
+Avanços
+
+A cada 3 Marcas de Expedição, escolha 1 avanço e apague essas 3 Marcas.
+
+Para evitar que um único atributo domine toda a evolução, o mesmo avanço de atributo não pode ser escolhido em dois avanços consecutivos. Depois de aumentar Bagagem, por exemplo, o próximo avanço deve ser Presença, Nova Aptidão ou Especialidade antes que Bagagem possa ser aumentada outra vez.
+
+Presença:
+- Aumente a Presença máxima e atual em 1, até o máximo de 10.
+
+Bagagem:
+- Aumente a Bagagem máxima em 1, até o máximo de 10.
+
+Nova Aptidão:
+- Aprenda 1 nova Aptidão de qualquer grupo ao qual sua Ocupação tenha acesso.
+
+Especialidade:
+- Adquira 1 nova Especialidade.
+
+Escolha o avanço pelo tipo de personagem que deseja construir. Bagagem aumenta margem para carga e Provações; Presença aumenta resistência; Aptidões criam novas opções; Especialidades tornam conhecimentos específicos mais confiáveis. Se, em playtest, um mesmo avanço aparecer como escolha automática para quase todos os personagens, trate isso como sinal de balanceamento a revisar, não como comportamento esperado do sistema.
+
+Especialidades
+
+Especialidades representam conhecimentos aprendidos durante as jornadas. Elas não precisam estar ligadas à Ocupação original.
+
+Quando uma Especialidade se aplicar claramente a uma Ação Incerta, o teste é Favorável.
+
+Uma Especialidade deve ser mais estreita que uma Ocupação.
+
+Exemplos:
+- Navegação por Rios;
+- Cirurgia Traumática;
+- Rastros de Grandes Animais;
+- Armas de Fogo;
+- Plantas Venenosas;
+- Ruínas Antigas;
+- Negociação na Fronteira;
+- Travessias;
+- Acampamentos;
+- Recuperação de Cadáveres.
+
+A Ocupação representa aquilo que o personagem já sabia quando entrou na expedição.
+As Especialidades representam aquilo que aprendeu depois.
+
+Uma Especialidade não concede acesso automático a um novo grupo de Aptidões. Ela conta como uma condição Favorável própria nas Ações Incertas diretamente relacionadas ao conhecimento adquirido. Se Ocupação, ferramenta, Ajuda ou outro fator já tornar a ação Favorável, a Especialidade pode contribuir para Preparo.
+
+Sequelas
+
+Quando um personagem sobrevive a uma Provação de 2 espaços, outra consequência especialmente grave ou ao Colapso, o jogador e o Mestre podem registrar uma Sequela: uma consequência duradoura que passa a fazer parte da história do personagem.
+
+Exemplos:
+- Mão Trêmula;
+- Pulmão Ferido;
+- Medo de Água Profunda;
+- Sono Leve;
+- Memória Fragmentada;
+- Febres Recorrentes;
+- Perna Mal Curada;
+- Pavor de Espaços Fechados.
+
+Quando uma Sequela atrapalhar diretamente uma ação, o Mestre pode tornar a Ação Incerta Desfavorável. Duas ou mais Sequelas relevantes para a mesma ação não acumulam penalidades além da situação Desfavorável normal.
+
+Uma Sequela pode ser a razão pela qual o personagem recebe a Marca concedida no encerramento da expedição, mas não concede uma Marca final adicional. A Marca intermediária de Expedição Longa segue sua própria regra.
+
+Sequelas não surgem de qualquer ferimento pequeno e não desaparecem com descanso comum. Elas representam acontecimentos que deixaram uma consequência permanente ou muito difícil de superar.
+
+Tratar Ou Adaptar-Se a uma Sequela
+- Depois de completar pelo menos uma expedição desde que recebeu a Sequela, o personagem pode dedicar um período entre expedições a tratamento, treinamento ou adaptação.
+- Faça uma Ação Incerta. Um especialista, recurso adequado ou método coerente pode tornar a tentativa Favorável.
+- Em sucesso, a Sequela permanece registrada na história, mas deixa de tornar ações desfavoráveis: o personagem aprendeu a conviver com ela ou reduziu seus efeitos.
+- Em falha, ela continua ativa e só pode ser tentada novamente depois do fim de outra expedição ou de uma mudança significativa no método de tratamento.
+- Algumas Sequelas podem ser declaradas realmente irreversíveis pelo jogador quando isso for desejado narrativamente; nunca pelo Mestre apenas para retirar opções do personagem.
+
+Novos Exploradores em Campanhas Veteranas
+Quando um novo personagem entra numa campanha em que os exploradores ativos já possuem Avanços:
+- conte quantos Avanços completos cada personagem ativo possui;
+- calcule a média do grupo e considere apenas a parte inteira;
+- o novo personagem começa com um número de Avanços igual à metade dessa média, arredondada para baixo;
+- aplique esses Avanços normalmente, respeitando máximos e a regra de não repetir o mesmo avanço de atributo consecutivamente;
+- o novo personagem começa com 0 Marcas de Expedição.
+
+Se não houver nenhum explorador ativo porque todos morreram, desapareceram ou se aposentaram ao mesmo tempo, use para esse cálculo o grupo de personagens ativos imediatamente antes dessas saídas. Assim uma campanha veterana não perde sua referência de progressão por ficar momentaneamente sem personagens ativos.
+
+Exemplo: se os exploradores ativos possuem 4, 4 e 5 Avanços, a média inteira é 4. Um novo explorador começa com 2 Avanços.
+
+Essa regra vale para substitutos após morte, desaparecimento ou aposentadoria e impede que um novo personagem fique completamente deslocado sem igualá-lo aos veteranos.
+
+Aposentadoria e Substituição Voluntária
+- Em qualquer Posto Avançado ou outro lugar seguro, um jogador pode aposentar voluntariamente seu explorador.
+- O personagem aposentado permanece no mundo e pode tornar-se contato, especialista, comerciante, guia ou simplesmente abandonar as expedições.
+- O jogador cria um novo personagem pelas regras normais, aplicando a regra de Novos Exploradores em Campanhas Veteranas quando for o caso, e volta a jogar sem precisar esperar que o antigo morra.
+- Aposentar um personagem não transfere automaticamente Marcas, Aptidões ou atributos ao substituto.
+- Pertences que o grupo entregue ao substituto contam como parte de seu equipamento inicial conforme o capítulo 9; aposentadorias sucessivas nunca criam equipamentos ou suprimentos adicionais do nada.
+
+Sequela e Cicatriz são regras diferentes:
+- Sequela representa uma consequência duradoura adquirida pela sobrevivência e pode tornar ações relacionadas desfavoráveis.
+- Cicatriz, descrita nas regras de Provações do Desconhecido, é uma forma específica de encerrar mecanicamente uma dessas Provações sem apagar sua marca narrativa.
+
+Experiência sem Segurança
+
+Um veterano conhece mais caminhos, desenvolve técnicas e aprende a carregar melhor o peso da expedição, mas ainda pode adoecer, ficar sem água, perder equipamento, sofrer Colapso, desaparecer ou morrer.
+
+A experiência oferece mais opções. Ela nunca remove o risco.
+
+14. O DESCONHECIDO
+
+A magia não possui pontos, mana ou reserva própria.
+
+Usar, ativar, estudar ou interagir diretamente com algo que pareça sobrenatural cobra seu preço por meio de Provações do Desconhecido.
+
+Esse nome não confirma que a origem foi realmente mágica. A mesma Provação pode ser interpretada como trauma, doença, veneno, febre, superstição ou delírio.
+
+Regra Central
+- Quando um personagem tenta ativar deliberadamente um efeito sobrenatural, recebe o custo indicado pelo objeto ou fenômeno.
+- Todo custo é medido em espaços de Provação do Desconhecido ocupados na Bagagem, não em quantidade de Provações diferentes.
+- Se nenhum custo estiver indicado, recebe pelo menos 1 espaço de Provação do Desconhecido.
+- Um custo de 1 espaço normalmente aplica uma Provação de 1 espaço; um custo de 2 espaços normalmente aplica uma Provação de 2 espaços coerente com a manifestação.
+- O custo listado substitui esse mínimo: ele não é cobrado duas vezes.
+- Interações passivas só causam Provação quando a descrição, exposição prolongada, falha ou situação indicar.
+- O Mestre pode ocultar a origem da Provação para preservar a dúvida.
+- A regra geral de exposição repetida protege contra permanecer passivamente diante da mesma fonte; ela não reduz o custo de uma nova ativação deliberada.
+- Cada ativação deliberada paga novamente o custo completo. Se a Provação mais óbvia já estiver no máximo, use outra Provação do Desconhecido coerente para representar os novos espaços cobrados. O preço nunca desaparece apenas porque o personagem já está marcado.
+
+Provações do Desconhecido Sugeridas
+
+Todas as Provações abaixo têm natureza Do Desconhecido, além das naturezas adicionais indicadas.
+
+Pesadelos Recorrentes — 1 espaço · Mental
+- Descansos continuam possíveis, mas o personagem recupera 1 Presença a menos, mínimo 0, enquanto os pesadelos forem relevantes.
+
+Sangramento sem Ferida — 1 espaço · Física
+- Pequenos sangramentos surgem sem causa aparente.
+- Em cenas de esforço intenso, uma Falha Grave pode causar 1 Dano adicional à Presença.
+
+Vozes na Mata — 1 espaço · Mental
+- O personagem escuta chamados e instruções que outros não percebem.
+- Ações de orientação ou percepção tornam-se desfavoráveis quando seguir ou ignorar essas vozes for parte do risco.
+
+Memória Ausente — 1 espaço · Mental
+- O personagem perde lembranças recentes.
+- Informações obtidas apenas durante o período perdido não podem ser tratadas como certeza sem diário, mapa, testemunha ou outra evidência.
+
+Marca do Impossível — 1 espaço · Física
+- Surge uma alteração física estranha.
+- Ela não causa penalidade automática, mas pode provocar medo, superstição ou hostilidade quando descoberta.
+
+Sonho Compartilhado — 1 espaço · Mental
+- O personagem sonha repetidamente com lugar ou presença também descrita por outros.
+- O primeiro Descanso Seguro após o sonho recupera apenas 1 Presença, em vez de 2.
+
+Fome de Cinzas — 1 espaço · Mental
+- Comida perde o gosto e surgem compulsões por substâncias impróprias.
+- Remover Fome Debilitante exige uma porção adicional de alimento enquanto esta Provação estiver ativa.
+
+Olhar do Outro Lado — 2 espaços · Mental
+- O personagem percebe sombras, movimentos ou figuras que talvez não existam.
+- A primeira Ação Incerta de percepção ou orientação em cada cena é Desfavorável.
+
+Corpo Estranho — 2 espaços · Física
+- Partes do corpo parecem não responder corretamente.
+- A primeira Ação Incerta física delicada em cada cena é Desfavorável.
+
+Presença Seguinte — 2 espaços · Mental
+- O personagem sente que algo o acompanha.
+- Dormir sozinho impede a recuperação de Presença por Descanso de Campo e pode provocar uma nova consequência se o Mestre tiver apresentado sinais claros.
+
+Remoção das Provações do Desconhecido
+
+Provações do Desconhecido raramente desaparecem com descanso comum. Para remover uma delas, o personagem precisa cumprir uma Condição de Cura coerente com o que viveu. O Mestre pode defini-la quando a Provação surge ou descobri-la durante o jogo conforme aparecem pistas e consequências.
+
+Depois de cumprir a condição, faça uma Ação Incerta:
+- sucesso: remova 1 espaço da Provação;
+- falha: a Provação permanece e o Mestre revela uma nova pista, possibilidade de tratamento ou caminho de investigação;
+- uma nova tentativa exige mudança concreta, como nova pista, preparo, ajuda, recurso, tempo, local ou método.
+
+Uma Provação de 2 espaços exige dois sucessos: o primeiro reduz para 1 espaço e o segundo remove o restante. As intervenções podem repetir uma condição em circunstâncias diferentes ou usar condições distintas.
+
+Uma boa Condição de Cura nasce do acontecimento, exige escolha, tempo, risco ou recurso e preserva a dúvida sobre a verdadeira origem. Em vez de uma solução secreta, pense em algumas famílias de resposta:
+- retornar ou confrontar: voltar ao lugar, atravessar novamente a passagem, permanecer diante da fonte ou cumprir uma vigília;
+- reparar ou devolver: devolver, enterrar, selar, destruir, recuperar ou concluir algo ligado ao acontecimento;
+- investigar ou comprovar: reconstruir memória, encontrar testemunha, corpo ou evidência, testar uma explicação plausível;
+- resistir ou recusar: ignorar vozes, recusar compulsões, fazer o oposto do ato que iniciou o problema;
+- ritualizar ou aceitar: tratamento prolongado, confissão, bênção, penitência, luto, purificação ou prática local coerente;
+- sacrificar ou abandonar: abrir mão de um Pertence importante, aceitar ajuda ou retornar por alguém deixado para trás.
+
+O Mestre deve oferecer pistas para pelo menos duas direções plausíveis e pode aceitar uma proposta dos jogadores como Condição de Cura quando ela combinar com o que aconteceu. Conhecimento, ferramentas, pistas, local seguro ou Ajuda podem tornar a tentativa Favorável; pressa, ameaça ou ignorar sinais importantes pode torná-la Desfavorável.
+
+Falhar nunca elimina todas as saídas e não confirma que a causa era sobrenatural.
+
+Cicatriz
+
+Uma Cicatriz permite encerrar mecanicamente uma Provação sem apagar aquilo que aconteceu.
+
+Para transformar uma Provação em Cicatriz:
+- o personagem deve estar em segurança ou viver um momento narrativo claro de aceitação ou mudança;
+- deve ter tentado pelo menos uma Condição de Cura sem sucesso, ou ter carregado a Provação até o fim de uma expedição;
+- apenas uma Provação pode ser transformada em Cicatriz por personagem em cada expedição;
+- uma Provação de 2 espaços precisa primeiro ser reduzida para 1 espaço.
+
+Ao aceitar a Cicatriz:
+- remova o último espaço da Provação da Bagagem;
+- registre uma consequência permanente relacionada ao acontecimento;
+- a Cicatriz normalmente não aplica penalidade constante;
+- ela pode voltar a importar quando algo relacionado à experiência surgir;
+- ela não confirma se a causa era realmente sobrenatural.
+
+Exemplos:
+- Vozes na Mata → Nunca dorme sem alguém de vigia.
+- Marca do Impossível → Uma cicatriz escura permanece na mão.
+- Memória Ausente → Nunca recupera completamente três dias da expedição.
+- Pesadelos Recorrentes → Os sonhos cessam, mas sempre mostram o mesmo lugar quando retornam.
+- Presença Seguinte → Sempre deixa uma luz acesa ao dormir.
+- Corpo Estranho → Uma das mãos permanece dormente em noites de chuva.
+
+15. RELÍQUIAS
+
+Objetos ligados ao Desconhecido não possuem funcionamento totalmente confiável.
+
+Regra geral:
+- Cada objeto ocupa 1 espaço, salvo indicação diferente.
+- Ativá-lo deliberadamente causa o número de espaços de Provação do Desconhecido indicado em sua descrição a cada ativação deliberada.
+- “1 espaço” e “2 espaços” indicam exatamente quanto o custo passa a ocupar na Bagagem; não significam uma ou duas Provações diferentes.
+- Se nenhum custo estiver indicado, aplique o mínimo de 1 espaço definido no capítulo 14.
+- O custo indicado nunca é somado novamente ao mínimo geral.
+- Alguns efeitos podem exigir Ação Incerta Normal, Favorável ou Desfavorável conforme a situação.
+- Falhar nunca significa apenas “nada acontece”: o objeto pode permanecer inerte, produzir efeito incompleto ou cobrar um preço inesperado.
+- Esses objetos não possuem Integridade comum, salvo indicação diferente.
+- Eles podem quebrar, desaparecer ou tornar-se inertes por razões desconhecidas.
+
+Rosário de Dentes Negros
+- Efeito possível: silencia sons sobrenaturais próximos por uma rodada ou momento curto.
+- Custo: 1 espaço de Provação do Desconhecido.
+
+Espelho de Água Morta
+- Efeito possível: revela uma presença ou ausência impossível em um reflexo.
+- Custo: 1 espaço de Provação do Desconhecido.
+
+Medalhão do Sol Afogado
+- Efeito possível: mantém um pequeno objeto seco durante chuva ou imersão breve.
+- Custo: 1 espaço de Provação do Desconhecido após uso deliberado.
+
+Faca que Não Enferruja
+- Dano: 1
+- Efeito possível: feridas causadas por ela podem impedir recuperação normal até tratamento.
+- Custo: em uma manifestação impossível, o portador recebe 1 espaço de Provação do Desconhecido.
+
+Sino sem Badalo
+- Efeito possível: produz um som audível apenas para determinados alvos.
+- Custo: 1 espaço de Provação do Desconhecido.
+
+Mapa de Pele
+- Efeito possível: acrescenta uma rota depois que o portador se perde.
+- Custo: 1 espaço de Provação do Desconhecido quando a nova rota é seguida deliberadamente.
+
+Vela de Sebo Frio
+- Efeito possível: revela sombras que não correspondem ao ambiente.
+- Custo: 1 espaço de Provação do Desconhecido para quem permanecer observando.
+
+Crânio de Cristal Opaco
+- Efeito possível: indica proximidade de cadáver oculto.
+- Custo: 1 espaço de Provação do Desconhecido após exposição prolongada.
+
+Moeda do Homem Morto
+- Efeito possível: provoca um único gesto, som ou palavra em um cadáver.
+- Custo: 2 espaços de Provação do Desconhecido.
+
+Corda dos Enforcados
+- Efeito possível: um nó pode se desfazer antes de perigo iminente.
+- Custo: 1 espaço de Provação do Desconhecido quando o aviso é interpretado e seguido.
+
+Máscara do Segundo Rosto
+- Efeito possível: permite enxergar no escuro ou através de fumaça por um curto momento.
+- Custo: 2 espaços de Provação do Desconhecido.
+
+Frasco de Chuva
+- Efeito possível: provoca ou interrompe chuva em área pequena por alguns minutos.
+- Custo: 2 espaços de Provação do Desconhecido.
+
+Agulha do Norte Morto
+- Efeito possível: aponta para uma presença, lugar ou objeto desconhecido.
+- Custo: 1 espaço de Provação do Desconhecido se o grupo decidir segui-la.
+
+Livro sem Letras
+- Efeito possível: registra imagens relacionadas a sonhos recentes.
+- Custo: 1 espaço de Provação do Desconhecido para quem estudar as novas páginas.
+
+Anel de Ferro Morno
+- Efeito possível: aquece na presença de determinado fenômeno.
+- Custo: passivo normalmente sem custo; forçar uma resposta custa 1 espaço de Provação do Desconhecido.
+
+Pedra que Respira
+- Efeito possível: muda seu ritmo próximo a morte ou grande perigo.
+- Custo: 1 espaço de Provação do Desconhecido após longa observação.
+
+Olho de Âmbar
+- Efeito possível: parece indicar direção de movimento oculto.
+- Custo: 1 espaço de Provação do Desconhecido ao confiar deliberadamente nele.
+
+Chave sem Fechadura
+- Efeito possível: abre uma passagem que normalmente não poderia ser aberta.
+- Custo: 2 espaços de Provação do Desconhecido.
+
+Cálice de Cinzas
+- Efeito possível: destrói ou transforma um líquido armazenado.
+- Custo: 1 espaço de Provação do Desconhecido para quem beber, manipular ou estudar o resultado.
+
+Medalha do Santo Apagado
+- Efeito possível: uma presença pode hesitar antes de cruzar uma entrada.
+- Custo: 1 espaço de Provação do Desconhecido para o portador após a tentativa.
+
+16. GUIA DO MESTRE
+
+O Mestre não precisa escrever uma história completa. Prepare situações, pessoas com objetivos, lugares, sinais e consequências; a história nasce das escolhas dos jogadores.
+
+Conduza Pela Conversa
+
+Durante a sessão, descreva o que os exploradores percebem, interprete pessoas e ameaças, pergunte o que fazem e decida se o resultado é evidente, impossível ou incerto. Role apenas quando houver dúvida relevante e algo concreto em risco. Antes da rolagem, diga o risco quando os personagens puderem percebê-lo.
+
+Pergunta útil: “O que acontece agora por causa do que os personagens fizeram?”
+
+Cada jogador acompanha Presença, Bagagem, Pertences, Integridade, Provações, Cicatrizes, Sequelas, munição e usos. O Mestre acompanha apenas o que pertence à expedição: dia ou etapa, rota, clima importante, perigos ativos, pistas e mudanças relevantes. Não duplique controles sem necessidade.
+
+Prepare Situações, Não Soluções
+
+Antes da sessão, responda:
+- o que a expedição procura e por que isso importa agora;
+- onde está o principal objetivo;
+- que pressão impede o grupo de agir com calma;
+- que perigo ameaça Presença, recursos, carga, caminho ou tempo;
+- quem mais quer alguma coisa;
+- que descoberta pode mudar os planos;
+- que sinal estranho existe no local.
+
+Não determine antecipadamente como um problema deve ser resolvido. “A ponte caiu e algo importante está na outra margem” é melhor que “os jogadores precisam encontrar a ponte escondida”. Se uma ideia fizer sentido, permita que seja tentada.
+
+Comece próximo de uma decisão: uma trilha desaparece, um ferido chega, a água muda, uma carga some, o guia se recusa a seguir ou surgem sinais de algo impossível. Depois pergunte: “O que vocês fazem?”
+
+Mostre o Perigo
+
+Mistério não significa ausência de informação. Mostre sinais antes de consequências graves: madeira rangendo, água com cheiro estranho, pegadas, sangue, silêncio dos animais, equipamento abandonado, ruídos, vegetação quebrada ou relatos contraditórios.
+
+Perigos podem ameaçar mais que Presença: tempo, água, alimento, munição, Integridade, Bagagem, um Pertence, posição, aliados, descanso, informação ou a rota de retorno. Pergunte: “Se isso piorar, o que a expedição pode perder?”
+
+Perigos capazes de matar ou destruir grande parte da expedição devem ter sinais claros sempre que possível. Os jogadores podem escolher riscos extremos, mas precisam perceber que estão fazendo isso.
+
+Faça a Falha Mudar Algo
+
+Uma falha não precisa parar a aventura. Ela pode consumir tempo ou recurso, reduzir Integridade, causar Dano ou Provação, separar alguém, atrair atenção, perder posição, ameaçar carga ou oferecer progresso mediante um preço.
+
+Se uma informação for necessária para continuar, não a esconda atrás de uma única rolagem. Entregue a pista básica; a Ação Incerta pode revelar mais, encontrá-la antes do perigo ou evitar um custo.
+
+Nunca deixe a única saída depender de uma Aptidão, Ocupação ou sucesso específico. Se uma falha bloquear uma rota, mostre custo, recuo, pista, ajuda, mudança de método ou outra rota. Quando alguém estiver preso ou separado, deve existir ao menos uma ação concreta capaz de mudar a situação.
+
+Se a única resposta for “não há nada que possamos fazer”, revise a situação. O perigo pode ser extremo; a ausência de escolha não precisa ser.
+
+Ofereça Escolhas, Não Respostas Certas
+
+Boas decisões colocam recursos, tempo e objetivos em conflito: atravessar agora ou procurar passagem; carregar alimento ou descoberta; continuar com um ferido ou voltar; gastar munição ou preservar; abandonar ferramenta para abrir espaço; seguir atalho suspeito ou rota longa.
+
+Nem todo encontro é combate. Pessoas e criaturas podem observar, fugir, negociar, ameaçar, pedir ajuda, proteger território, buscar alimento ou querer algo que a expedição possui. Antes de escolher a reação, pergunte o que cada parte quer.
+
+Para improvisar uma pessoa, defina apenas:
+- Quer: o que deseja agora;
+- Teme: o que tenta evitar;
+- Sabe: uma informação útil, incompleta ou perigosa.
+
+Controle Pressão e Ritmo
+
+Alterne perigo com tempo para conversar, reorganizar Bagagem, tratar, reparar, estudar descobertas e discutir caminho. Segurança completa deve ser rara longe de Postos, mas perigo constante perde impacto.
+
+Use água, alimento, munição, Bagagem e Integridade como pressão quando estiverem acabando, ameaçados ou ligados a uma decisão. Não interrompa cada cena apenas para conferir inventário.
+
+Como referência de playtest, um explorador com Bagagem 7, preparado para cerca de três dias e com suprimentos distribuídos pelo grupo, deveria normalmente conservar 1 ou 2 espaços livres. Se todos saem no limite, reduza carga obrigatória, ofereça transporte ou reabastecimento. Se sobra espaço demais em viagens longas, aumente distância, pressão de recursos ou valor das descobertas antes de aumentar Dano e doenças.
+
+Para dar identidade à selva, bastam dois ou três detalhes concretos por cena: calor preso, roupa molhada, cheiro de podridão, insetos, lama, raízes sob água, pouca luz ou silêncio repentino. Mude os detalhes conforme o lugar.
+
+Mantenha o Desconhecido Ambíguo
+
+O sobrenatural deve ser raro. Comece com coincidências, sons sem origem, lembranças contraditórias, objetos deslocados, sonhos semelhantes ou fenômenos naturais ligeiramente errados. Não explique tudo depois.
+
+O estranho pode confundir, mas não negar escolhas. Os jogadores ainda devem poder observar, investigar, recuar, experimentar e pagar preços diferentes. Uma manifestação funciona melhor quando admite pelo menos duas interpretações plausíveis.
+
+Pistas importantes devem existir por mais de uma fonte quando possível: terreno, testemunha, mapa, cadáver, Pertence abandonado, animais, ruína ou registro de outra expedição. Reaproveite nomes, lugares, rumores e detalhes que chamarem a atenção dos jogadores para fazer o mundo parecer conectado.
+
+Improvise Consequências
+
+Quando não souber o que acontece depois de uma falha ou escolha, use uma consequência coerente:
+- um recurso é ameaçado ou gasto;
+- tempo ou posição é perdido;
+- um novo perigo aparece;
+- uma pista é revelada;
+- surge uma oportunidade com preço;
+- alguém se separa ou o retorno fica mais difícil.
+
+Escolha a opção que melhor continua a situação, não a mais severa.
+
+Validando a Campanha
+
+Durante playtests, procure padrões: a mesma Aptidão, arma ou Avanço escolhido quase sempre; personagens saindo sem espaço livre; especialistas tornando os demais inúteis ou sua ausência bloqueando soluções; combate sempre trivial ou sempre mortal; custos que nunca compensam; Provações sem saída prática; ou jogadores dizendo repetidamente que não existe nada que possam fazer.
+
+Teste ocasionalmente um grupo sem combatente, outro sem especialista médico, um personagem temporariamente sozinho e uma retirada com pouca Presença e várias Provações. Devem ser situações difíceis, nunca situações sem decisão.
+
+Encerrando a Sessão
+
+Registre onde a expedição está, o que mudou, quais recursos estão em risco, ameaças ainda ativas, perguntas sem resposta e decisões que os jogadores querem tomar. Isso costuma ser suficiente para preparar a próxima sessão.
+
+17. REFERÊNCIA RÁPIDA
+
+Teste
+- Normal: 4+ em 1d6.
+- Favorável: 2d6, basta 1 sucesso.
+- Desfavorável: 2d6, precisa de 2 sucessos.
+- Uma vantagem e uma desvantagem se anulam.
+- Duas vantagens independentes restantes = Favorável + Preparo.
+- Preparo não adiciona dados; em falha, evita uma consequência secundária ou permite progresso limitado sem concluir a ação.
+- Falha Grave: Normal = 1; Favorável = dois resultados 1; Desfavorável = os dois dados falham e pelo menos um mostra 1.
+
+Personagem
+- Presença + Bagagem = 14.
+- Cada atributo começa entre 5 e 9.
+- 2 Aptidões escolhidas entre 3 grupos disponíveis para a Ocupação.
+- Ocupação relevante conta como vantagem própria.
+
+Presença
+- Saúde física e mental; 0 = morte.
+- Dano pode ser reduzido por proteção quando aplicável.
+- Perda de Presença ignora proteção, salvo regra específica.
+- Gasto de Presença é voluntário e não pode levar a 0.
+
+Bagagem
+- Pertences + Provações usam os mesmos espaços.
+- Acima do limite: descarte/redistribua ou resista ao Excesso de Bagagem.
+- Falha na resistência = Colapso.
+- Uma mesma Aptidão não concede mais de 1 espaço permanente de capacidade efetiva. Mula de Carga e Carga Bem Distribuída não se acumulam; efeitos específicos como Embalar o Impossível podem combinar quando suas regras permitirem.
+
+Ações do Grupo
+- Um resultado compartilhado = uma rolagem, com até um aliado usando Ajuda.
+- Consequência individual = cada afetado rola.
+- Trocar apenas quem rola não permite repetir uma tentativa falha.
+
+Tratamento
+- Sem conhecimento e sem material: Desfavorável.
+- Com conhecimento ou material: Normal.
+- Com conhecimento e material: Favorável.
+- Nova tentativa exige mudança concreta.
+- Água suspeita segue a mesma escala; qualquer personagem pode tentar tratar 1 porção com método plausível.
+
+Suprimentos e Descanso
+- Ração Seca: 3 porções por espaço.
+- Cabaça de Água: 2 porções por espaço.
+- Campo: recupera 1 Presença.
+- Seguro: recupera até 2 Presença no total diário.
+- Descansos recuperam no máximo 2 Presença por dia; se Campo já recuperou 1, Seguro pode recuperar apenas 1 adicional naquele dia.
+- Algumas Provações impedem recuperação.
+
+Integridade
+- Integridade 0 = Quebrado.
+- Armadura perde Integridade igual ao Dano que absorve.
+- Escudo reduz 1 Dano e perde 1 ponto de Integridade.
+
+Combate
+- Ataque = Ação Incerta.
+- Besta e armas de fogo precisam de uma ação para recarregar; cada disparo consome 1 virote ou 1 disparo de Munição de Fogo compatível.
+- Proteção é aplicada antes da perda de Presença.
+- Se a fuga for contestada, o teste decide o custo; a retirada ainda acontece.
+
+Evolução
+- Normalmente, no máximo 1 Marca ao fim de cada expedição.
+- Expedição de 3+ sessões pode conceder 1 Marca intermediária por personagem quando houver um objetivo importante alcançado.
+- A cada 3 Marcas, escolha 1 avanço e apague as 3 Marcas.
+- Avanços: +1 Presença, +1 Bagagem, Nova Aptidão ou Especialidade.
+- O mesmo avanço de atributo não pode ser escolhido duas vezes consecutivas.
+- Sequelas registram consequências duradouras e podem tornar ações relacionadas desfavoráveis.
+
+Posto e Escambo
+- Descansar, tratar, reparar, reabastecer e reorganizar.
+- Escambo usa três referências: Comum, Procurado e Raro; o valor pode mudar conforme a necessidade local.
+
+O Desconhecido
+- Ativação deliberada cobra novamente seu custo completo em espaços de Provação do Desconhecido.
+- Exposição passiva repetida não duplica indefinidamente a mesma Provação.
+- Condição de Cura remove 1 espaço em sucesso; falha revela nova direção e exige mudança concreta para tentar novamente.
+- Uma Provação de 2 espaços precisa ser reduzida para 1 antes de virar Cicatriz.
+- Cicatriz remove o último espaço e preserva uma consequência narrativa permanente.

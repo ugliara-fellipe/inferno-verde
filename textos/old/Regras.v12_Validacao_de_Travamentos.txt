@@ -1,0 +1,75 @@
+O INFERNO VERDE — REGRAS.v12
+VALIDAÇÃO DE TRAVAMENTOS E CORREÇÕES
+
+1. Colapso causado apenas por Provações
+CORRIGIDO.
+Foi criado Colapso Causado por Provações e o estado Debilitado pelo Excesso. O personagem pode ser estabilizado e voltar a agir mesmo quando não consegue abandonar Provações.
+
+2. Morte retira o jogador da sessão
+CORRIGIDO.
+Presença 0 continua sendo morte definitiva do personagem, mas o jogador assume temporariamente um personagem secundário ou introduz um novo explorador assim que for plausível.
+
+3. Personagem sem arma não consegue causar dano
+CORRIGIDO.
+Ataque desarmado e armas improvisadas possuem regra: normalmente 1 dano.
+
+4. Ajuda era citada mas não definida
+CORRIGIDO.
+Foi criada uma regra universal de Ajuda, incluindo seu custo em combate e seu efeito sobre Ações Incertas.
+
+5. Tratamento dependia de interpretação ou Ocupação específica
+CORRIGIDO.
+Qualquer personagem pode tentar Tratamento Adequado com método, tempo e recursos plausíveis. Ocupação e Especialidade melhoram a tentativa em vez de serem pré-requisitos.
+
+6. Aptidões compartilhadas ainda citavam Ocupações antigas
+CORRIGIDO.
+Nada se Levanta Duas Vezes, Mãos Firmes e Corpo entre a Relíquia e o Mundo agora se referem ao personagem que possui a Aptidão.
+
+7. Lamaçal podia prender indefinidamente
+CORRIGIDO.
+Pagar o custo de uma falha garante saída. Recusar ou não poder pagar permite novas tentativas com mudança de abordagem, ajuda ou risco crescente.
+
+8. Kit inicial podia impedir conceitos de personagem com Bagagem baixa
+CORRIGIDO.
+O kit inicial agora é explicitamente uma recomendação. Recursos podem ser distribuídos entre a expedição e não precisam ser carregados individualmente.
+
+9. Último ponto de Integridade do Kit Médico era ambíguo
+CORRIGIDO.
+Cirurgia de Campo resolve a tentativa antes de consumir Integridade. Um Kit com Integridade 1 pode realizar sua última cirurgia normalmente.
+
+10. Devorador de Sonhos podia não ter solução acessível
+CORRIGIDO.
+O Mestre deve inserir pelo menos duas pistas independentes para a âncora e uma forma plausível de abandonar a influência da ameaça.
+
+11. Cadeia de Provações podia tornar recuperação impossível sem especialista
+CORRIGIDO.
+Foi criada Estabilização Improvisada e Retorno como Tratamento. Especialistas são melhores, mas não são a única saída.
+
+12. Presença 1 desativava Aptidões e podia bloquear solução essencial
+CORRIGIDO.
+O texto agora estabelece que ações comuns continuam disponíveis e Aptidões pagas nunca devem ser a única forma de resolver um obstáculo essencial.
+
+13. Sequelas podiam acumular até inutilizar o personagem
+CORRIGIDO.
+Sequelas não acumulam penalidades além de uma situação desfavorável e podem ser tratadas ou adaptadas entre expedições para deixar de impor penalidade mecânica.
+
+14. Fim de expedição não estava definido
+CORRIGIDO.
+Foi criada a definição formal de início e fim de uma Expedição, incluindo jornadas com várias sessões e retiradas.
+
+15. Repetição de testes e Condições de Cura era ambígua
+CORRIGIDO.
+Uma tentativa não pode ser repetida nas mesmas condições. Nova abordagem, recurso, ajuda, pista, tempo ou risco é necessário. Condições de Cura seguem a mesma regra.
+
+16. Ocupação tinha pouco efeito fora do acesso a Aptidões
+CORRIGIDO.
+Experiência profissional diretamente relevante torna Ações Incertas favoráveis, sem acumular com outras vantagens.
+
+17. Não havia aposentadoria ou substituição voluntária
+CORRIGIDO.
+Personagens podem se aposentar em segurança e ser substituídos. A morte também possui procedimento de substituição durante a sessão.
+
+VALIDAÇÃO ADICIONAL
+- Nenhuma ocorrência de onça/onças foi encontrada.
+- Nenhuma ocorrência de malária/malaria foi encontrada.
+- Nenhuma ocorrência mecânica de DUR ou Durabilidade foi encontrada; Integridade permanece como termo atual.
