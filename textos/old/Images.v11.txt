@@ -1,0 +1,573 @@
+O INFERNO VERDE — GUIA VISUAL DE IMAGENS
+Versão 11 — especificação objetiva para livro físico, livro digital e página web
+
+REGRA DE PRIORIDADE
+
+Este arquivo é a referência visual obrigatória para todas as imagens do projeto.
+Quando existir conflito com versões anteriores do guia de imagens, prevalece a versão de número mais alto.
+
+As regras abaixo só podem ser ignoradas quando o pedido de uma imagem específica disser explicitamente o contrário.
+
+
+1. PALETA
+
+Obrigatório:
+- Usar somente preto, branco e tons de cinza neutros.
+- Usar fundo branco.
+- Manter contraste alto o suficiente para impressão monocromática.
+- Usar branco negativo, preto sólido, hachuras e diferentes densidades de traço para separar formas e planos.
+
+Proibido:
+- Qualquer cor.
+- Sépia.
+- Fundo amarelado.
+- Pergaminho colorido.
+- Cinzas tão próximos entre si que desapareçam em impressão.
+
+
+2. ESTILO VISUAL
+
+Todas as imagens devem pertencer à mesma coleção visual.
+
+O estilo obrigatório é:
+- gravura histórica;
+- xilogravura;
+- água-forte;
+- ilustração editorial em tinta;
+- acabamento limpo e detalhado;
+- hachuras visíveis;
+- silhuetas legíveis;
+- contraste forte;
+- aspecto de impressão em preto sobre papel branco.
+
+A referência histórica é a linguagem visual de gravuras naturalistas e relatos de viagem dos séculos XV e XVI, reinterpretada com acabamento contemporâneo de ilustração editorial.
+
+Proibido:
+- aparência de pintura digital colorida convertida para preto e branco;
+- estética fotográfica;
+- renderização 3D;
+- anime;
+- quadrinhos de super-herói;
+- estética moderna de fantasia heroica;
+- elementos gráficos modernos incompatíveis com o cenário.
+
+
+3. CENÁRIO VISUAL
+
+As imagens representam uma terra tropical fictícia inspirada nas Américas dos séculos XV e XVI e nas expedições desse período.
+
+A imagem não deve afirmar que a cena ocorre em um país, reino, cidade ou região histórica real, salvo pedido explícito.
+
+A arquitetura, roupas, armas, ferramentas, embarcações pequenas, acampamentos, postos, vegetação e materiais devem parecer compatíveis com o período de referência e com a terra fictícia do cenário.
+
+Não inserir objetos, roupas, construções, veículos, armas ou tecnologia moderna.
+
+
+4. PESSOAS
+
+A diversidade deve ser imediatamente perceptível quando vários personagens forem vistos juntos. A prancha não pode parecer formada por variações do mesmo rosto, corpo, cabelo ou figurino.
+
+DIVERSIDADE OBRIGATÓRIA EM PRANCHAS COM PESSOAS
+
+Para pranchas com 8 ou mais personagens:
+- incluir homens e mulheres em quantidade visualmente significativa;
+- nenhuma das duas apresentações de gênero pode representar menos de aproximadamente um terço dos personagens, salvo quando o pedido específico exigir outra distribuição;
+- incluir adultos de idades diferentes e pessoas claramente mais velhas;
+- pelo menos um quarto dos personagens deve aparentar meia-idade avançada ou velhice quando a prancha tiver 12 ou mais pessoas;
+- distribuir pessoas magras, gordas, franzinas, fortes e de constituições intermediárias;
+- variar altura, largura dos ombros, proporção entre tronco e membros, postura e maneira de ocupar o espaço;
+- evitar colocar vários personagens adjacentes com a mesma silhueta corporal.
+
+ROSTOS
+
+Cada personagem principal deve possuir um rosto realmente distinto.
+
+Variar deliberadamente:
+- formato geral do rosto: oval, redondo, comprido, quadrado, triangular ou irregular;
+- largura e altura da testa;
+- sobrancelhas finas, grossas, arqueadas, retas ou irregulares;
+- olhos maiores, menores, profundos, afastados ou mais próximos;
+- pálpebras, olheiras e rugas;
+- nariz curto, longo, largo, estreito, reto, curvo, aquilino ou irregular;
+- boca pequena, larga, fina, carnuda, assimétrica ou marcada pela idade;
+- lábios e comissuras diferentes;
+- maçãs do rosto e bochechas mais cheias ou cavadas;
+- mandíbula estreita, larga, arredondada ou marcada;
+- queixo curto, longo, dividido, retraído ou proeminente;
+- orelhas, marcas, cicatrizes e assimetrias naturais quando apropriado.
+
+Proibido:
+- reutilizar o mesmo rosto-base em vários cards;
+- repetir o mesmo conjunto de nariz, olhos, barba e formato de mandíbula;
+- fazer todos os homens com o mesmo tipo de barba;
+- fazer todas as mulheres com o mesmo formato de rosto;
+- idealizar todos os rostos como jovens, simétricos e saudáveis.
+
+CABELOS E PELOS FACIAIS
+
+Distribuir ao longo da prancha:
+- cabelos longos;
+- cabelos curtos;
+- cabelos médios;
+- cabelos presos;
+- cabelos soltos;
+- cabelos lisos, ondulados e cacheados;
+- entradas acentuadas;
+- calvície parcial;
+- pessoas completamente carecas;
+- cabelos grisalhos ou brancos em personagens mais velhos;
+- barbas longas, curtas, ralas, cheias e ausência de barba;
+- bigodes variados;
+- mulheres com comprimentos e penteados diferentes, sem obrigatoriedade de cabelos longos.
+
+Em uma prancha com 8 ou mais personagens, devem existir pelo menos:
+- um personagem de cabelo longo;
+- um de cabelo curto;
+- um careca ou com calvície evidente;
+- um com cabelo grisalho ou branco quando houver personagens mais velhos.
+
+CORPOS E CONDIÇÃO FÍSICA
+
+Devem aparecer, distribuídos pelo conjunto:
+- pessoas magras;
+- pessoas gordas;
+- pessoas franzinas;
+- pessoas fortes;
+- pessoas de constituição média;
+- pessoas baixas;
+- pessoas altas;
+- adultos jovens;
+- adultos de meia-idade;
+- idosos.
+
+Nenhuma Ocupação deve ser vinculada a um único gênero, idade ou tipo corporal.
+
+É proibido representar todo o elenco como:
+- atlético;
+- musculoso;
+- jovem;
+- saudável;
+- limpo;
+- heroicamente idealizado.
+
+VESTES E EQUIPAMENTOS PESSOAIS
+
+As roupas devem variar entre personagens sem sair do período visual de referência.
+
+Variar deliberadamente:
+- camisas simples e camisas reforçadas;
+- gibões e peças acolchoadas;
+- coletes, aventais de trabalho e peças de couro;
+- mantos, capas e tecidos enrolados;
+- calças, perneiras e peças de viagem adequadas ao período;
+- chapéus de feltro, gorros, lenços, faixas, capuzes e ausência de cobertura na cabeça;
+- capacetes e proteções somente quando a Ocupação ou a cena justificarem;
+- bolsas, cintos, mochilas, bandoleiras, cordas e ferramentas de maneira diferente entre personagens;
+- tecidos remendados, gastos, manchados, molhados ou reparados quando coerente.
+
+Personagens de povos locais ou aliados devem usar vestes próprias da terra fictícia, inspiradas em materiais e soluções compatíveis com a referência dos séculos XV e XVI, sem copiar literalmente um povo histórico específico e sem inserir elementos modernos.
+
+Proibido:
+- colocar o mesmo chapéu em quase todos os personagens;
+- vestir todos os combatentes com a mesma armadura;
+- usar roupas modernas ou fantasia medieval genérica;
+- transformar roupas femininas em versões modernas ou sexualizadas do vestuário do período;
+- usar acessórios apenas decorativos que contradigam a função da Ocupação.
+
+DESGASTE
+
+Exploradores devem frequentemente apresentar sinais coerentes com a expedição, como:
+- cansaço;
+- olheiras;
+- suor;
+- sujeira;
+- roupas gastas ou remendadas;
+- roupa molhada quando a cena exigir;
+- cicatrizes;
+- ferimentos;
+- sinais de fome;
+- sinais de febre ou doença quando a cena exigir;
+- tensão;
+- medo;
+- exaustão;
+- postura cansada;
+- equipamento gasto e pouco polido.
+
+Esses sinais devem ser distribuídos de maneira natural. Nem todos os personagens precisam carregar todos os sinais ao mesmo tempo.
+
+Proibido:
+- caricaturar peso, doença, idade, deficiência, cansaço ou aparência física;
+- transformar personagens fortes em fisiculturistas por padrão;
+- tratar personagens magros como necessariamente frágeis;
+- tratar personagens gordos como necessariamente lentos, fracos ou cômicos;
+- limitar mulheres a funções de suporte;
+- limitar homens a funções de combate.
+
+
+5. RESTRIÇÕES ABSOLUTAS
+
+- Não representar onças.
+- Não representar jaguares.
+- Não usar silhuetas, peles, brasões, ornamentos ou imagens decorativas de onças ou jaguares.
+- Não incluir animais felinos que possam ser confundidos visualmente com onças ou jaguares, salvo pedido explícito por outro felino específico.
+- Não usar elementos modernos.
+- Não usar cor.
+- Não usar fundo sépia ou amarelado.
+
+
+6. FORMATO A — PAISAGEM HORIZONTAL
+
+Uso:
+- transição entre trechos;
+- abertura de capítulo;
+- passagem atmosférica;
+- cena ampla de viagem ou exploração.
+
+Composição obrigatória:
+- orientação horizontal;
+- proporção padrão entre 2:1 e 3:1 quando nenhuma proporção específica for solicitada;
+- fluxo visual principal da direita para a esquerda;
+- a ação, direção dos personagens, linhas do terreno ou sequência de planos deve conduzir o olhar da direita para a esquerda;
+- manter todos os elementos narrativos importantes dentro de uma margem interna de segurança;
+- usar silhuetas fortes e leitura clara mesmo quando a imagem for reduzida;
+- distribuir detalhes ao longo da largura, evitando concentrar todo o interesse visual no centro.
+
+Texto dentro da imagem:
+- proibido, salvo pedido explícito.
+
+
+7. FORMATO B — PÁGINA INTEIRA
+
+Uso:
+- capa interna;
+- abertura de capítulo importante;
+- criatura;
+- Relíquia;
+- cena de Relato;
+- descoberta;
+- desastre;
+- encontro com o Desconhecido;
+- retorno da expedição.
+
+Composição obrigatória:
+- orientação vertical, salvo pedido explícito por página horizontal;
+- se a proporção da página não for informada, usar 2:3;
+- imagem concebida para preencher toda a página;
+- composição com um foco visual principal claro;
+- manter rostos, mãos, armas, Relíquias e outros elementos narrativos essenciais afastados das áreas de corte;
+- permitir sangria nas bordas com elementos não essenciais;
+- não depender de corte agressivo para funcionar.
+
+Texto dentro da imagem:
+- proibido, salvo pedido explícito.
+
+
+8. FORMATO C — PRANCHA DE CARDS
+
+Uso:
+- Ocupações;
+- Aptidões;
+- armas;
+- equipamentos;
+- Provações;
+- criaturas;
+- perigos;
+- Relíquias;
+- Postos;
+- personagens;
+- elementos ambientais.
+
+Grid:
+- usar exatamente o grid solicitado.
+- se nenhum grid for solicitado, usar 3 colunas por 4 linhas.
+- cada célula deve ter proporção de carta de baralho padrão: 5:7, em orientação vertical.
+- todas as células devem ter exatamente a mesma largura, altura e proporção.
+- todas as divisões estruturais devem permanecer retas e alinhadas para permitir corte preciso.
+- a proporção geral da prancha deve resultar diretamente do número de colunas e linhas, preservando a proporção 5:7 de cada card.
+- só usar card horizontal em proporção 7:5 quando o pedido solicitar explicitamente orientação horizontal.
+
+BORDAS E SEPARADORES
+
+As bordas e separadores fazem parte da identidade visual da prancha e devem parecer impressos junto com a gravura, não adicionados depois como caixas genéricas.
+
+Obrigatório:
+- usar uma linha externa de corte reta, fina, contínua e inequívoca para cada card;
+- manter essa linha externa livre de qualquer elemento essencial da ilustração;
+- adicionar uma moldura ornamental interna, independente da linha de corte;
+- usar cantoneiras, florões, folhas, volutas, filetes, pequenos motivos geométricos, nós, cordas estilizadas ou ornamentos inspirados em frontispícios e gravuras dos séculos XV e XVI;
+- manter a mesma família ornamental em toda a prancha;
+- variar pequenos detalhes dos ornamentos sem alterar a estrutura geral;
+- integrar visualmente vegetação, sombra, hachuras ou elementos secundários do cenário à moldura interna;
+- permitir que folhas, galhos, fumaça, tecido, cordas ou sombras secundárias encostem, desapareçam atrás ou pareçam surgir da moldura interna;
+- manter o personagem principal e seus elementos essenciais completamente dentro da área segura;
+- usar separadores entre cards com ornamento discreto e simétrico, preservando uma linha central clara para corte;
+- preservar espaço branco suficiente entre a linha de corte de um card e a do card seguinte.
+
+Integração entre arte e moldura:
+- a borda interna deve participar da composição do card;
+- o fundo pode perder gradualmente contraste ao se aproximar da moldura;
+- hachuras de fundo podem terminar dentro de florões e filetes;
+- ornamentos podem utilizar motivos relacionados à Ocupação, desde que discretos e coerentes com a mesma família gráfica;
+- a área do nome, quando solicitada, deve parecer parte natural da moldura geral do card e não uma caixa independente colada sobre a arte;
+- caixas técnicas de posicionamento de texto continuam invisíveis, sem preenchimento e sem borda.
+
+Proibido:
+- molduras modernas, minimalistas ou geométricas sem relação com a linguagem de gravura do projeto;
+- borda idêntica a uma caixa de interface digital;
+- separadores completamente lisos quando a prancha usar molduras ornamentadas;
+- excesso ornamental que dificulte identificar a linha de corte;
+- ornamentos que cubram rosto, mãos, armas, ferramentas ou outros elementos narrativos importantes;
+- fazer o desenho parecer simplesmente colado dentro de um retângulo vazio;
+- usar ornamentos de onça, jaguar ou felinos proibidos.
+
+Cada célula deve funcionar como uma imagem independente.
+
+Obrigatório em cada card:
+- composição completa dentro da própria célula;
+- margem interna consistente;
+- personagem, objeto ou criatura principal completamente contido na célula;
+- encaixar a ilustração inteira dentro da área útil do card, preservando sua proporção original;
+- nunca ampliar ou cortar a ilustração apenas para preencher completamente o quadro;
+- quando a proporção da ilustração e a área útil do card forem diferentes, manter áreas de respiro em vez de cortar conteúdo;
+- fundo próprio;
+- contraste próprio;
+- nenhum elemento necessário para compreender o card pode depender da célula vizinha.
+
+Proibido:
+- personagens atravessando divisões;
+- armas atravessando divisões;
+- braços, pernas, chapéus, ferramentas, caudas ou ornamentos atravessando divisões;
+- cenário contínuo atravessando mais de um card;
+- elementos decorativos compartilhados entre células;
+- composição panorâmica dividida artificialmente em vários cards.
+
+Texto:
+- não inserir nomes, títulos, números ou legendas nos cards, salvo pedido explícito.
+- quando o pedido exigir texto, cada texto deve permanecer inteiramente dentro da célula correspondente.
+
+Diversidade em pranchas com pessoas:
+- aplicar integralmente as regras da seção 4 — Pessoas;
+- distribuir gêneros, idades aparentes, tipos corporais, formatos de rosto e cabelos ao longo de todo o grid;
+- evitar duas células adjacentes com personagens visualmente quase idênticos;
+- não repetir em cards adjacentes a mesma combinação de barba, chapéu, cabelo e silhueta;
+- variar pose, postura, equipamento, vestes e condição de desgaste;
+- não repetir o mesmo arquétipo corporal como padrão da prancha;
+- ao observar a prancha em miniatura, as silhuetas dos personagens devem continuar claramente diferentes entre si.
+
+
+9. RESOLUÇÃO E ARQUIVOS FINAIS
+
+A arte usada no produto final deve ser vetorial.
+
+Fluxo obrigatório:
+- a geração inicial pode ser raster;
+- a imagem raster inicial é apenas material intermediário;
+- a arte aprovada deve ser vetorizada antes de ser considerada arquivo final de produção;
+- o arquivo mestre final deve ser SVG.
+
+SVG:
+- deve manter linhas e formas nítidas em qualquer escala;
+- ao ampliar o SVG, contornos e hachuras relevantes devem permanecer definidos, sem aparência borrada causada por simplificação grosseira;
+- preservar precisão suficiente nas curvas e contornos para evitar facetas visíveis em rostos, mãos, tecidos, armas e ornamentos;
+- deve usar apenas preto, branco e cinzas neutros;
+- não deve incorporar fundos coloridos;
+- deve preservar as divisões de grid quando for uma prancha de cards;
+- deve permanecer adequado para impressão e exibição em telas de alta resolução, inclusive 4K, sem perda de nitidez causada por escala;
+- deve usar formas vetoriais limpas com simplificação leve;
+- a vetorização deve preservar a aparência da arte raster aprovada, inclusive volumes, expressões, hachuras relevantes, roupas, armas e detalhes narrativos;
+- reduzir nós somente quando forem redundantes ou produzirem ruído visual que não seja perceptível na arte aprovada;
+- é proibido substituir áreas detalhadas por grandes polígonos facetados quando isso alterar rostos, anatomia, tecidos, vegetação, objetos ou sombreamento;
+- hachuras devem ser preservadas sempre que contribuírem para volume, textura ou identidade visual; simplificá-las somente quando forem microfragmentos sem efeito perceptível na leitura;
+- detalhes pequenos podem ser removidos apenas quando a ausência não for perceptível na escala normal de uso;
+- contornos principais, silhuetas, rostos, mãos, armas e objetos narrativos têm prioridade máxima, mas a preservação desses elementos não autoriza simplificação agressiva do restante da arte;
+- o arquivo final deve permanecer editável e organizado em grupos lógicos, mas fidelidade visual tem prioridade sobre redução extrema do tamanho do arquivo;
+- formas repetidas ou equivalentes só devem ser consolidadas quando a aparência permanecer praticamente idêntica;
+- a limpeza do traçado deve ser comparada visualmente com a arte aprovada antes de aceitar o SVG como final.
+
+Texto em SVG:
+- texto nunca deve ser convertido junto com a ilustração por traçado automático;
+- títulos, nomes e legendas devem ser reconstruídos como texto vetorial real ou como curvas tipográficas limpas e independentes;
+- letras devem permanecer separadas da arte e facilmente legíveis em ampliação ou redução;
+- não permitir que hachuras, ornamentos ou contornos invadam a área reservada ao texto;
+- em pranchas, todos os nomes devem seguir o mesmo alinhamento, tamanho relativo e margem interna;
+- se uma fonte precisar ser convertida em curvas para produção, converter apenas o texto final já revisado, usando um caminho limpo por glifo, nunca uma vetorização raster do texto.
+
+
+10. LEGIBILIDADE PARA IMPRESSÃO E TELA
+
+Toda imagem deve funcionar em:
+- livro físico;
+- PDF digital;
+- telas grandes;
+- página web em formato de livro corrido.
+
+Obrigatório:
+- contornos principais claros;
+- separação visual entre personagem e fundo;
+- hachuras que não se transformem em manchas ilegíveis quando reduzidas;
+- detalhes finos suficientes para impressão, sem depender deles para compreender a cena;
+- contraste que sobreviva à impressão monocromática comum;
+- áreas brancas suficientes para a imagem respirar sobre uma página branca.
+
+
+11. CONSISTÊNCIA ENTRE IMAGENS
+
+Todas as imagens do projeto devem parecer parte da mesma publicação.
+
+Manter constantes:
+- linguagem de hachuras;
+- contraste;
+- acabamento de linha;
+- família de bordas, cantoneiras, florões e separadores ornamentais;
+- tratamento da vegetação;
+- tratamento de roupas e tecidos;
+- tratamento de metal, madeira, couro e pedra;
+- aparência geral dos Postos e expedições;
+- escala visual do Desconhecido;
+- ausência de cor;
+- fundo branco.
+
+Variar entre imagens:
+- pessoas;
+- poses;
+- idade aparente;
+- gênero;
+- corpo;
+- enquadramento;
+- clima;
+- grau de desgaste;
+- densidade da vegetação;
+- situação narrativa.
+
+
+12. ORDEM DE PRIORIDADE AO CRIAR UMA IMAGEM
+
+Ao criar qualquer imagem, seguir esta ordem:
+
+- primeiro: respeitar as Restrições Absolutas;
+- segundo: respeitar o formato solicitado — Paisagem Horizontal, Página Inteira ou Prancha de Cards;
+- terceiro: respeitar a paleta e o estilo visual;
+- quarto: representar corretamente o cenário e o período de referência;
+- quinto: aplicar diversidade e desgaste coerentes às pessoas;
+- sexto: garantir legibilidade para impressão e tela;
+- sétimo: preparar a composição para vetorização e produção final em SVG.
+
+Se duas instruções deste guia parecerem entrar em conflito, seguir a instrução que estiver mais acima nesta ordem de prioridade.
+
+13. TIPOGRAFIA NAS IMAGENS E SVGs
+
+A tipografia usada em imagens, pranchas, cards e SVGs deve seguir a mesma identidade editorial definida para o livro, PDF e site.
+
+Famílias obrigatórias:
+
+EB Garamond
+- uso: títulos editoriais, títulos de pranchas e títulos de abertura quando houver texto solicitado;
+- peso padrão para títulos: Bold;
+- não usar EB Garamond como fonte principal de textos longos dentro de imagens.
+
+Source Serif 4
+- uso: nomes de cards, legendas, subtítulos, termos mecânicos, notas e demais textos funcionais;
+- Regular para legendas e textos explicativos;
+- Semibold para nomes, termos mecânicos e destaques;
+- Bold para subtítulos;
+- Italic para citações, relatos curtos ou fragmentos quando solicitados.
+
+Hierarquia obrigatória quando houver texto:
+- título de prancha ou título editorial: EB Garamond Bold;
+- subtítulo: Source Serif 4 Bold;
+- nome de card: Source Serif 4 Semibold;
+- legenda ou explicação: Source Serif 4 Regular;
+- termo mecânico destacado: Source Serif 4 Semibold;
+- citação ou fragmento: Source Serif 4 Italic.
+
+Regras de composição tipográfica:
+- manter a mesma hierarquia usada no livro, PDF e site;
+- usar preto como cor principal do texto;
+- cinza neutro só pode ser usado em informação secundária;
+- não usar contorno, sombra, glow, bevel ou efeito tridimensional;
+- não usar texto em caixa alta integral como padrão;
+- preservar espaço em branco ao redor dos textos;
+- não permitir que hachuras ou elementos da ilustração prejudiquem a leitura;
+- manter alinhamento, tamanho relativo e margens consistentes entre cards da mesma prancha;
+- nomes e legendas devem permanecer totalmente dentro da célula correspondente.
+
+Regras técnicas para SVG:
+- texto deve permanecer como texto SVG real sempre que possível;
+- usar `font-family="Source Serif 4"` ou `font-family="EB Garamond"` conforme a hierarquia;
+- se o texto precisar ser convertido em curvas para produção gráfica, converter somente a tipografia final já revisada, preservando formas limpas por glifo;
+- nunca vetorizar tipografia a partir de raster;
+- nunca deixar texto rasterizado dentro do SVG final;
+- qualquer texto herdado da geração de imagem deve ser removido antes da vetorização;
+- caixas de posicionamento de texto permanecem sem preenchimento e sem borda;
+- a tipografia não deve depender de placas brancas para permanecer legível.
+
+Fallbacks recomendados quando o SVG for exibido em ambiente que não carregou a fonte principal:
+- Source Serif 4: Georgia, "Times New Roman", serif;
+- EB Garamond: Garamond, Georgia, "Times New Roman", serif.
+
+Regra de consistência:
+A tipografia das imagens deve parecer parte do mesmo sistema editorial do livro. Uma prancha, um card, o PDF e o site não podem parecer produtos gráficos diferentes.
+
+
+14. TEXTO VETORIAL EM SVG
+
+Regras obrigatórias:
+- textos devem permanecer como elementos vetoriais independentes da ilustração;
+- caixas associadas a texto devem ter fundo totalmente transparente;
+- caixas associadas a texto não devem possuir borda;
+- usar `fill="none"` e `stroke="none"` em qualquer retângulo ou contêiner usado apenas para posicionar texto;
+- é proibido usar retângulo branco, knockout, máscara opaca ou placa sólida atrás do texto;
+- títulos e legendas devem ficar visualmente integrados à composição sem criar uma caixa branca artificial;
+- o fundo geral da arte pode continuar branco quando o formato exigir, mas isso não deve ser obtido por uma caixa individual atrás de cada texto.
+
+SEPARAÇÃO OBRIGATÓRIA ENTRE ARTE E TEXTO VETORIAL
+
+- A arte vetorizada não pode conter letras, palavras, números ou fragmentos de tipografia herdados da imagem raster gerada.
+- Antes da vetorização final, qualquer texto existente na imagem intermediária deve ser removido da própria arte.
+- Títulos, nomes, legendas e demais textos devem existir somente na camada tipográfica SVG.
+- É proibido colocar texto SVG real por cima de letras vetorizadas da ilustração.
+- A camada de texto deve permanecer independente, editável e sem retângulo de fundo.
+- Caixas associadas a texto usam fill="none" e stroke="none".
+- A área atrás do texto deve permanecer transparente em relação à composição; não criar placas brancas, knockouts ou contornos para esconder texto antigo.
+
+15. ENQUADRAMENTO, RECORTE E VALIDAÇÃO FINAL
+
+ENQUADRAMENTO DOS CARDS
+
+Regras obrigatórias:
+- a ilustração principal deve aparecer inteira dentro da área útil do card;
+- preservar sempre a proporção original da ilustração;
+- usar comportamento equivalente a `preserveAspectRatio="xMidYMid meet"` ao posicionar arte dentro do card;
+- é proibido usar comportamento equivalente a `slice`, `cover` ou qualquer método que corte a imagem para preencher o quadro;
+- não cortar cabeça, mãos, pés, armas, ferramentas, chapéus, mochilas, ornamentos ou elementos narrativos importantes;
+- se a arte não preencher toda a área disponível, aceitar espaço branco ou área de respiro;
+- clipPaths só podem impedir vazamento entre células; não podem ser usados para esconder cortes do elemento principal;
+- a margem de segurança interna deve ser considerada parte da composição, não espaço desperdiçado.
+
+NITIDEZ DO SVG
+
+Regras obrigatórias:
+- o SVG final deve permanecer visualmente nítido quando ampliado muito além do tamanho normal de uso;
+- linhas finas relevantes não podem se transformar em manchas ou contornos serrilhados por simplificação excessiva;
+- não usar grandes polígonos para aproximar curvas orgânicas quando essa aproximação for perceptível;
+- preservar curvas e pontos suficientes para manter rostos, anatomia, tecido, metal, vegetação e hachuras reconhecíveis;
+- se a arte parecer borrada ou facetada quando ampliada, a vetorização deve ser refeita; não compensar o problema apenas gerando uma prévia raster maior;
+- fidelidade visual à arte aprovada tem prioridade sobre redução do número de nós ou do tamanho do arquivo.
+
+VALIDAÇÃO VISUAL OBRIGATÓRIA
+
+Antes de considerar uma prancha SVG final:
+- renderizar uma prévia geral para conferir composição e grid;
+- renderizar uma prévia de alta resolução com pelo menos 7680 px de largura para pranchas horizontais grandes;
+- ampliar e inspecionar pelo menos três cards individualmente: um com rosto, um com equipamento detalhado e um com fundo complexo;
+- confirmar que nenhuma ilustração interna foi cortada;
+- confirmar que textos continuam nítidos e independentes da arte;
+- confirmar que não existe texto herdado da imagem raster;
+- confirmar que não há linhas ou formas atravessando células adjacentes;
+- confirmar que rostos, cabelos, idades, corpos e vestes não parecem variações do mesmo personagem;
+- confirmar que a prancha contém variedade visível de adultos, idosos, homens, mulheres, pessoas magras, gordas, franzinas e fortes quando houver quantidade suficiente de personagens;
+- confirmar que bordas e separadores estão ornamentados e integrados à arte sem comprometer a linha de corte;
+- confirmar que a aparência ampliada continua coerente com a arte aprovada.
+
+A prévia raster de validação não substitui o SVG e não é arquivo mestre de produção.
+
