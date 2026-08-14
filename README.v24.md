@@ -169,7 +169,23 @@ Quando houver geração de imagem, antes de `ARTE` o pipeline informa também as
 
 Antes de `ARTE`, o controlador também apresenta um `CONTEXTO DA ETAPA` pesquisado nos sources atuais. Ele separa **Conteúdo Canônico** (o que desenhar) de **Direção Plástica** (como desenhar), resolve aspectos como estilo, densidade, fundo, iluminação, contraste, hachura, composição, espaço negativo, acabamento e peso sinistro, registra a pressão visual e as travas críticas da geração e termina com uma síntese visual curta.
 
-Em `RODE: VINHETA`, esse contexto é adaptado à **escala editorial**: foco simples, leitura rápida, espaço negativo e densidade controlada para não competir com o texto. Em `RODE: CENA`, ele é adaptado à **página inteira**: hierarquia de planos, profundidade ambiental, distribuição de detalhe, iluminação da situação e sinais secundários de mistério. Em ambos, peso sinistro vem do conteúdo e da consequência, não de escurecer a arte.
+O projeto usa agora três tipos de contexto antes de qualquer transformação visual:
+
+- **CONTEXTO DE GERAÇÃO** — obrigatório antes de criar ou regenerar uma imagem. Usa os cinco blocos completos: Conteúdo Canônico, Direção Plástica, Pressão Visual, Travas e Síntese. Correções também registram a falha, os elementos congelados e exatamente o que pode mudar.
+- **CONTEXTO DE ALTERAÇÃO EDITORIAL** — usado antes de aplicar ou ajustar nome, ornamentação, alinhamento, posição ou montagem. Registra a fonte visual congelada, o que será alterado, a direção editorial, o que é imutável e como validar a mudança.
+- **CONTEXTO TÉCNICO** — usado antes de FINAL RASTER, upscale, redução, conversão, compressão e exportação. Registra a fonte mestre, destino, dimensões, resolução, transformação permitida, elementos imutáveis e validação técnica.
+
+Nenhum desses contextos cria sozinho uma nova etapa de aprovação. Eles preparam e travam a transformação dentro da lógica já existente do pipeline. Uma etapa que altera pixels ou layout não deve começar sem o tipo de contexto correspondente.
+
+O princípio operacional é **uma transformação = um contexto ativo**. Quando um pipeline chama outro para executar a mesma transformação sobre o mesmo alvo, o contexto já preparado é herdado e validado em vez de ser recalculado. A sequência é **HERDAR → VALIDAR → DELTA SE NECESSÁRIO → EXECUTAR**. Em coleções e lotes, decisões realmente comuns formam uma base compartilhada; cada card recebe apenas seu delta individual.
+
+Um novo contexto só é criado quando muda o tipo de transformação, o alvo, a fonte visual, o escopo ou alguma regra material. Isso impede que `VINHETA → RASTER`, `CENA → RASTER` e `FLUXO BASE → CARD` sobrescrevam uma direção visual já resolvida.
+
+Comandos genéricos como `AJUSTAR`, `REFAZER` e `CORRIGIR` são classificados antes da execução: reinterpretação visual usa CONTEXTO DE GERAÇÃO; composição, crop, posição, nome, ornamento ou montagem usam CONTEXTO DE ALTERAÇÃO EDITORIAL; resolução, PPI, formato, reamostragem, compressão e exportação usam CONTEXTO TÉCNICO. Se um pedido misturar tipos, ele é dividido em transformações sequenciais, cada uma com seu contexto.
+
+Apresentar diretamente um artefato visual existente não cria nova transformação. Se for necessário gerar um arquivo reduzido, comprimido, convertido ou reamostrado apenas para visualização, essa derivação usa CONTEXTO TÉCNICO.
+
+Em `RODE: VINHETA`, o CONTEXTO DE GERAÇÃO é adaptado à **escala editorial**: foco simples, leitura rápida, espaço negativo e densidade controlada para não competir com o texto. Em `RODE: CENA`, ele é adaptado à **página inteira**: hierarquia de planos, profundidade ambiental, distribuição de detalhe, iluminação da situação e sinais secundários de mistério. Em ambos, peso sinistro vem do conteúdo e da consequência, não de escurecer a arte. Se VINHETA ou CENA receber ornamentação posterior, a ornamentação é tratada como transformação separada, com CONTEXTO DE ALTERAÇÃO EDITORIAL e, se houver fragmento gerado, CONTEXTO DE GERAÇÃO especializado seguido de revalidação editorial antes da aplicação.
 
 ### Criação de imagens
 
@@ -219,14 +235,14 @@ Nos cards, a ilustração e a composição editorial são tratadas separadamente
 
 - **PREVIEW DA ARTE** — mostra somente a ilustração narrativa, ainda sem nome ou ornamentos editoriais.
 - **APROVAÇÃO DA ARTE** — fixa a ilustração que será preservada nas etapas seguintes.
-- **FINAL RASTER DA FIGURA** — prepara tecnicamente a figura aprovada no tamanho mestre do card.
-- **NOME** — aplica o nome canônico em Noto Serif SemiBold, próximo da figura e sem caixas ou placas.
-- **ORNAMENTOS EDITORIAIS** — depois de figura + nome, só adiciona ornamento quando ele tiver âncora em `Cenario`, `Regras` ou `Relatos` e também responder ao ritmo visual real do card; se parecer um elemento colado ou não fizer falta quando removido, o card fica sem ornamento.
+- **FINAL RASTER DA FIGURA** — prepara tecnicamente a figura aprovada no tamanho mestre do card, sempre sob CONTEXTO TÉCNICO.
+- **NOME** — aplica o nome canônico em Noto Serif SemiBold, próximo da figura e sem caixas ou placas, sob CONTEXTO DE ALTERAÇÃO EDITORIAL.
+- **ORNAMENTOS EDITORIAIS** — depois de figura + nome, só adiciona ornamento quando ele tiver âncora em `Cenario`, `Regras` ou `Relatos` e também responder ao ritmo visual real do card; a alteração usa CONTEXTO DE ALTERAÇÃO EDITORIAL e, se o fragmento precisar ser gerado, também um CONTEXTO DE GERAÇÃO especializado baseado no próprio CARD FIGURA + NOME. Depois que o fragmento real for aprovado, o contexto editorial é revalidado para posição, escala, peso de linha e integração antes da aplicação determinística. Se parecer um elemento colado ou não fizer falta quando removido, o card fica sem ornamento.
 - **PREVIEW DO CARD COMPLETO** — mostra figura, nome e ornamentação na composição final do card.
 - **APROVAÇÃO DO CARD COMPLETO** — fixa o card completo antes de ele entrar na Folha.
-- **MONTAGEM DA FOLHA** — posiciona deterministicamente até 8 cards completos no grid de 4 colunas por 2 linhas.
+- **MONTAGEM DA FOLHA** — posiciona deterministicamente até 8 cards completos no grid de 4 colunas por 2 linhas, sob CONTEXTO DE ALTERAÇÃO EDITORIAL; `AJUSTAR MONTAGEM` atualiza esse contexto antes de qualquer reposicionamento.
 - **APROVAÇÃO DA FOLHA** — permite revisar o conjunto, o ritmo visual, as posições e os espaços vazios.
-- **FINAL RASTER DA FOLHA** — exporta a Folha aprovada no tamanho, formato e resolução definidos por `Render`.
+- **FINAL RASTER DA FOLHA** — exporta a Folha aprovada no tamanho, formato e resolução definidos por `Render`, sob CONTEXTO TÉCNICO.
 
 Os nomes usam **Noto Serif SemiBold**.
 
