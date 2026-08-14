@@ -167,19 +167,33 @@ O pipeline consulta automaticamente os arquivos aplicáveis, usa sempre suas ver
 
 Quando houver geração de imagem, antes de `ARTE` o pipeline informa também as opções que serão válidas depois da imagem em `DEPOIS DA ARTE:`.
 
-Antes de `ARTE`, o controlador também apresenta um `CONTEXTO DA ETAPA` pesquisado nos sources atuais. Ele separa **Conteúdo Canônico** (o que desenhar) de **Direção Plástica** (como desenhar), resolve aspectos como estilo, densidade, fundo, iluminação, contraste, hachura, composição, espaço negativo, acabamento e peso sinistro, registra a pressão visual e as travas críticas da geração e termina com uma síntese visual curta.
+Antes de `ARTE`, o controlador também apresenta um `CONTEXTO DA ETAPA` pesquisado nos sources atuais. Ele separa **Conteúdo Canônico** (o que desenhar) de **Direção Plástica** (como desenhar), resolve aspectos como estilo, densidade, fundo, iluminação, contraste, hachura, composição, espaço negativo, acabamento e peso sinistro, registra a pressão visual e todas as travas aplicáveis da geração e termina com uma síntese visual final que pode ser detalhada; ela não substitui nem reduz os blocos anteriores.
 
 O projeto usa agora três tipos de contexto antes de qualquer transformação visual:
 
 - **CONTEXTO DE GERAÇÃO** — obrigatório antes de criar ou regenerar uma imagem. Usa os cinco blocos completos: Conteúdo Canônico, Direção Plástica, Pressão Visual, Travas e Síntese. Correções também registram a falha, os elementos congelados e exatamente o que pode mudar.
-- **CONTEXTO DE ALTERAÇÃO EDITORIAL** — usado antes de aplicar ou ajustar nome, ornamentação, alinhamento, posição ou montagem. Registra a fonte visual congelada, o que será alterado, a direção editorial, o que é imutável e como validar a mudança.
-- **CONTEXTO TÉCNICO** — usado antes de FINAL RASTER, upscale, redução, conversão, compressão e exportação. Registra a fonte mestre, destino, dimensões, resolução, transformação permitida, elementos imutáveis e validação técnica.
+- **CONTEXTO DE ALTERAÇÃO EDITORIAL** — usado antes de aplicar ou ajustar nome, ornamentação, alinhamento, posição ou montagem. É integral: registra todas as fontes consultadas, a fonte visual congelada, objetivo editorial, todos os parâmetros autorizados a mudar, direção editorial completa, relações espaciais, elementos imutáveis, destino real e todos os critérios de validação aplicáveis.
+- **CONTEXTO TÉCNICO** — usado antes de FINAL RASTER, upscale, redução, conversão, compressão e exportação. Também é integral: registra fontes consultadas, estado técnico de origem, destino real, especificações completas de destino, transformação permitida e proibida, elementos imutáveis e validação técnica completa.
+
+**Nenhum dos três contextos pode ser reduzido a resumo, brief abreviado, seleção parcial de regras ou referência implícita.** A estrutura muda conforme o tipo de transformação, mas o nível de detalhe deve permanecer completo para tudo que for materialmente aplicável. Só linguagem administrativa de pipeline pode ser excluída quando o contexto for materializado para uma geração visual.
 
 Nenhum desses contextos cria sozinho uma nova etapa de aprovação. Eles preparam e travam a transformação dentro da lógica já existente do pipeline. Uma etapa que altera pixels ou layout não deve começar sem o tipo de contexto correspondente.
 
 O princípio operacional é **uma transformação = um contexto ativo**. Quando um pipeline chama outro para executar a mesma transformação sobre o mesmo alvo, o contexto já preparado é herdado e validado em vez de ser recalculado. A sequência é **HERDAR → VALIDAR → DELTA SE NECESSÁRIO → EXECUTAR**. Em coleções e lotes, decisões realmente comuns formam uma base compartilhada; cada card recebe apenas seu delta individual.
 
 Um novo contexto só é criado quando muda o tipo de transformação, o alvo, a fonte visual, o escopo ou alguma regra material. Isso impede que `VINHETA → RASTER`, `CENA → RASTER` e `FLUXO BASE → CARD` sobrescrevam uma direção visual já resolvida.
+
+### Carregamento do contexto no gerador
+
+Antes de cada chamada de geração, o contexto ativo é convertido em um **PROMPT CONSOLIDADO DA IMAGEM**. Esse prompt não é um resumo nem um novo contexto: é a materialização integral e autossuficiente da base comum + delta individual para exatamente uma saída visual. Ele repete dentro da própria chamada todos os detalhes relevantes de Conteúdo Canônico, Direção Plástica, Pressão Visual, Travas, coerência histórica, regras de unicidade e, quando houver correção, elementos congelados e alteração permitida. A Síntese para a Geração entra apenas no final como reforço e nunca substitui os blocos completos.
+Cada chamada ao gerador é **autossuficiente**: não usa atalhos como “mesmo estilo acima”, “conforme contexto anterior” ou “seguir as regras já definidas”. Em lotes, cada imagem repete integralmente a base relevante e acrescenta seu delta individual; assuntos diferentes continuam sendo gerados em chamadas separadas. O contexto não é reduzido para economizar tamanho de prompt.
+
+
+Antes de `image_gen`, o prompt é validado para confirmar que descreve **um único assunto**, não pede grid, colagem, folha, galeria ou conjunto e não pede nomes, códigos, legendas ou numeração quando a etapa é arte sem texto. O contexto só é considerado efetivamente carregado para a geração depois dessa validação.
+
+Para coleções, Folhas e `RODE: LOTE`, assuntos diferentes são sempre gerados por **chamadas individuais sequenciais**, uma chamada por item, dentro do mesmo MODO ARTE. O lote continua sendo uma unidade operacional para aprovação e progresso, mas não é mais uma única chamada contendo vários assuntos. `n > 1` só serve para variações do mesmo assunto quando isso for explicitamente desejado.
+
+Cada chamada individual carrega semanticamente as travas: **uma única ilustração independente, um único assunto, sem grid, colagem, mosaico, folha, painel, conjunto, texto, nome, código, legenda ou numeração**, além das demais regras aplicáveis de `Images`.
 
 Comandos genéricos como `AJUSTAR`, `REFAZER` e `CORRIGIR` são classificados antes da execução: reinterpretação visual usa CONTEXTO DE GERAÇÃO; composição, crop, posição, nome, ornamento ou montagem usam CONTEXTO DE ALTERAÇÃO EDITORIAL; resolução, PPI, formato, reamostragem, compressão e exportação usam CONTEXTO TÉCNICO. Se um pedido misturar tipos, ele é dividido em transformações sequenciais, cada uma com seu contexto.
 
@@ -194,7 +208,7 @@ Em `RODE: VINHETA`, o CONTEXTO DE GERAÇÃO é adaptado à **escala editorial**:
 - `RODE: CARD` — cria a ilustração individual destinada a uma posição de uma Folha.
 - `RODE: FOLHA` — produz uma Folha completa com até 8 cards em 4 colunas por 2 linhas.
 - `RODE: COLEÇÃO` — distribui uma lista com mais de 8 elementos em várias Folhas.
-- `RODE: LOTE` — produz de 2 a 10 imagens independentes de uma vez, sem montar grid ou Folha.
+- `RODE: LOTE` — produz de 2 a 10 imagens independentes no mesmo lote operacional; assuntos diferentes usam uma chamada individual por imagem, sem montar grid ou Folha.
 
 ### Coleções do jogo
 
