@@ -1,0 +1,421 @@
+RENDER
+Versão 11 — especificação de saída raster para produção e exibição
+
+OBJETIVO
+
+Este arquivo define somente as regras técnicas de renderização e entrega raster das imagens do projeto.
+
+As regras visuais, estilísticas, narrativas, de composição, atmosfera, ornamentação, texto e formatos de imagem continuam definidas no arquivo Images.
+
+PRINCÍPIO
+
+RASTER é o formato final de produção.
+
+Para FOLHAS, o raster final é resultado de composição determinística de cards individuais aprovados. A FOLHA final não deve ser obtida ampliando uma única imagem gerada com vários cards.
+
+A imagem gerada deve ser preparada para:
+- impressão de alta qualidade;
+- visualização em monitores 4K;
+- uso em PDF;
+- uso digital;
+- preservação de linhas finas, hachuras seletivas e fundo branco.
+
+PIPELINE DE RESOLUÇÃO — PREVIEW E FINAL RASTER
+
+O projeto possui dois níveis técnicos de imagem e eles não devem ser confundidos.
+
+PREVIEW
+- é a saída inicial destinada exclusivamente à aprovação visual;
+- pode usar a resolução nativa ou reduzida disponível na ferramenta de geração;
+- deve preservar proporção e composição pretendidas, mas não precisa atingir a resolução mestre;
+- não deve receber upscale apenas para parecer final antes da aprovação;
+- nunca substitui o raster mestre;
+- depois de apresentada, deve haver aprovação explícita antes da preparação do FINAL RASTER.
+
+FINAL RASTER
+- só é produzido depois da aprovação explícita da PREVIEW;
+- deve usar a PREVIEW aprovada como fonte visual, preservando seu conteúdo e composição;
+- a prioridade é derivar o arquivo final da imagem aprovada por processamento raster controlado, e não por uma nova interpretação generativa;
+- qualquer nova geração que possa alterar personagem, pose, cenário, enquadramento ou detalhes transforma a saída em nova PREVIEW e exige nova aprovação;
+- o raster mestre segue as dimensões, PPI, formato, nitidez e validações deste arquivo.
+
+TRAVA DE APROVAÇÃO
+A ordem obrigatória é:
+1. gerar PREVIEW;
+2. validar visualmente;
+3. solicitar aprovação explícita para gerar o FINAL RASTER;
+4. somente com aprovação, realizar preparação raster e upscale controlado;
+5. validar tecnicamente;
+6. exportar o arquivo mestre.
+
+Uma PREVIEW nunca deve ser descrita como FINAL, mesmo quando visualmente aprovada.
+
+TRAVA TÉCNICA — A PREVIEW DEVE SER O ARQUIVO VISUAL REAL
+
+A PREVIEW usada como fonte de aprovação e de preparação do FINAL RASTER deve ser a própria imagem correspondente ao produto final.
+
+Não são fontes válidas para FINAL RASTER:
+- dashboard;
+- infográfico;
+- painel de status;
+- mockup;
+- folha de contato;
+- esquema de pipeline;
+- screenshot ou composição contendo miniaturas que apenas representam a arte;
+- imagem gerada para simular uma FOLHA pronta sem usar os cards reais aprovados.
+
+Esses materiais podem existir apenas como apoio operacional.
+Nunca fazer upscale, raster final ou aprovação técnica a partir deles.
+
+Para CARD:
+- o arquivo fonte é a PREVIEW individual real do card aprovado.
+
+Para FOLHA:
+- a PREVIEW de montagem deve ser a montagem determinística real dos cards aprovados;
+- o FINAL RASTER deve ser exportado dessa montagem real;
+- é proibido gerar uma nova imagem por inteligência artificial para imitar a montagem e tratá-la como FOLHA final.
+
+Para VINHETA e CENA:
+- o arquivo fonte é a ilustração individual real aprovada.
+
+1. FORMATO FINAL
+
+Formato preferencial:
+PNG.
+
+Regras:
+- não usar JPEG como arquivo mestre;
+- evitar compressão com perdas;
+- preservar linhas, contornos e pequenas diferenças tonais;
+- fundo branco deve permanecer branco puro #FFFFFF;
+- manter o arquivo final em RGB/sRGB para uso geral e digital;
+- conversão para perfil específico de gráfica deve ocorrer apenas na etapa de fechamento editorial, quando necessário.
+
+2. REFERÊNCIA CENTRAL DE PRODUÇÃO — A4 A 400 PPI
+
+O padrão editorial de referência do projeto é A4.
+
+Dimensões físicas:
+- 210 × 297 mm;
+- aproximadamente 8,27 × 11,69 polegadas.
+
+Padrão mestre:
+400 PPI.
+
+Dimensões raster aproximadas em A4 a 400 PPI:
+- retrato: 3307 × 4677 px;
+- paisagem: 4677 × 3307 px.
+
+Princípio:
+A4 a 400 PPI é a referência principal para impressão e também oferece resolução suficiente para exibição em monitores 4K.
+
+3. IMPRESSÃO
+
+Padrão mínimo aceitável:
+300 PPI no tamanho físico final.
+
+Padrão recomendado e preferencial:
+400 PPI no tamanho físico final.
+
+Regras:
+- calcular a resolução a partir do tamanho físico real de uso;
+- nunca considerar apenas o número total de pixels;
+- não ampliar repetidamente uma imagem pequena;
+- preferir uma única etapa de upscale quando necessária;
+- validar a arte no tamanho real de impressão;
+- preservar linhas finas, detalhes pequenos e espaços brancos.
+
+4. MONITORES 4K
+
+O raster A4 a 400 PPI já supera 4K no eixo longo.
+
+Por isso:
+- não é necessário manter uma regra independente de 4K quando o arquivo mestre for preparado em A4 a 400 PPI;
+- o mesmo raster mestre pode servir para impressão e exibição em telas 4K;
+- derivados menores podem ser criados posteriormente para uso digital;
+- não reduzir o raster mestre apenas porque o destino imediato é uma tela.
+
+5. REGRAS POR FORMATO
+
+VINHETA
+
+VINHETA ocupa a largura total útil de uma página A4, de esquerda a direita, usando a mesma largura da CENA.
+
+Padrão de largura:
+- 3307 px em A4 retrato a 400 PPI.
+
+Regras:
+- a largura da VINHETA deve ser a mesma largura de uma CENA A4 em retrato;
+- a altura permanece variável conforme a composição;
+- não forçar proporção fixa;
+- não tratar VINHETA como pequena ilustração central ou lateral;
+- a VINHETA atravessa horizontalmente toda a largura útil da página;
+- manter 400 PPI como alvo;
+- preservar a proporção natural da composição;
+- calcular a altura em pixels a partir da proporção escolhida, mantendo 3307 px de largura;
+- se o layout usar A4 paisagem, usar a largura correspondente de 4677 px a 400 PPI;
+- 1 VINHETA = 1 arquivo independente.
+
+Princípio:
+VINHETA E CENA COMPARTILHAM A MESMA LARGURA DE PÁGINA.
+A DIFERENÇA PRINCIPAL É A ALTURA.
+
+CENA
+
+CENA é concebida para uso de página inteira.
+
+Padrão:
+- A4 retrato: 3307 × 4677 px;
+- A4 paisagem: 4677 × 3307 px;
+- 400 PPI.
+
+Regras:
+- preservar a proporção do layout;
+- não deformar a ilustração;
+- preparar margem e enquadramento considerando o uso editorial;
+- se houver sangria definida futuramente pelo layout, recalcular a resolução incluindo a área de sangria;
+- validar a imagem no tamanho A4 real.
+
+FOLHA
+
+FOLHA não deve ser limitada artificialmente ao tamanho A4 se isso reduzir a qualidade individual dos cards.
+
+Regras:
+- a FOLHA final deve ser montada a partir dos arquivos individuais aprovados de cada card;
+- não usar como mestre uma geração única contendo vários cards;
+- calcular a resolução pela quantidade e dimensão dos cards;
+- preservar a resolução necessária por card;
+- usar A4 apenas como referência editorial, não como limite obrigatório da folha mestre;
+- cada card deve permanecer adequado para recorte e uso independente;
+- não reduzir a resolução de cada card apenas para fazer a folha caber em A4;
+- a montagem deve usar posicionamento, margens e gaps determinísticos;
+- não usar preenchimento generativo, extensão generativa ou reconstrução por inteligência artificial na etapa de montagem;
+- posições vazias permanecem branco puro.
+
+CARD
+
+Para cards verticais em proporção 1:2,5:
+
+Padrão mestre recomendado:
+1600 × 4000 pixels por card final.
+
+Regras:
+- manter exatamente 1:2,5;
+- nunca esticar ou comprimir;
+- a ilustração pode ser gerada em outra resolução nativa, mas deve ser preparada para o canvas final sem deformação;
+- preferir recorte controlado, expansão com branco ou uma única etapa de aumento de resolução em vez de deformação;
+- quando houver nome, ele é aplicado depois da geração da ilustração e faz parte do card final de 1600 × 4000 pixels;
+- não usar uma faixa fixa de 12,5 por cento para empurrar automaticamente o nome ao fundo do card;
+- posicionar o nome dinamicamente em relação ao limite inferior visual significativo da ilustração; os ornamentos editoriais ainda não existem nesta etapa;
+- buscar aproximadamente 90 a 160 pixels entre o limite inferior visual significativo e o topo do nome;
+- evitar distância superior a 220 pixels salvo composição explicitamente aprovada;
+- se necessário, reposicionar a ilustração dentro do canvas branco sem deformar, cortar ou alterar sua escala relativa, apenas para manter proximidade editorial adequada;
+- preservar integralmente a ilustração narrativa aprovada; ornamentação editorial será composta somente depois do nome;
+- a área do nome permanece branca, sem caixa ou linha divisória;
+- preservar nitidez suficiente para uso individual após recorte.
+
+TIPOGRAFIA OBRIGATÓRIA DOS NOMES
+
+- fonte: Noto Serif SemiBold;
+- não usar fallback silencioso;
+- se a fonte não estiver disponível no ambiente de composição, interromper a etapa e informar o usuário;
+- para 1600 pixels de largura, usar como referência aproximadamente 68 a 78 pixels de corpo para nomes de uma linha, ajustando somente o necessário para legibilidade;
+- nomes longos podem usar duas linhas equilibradas e compactas;
+- centralizar tipograficamente pelo eixo do card, usando métricas reais da fonte;
+- nunca rasterizar letras herdadas da geração de imagem; o nome é composto editorialmente no raster final;
+- validar a fonte efetivamente usada, e não apenas a aparência visual aproximada.
+
+COMPOSIÇÃO EDITORIAL DE ORNAMENTOS
+
+ORDEM TÉCNICA OBRIGATÓRIA PARA CARD DE FOLHA
+1. rasterizar a ilustração narrativa aprovada;
+2. posicionar a figura no canvas final de 1600 × 4000 pixels;
+3. aplicar o nome canônico em Noto Serif SemiBold;
+4. somente depois analisar os espaços brancos e pesos de FIGURA + NOME;
+5. aplicar ornamentação editorial em camada separada;
+6. exportar PREVIEW DO CARD COMPLETO para aprovação;
+7. após aprovação, consolidar o card final sem mudar posição, escala ou conteúdo.
+
+TRAVAS
+- ornamentação editorial nunca deve ser usada para corrigir uma ilustração narrativa fraca;
+- não cobrir nem tocar o nome de modo que prejudique legibilidade;
+- não cobrir foco, rosto, mãos, objeto principal ou sinal narrativo;
+- manter ornamentos dentro da área do card e fora dos gaps da FOLHA;
+- preservar fundo branco puro entre fragmentos;
+- não adicionar ornamento automaticamente a todos os cards;
+- a decisão é compositiva, feita depois que todos os cards da FOLHA tiverem FIGURA + NOME;
+- a montagem da FOLHA usa somente cards completos já aprovados e não cria ornamentação nova.
+
+IMPLEMENTAÇÃO
+- ornamento pode ser composto deterministicamente a partir de asset previamente aprovado ou produzido como asset separado para aquela composição;
+- nunca regenerar a ilustração principal apenas para inserir ornamento;
+- se o ornamento exigir geração visual, gerar somente o fragmento ornamental necessário e compô-lo sobre o card, preservando figura e texto;
+- texto continua sendo composição editorial determinística, nunca texto herdado de geração de imagem.
+
+PADRÃO DE MONTAGEM DA FOLHA
+
+Para uma FOLHA completa de 8 posições:
+- 4 colunas × 2 linhas;
+- card final: 1600 × 4000 pixels;
+- gap padrão entre cards: 160 pixels;
+- margem externa padrão: 160 pixels;
+- largura total padrão: 7200 pixels;
+- altura total padrão: 8480 pixels.
+
+Cálculo:
+- largura = 4 cards + 3 gaps internos + 2 margens externas;
+- altura = 2 cards + 1 gap interno + 2 margens externas.
+
+Se o projeto alterar deliberadamente gap ou margem, recalcular a dimensão total pela mesma fórmula. Nunca alterar a dimensão individual dos cards para compensar a mudança.
+
+6. FOLHAS
+
+FLUXO TÉCNICO OBRIGATÓRIO
+
+1. receber os CARD COMPLETO já aprovados conforme Images;
+2. confirmar que cada card já está consolidado em 1600 × 4000 pixels, contendo FIGURA + NOME + ornamentação editorial quando houver;
+3. não criar, remover, mover ou redimensionar ornamentos durante a montagem da FOLHA;
+4. posicionar os cards completos no grid 4 × 2 conforme o mapa fechado da coleção;
+5. manter posições vazias completamente brancas;
+6. usar gaps e margens definidos pelo padrão de montagem;
+7. produzir a PREVIEW DE MONTAGEM e validar visualmente fonte, proximidade dos nomes e ritmo ornamental já aprovado;
+8. exportar a FOLHA mestre em arquivo Portable Network Graphics somente depois da aprovação da montagem;
+9. validar a FOLHA completa e cards individuais em ampliação de 100 por cento.
+
+Ao renderizar uma FOLHA:
+- calcular a resolução total a partir da resolução alvo de cada card;
+- incluir gaps e margens definidos pela composição;
+- não reduzir a resolução de cada card apenas para caber em uma dimensão arbitrária de folha;
+- validar TODOS os cards individualmente em ampliação de 100 por cento, não apenas uma amostra;
+- verificar rostos, mãos, objetos pequenos, nomes e detalhes de cenário quando existirem;
+- confirmar que nenhum card depende de aumento excessivo de resolução após o recorte;
+- confirmar que todos os nomes correspondem ao mapa e não contêm numeração;
+- confirmar que todos os nomes usam efetivamente Noto Serif SemiBold;
+- confirmar que a distância entre ilustração e nome está dentro da faixa editorial prevista ou foi explicitamente aprovada;
+- confirmar que os ornamentos aprovados nos CARDS COMPLETOS e o ritmo ornamental da coleção foram preservados;
+- confirmar que nenhum card possui borda, moldura, filete ou linha de corte;
+- confirmar que a montagem não introduziu linhas retas acidentais no perímetro lógico dos cards;
+- confirmar que o fundo, gaps e posições vazias permanecem branco puro;
+- se um card falhar tecnicamente, corrigir ou substituir somente esse card e remontar a folha;
+- não regenerar a FOLHA inteira como imagem para corrigir um erro localizado.
+
+7. UPSCALE
+
+Upscale é permitido quando necessário, mas deve ser controlado.
+
+Regras:
+- realizar preferencialmente uma única etapa de upscale;
+- evitar ciclos sucessivos de ampliar, reduzir e ampliar;
+- preservar contornos e linhas finas;
+- não inventar microtextura;
+- não engrossar hachuras;
+- não transformar áreas brancas em ruído;
+- não produzir halos artificiais;
+- não usar sharpening excessivo.
+
+Se o upscale produzir aparência mais artificial, mais escura ou mais texturizada que a arte original, ele deve ser rejeitado.
+
+8. NITIDEZ
+
+A nitidez deve preservar a linguagem de gravura sem tornar a imagem agressivamente digital.
+
+Evitar:
+- sharpening excessivo;
+- halos brancos ou pretos em contornos;
+- linhas engrossadas;
+- microcontraste artificial;
+- aumento de textura em pele, roupas ou áreas claras.
+
+Priorizar:
+- contornos limpos;
+- detalhes legíveis;
+- áreas brancas preservadas;
+- transições coerentes;
+- hachuras distinguíveis sem se fundirem em manchas.
+
+9. VALIDAÇÃO PARA IMPRESSÃO
+
+Antes de considerar o raster final:
+- confirmar resolução em pixels;
+- confirmar PPI no tamanho físico desejado;
+- verificar a imagem em 100%;
+- verificar o tamanho real de impressão;
+- observar linhas finas, áreas muito escuras e hachuras;
+- confirmar que o branco permanece #FFFFFF;
+- confirmar que detalhes importantes não desaparecem;
+- confirmar que o contraste não fecha sombras excessivamente;
+- confirmar que texto, quando autorizado, continua legível.
+
+10. VALIDAÇÃO PARA 4K
+
+Antes de considerar o raster adequado para tela:
+- confirmar no mínimo 3840 px no maior eixo quando a imagem puder ocupar a tela inteira;
+- preferir 4096 px ou mais;
+- verificar a imagem em monitor ou prévia equivalente a 100%;
+- inspecionar bordas, linhas finas e detalhes pequenos;
+- garantir que não existam artefatos de upscale ou compressão.
+
+11. ARQUIVO DE ENTREGA
+
+Arquivo mestre:
+PNG.
+
+Evitar como mestre:
+- JPEG;
+- WebP com perdas;
+- imagens excessivamente comprimidas;
+- arquivos redimensionados para baixo sem necessidade.
+
+Derivados podem ser criados para:
+- PDF;
+- web;
+- prévias;
+- distribuição digital;
+- impressão.
+
+Os derivados nunca substituem o raster mestre de maior qualidade.
+
+12. REGRA FINAL DE RENDER
+
+Ordem operacional para VINHETA e CENA:
+
+1. gerar a PREVIEW conforme Images;
+2. apresentar a PREVIEW para validação visual;
+3. solicitar aprovação explícita do usuário para gerar o FINAL RASTER;
+4. se houver alteração visual, gerar nova PREVIEW e retornar ao passo 2;
+5. depois da aprovação, usar a PREVIEW aprovada como fonte visual;
+6. definir o tamanho físico ou digital de destino;
+7. calcular a resolução necessária;
+8. realizar no máximo um aumento de resolução controlado, sem reinterpretar a composição;
+9. validar nitidez, contraste, linhas, espaços brancos e fidelidade à PREVIEW aprovada;
+10. salvar o FINAL RASTER mestre em arquivo Portable Network Graphics;
+11. criar derivados apenas depois do raster final aprovado.
+
+Ordem operacional para FOLHA:
+
+1. receber o mapa fechado da coleção definido em Images;
+2. gerar a PREVIEW DA ARTE de cada ilustração individual sem ornamento editorial deliberado;
+3. apresentar cada PREVIEW DA ARTE para validação visual e solicitar aprovação explícita;
+4. se uma arte precisar de alteração, gerar nova PREVIEW apenas dela;
+5. depois da aprovação, preparar o FINAL RASTER DA FIGURA daquele card preservando a PREVIEW aprovada;
+6. aplicar somente o nome canônico autorizado, sem numeração, usando Noto Serif SemiBold e proximidade dinâmica;
+7. depois que todos os cards tiverem FIGURA + NOME, fechar o MAPA ORNAMENTAL definitivo;
+8. aplicar ornamentação editorial em camada separada, somente onde houver função compositiva clara;
+9. produzir PREVIEW DO CARD COMPLETO e solicitar aprovação explícita;
+10. consolidar cada CARD COMPLETO aprovado em 1600 × 4000 pixels;
+11. montar deterministicamente o grid 4 × 2 usando apenas cards completos aprovados;
+12. manter gaps, margens e posições vazias em branco puro;
+13. produzir PREVIEW DE MONTAGEM em resolução adequada para validação do conjunto;
+14. validar na PREVIEW DE MONTAGEM a fonte efetiva, a proximidade dos nomes e o ritmo ornamental;
+15. solicitar aprovação explícita da PREVIEW DE MONTAGEM antes da exportação do FINAL RASTER da FOLHA;
+16. validar todos os cards individualmente em ampliação de 100 por cento;
+17. validar dimensões, fonte, proximidade dos nomes, ornamentação, ordem, ausência de bordas, ausência de deformação e fidelidade aos cards completos aprovados;
+18. salvar o FINAL RASTER mestre da FOLHA em arquivo Portable Network Graphics;
+19. criar derivados apenas depois do raster mestre aprovado.
+
+PRINCÍPIO FINAL:
+
+QUALIDADE DE LINHA + RESOLUÇÃO SUFICIENTE + BRANCO PRESERVADO + UPSCALE CONTROLADO.
+
+A resolução deve servir à arte.
+Nunca sacrificar legibilidade, espaço branco ou qualidade de linha apenas para atingir um número arbitrário de pixels.
