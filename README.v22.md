@@ -167,6 +167,10 @@ O pipeline consulta automaticamente os arquivos aplicáveis, usa sempre suas ver
 
 Quando houver geração de imagem, antes de `ARTE` o pipeline informa também as opções que serão válidas depois da imagem em `DEPOIS DA ARTE:`.
 
+Antes de `ARTE`, o controlador também apresenta um `CONTEXTO DA ETAPA` pesquisado nos sources atuais. Ele separa **Conteúdo Canônico** (o que desenhar) de **Direção Plástica** (como desenhar), resolve aspectos como estilo, densidade, fundo, iluminação, contraste, hachura, composição, espaço negativo, acabamento e peso sinistro, registra a pressão visual e as travas críticas da geração e termina com uma síntese visual curta.
+
+Em `RODE: VINHETA`, esse contexto é adaptado à **escala editorial**: foco simples, leitura rápida, espaço negativo e densidade controlada para não competir com o texto. Em `RODE: CENA`, ele é adaptado à **página inteira**: hierarquia de planos, profundidade ambiental, distribuição de detalhe, iluminação da situação e sinais secundários de mistério. Em ambos, peso sinistro vem do conteúdo e da consequência, não de escurecer a arte.
+
 ### Criação de imagens
 
 - `RODE: VINHETA` — cria uma única ilustração editorial integrada ao fluxo do texto.
@@ -268,3 +272,4 @@ Consulte `LICENSE.v1.txt` para a identificação da licença e o endereço ofici
 **Copyright © 2026 Fellipe Ugliara.**
 
 **O Inferno Verde: O Preço da Expedição** — alguns direitos reservados sob CC BY-NC-SA 4.0.
+
