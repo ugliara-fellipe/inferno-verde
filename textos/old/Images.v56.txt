@@ -1,0 +1,760 @@
+GUIA DE IMAGENS — RPG BOOKLET
+Versão 56 — especificação consolidada, reorganizada e operacional
+
+OBJETIVO
+
+Este arquivo é a fonte única de regras sobre COMO as imagens do projeto devem ser representadas.
+As regras são organizadas por prioridade para evitar duplicações e contradições.
+
+ORDEM DE PRIORIDADE
+1. Regras globais invioláveis.
+2. Regras globais de direção visual.
+3. Regras específicas do formato: VINHETA, CENA ou PRANCHA.
+4. Plano de coleção, quando houver várias PRANCHAS.
+5. Pedido pontual do usuário, desde que não contradiga as regras acima.
+
+Um pedido pontual só altera uma regra deste guia quando a alteração for explicitamente incorporada a uma nova versão do arquivo.
+
+
+HIERARQUIA ENTRE FONTES DO PROJETO
+
+- Images determina COMO o conteúdo é representado visualmente.
+- Regras determina conteúdo mecânico e definições de jogo, incluindo Ocupações, Aptidões, itens, perigos e demais elementos de regras.
+- Cenario determina O QUE existe no mundo, sua coerência histórica, ambiental, tecnológica e sobrenatural.
+- Relatos determina acontecimentos, vozes, situações e atmosfera narrativa quando uma imagem for baseada em um relato.
+- Images não deve inventar, substituir ou contradizer conteúdo definido nessas fontes apenas para melhorar uma composição.
+- quando uma informação necessária não estiver definida nas fontes de conteúdo, usar apenas detalhes visuais neutros e compatíveis com o cenário, sem criar novo fato canônico.
+
+
+TRAVAS DE PRODUÇÃO — PRIORIDADE MÁXIMA
+
+Estas travas existem para impedir erros recorrentes de contagem, borda, tipografia, diversidade e montagem.
+Elas prevalecem sobre instruções operacionais posteriores sempre que houver conflito.
+
+1. Uma PRANCHA final possui exatamente 8 posições em 4 colunas por 2 linhas.
+2. Cada card final possui proporção exata 1:2,5.
+3. Nenhum card possui borda, moldura, retângulo, filete, linha de corte ou perímetro desenhado.
+4. O fundo da prancha, os espaços entre cards, posições vazias e áreas de respiro são branco puro.
+5. Nenhum número, índice, código ou ordinal aparece nos cards. Quando o nome for autorizado, aparece somente o nome canônico.
+6. O gerador de imagens produz a ILUSTRAÇÃO de cada card individualmente. Ele não produz o grid final, não escreve nomes e não monta a PRANCHA final.
+7. A PRANCHA final é montada por composição determinística depois da aprovação de todas as ilustrações individuais. A montagem nunca deve usar preenchimento generativo para criar, completar ou reorganizar cards.
+8. Os nomes são adicionados somente na montagem final, como tipografia editorial limpa sobre branco, nunca como texto raster herdado da geração.
+9. Antes de gerar qualquer card de uma coleção, deve existir um mapa fechado de posições e um perfil visual distinto para cada personagem.
+10. Se um card falhar em conteúdo, anatomia, diversidade, borda aberta, coerência ou qualidade, somente esse card é refeito. Cards aprovados não devem ser regenerados sem necessidade.
+11. A quantidade de elementos da coleção vem exclusivamente da fonte canônica correspondente. Nunca inventar, fundir ou condensar elementos para preencher uma prancha.
+12. A saída só pode ser chamada de FINAL depois da validação individual dos cards, da montagem determinística e da validação do raster conforme Render.
+
+
+1. VOCABULÁRIO CANÔNICO
+
+VINHETA
+Uma única ilustração editorial integrada ao fluxo do texto.
+
+CENA
+Uma única ilustração narrativa concebida para ocupar uma página inteira.
+
+PRANCHA
+Uma única imagem/arquivo final contendo cards independentes organizados em grid.
+
+CARD DE PRANCHA
+Unidade intermediária de produção que contém uma única ilustração destinada a ocupar uma posição da PRANCHA final. O CARD DE PRANCHA é gerado e validado individualmente antes da montagem.
+
+Os nomes VINHETA, CENA e PRANCHA são os termos oficiais do projeto.
+
+
+REGRA DE ARQUIVO POR FORMATO — OBRIGATÓRIA
+
+- VINHETA: 1 imagem = 1 geração = 1 arquivo;
+- CENA: 1 imagem = 1 geração = 1 arquivo;
+- PRANCHA: 1 arquivo final montado a partir de até 8 CARD DE PRANCHA gerados e aprovados individualmente;
+- cada CARD DE PRANCHA: 1 ilustração = 1 geração de imagem;
+- nunca reunir duas ou mais VINHETAS no mesmo arquivo;
+- nunca reunir duas ou mais CENAS no mesmo arquivo;
+- nunca reunir uma VINHETA e uma CENA no mesmo arquivo;
+- quando o usuário pedir várias VINHETAS ou várias CENAS, executar gerações separadas e produzir um arquivo independente para cada imagem;
+- na produção de PRANCHA, não pedir ao gerador de imagens que construa o grid final;
+- depois da aprovação dos cards individuais, montar deterministicamente a PRANCHA final em um único arquivo.
+
+Regra de validação:
+SE UMA VINHETA OU CENA COMPARTILHAR O MESMO ARQUIVO COM OUTRA VINHETA OU CENA, A SAÍDA É INVÁLIDA.
+SE UMA PRANCHA FINAL FOR O RESULTADO DIRETO DE UMA ÚNICA GERAÇÃO QUE TENTOU CRIAR TODOS OS CARDS SIMULTANEAMENTE, A SAÍDA NÃO É FINAL E DEVE SER REFEITA PELO PIPELINE DE CARDS INDIVIDUAIS.
+
+REGRA GLOBAL DE ATMOSFERA — TERROR E MISTÉRIO
+
+- toda imagem deve priorizar DARK FANTASY TROPICAL, terror, ameaça, estranhamento e mistério;
+- evitar o tom de aventura heroica, exploração turística, exotismo convidativo ou descoberta arqueológica triunfante;
+- o ambiente deve parecer hostil, antigo, indiferente e potencialmente perigoso;
+- personagens devem parecer vulneráveis diante do ambiente: cansados, hesitantes, alertas, pequenos ou pressionados pela escala do cenário quando aplicável;
+- evitar poses heroicas, confiantes ou triunfantes, salvo quando o conteúdo exigir explicitamente;
+- criar terror principalmente por composição, escala, ausência, ocultação e incerteza, e não simplesmente por escurecer toda a imagem;
+- favorecer caminhos que desaparecem, água escura, neblina, sombras ambíguas, vegetação que oculta parcialmente estruturas, espaços vazios inquietantes, objetos deslocados, rastros e sinais de acontecimentos anteriores;
+- o MISTÉRIO deve ser mais importante que a explicação visual;
+- quando houver criatura, entidade ou fenômeno desconhecido, preferir presença parcial, silhueta, vestígio, sombra, reflexo, rastro ou ocultação quando isso for narrativamente adequado;
+- não revelar automaticamente monstros ou fenômenos sobrenaturais por inteiro;
+- evitar efeitos mágicos espetaculares, auras, raios e energia visível usados apenas para indicar sobrenaturalidade;
+- ruínas e locais desconhecidos devem provocar inquietação e dúvida antes de admiração;
+- terror não significa gore obrigatório: violência explícita só deve aparecer quando necessária ao conteúdo;
+- manter a legibilidade monocromática e o espaço branco definidos pelas demais regras; atmosfera sombria NÃO autoriza excesso de hachura ou transformar toda a composição em massa preta.
+
+REGRA DE INVALIDAÇÃO ATMOSFÉRICA
+Se a imagem parecer principalmente uma aventura heroica, uma paisagem exótica convidativa ou uma descoberta triunfante, sem sensação suficiente de ameaça, vulnerabilidade, terror ou mistério, a saída é inválida e deve ser refeita.
+
+REGRA GLOBAL DE LUMINOSIDADE, ESPAÇO BRANCO E LIMITES ABERTOS
+
+- terror e mistério NÃO significam imagem escura;
+- o branco deve continuar sendo parte ativa e dominante da linguagem visual;
+- usar preto profundo apenas em focos específicos: cavidades, sombras localizadas, silhuetas, entradas, olhos, água profunda ou pontos narrativos equivalentes;
+- evitar grandes massas pretas contínuas e fundos inteiros fechados por hachura;
+- hachura e crosshatching devem ser seletivos, com áreas de descanso visual;
+- névoa, céu, água, distância, clareiras e áreas sem informação podem permanecer brancos ou em cinza muito claro;
+- roupas, pele, vegetação e arquitetura não devem receber textura uniforme em toda a superfície;
+- preservar áreas claras dentro da própria ilustração, não apenas entre imagens;
+- a atmosfera de terror deve vir de ocultação, escala, silêncio, vazio, vulnerabilidade, composição e sinais incompletos, e não do simples aumento da quantidade de preto.
+
+REGRA GLOBAL DE CONTORNO ABERTO DA ILUSTRAÇÃO
+
+- VINHETAS, CENAS e principalmente os elementos internos de PRANCHAS não devem parecer imagens retangulares impressas dentro de caixas;
+- sempre que o formato permitir, as extremidades da arte devem se dissolver naturalmente no fundo branco;
+- usar vegetação interrompida, névoa, chão incompleto, sombras que desaparecem, objetos isolados e linhas que terminam antes do limite lógico;
+- evitar fundos preenchidos de ponta a ponta apenas para criar contraste;
+- evitar bordas verticais ou horizontais produzidas acidentalmente por massas de sombra;
+- o limite lógico de um card nunca deve ser reforçado pelo término perfeitamente reto de uma massa escura.
+
+REGRA DE ORNAMENTO ESPARSO
+
+- ornamentos não são obrigatórios em todos os cards;
+- em uma PRANCHA, alguns cards podem não ter ornamento algum;
+- quando houver ornamento, preferir um único fragmento pequeno ou uma intervenção assimétrica;
+- não repetir o mesmo ornamento na mesma posição em todos os cards;
+- não usar pares de cantos opostos como padrão;
+- não usar quatro cantos ornamentados;
+- nenhum ornamento pode transformar o espaço lógico do card em uma moldura percebida.
+
+REGRA DE INVALIDAÇÃO — ESCURIDÃO E DELIMITAÇÃO
+A saída é inválida e deve ser refeita se:
+- a maior parte de cada card for percebida como uma massa escura;
+- a ilustração formar um retângulo visual evidente;
+- a arte terminar em linhas retas que revelem o perímetro lógico do card;
+- ornamentos fizerem o olho completar uma moldura;
+- o terror depender principalmente de excesso de preto, hachura ou textura.
+
+2. REGRAS GLOBAIS INVIOLÁVEIS
+
+Todas as imagens devem respeitar simultaneamente:
+
+PALETA E FUNDO
+- usar somente preto, branco e tons neutros de cinza;
+- o suporte visual deve ser BRANCO PURO;
+- o fundo geral da imagem deve ser branco puro;
+- em PRANCHAS, fundo da prancha, fundo/base dos cards, gaps e posições vazias devem ser brancos;
+- não usar amarelo, creme, bege, marfim, sépia, castanho-claro ou qualquer tonalidade quente como fundo;
+- não simular pergaminho, papel envelhecido, papel amarelado, manchas de chá ou pátina cromática;
+- não usar como direção visual de fundo termos como “sepia”, “parchment”, “aged paper”, “yellowed paper”, “antique paper” ou equivalentes;
+- a aparência histórica deve vir do desenho e da impressão, nunca da cor do papel.
+
+VESTIMENTA E NÃO NUDEZ
+- todos os personagens humanos devem estar vestidos;
+- não representar nudez total ou parcial;
+- não mostrar seios, genitais ou nádegas expostos;
+- para evitar ambiguidade operacional, personagens humanos adultos devem ter torso, peito, quadris e nádegas cobertos por vestimenta opaca;
+- não usar transparências, poses, enquadramentos, cabelo ou ornamentos para simular cobertura de nudez;
+- personagens indígenas ou nativos seguem exatamente a mesma regra de cobertura;
+- diversidade cultural deve ser mostrada por roupas, adornos, materiais, penteados, equipamentos e linguagem visual coerentes, nunca por exposição corporal;
+- quando a fonte não especificar a roupa, escolher vestimenta plausível, funcional, não sexualizada e com cobertura suficiente;
+- esta regra não exige uniformizar culturas ou roupas: exige apenas ausência de nudez.
+
+COERÊNCIA CANÔNICA
+- respeitar período, tecnologia, vestuário, arquitetura, armas, ferramentas, fauna e flora definidos pelas fontes;
+- não introduzir símbolos, objetos, tecnologias ou convenções anacrônicas;
+- não introduzir fauna, flora, criatura, animal, monstro ou espécie específica apenas por plausibilidade visual;
+- fauna e criaturas só aparecem quando autorizadas pelas fontes canônicas ou pelo pedido do usuário;
+- o nome de uma Ocupação não autoriza automaticamente uma espécie específica;
+- quando for necessário sugerir caça ou presença animal sem espécie autorizada, usar sinais indiretos neutros.
+
+REGRA DE INVALIDAÇÃO
+Qualquer violação de PALETA/FUNDO, VESTIMENTA/NÃO NUDEZ ou COERÊNCIA CANÔNICA invalida a imagem.
+
+
+3. DIREÇÃO ARTÍSTICA GLOBAL
+
+TÉCNICA
+- estética de gravura histórica de LINHA LIMPA, com forte uso de espaço negativo;
+- usar contornos gravados claros, contraste de tinta e hachura MÍNIMA E SELETIVA;
+- xilogravura, água-forte e impressão editorial antiga são referências de linguagem, não autorização para densidade uniforme;
+- “gravura histórica” não significa cobrir toda a imagem com hachuras;
+- evitar como instrução geral expressões como “high-detail crosshatching”, “intricate crosshatching”, “dense engraving texture”, “richly hatched” ou equivalentes;
+- quando for necessário descrever o estilo para geração, priorizar conceitos equivalentes a “clean line engraving”, “large negative-space areas”, “minimal selective hatching” e “clean white surfaces”;
+- priorizar legibilidade em impressão, PDF, web e monitor.
+
+DENSIDADE VISUAL — REGRA CENTRAL
+BRANCO É PARTE ATIVA DA ILUSTRAÇÃO.
+NÃO PREENCHER UMA ÁREA APENAS PORQUE ELA ESTÁ VAZIA.
+
+- áreas claras e sem textura devem ser visualmente predominantes;
+- hachura, pontilhismo e massas pretas só devem existir quando cumprirem função de sombra, volume, material, profundidade ou foco;
+- é proibido aplicar microtextura uniforme em toda a imagem;
+- não usar “fine hatching everywhere”, “dense crosshatching”, “highly textured throughout” ou instruções equivalentes;
+- não usar textura de impressão como camada uniforme sobre o suporte branco;
+- fundo deve ter baixa densidade de detalhe;
+- elementos secundários devem ter densidade média;
+- somente o foco principal pode receber detalhe alto, e ainda assim com áreas de respiro;
+- usar silhueta, contorno, espaço negativo e contraste antes de adicionar microtextura;
+TRAVA DE PELE LIMPA
+- pele humana exposta deve ser representada como SUPERFÍCIE LIMPA;
+- rosto, pescoço, braços, mãos e pernas expostas não recebem textura decorativa, tramas, padrões, riscos repetitivos ou crosshatching de superfície;
+- definir anatomia principalmente por contorno, espaço branco e pouquíssimas linhas de sombra;
+- hachura na pele só é permitida em pequenas sombras anatômicas indispensáveis e nunca como preenchimento;
+- sujeira, idade, fadiga ou sofrimento devem ser sugeridos por poucos sinais localizados, não por cobrir a pele com textura;
+- se a pele parecer estampada, tatuada por acidente, enrugada por hachura uniforme ou visualmente “cinza” devido a linhas, a imagem é inválida.
+
+TRAVA DE ROUPA LIMPA
+- roupas devem ser diferenciadas principalmente por silhueta, corte, volume, sobreposição de peças e poucos detalhes funcionais;
+- TECIDO COMUM DEVE SER PREDOMINANTEMENTE BRANCO E SEM TEXTURA DE SUPERFÍCIE;
+- definir tecido por contorno e poucas linhas de dobra;
+- não preencher roupas com hachuras, padrões, riscos paralelos, tramas, arabescos ou microtexturas apenas para produzir aparência de gravura;
+- hachura em tecido só pode aparecer em pequenas sombras necessárias, dobras profundas ou separação indispensável de planos;
+- uma peça de roupa não deve receber textura apenas para parecer “antiga”, “rústica”, “gasta” ou “gravada”;
+- desgaste de roupa deve ser mostrado por bordas, rasgos discretos, remendos, costuras ou forma, e não por microtextura generalizada;
+- se uma camisa, calça, saia ou vestido parecer coberto por padrão gráfico ou hachura repetitiva, a imagem é inválida;
+- materiais que realmente exigem leitura diferente — metal, couro muito escuro, madeira, pelo ou superfícies ásperas — podem receber textura seletiva, mas ainda devem preservar áreas limpas;
+- mesmo armaduras e equipamentos complexos devem ser definidos primeiro por forma e contraste, não por preenchimento integral com linhas;
+- vegetação deve ser sugerida por massas e espécies/folhas selecionadas, sem preencher todos os vazios;
+- texturas que virem ruído em tamanho reduzido devem ser eliminadas;
+- fundos e ornamentos nunca podem ter a mesma densidade do foco principal.
+
+REGRA DE INVALIDAÇÃO DE TEXTURA
+Se a leitura imediata for “imagem cheia de riscos”, se o branco deixar de dominar, se fundo e personagem tiverem densidade semelhante, se a pele estiver coberta por hachura ou se tecidos comuns parecerem preenchidos por padrões/microtexturas, a imagem é inválida e deve ser refeita.
+
+
+
+PRESENÇA AMBIENTAL DA FLORESTA TROPICAL
+- quando a imagem ocorrer em local do cenário inserido na floresta tropical, a floresta deve ter presença visual inequívoca;
+- nesses locais, privilegiar uma MATA TROPICAL INEQUÍVOCA E ABUNDANTE, mas com DENSIDADE VISUAL INTERMEDIÁRIA;
+- evitar tanto fundos excessivamente abertos e com vegetação esparsa quanto paredes contínuas de folhagem que ocupem todo o espaço;
+- construir a sensação de floresta por múltiplos planos de vegetação, sobreposição de formas, variação de escala, sub-bosque, copas, folhas largas, cipós, raízes, troncos e palmeiras quando coerentes com o Cenario;
+- manter ABERTURAS VISÍVEIS DE FUNDO BRANCO entre massas de vegetação;
+- não preencher automaticamente todos os vazios com folhas, cipós, galhos ou sub-bosque;
+- reduzir a quantidade de vegetação imediatamente colada ao contorno dos personagens para preservar sua leitura;
+- caminhos, clareiras e áreas ocupadas devem parecer aberturas dentro de uma massa vegetal maior, mas precisam conservar espaço visual para a composição respirar;
+- estruturas humanas na floresta devem parecer cercadas, pressionadas, invadidas ou parcialmente ocultadas pela vegetação quando isso for coerente com o local;
+- a vegetação não deve parecer floresta temperada, bosque europeu, campo aberto genérico ou paisagem montanhosa europeia;
+- usar sinais ambientais coerentes com a floresta tropical definida no Cenario: vegetação densa, folhas largas, cipós, raízes, troncos, umidade e crescimento vegetal envolvendo caminhos, estruturas e áreas ocupadas, conforme aplicável;
+- postos, aldeias, ruínas, caminhos, acampamentos e construções localizados na floresta devem parecer pressionados, cercados ou parcialmente tomados pela vegetação;
+- a floresta pode aparecer por fragmentos selecionados e silhuetas claras; aumentar sua presença NÃO autoriza aumentar a microtextura;
+- aumentar a presença da floresta NUNCA autoriza transferir densidade gráfica para pele, roupas ou personagens; o ambiente deve ganhar presença por composição e escala, não por texturização global;
+- DENSIDADE DE FLORESTA NÃO SIGNIFICA DENSIDADE DE HACHURA;
+- manter a regra de baixa densidade gráfica: sugerir abundância vegetal por quantidade de formas, composição, sobreposição, profundidade, escala, folhas selecionadas e massas claras, não por preencher superfícies com microhachuras;
+- uma floresta pode ser espacialmente muito densa e ainda possuir grandes áreas brancas dentro das folhas e formas;
+- priorizar contornos sobrepostos e silhuetas vegetais legíveis em vez de texturização interna;
+- a maior densidade vegetal NÃO autoriza escurecer ou texturizar pele e roupas;
+- personagens devem permanecer visualmente separados da mata por espaço negativo, contornos claros e hierarquia de contraste;
+- o personagem ou objeto principal continua sendo o foco; a floresta estabelece o ambiente, mas não deve competir com ele;
+- procurar o equilíbrio: FLORESTA TROPICAL EVIDENTE + VEGETAÇÃO ABUNDANTE + COMPOSIÇÃO RESPIRÁVEL;
+- se a vegetação formar uma massa escura quase contínua ao redor do personagem, reduzir sua densidade;
+- se grandes áreas do card perderem o branco por excesso de formas vegetais, a densidade ambiental está alta demais.
+- quando a fonte Cenario definir um ambiente diferente da floresta tropical para o local representado, prevalece o ambiente específico da fonte;
+- não inventar espécies específicas de fauna ou flora quando elas não estiverem autorizadas; a vegetação pode permanecer taxonomicamente genérica, mas visualmente tropical.
+
+Princípio:
+A FLORESTA DEVE SER SENTIDA NA COMPOSIÇÃO SEM TRANSFORMAR O FUNDO EM RUÍDO.
+
+
+4. PESSOAS E PERSONAGENS
+
+DIVERSIDADE
+- variar deliberadamente idade, sexo, constituição física, altura aparente, rosto, cabelo, postura e condição física;
+- variar roupas, equipamentos, marcas de desgaste e sinais de profissão ou origem;
+- evitar repetir o mesmo rosto, corpo, pose ou arquétipo;
+- profissões e Ocupações não determinam automaticamente sexo, idade, barba ou corpo;
+- personagens devem pertencer ao mesmo mundo, mas parecer indivíduos diferentes;
+- anatomia deve permanecer plausível;
+- mãos, rostos, membros, armas e ferramentas importantes devem ser compreensíveis.
+
+TRAVA DE DIVERSIDADE EM CONJUNTOS
+Antes de gerar uma imagem com múltiplos personagens:
+- planejar um perfil visual distinto para cada personagem;
+- avaliar diversidade como conjunto, não apenas individualmente;
+- evitar predominância evitável do mesmo sexo aparente, idade, barba, cabelo, constituição, pose ou silhueta;
+- não usar “homem adulto barbado de constituição média” como personagem padrão;
+- manter coerência histórica, cultural e narrativa.
+
+DIVERSIDADE MORFOLÓGICA DOS ROSTOS — OBRIGATÓRIA
+Para cada personagem, definir internamente uma combinação facial diferente considerando:
+- formato geral do rosto: largo, estreito, oval, redondo, alongado, triangular ou angular;
+- mandíbula: larga, estreita, suave, quadrada, marcada ou retraída;
+- queixo: curto, longo, pontudo, arredondado ou largo;
+- nariz: curto, longo, largo, estreito, reto, aquilino ou arredondado;
+- olhos: grandes, pequenos, profundos, espaçados, próximos, caídos ou amendoados;
+- sobrancelhas: espessas, finas, retas, arqueadas, próximas ou afastadas;
+- boca e lábios: largos, estreitos, cheios, finos ou assimétricos;
+- maçãs do rosto: altas, baixas, suaves ou marcadas;
+- testa: alta, baixa, larga ou estreita;
+- orelhas: pequenas, grandes, salientes ou discretas;
+- idade aparente e sinais faciais compatíveis;
+- cabelo e pelos faciais apenas como elementos complementares, nunca como principal fonte de diferenciação.
+
+Regras:
+- NÃO considerar dois rostos diferentes apenas porque mudaram barba, cabelo, chapéu, roupa ou acessórios;
+- NÃO repetir a mesma combinação de mandíbula + nariz + olhos + maçãs do rosto em personagens diferentes da mesma PRANCHA;
+- variar discretamente ângulo do rosto e apresentação — frontal, 3/4, perfil parcial — sem prejudicar legibilidade;
+- diversidade morfológica deve permanecer humana, plausível e sem caricatura;
+- diferenças étnicas/culturais devem ser tratadas com respeito e não reduzidas a estereótipos faciais.
+
+REGRA DE INVALIDAÇÃO FACIAL
+Se dois ou mais personagens parecerem o mesmo rosto com cabelo, barba, chapéu ou roupa diferentes, a diversidade facial falhou.
+Se a maioria dos rostos compartilhar a mesma mandíbula, nariz, olhos e proporções faciais, a PRANCHA é inválida e deve ser refeita.
+
+Se a leitura imediata for “o mesmo tipo de personagem repetido”, a imagem é inválida.
+
+
+5. SEMBLANTE, POSTURA E DESGASTE
+
+Os personagens devem carregar visualmente a dureza de sobreviver e trabalhar na floresta e na fronteira.
+
+- privilegiar semblantes apáticos, cansados, sofridos, austeros, resignados, vigilantes ou emocionalmente contidos;
+- sugerir fadiga acumulada, privação, cautela e desgaste físico;
+- evitar aparência heroica, triunfante, glamourosa, alegre ou excessivamente aventureira, salvo exigência explícita da cena/fonte;
+- evitar sorrisos gratuitos e poses de propaganda;
+- postura pode demonstrar peso do equipamento, cansaço, rigidez, cautela e economia de movimento;
+- usar sinais sóbrios: olheiras, cabelo desalinhado, roupa usada, sujeira moderada e pequenos sinais de esforço;
+- não transformar sofrimento em caricatura, doença extrema ou grotesco;
+- cada personagem deve expressar o desgaste de maneira própria.
+
+Princípio:
+SOBREVIVER NÃO É UMA AVENTURA GLAMOUROSA.
+
+
+6. COMPOSIÇÃO E LEGIBILIDADE
+
+- estabelecer foco visual principal claro;
+- manter hierarquia: foco > elementos secundários > fundo > ornamentos;
+- evitar excesso de elementos competindo pela atenção;
+- preservar silhuetas importantes;
+- usar cenário somente quando contribuir para função, narrativa ou atmosfera;
+- quando o local canônico estiver na floresta tropical, sua presença ambiental é parte da identidade da cena e não deve ser omitida;
+- reservar áreas amplas de respiro;
+- manter margem de segurança para personagens, rostos, mãos, nomes, símbolos e objetos essenciais;
+- nenhum elemento essencial deve depender do limite exato da imagem;
+- imagens destinadas a recorte devem ter margem de segurança adicional;
+- a imagem deve continuar clara quando reduzida ao tamanho provável de uso.
+
+
+7. ORNAMENTAÇÃO GLOBAL
+
+Ornamentação é complemento visual livre e descontínuo, nunca uma moldura.
+
+REGRA DE BORDA ABERTA
+- o perímetro de uma área/card é apenas uma referência lógica de composição e recorte; ele NÃO deve aparecer graficamente;
+- NÃO desenhar o perímetro do card;
+- NÃO desenhar linha de corte, retângulo, contorno periférico, filete ou moldura para indicar onde o card começa ou termina;
+- NÃO usar ornamentos para sugerir indiretamente um retângulo;
+- NÃO colocar ornamentos em todos os quatro cantos;
+- NÃO conectar cantos por linhas, folhas, vinhas, arabescos, filetes ou qualquer outro elemento;
+- NÃO criar uma sequência ornamental que faça o olho completar mentalmente uma moldura;
+- a separação física/visual deve ser produzida exclusivamente pelo espaço branco, gaps e alinhamento do grid;
+- ornamentos devem aparecer como fragmentos independentes, esparsos e livres, entrando e saindo da composição sem fechar áreas;
+- distribuir ornamentos livremente em alguns cantos, bases, topos ou pequenos trechos laterais;
+- deixar GRANDES TRECHOS DO PERÍMETRO COMPLETAMENTE ABERTOS E SEM LINHA;
+- é proibida qualquer linha ornamental contínua que percorra os quatro lados;
+- é proibido construir um retângulo, quadro, caixa ou moldura completa, mesmo que a linha seja fina ou interrompida por pequenos enfeites;
+- os quatro cantos não precisam receber ornamento;
+- não exigir simetria entre lados ou cantos;
+- ornamentos podem terminar abruptamente, dissolver-se no branco ou aparecer isolados;
+- o espaço branco deve separar visualmente os fragmentos ornamentais;
+- não conectar automaticamente ornamentos de canto por filetes;
+- não usar linhas retas periféricas apenas para “completar” o card;
+- evitar aparência de carta de baralho tradicional, certificado, retrato emoldurado ou janela fechada;
+- ornamentos devem usar menos densidade e menos contraste que o foco;
+- não preencher espaços brancos apenas com decoração;
+- ornamentos nunca podem competir com personagem, objeto ou texto principal.
+
+Princípio:
+ORNAMENTO É ACENTO, NÃO CONTORNO.
+PERÍMETRO ABERTO + FRAGMENTOS ORNAMENTAIS + ESPAÇO BRANCO.
+
+REGRA DE INVALIDAÇÃO
+Se a leitura imediata revelar um retângulo ornamental ao redor da imagem/card, se os quatro lados estiverem visualmente delimitados ou se ornamentos de canto estiverem conectados formando uma moldura, a imagem é inválida.
+
+TRAVA DE TÍTULO SOLTO — OBRIGATÓRIA
+- quando o nome do card estiver autorizado, ele deve aparecer solto sobre o fundo branco;
+- NÃO usar placa, cartela, faixa, banner, etiqueta, moldura, caixa ou fundo delimitado atrás do nome;
+- NÃO desenhar linhas acima, abaixo ou ao redor do nome para formar uma base;
+- o nome deve ser apenas tipografia, centralizada ou alinhada conforme a coleção;
+- o espaço branco ao redor do nome é suficiente para separá-lo da ilustração;
+- ornamentos próximos ao título devem permanecer desconectados e nunca formar uma cartela visual.
+
+Regra de invalidação:
+SE O NOME PARECER ESTAR DENTRO DE UMA PLACA, ETIQUETA, CARTELA OU CAIXA, A PRANCHA É INVÁLIDA.
+
+8. TEXTO
+
+Regra padrão:
+- imagens não contêm texto, letras, números, legendas ou marcas d’água.
+
+Exceção:
+- texto pode aparecer quando explicitamente solicitado ou autorizado pela regra do formato.
+
+Quando houver texto:
+- usar somente o necessário;
+- manter grafia correta em português;
+- manter todo texto dentro da área destinada;
+- priorizar legibilidade;
+- usar tipografia coerente com impressão histórica;
+- texto não pode competir com a ilustração.
+
+Cards com nomes:
+- usar somente o nome canônico do card, salvo pedido contrário;
+- nunca adicionar numeração, índice, ordinal, código ou prefixo;
+- exemplos proibidos: “1. Soldado”, “01 — Soldado”, “Card 1 — Soldado”;
+- o nome deve ficar na parte inferior do card quando esta for a convenção estabelecida para a coleção.
+
+
+9. VINHETA
+
+- uma única ilustração editorial integrada ao texto;
+- cada VINHETA deve ser gerada e entregue em arquivo próprio;
+- nunca combinar duas ou mais VINHETAS na mesma imagem/arquivo;
+- foco único ou hierarquia muito clara;
+- não depender de página inteira;
+- não imitar card;
+- ornamentação pequena, parcial e subordinada;
+- moldura completa não é necessária.
+
+
+10. CENA
+
+- uma única ilustração narrativa de página inteira;
+- cada CENA deve ser gerada e entregue em arquivo próprio;
+- nunca combinar duas ou mais CENAS na mesma imagem/arquivo;
+- narrativa visual domina a ornamentação;
+- pode ter maior profundidade ambiental que VINHETA;
+- foco principal claro;
+- proteger elementos essenciais contra cortes;
+- quando nenhuma proporção for solicitada, usar vertical 2:3;
+- ornamentação pode ser mais ampla, mas continua parcial e subordinada;
+- não transformar CENA em card gigante.
+
+
+11. PRANCHA
+
+DEFINIÇÃO
+PRANCHA é exatamente uma única imagem/arquivo FINAL contendo cards independentes organizados em grid.
+A PRANCHA final não é gerada diretamente como uma imagem única. Ela é composta depois que cada CARD DE PRANCHA tiver sido gerado e aprovado individualmente.
+
+ESTRUTURA OBRIGATÓRIA
+- exatamente 8 posições;
+- grid exato de 4 colunas × 2 linhas;
+- todos os cards devem ter dimensões visuais idênticas;
+- todos os cards devem ser verticais em proporção exata 1:2,5;
+- a proporção é obrigatória; não existe tamanho físico fixo em centímetros;
+- gaps, fundo da prancha e base dos cards são brancos;
+- não existe moldura externa envolvendo toda a PRANCHA;
+- cada posição do grid recebe no máximo um CARD DE PRANCHA aprovado;
+- posições não utilizadas permanecem completamente vazias e brancas.
+
+PIPELINE OBRIGATÓRIO DE PRODUÇÃO
+1. obter a lista canônica completa;
+2. fechar o mapa de PRANCHAS e posições;
+3. fechar o mapa de diversidade visual de cada card;
+4. gerar uma ilustração por CARD DE PRANCHA, sem nome, número, borda ou moldura;
+5. validar cada ilustração individualmente;
+6. refazer somente as ilustrações que falharem;
+7. preparar cada card final na proporção 1:2,5 sem esticar ou comprimir a arte;
+8. adicionar o nome canônico somente depois da aprovação da ilustração, usando tipografia editorial sobre branco;
+9. montar deterministicamente os cards aprovados em 4 colunas × 2 linhas;
+10. validar a PRANCHA final;
+11. renderizar e entregar o raster mestre conforme Render.
+
+O gerador de imagens não é responsável por contagem final, grid, tipografia, numeração, margens, gaps ou montagem editorial.
+
+INDEPENDÊNCIA
+- cada card funciona como peça independente;
+- nenhum elemento atravessa células;
+- nenhum ornamento invade gaps;
+- nenhum personagem, cenário ou objeto depende do card vizinho;
+- cada card deve poder ser recortado sem perder informação de outro;
+- a ilustração individual deve permanecer compreensível antes de receber o nome.
+
+ORNAMENTAÇÃO DOS CARDS
+- “card” descreve a unidade de conteúdo e sua proporção; NÃO significa carta emoldurada;
+- cada posição do grid é uma ÁREA VERTICAL ABERTA sobre fundo branco;
+- o card NÃO possui borda gráfica;
+- o card NÃO possui linha de corte desenhada;
+- o card NÃO possui retângulo externo;
+- o card NÃO possui filetes acompanhando suas laterais;
+- NÃO usar moldura fechada ou parcialmente fechada que ainda faça o olho completar um retângulo;
+- NÃO conectar ornamentos dos cantos;
+- NÃO colocar ornamentos nos quatro cantos por padrão;
+- NÃO repetir a mesma estrutura ornamental em todos os cards;
+- usar poucos fragmentos ornamentais livres, assimétricos e independentes;
+- ornamentos podem aparecer em um canto, dois pontos desconectados, pequenos trechos laterais ou base/topo, conforme a composição;
+- grandes trechos de todos os lados devem permanecer completamente sem linha;
+- o espaço branco ao redor de cada área é o principal separador;
+- o limite lógico do card deve ser percebido exclusivamente pela posição no grid, pelo gap branco e pelo alinhamento do conteúdo;
+- nenhum ornamento pode ser usado para “fechar” visualmente a área;
+- ornamentos não podem atravessar gaps.
+
+INSTRUÇÃO OPERACIONAL PARA GERAÇÃO DE CADA CARD
+Ao descrever um CARD DE PRANCHA para o gerador:
+- pedir exatamente uma única ilustração vertical independente;
+- não pedir uma página, folha, pôster, coleção, mosaico, conjunto de cartas ou grid;
+- proibir texto, letras, números, índices, rótulos, placas e legendas;
+- proibir moldura, borda, retângulo, linha de perímetro e linha de corte;
+- pedir fundo branco puro e extremidades irregulares que se dissolvam no branco;
+- pedir espaço negativo suficiente para que o card não pareça um retângulo preenchido;
+- quando o nome será adicionado depois, reservar na parte inferior uma área de branco suficiente para a tipografia, sem desenhar caixa, placa ou linha para essa reserva;
+- descrever somente o personagem, ação, equipamento, ambiente e atmosfera correspondentes àquele elemento canônico;
+- incorporar o perfil de diversidade definido para aquela posição.
+
+TEXTO E NOME DO CARD
+- o gerador de imagens não escreve o nome;
+- o nome é adicionado somente na montagem editorial;
+- usar somente o nome canônico correspondente;
+- nunca adicionar número, índice, ordinal, código ou prefixo;
+- não adicionar subtítulo, frase, descrição, categoria ou texto mecânico;
+- o nome deve aparecer solto sobre branco, sem placa, cartela, faixa, banner, caixa, contorno ou preenchimento;
+- usar a tipografia definida pelo guia editorial do livro;
+- quando houver convenção de coleção, manter o nome na mesma posição relativa em todos os cards.
+
+MAPA DE DIVERSIDADE VISUAL — OBRIGATÓRIO
+Antes da primeira geração de uma PRANCHA, definir para cada posição ocupada:
+- Ocupação ou elemento canônico;
+- sexo aparente, sem transformar profissão em estereótipo;
+- faixa de idade aparente;
+- altura aparente e constituição física;
+- formato geral do rosto;
+- mandíbula e queixo;
+- nariz;
+- olhos e sobrancelhas;
+- maçãs do rosto e testa;
+- cabelo e pelos faciais, quando houver;
+- postura e direção do corpo;
+- ação principal;
+- silhueta dominante;
+- objeto ou equipamento profissional principal;
+- detalhe secundário de profissão ou história;
+- ambiente imediato;
+- grau de desgaste e expressão.
+
+Regras de conjunto:
+- nenhum rosto pode repetir a mesma combinação estrutural de outro card da mesma PRANCHA;
+- mudar apenas barba, cabelo, chapéu ou roupa não conta como diversidade facial;
+- usar pelo menos 3 faixas de idade aparente em uma PRANCHA completa de 8 personagens, quando o conteúdo canônico permitir;
+- usar pelo menos 4 constituições ou silhuetas corporais perceptivelmente diferentes em uma PRANCHA completa de 8 personagens, quando o conteúdo canônico permitir;
+- evitar mais de 5 personagens do mesmo sexo aparente em uma PRANCHA completa, salvo exigência canônica ou narrativa;
+- não repetir a mesma pose principal em mais de 2 cards;
+- não repetir o mesmo enquadramento, direção do corpo e objeto dominante como solução padrão;
+- a diversidade deve permanecer humana, plausível, respeitosa e coerente com o cenário.
+
+REGRA DE INVALIDAÇÃO DO CARD
+Um CARD DE PRANCHA deve ser refeito individualmente se:
+- contiver qualquer texto, número ou letra gerada;
+- formar moldura, borda, retângulo ou perímetro perceptível;
+- violar o conteúdo canônico;
+- repetir rosto, corpo, pose ou arquétipo de outro card de maneira evidente;
+- perder anatomia, mãos, rosto ou objeto profissional importante;
+- estiver escuro ou texturizado a ponto de eliminar o branco dominante;
+- não reservar composição adequada para receber o nome quando a coleção usar nomes.
+
+REGRA DE INVALIDAÇÃO DA PRANCHA FINAL
+A PRANCHA final deve ser refeita na etapa de montagem, sem regenerar cards aprovados, se:
+- não possuir exatamente 8 posições em 4 colunas × 2 linhas;
+- qualquer card estiver em proporção diferente de 1:2,5;
+- houver borda, moldura, retângulo, filete, linha de corte ou perímetro desenhado;
+- houver número, índice, código ou texto além do nome canônico autorizado;
+- nomes estiverem grafados incorretamente, fora de ordem ou associados ao card errado;
+- qualquer elemento atravessar células ou gaps;
+- uma posição que deveria estar vazia tiver conteúdo;
+- cards forem redimensionados de forma desigual para preencher espaço;
+- a montagem alterar, completar ou inventar conteúdo por geração de imagem.
+
+COLEÇÕES
+- até 8 elementos: 1 PRANCHA;
+- mais de 8 elementos: continuar em PRANCHAS adicionais;
+- nunca diminuir, ampliar, achatar, alargar ou redistribuir cards para acomodar elementos;
+- se a última PRANCHA tiver menos de 8 elementos, manter posições restantes vazias;
+- não ampliar cards restantes para preencher espaços;
+- a distribuição é definida uma única vez antes da produção e não muda sem atualização explícita do mapa.
+
+
+12. COLEÇÕES DE PRANCHAS — PLANO OBRIGATÓRIO
+
+Antes da primeira geração:
+- obter a lista canônica completa;
+- contar o total de elementos;
+- calcular o total de PRANCHAS;
+- dividir a lista uma única vez em blocos sequenciais de até 8;
+- registrar exatamente quais elementos pertencem a cada PRANCHA;
+- registrar posições ocupadas e posições vazias;
+- declarar proporção dos cards: 1:2,5;
+- criar o MAPA DE DIVERSIDADE VISUAL para todos os cards ocupados;
+- conferir nomes, grafia e ordem;
+- listar resumidamente os padrões globais aplicáveis;
+- confirmar que cada ilustração será gerada individualmente e a PRANCHA final será montada depois.
+
+Formato mínimo:
+TOTAL DA COLEÇÃO: N elementos.
+TOTAL DE PRANCHAS: N.
+PROPORÇÃO DOS CARDS: 1:2,5.
+PRANCHA 1: posição A1 = elemento; posição A2 = elemento; posição A3 = elemento; posição A4 = elemento; posição B1 = elemento; posição B2 = elemento; posição B3 = elemento; posição B4 = elemento.
+PRANCHA 2: posições correspondentes.
+PADRÕES GLOBAIS: fundo branco; textura seletiva; não nudez; diversidade corporal e morfológica dos rostos; semblante e desgaste; ornamentação parcial; presença ambiental da floresta tropical quando aplicável; coerência canônica; legibilidade.
+EXECUÇÃO: 1 card = 1 ilustração gerada e validada; 8 posições = 1 PRANCHA final montada deterministicamente.
+
+Depois de fechado o mapa:
+- não alterar espontaneamente a distribuição;
+- não adicionar, remover, substituir, repetir ou reorganizar elementos;
+- um elemento só se torna CONSUMIDO depois que sua ilustração individual for aprovada e associada à posição correta;
+- a PRANCHA seguinte só pode usar elementos NÃO CONSUMIDOS;
+- a interseção entre PRANCHAS da mesma coleção deve ser zero;
+- qualquer mudança exige atualizar primeiro o mapa;
+- uma falha em um card não autoriza regenerar ou reorganizar os demais.
+
+13. CONTINUIDADE VISUAL DE COLEÇÕES
+
+- preservar técnica geral, contraste e linguagem ornamental;
+- preservar proporção, grid, espaçamento e escala relativa;
+- preservar o princípio de BAIXA DENSIDADE DE TEXTURA; continuidade não significa repetir excesso de hachura;
+- variar pessoas, poses, cenários e detalhes;
+- repetir linguagem visual, não repetir soluções compositivas;
+- variações ornamentais devem pertencer à mesma família sem serem cópias;
+- manter ordem e nomes definidos pelas fontes.
+
+
+14. REGRAS DE SAÍDA
+
+- priorizar resolução adequada para impressão e monitores;
+- não depender de cor;
+- evitar microdetalhes que desapareçam na redução;
+- manter elementos destinados a recorte dentro de sua área;
+- não adicionar marca d’água, assinatura ou interface.
+
+
+15. CHECKLIST OBRIGATÓRIO PRÉ-GERAÇÃO
+
+GLOBAL
+[ ] Formato identificado: VINHETA, CENA ou PRANCHA?
+[ ] A atmosfera comunica terror, ameaça, estranhamento ou mistério?
+[ ] A imagem evita o tom de aventura heroica ou exploração turística?
+[ ] O mistério é preservado sem explicar visualmente tudo?
+[ ] O terror foi construído sem depender de excesso de preto/hachura?
+[ ] Há espaço branco ou cinza muito claro também DENTRO das ilustrações?
+[ ] As massas pretas estão restritas a focos narrativos, em vez de dominar o card?
+[ ] As extremidades da arte se dissolvem no branco sem formar um retângulo?
+[ ] Há cards sem ornamento ou com ornamentos realmente esparsos e assimétricos?
+[ ] Nenhum limite lógico do card ficou visível por uma borda reta de sombra/textura?
+[ ] Personagens, quando presentes, parecem vulneráveis ao ambiente em vez de triunfantes?
+[ ] Se for VINHETA, esta geração contém apenas uma VINHETA?
+[ ] Se for CENA, esta geração contém apenas uma CENA?
+[ ] VINHETA/CENA está sendo produzida como arquivo independente?
+[ ] Somente preto, branco e cinzas neutros?
+[ ] Fundo/suporte branco puro?
+[ ] Sem sépia, creme, bege, amarelo ou papel envelhecido?
+[ ] Branco visualmente predominante?
+[ ] Hachuras são seletivas e funcionais, não uniformes?
+[ ] Tecidos comuns permanecem majoritariamente brancos e limpos?
+[ ] Roupas estão definidas principalmente por forma e poucas linhas de dobra?
+[ ] Nenhuma roupa foi preenchida sistematicamente com microtextura?
+[ ] Fundo tem densidade claramente menor que o foco?
+[ ] Pele humana exposta está visualmente limpa e predominantemente branca?
+[ ] Não há crosshatching, padrões ou microtextura decorativa sobre pele?
+[ ] Tecidos comuns estão predominantemente brancos e sem textura de superfície?
+[ ] Hachura em roupas aparece somente em pequenas sombras realmente necessárias?
+[ ] Áreas vazias permaneceram vazias quando não precisam de informação?
+[ ] Ornamentação é parcial, leve e subordinada?
+[ ] Nenhuma borda ornamental fecha todo o entorno?
+[ ] Grandes trechos do perímetro permanecem completamente abertos?
+[ ] Ornamentos de canto não foram conectados formando um retângulo?
+[ ] Todo personagem humano está vestido?
+[ ] Torso/peito, quadris e nádegas estão cobertos por roupa opaca?
+[ ] Personagens indígenas/nativos obedecem exatamente à mesma regra de não nudez?
+[ ] Não há sexualização por pose, transparência ou enquadramento?
+[ ] Personagens demonstram desgaste coerente com a sobrevivência?
+[ ] Foram evitados glamour, sorrisos gratuitos e heroísmo excessivo?
+[ ] Diversidade do conjunto foi planejada?
+[ ] Cada personagem possui combinação facial morfologicamente distinta?
+[ ] Diferenças faciais não dependem apenas de barba, cabelo, chapéu, roupa ou acessórios?
+[ ] Mandíbula, nariz, olhos, maçãs do rosto e proporções faciais variam entre os personagens?
+[ ] Nenhum rosto parece uma cópia do outro com cosmética diferente?
+[ ] Cenário e conteúdo respeitam as fontes canônicas?
+[ ] Quando o local está na floresta tropical, sua presença é visualmente inequívoca?
+[ ] Quando aplicável, a mata parece tropical, abundante e composta por múltiplos planos sem ficar excessivamente fechada?
+[ ] Caminhos e clareiras parecem aberturas dentro da floresta, e não paisagens abertas?
+[ ] A densidade foi criada por sobreposição e quantidade de formas, não por excesso de hachura?
+[ ] Existem aberturas suficientes de fundo branco entre as massas vegetais?
+[ ] A vegetação não ocupa automaticamente todos os vazios?
+[ ] Há espaço negativo suficiente ao redor do personagem principal?
+[ ] A floresta ambienta a cena sem competir com o foco?
+[ ] Pele e roupas permaneceram limpas apesar do aumento da densidade vegetal?
+[ ] A vegetação tropical foi sugerida sem aumentar excessivamente a hachura/microtextura?
+[ ] O ambiente evita aparência de bosque temperado/europeu quando isso contradiz o Cenario?
+[ ] Fauna/criaturas visíveis estão autorizadas?
+[ ] Imagem continua clara em tamanho reduzido?
+
+PRANCHA — ANTES DE GERAR OS CARDS
+[ ] Lista canônica completa obtida e contada?
+[ ] Total de PRANCHAS calculado corretamente em blocos de até 8?
+[ ] Mapa de posições 4 × 2 fechado antes da geração?
+[ ] Posições vazias da última PRANCHA registradas?
+[ ] Nomes canônicos conferidos sem numeração?
+[ ] Mapa de diversidade visual preenchido para cada posição ocupada?
+[ ] Cada rosto possui combinação morfológica distinta?
+[ ] Faixas de idade, constituições, poses e silhuetas foram deliberadamente variadas?
+[ ] Nenhuma Ocupação foi transformada automaticamente em um estereótipo de sexo, idade, barba ou corpo?
+
+CARD DE PRANCHA — GERAÇÃO E VALIDAÇÃO INDIVIDUAL
+[ ] Esta geração contém exatamente uma única ilustração de card?
+[ ] Não há nome, letra, número, legenda ou marca dentro da arte gerada?
+[ ] Não existe borda, moldura, retângulo, filete, linha de corte ou perímetro desenhado?
+[ ] A arte possui extremidades abertas que se dissolvem no branco?
+[ ] O branco continua dominante dentro da composição?
+[ ] O personagem corresponde exatamente ao elemento canônico da posição?
+[ ] Perfil facial, corpo, idade, pose e silhueta correspondem ao mapa de diversidade?
+[ ] O card não parece uma repetição de outro card já aprovado?
+[ ] A anatomia, mãos, rosto e objeto profissional importante estão legíveis?
+[ ] Há reserva visual adequada para o nome quando a coleção usar nomes?
+[ ] Se falhou, somente este card será refeito?
+
+PRANCHA — MONTAGEM FINAL
+[ ] Exatamente 8 posições em grid 4 × 2?
+[ ] Todos os cards finais têm o mesmo tamanho?
+[ ] Todos os cards finais estão em proporção exata 1:2,5?
+[ ] A montagem foi feita deterministicamente, sem gerar novamente a prancha como imagem?
+[ ] Gaps, fundo e posições vazias estão em branco puro?
+[ ] Não existe linha de corte, retângulo, filete, contorno periférico ou moldura?
+[ ] Nenhum elemento atravessa células ou gaps?
+[ ] Posições não utilizadas permanecem vazias?
+[ ] Somente nomes canônicos autorizados foram adicionados?
+[ ] Não existe numeração, índice, código, subtítulo ou texto mecânico?
+[ ] Os nomes estão soltos sobre o branco, sem placa, cartela, faixa, banner ou caixa?
+[ ] Cada nome está associado ao card correto e na posição correta?
+[ ] Nenhum card foi deformado, comprimido, esticado ou redimensionado de maneira desigual?
+[ ] Elementos desta PRANCHA correspondem exatamente ao mapa?
+[ ] Nenhum elemento foi repetido de PRANCHAS anteriores?
+
+VALIDAÇÃO FINAL
+Se qualquer item obrigatório falhar, a imagem não deve ser tratada como aprovada.
+
+
+16. REGRA FINAL DE INTERPRETAÇÃO
+
+Antes de gerar:
+1. identificar o formato;
+2. se houver coleção de PRANCHAS, consultar ou criar o mapa completo de posições;
+3. para PRANCHAS, criar o mapa de diversidade visual antes de qualquer geração;
+4. aplicar as regras globais invioláveis;
+5. aplicar direção artística global;
+6. aplicar regras de pessoas, composição e ornamentação;
+7. aplicar regras específicas do formato;
+8. conferir conteúdo nas fontes canônicas;
+9. executar o checklist correspondente;
+10. gerar uma única ilustração por vez quando o destino for CARD DE PRANCHA;
+11. validar e aprovar cada card individualmente;
+12. montar deterministicamente a PRANCHA final somente depois de todos os cards necessários estarem aprovados;
+13. adicionar tipografia somente na montagem final;
+14. validar a montagem;
+15. renderizar conforme Render;
+16. somente então tratar a saída como FINAL.
+
+Não duplicar regras globais nas seções específicas.
+Quando houver conflito de redação, prevalece a regra mais alta na ordem de prioridade deste arquivo.

@@ -1,0 +1,925 @@
+O INFERNO VERDE — PIPELINES OPERACIONAIS
+Versão 4
+
+OBJETIVO
+
+Este arquivo reúne os fluxos operacionais canônicos do projeto e define nomes curtos e estáveis para disparar cada execução.
+
+Este arquivo não substitui Images, Render, Regras, Cenario, Relatos, Livro ou Diretivas.
+Ele apenas organiza COMO iniciar e encadear os processos já definidos nessas fontes.
+
+REGRA DE PRIORIDADE
+
+Ao executar qualquer pipeline:
+1. usar sempre as fontes de maior versão disponíveis;
+2. Regras define o conteúdo mecânico e a lista canônica;
+3. Cenario define o que existe e o que é coerente no mundo;
+4. Relatos define acontecimentos e atmosfera quando aplicável;
+5. Images define como representar visualmente;
+6. Render define preparação técnica, resolução e entrega raster;
+7. Diretivas define regras operacionais gerais de versionamento e uso das fontes;
+8. Pipelines define somente a sequência de execução e o nome de disparo.
+
+REGRA DE DISPARO
+
+O usuário pode iniciar um pipeline escrevendo:
+
+RODE: NOME DO PIPELINE
+
+Também são válidas formas naturais equivalentes, desde que o pipeline fique inequívoco.
+
+Exemplo:
+RODE: OCUPAÇÕES
+
+Quando um pipeline for disparado, não pedir ao usuário para repetir regras já definidas nas fontes.
+Usar automaticamente as versões mais recentes das fontes aplicáveis.
+
+TRAVA GLOBAL — PREVIEW VÁLIDA
+
+Uma PREVIEW válida deve ser a própria imagem que poderá originar o FINAL RASTER.
+
+Não contam como PREVIEW válida:
+- dashboard;
+- infográfico;
+- painel de status;
+- mockup;
+- folha de contato;
+- esquema de pipeline;
+- imagem explicativa contendo miniaturas ou representações de cards;
+- composição gerada apenas para demonstrar como a saída poderia ficar.
+
+Esses materiais podem ser usados como apoio de planejamento, mas nunca podem substituir a PREVIEW real nem receber aprovação em nome dela.
+
+Para CARD:
+- a PREVIEW válida é a ilustração individual do próprio card;
+- deve mostrar somente a arte que será rasterizada, sem dashboard, legenda de status, número, moldura ou elementos de interface.
+
+Para FOLHA:
+- a PREVIEW válida da montagem é a própria FOLHA montada deterministicamente a partir dos cards reais já aprovados;
+- não pode ser uma nova imagem gerada pelo modelo para imitar a FOLHA;
+- dashboard, infográfico ou mockup da FOLHA não substituem a montagem real.
+
+Para VINHETA e CENA:
+- a PREVIEW válida é a própria ilustração individual correspondente.
+
+REGRA DE APROVAÇÃO
+Uma aprovação só se aplica ao arquivo visual efetivamente apresentado como PREVIEW válida.
+Nunca considerar aprovado um CARD, FOLHA, VINHETA ou CENA apenas porque uma representação dele apareceu dentro de dashboard, infográfico, mockup ou composição explicativa.
+
+======================================================================
+
+PIPELINE 1 — RASTER
+
+NOME DE DISPARO
+RASTER
+
+QUANDO USAR
+Para qualquer imagem individual que precise passar por validação visual antes da preparação em alta resolução.
+
+FLUXO
+1. consultar as fontes aplicáveis;
+2. gerar uma PREVIEW válida da própria imagem, conforme a TRAVA GLOBAL — PREVIEW VÁLIDA;
+3. apresentar essa PREVIEW real ao usuário;
+4. perguntar: “A PREVIEW está aprovada para gerar o FINAL RASTER?”;
+5. se houver alteração visual, gerar nova PREVIEW e retornar ao passo 3;
+6. após aprovação explícita, usar a PREVIEW aprovada como referência visual obrigatória;
+7. preparar o FINAL RASTER conforme Render;
+8. validar fidelidade visual, resolução, nitidez, branco, contraste e linhas;
+9. entregar o arquivo mestre final.
+
+TRAVA
+PREVIEW nunca é FINAL RASTER.
+Se a alta resolução exigir nova geração capaz de mudar a arte, essa nova saída volta a ser PREVIEW e exige nova aprovação.
+
+ESTADO DE SAÍDA
+FINAL RASTER aprovado tecnicamente.
+
+======================================================================
+
+PIPELINE 2 — VINHETA
+
+NOME DE DISPARO
+VINHETA
+
+QUANDO USAR
+Para criar uma única ilustração editorial integrada ao fluxo do texto.
+
+FLUXO
+1. identificar o conteúdo da VINHETA;
+2. consultar Regras, Cenario, Relatos e Images conforme aplicável;
+3. planejar foco, composição e ambiente;
+4. executar RASTER;
+5. preparar a VINHETA no tamanho e resolução definidos por Render;
+6. entregar um único arquivo independente.
+
+TRAVAS
+1 VINHETA = 1 imagem = 1 arquivo.
+Não combinar duas VINHETAS no mesmo arquivo.
+
+ESTADO DE SAÍDA
+VINHETA em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 3 — CENA
+
+NOME DE DISPARO
+CENA
+
+QUANDO USAR
+Para criar uma única ilustração narrativa concebida para página inteira.
+
+FLUXO
+1. identificar a situação narrativa;
+2. consultar Regras, Cenario, Relatos e Images conforme aplicável;
+3. planejar foco, profundidade ambiental e elementos essenciais;
+4. executar RASTER;
+5. preparar o raster de página inteira conforme Render;
+6. entregar um único arquivo independente.
+
+TRAVAS
+1 CENA = 1 imagem = 1 arquivo.
+Não combinar duas CENAS no mesmo arquivo.
+
+ESTADO DE SAÍDA
+CENA em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 4 — CARD
+
+NOME DE DISPARO
+CARD
+
+QUANDO USAR
+Para criar uma única ilustração destinada a ocupar uma posição de uma FOLHA.
+
+ENTRADAS OBRIGATÓRIAS
+- elemento canônico;
+- posição da FOLHA;
+- perfil visual definido no mapa de diversidade;
+- regras visuais da coleção.
+
+FLUXO
+1. confirmar o elemento e a posição no mapa da FOLHA;
+2. consultar as fontes canônicas aplicáveis;
+3. conferir o perfil visual daquele card;
+4. gerar uma única ilustração, sem nome, sem número, sem borda e sem moldura;
+5. apresentar a própria ilustração individual como PREVIEW válida; dashboard, infográfico, mockup ou composição explicativa não contam;
+6. solicitar aprovação explícita para FINAL RASTER somente dessa PREVIEW real;
+7. se houver correção, regenerar somente esse card;
+8. depois da aprovação, preparar o raster individual conforme Render;
+9. validar o card individual em ampliação de 100 por cento;
+10. marcar o card como APROVADO E PRONTO PARA MONTAGEM.
+
+TRAVAS
+Nunca gerar vários cards juntos neste pipeline.
+Nunca adicionar nome dentro da geração da arte.
+Nunca desenhar o perímetro lógico do card.
+
+ESTADO DE SAÍDA
+CARD DE FOLHA individual aprovado e rasterizado.
+
+======================================================================
+
+PIPELINE 5 — FOLHA
+
+NOME DE DISPARO
+FOLHA
+
+QUANDO USAR
+Para produzir uma FOLHA final contendo até 8 cards independentes em 4 colunas por 2 linhas.
+
+FLUXO
+1. obter a lista canônica dos elementos;
+2. selecionar somente os elementos pertencentes à FOLHA atual;
+3. fixar as posições A1, A2, A3, A4, B1, B2, B3 e B4;
+4. registrar posições vazias quando existirem;
+5. criar o mapa de diversidade visual dos cards ocupados;
+6. executar CARD individualmente para cada posição ocupada;
+7. não alterar cards já aprovados por causa de erro em outro card;
+8. depois que todos os cards necessários estiverem aprovados e rasterizados, adicionar os nomes canônicos por composição tipográfica;
+9. montar deterministicamente a FOLHA em 4 por 2;
+10. manter posições não utilizadas completamente brancas e vazias;
+11. produzir uma PREVIEW DE MONTAGEM usando a própria FOLHA montada deterministicamente com os cards reais; nunca gerar dashboard, infográfico ou mockup para substituir essa preview;
+12. solicitar aprovação da montagem real;
+13. corrigir somente montagem, tipografia ou card específico quando necessário;
+14. exportar o FINAL RASTER da FOLHA conforme Render;
+15. validar dimensões, ordem, nomes, gaps, ausência de bordas, diversidade e fidelidade aos cards aprovados.
+
+TRAVAS
+A FOLHA final nunca deve ser gerada diretamente pelo gerador de imagens.
+A PREVIEW da FOLHA também nunca deve ser uma simulação generativa, dashboard, infográfico ou mockup; deve ser a montagem determinística real.
+A FOLHA possui exatamente 8 posições em 4 colunas por 2 linhas.
+Cada card lógico mantém proporção 1:2,5.
+Nenhum card recebe número, índice, código ou ordinal.
+Nenhuma borda, moldura ou linha de perímetro é permitida.
+
+ESTADO DE SAÍDA
+FOLHA em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 6 — OCUPAÇÕES
+
+NOME DE DISPARO
+OCUPAÇÕES
+
+QUANDO USAR
+Para produzir uma FOLHA usando exclusivamente as Ocupações canônicas de Regras.
+
+FLUXO
+1. consultar a versão mais recente de Regras;
+2. extrair a lista canônica de Ocupações na ordem da fonte;
+3. identificar quais 8 Ocupações pertencem à FOLHA solicitada;
+4. criar o mapa de posições;
+5. criar o mapa de diversidade visual, incluindo idade aparente, sexo aparente, constituição, morfologia facial, pose, silhueta, ação profissional, equipamento dominante e ambiente;
+6. garantir diversidade real entre os 8 personagens;
+7. executar CARD para cada Ocupação;
+8. usar somente o nome canônico da Ocupação na montagem;
+9. executar a etapa de montagem do pipeline FOLHA;
+10. exportar o FINAL RASTER da FOLHA.
+
+TRAVAS
+Não inventar Ocupações.
+Não alterar a ordem sem pedido explícito.
+Não representar diversidade apenas por barba, cabelo, chapéu ou acessórios.
+Não repetir a mesma combinação estrutural de rosto, corpo e pose.
+
+ESTADO DE SAÍDA
+FOLHA DE OCUPAÇÕES em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 7 — COLEÇÃO
+
+NOME DE DISPARO
+COLEÇÃO
+
+QUANDO USAR
+Quando uma lista possui mais de 8 elementos e precisa ser distribuída em várias FOLHAS.
+
+FLUXO
+1. obter a lista canônica completa;
+2. contar os elementos;
+3. dividir a lista uma única vez em blocos sequenciais de até 8;
+4. calcular o número total de FOLHAS;
+5. registrar posição exata de cada elemento;
+6. registrar posições vazias da última FOLHA;
+7. criar o mapa global de diversidade e continuidade visual;
+8. executar FOLHA em sequência;
+9. marcar elementos concluídos como CONSUMIDOS;
+10. impedir repetição entre FOLHAS;
+11. preservar estilo, contraste, escala, proporção, espaçamento e linguagem ornamental da coleção;
+12. entregar cada FOLHA como arquivo mestre independente.
+
+TRAVAS
+A distribuição não muda espontaneamente depois que o mapa foi fechado.
+A interseção de elementos entre FOLHAS deve ser zero.
+A última FOLHA não amplia cards restantes para preencher posições vazias.
+
+ESTADO DE SAÍDA
+COLEÇÃO completa de FOLHAS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 8 — CORRIGIR
+
+NOME DE DISPARO
+CORRIGIR
+
+QUANDO USAR
+Quando apenas um card de uma FOLHA falhou visualmente ou tecnicamente.
+
+FLUXO
+1. identificar FOLHA, posição e elemento;
+2. preservar todos os demais cards aprovados;
+3. identificar a falha específica;
+4. gerar nova PREVIEW apenas para o card defeituoso;
+5. solicitar aprovação explícita;
+6. preparar novo raster individual;
+7. substituir somente aquele card na montagem;
+8. validar novamente a FOLHA montada;
+9. exportar nova versão do FINAL RASTER da FOLHA quando necessário.
+
+TRAVA
+Nunca regenerar a FOLHA inteira por causa de um erro localizado em um único card.
+
+ESTADO DE SAÍDA
+Card corrigido e FOLHA remontada quando aplicável.
+
+======================================================================
+
+PIPELINE 9 — MONTAR
+
+NOME DE DISPARO
+MONTAR
+
+QUANDO USAR
+Quando todos os cards necessários já possuem raster individual aprovado e falta apenas produzir o arquivo final da FOLHA.
+
+FLUXO
+1. conferir mapa e posições;
+2. conferir se todos os cards ocupados estão aprovados;
+3. inserir os cards nas posições corretas;
+4. aplicar nomes canônicos como tipografia editorial limpa sobre branco;
+5. manter gaps e posições vazias brancos;
+6. não desenhar bordas, molduras, caixas ou linhas de corte;
+7. produzir PREVIEW DE MONTAGEM quando necessário;
+8. solicitar aprovação da montagem;
+9. exportar o FINAL RASTER conforme Render;
+10. validar a FOLHA completa e cards individuais em ampliação de 100 por cento.
+
+ESTADO DE SAÍDA
+FOLHA montada e rasterizada.
+
+======================================================================
+
+PIPELINE 10 — FINAL
+
+NOME DE DISPARO
+FINAL
+
+QUANDO USAR
+Quando uma PREVIEW já foi explicitamente aprovada e deve ser preparada tecnicamente para produção.
+
+PRÉ-CONDIÇÃO
+Aprovação explícita da PREVIEW correspondente.
+
+FLUXO
+1. usar a PREVIEW aprovada como fonte visual;
+2. definir tamanho físico ou digital de destino;
+3. calcular a resolução necessária;
+4. realizar somente o upscale necessário e preferencialmente em uma única etapa;
+5. preservar composição, linhas, branco, contraste e detalhes;
+6. validar em ampliação de 100 por cento;
+7. validar PPI no tamanho físico final;
+8. salvar o arquivo mestre em Portable Network Graphics;
+9. criar derivados somente depois do mestre aprovado.
+
+TRAVA
+FINAL RASTER não autoriza reinterpretar ou redesenhar a PREVIEW aprovada.
+
+ESTADO DE SAÍDA
+Arquivo mestre de produção.
+
+======================================================================
+
+PIPELINE 11 — DIGITAL
+
+NOME DE DISPARO
+DIGITAL
+
+QUANDO USAR
+Para criar versão reduzida para página web, prévia, distribuição digital ou outro destino depois que já existe FINAL RASTER aprovado.
+
+FLUXO
+1. partir exclusivamente do FINAL RASTER;
+2. definir dimensão e limite de arquivo do destino;
+3. reduzir uma única vez quando possível;
+4. preservar proporção e legibilidade;
+5. manter fundo branco e linhas limpas;
+6. exportar no formato exigido pelo destino;
+7. preservar o FINAL RASTER original sem alterações.
+
+ESTADO DE SAÍDA
+Derivado digital vinculado ao raster mestre.
+
+======================================================================
+
+PIPELINE 12 — VERSÃO
+
+NOME DE DISPARO
+VERSÃO
+
+QUANDO USAR
+Quando um arquivo de regras, cenário, imagens, renderização, livro, relatos, diretivas ou pipelines precisar ser alterado.
+
+FLUXO
+1. localizar a versão mais alta do arquivo;
+2. usar essa versão como base;
+3. aplicar somente as alterações solicitadas;
+4. incrementar a versão;
+5. salvar como novo arquivo nome.versão.txt;
+6. preservar a versão anterior;
+7. disponibilizar a nova versão como source.
+
+TRAVAS
+Nunca editar silenciosamente uma versão antiga como se fosse a atual.
+Não usar abreviações no conteúdo dos arquivos.
+
+ESTADO DE SAÍDA
+Nova versão do source criada.
+
+
+======================================================================
+
+REGRA DOS PIPELINES DE COLEÇÃO ESPECIALIZADA
+
+Os pipelines especializados abaixo seguem a mesma estrutura operacional de OCUPAÇÕES, adaptada ao tipo de conteúdo.
+
+FLUXO BASE
+1. consultar a fonte canônica mais recente indicada pelo pipeline;
+2. extrair a lista completa na ordem em que aparece na fonte, salvo regra específica;
+3. se houver mais de 8 elementos, executar COLEÇÃO para fixar todas as FOLHAS antes da primeira geração;
+4. fixar posições A1, A2, A3, A4, B1, B2, B3 e B4 da FOLHA atual;
+5. criar um mapa de variação visual próprio para o tipo de conteúdo;
+6. executar CARD individualmente para cada posição ocupada;
+7. apresentar cada card como PREVIEW e aguardar aprovação antes do FINAL RASTER correspondente;
+8. preservar todos os cards já aprovados;
+9. usar somente o nome canônico na etapa tipográfica;
+10. executar MONTAR depois que todos os cards necessários estiverem aprovados e rasterizados;
+11. apresentar PREVIEW DE MONTAGEM quando aplicável;
+12. após aprovação da montagem, exportar o FINAL RASTER da FOLHA;
+13. marcar os elementos concluídos como CONSUMIDOS quando fizerem parte de uma COLEÇÃO.
+
+TRAVAS COMUNS
+- nenhum pipeline especializado autoriza gerar a FOLHA inteira diretamente pelo gerador de imagens;
+- nenhum card recebe nome, número, índice, código, placa, cartela, borda ou moldura durante a geração da arte;
+- não inventar elementos para completar posições vazias;
+- posições sem elemento permanecem brancas;
+- variação visual deve corresponder ao tipo de conteúdo, sem forçar diversidade humana quando não houver personagens;
+- quando houver personagens humanos, aplicar integralmente as regras de diversidade de Images;
+- quando houver criatura ou fenômeno do Desconhecido, preservar ambiguidade e evitar explicação visual excessiva;
+- não alterar a ordem canônica sem pedido explícito.
+
+======================================================================
+
+PIPELINE 13 — CRIATURAS
+
+NOME DE DISPARO
+CRIATURAS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Criaturas e Ameaças canônicas.
+
+FONTES PRINCIPAIS
+- Regras para perfis mecânicos, nomes e capacidades;
+- Cenario para existência, aparência narrativa, ambiente e grau de ambiguidade;
+- Images para direção visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- silhueta principal;
+- escala aparente;
+- postura ou forma de movimento;
+- grau de revelação: completa, parcial, silhueta, vestígio ou ocultação;
+- ambiente canônico;
+- sinal visual da capacidade principal sem transformar o card em diagrama;
+- distância ou relação com observadores quando houver;
+- contraste e massa visual distintos dos cards vizinhos.
+
+FLUXO ESPECÍFICO
+1. extrair a lista canônica de Criaturas e Ameaças;
+2. separar cada criatura ou ameaça como um elemento independente;
+3. planejar variação de escala, silhueta, habitat, posição e grau de ocultação;
+4. evitar que todos os cards sejam retratos frontais de monstros;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não inventar anatomia ou poder que contradiga as fontes.
+Não transformar todas as ameaças em monstros totalmente revelados.
+Ameaças humanas devem seguir as regras de diversidade e vestimenta de Images.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE CRIATURAS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 14 — RELÍQUIAS
+
+NOME DE DISPARO
+RELÍQUIAS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Relíquias canônicas.
+
+FONTES PRINCIPAIS
+- Cenario para lista, descrição e interpretação das Relíquias;
+- Regras para efeitos, custos e funcionamento quando definidos;
+- Images para representação visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- silhueta do objeto;
+- material aparente;
+- escala do objeto;
+- forma de apresentação: apoiado, guardado, parcialmente descoberto, sendo examinado ou encontrado;
+- ambiente ou suporte neutro coerente;
+- sinal de uso, desgaste ou história;
+- indício do efeito sem espetáculo mágico;
+- composição e orientação diferentes dos cards vizinhos.
+
+FLUXO ESPECÍFICO
+1. extrair a lista canônica de Relíquias;
+2. tratar cada Relíquia como objeto principal independente;
+3. planejar variedade entre objeto isolado, objeto em contexto e objeto sendo manipulado quando isso for seguro e coerente;
+4. preservar a dúvida sobre sua verdadeira natureza;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não representar aura, energia ou magia espetacular apenas para indicar sobrenaturalidade.
+Não inventar inscrições, símbolos ou mecanismos não definidos.
+Não tornar a função da Relíquia mais explícita que a fonte.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE RELÍQUIAS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 15 — PERIGOS
+
+NOME DE DISPARO
+PERIGOS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Perigos Estranhos ou do Desconhecido.
+
+FONTES PRINCIPAIS
+- Regras para consequências e nomes;
+- Cenario para descrição ficcional e atmosfera;
+- Relatos quando existir relato diretamente relacionado;
+- Images para representação visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- tipo de local ou situação;
+- sinal inicial do perigo;
+- elemento ambiental dominante;
+- escala da cena;
+- presença humana: nenhuma, distante ou vulnerável;
+- momento representado: antes, durante ou imediatamente depois da manifestação;
+- grau de ambiguidade;
+- direção de movimento ou ameaça;
+- distribuição de espaço branco distinta.
+
+FLUXO ESPECÍFICO
+1. extrair somente os Perigos Estranhos ou do Desconhecido canônicos;
+2. representar cada perigo como situação, lugar ou fenômeno, não como ícone abstrato;
+3. priorizar o sinal e a ameaça incompleta sobre a explicação;
+4. variar ambientes e escalas entre os cards;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não converter automaticamente um perigo em criatura.
+Não revelar uma explicação sobrenatural definitiva quando a fonte preserva dúvida.
+Não usar efeitos mágicos espetaculares como solução visual padrão.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE PERIGOS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 16 — NATURAIS
+
+NOME DE DISPARO
+NATURAIS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Perigos Naturais e Ambientais da jornada.
+
+FONTES PRINCIPAIS
+- Regras para perigos ambientais e suas consequências;
+- Cenario para ambiente tropical e coerência geográfica;
+- Images para representação visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- tipo de terreno ou clima;
+- sinal prévio do perigo;
+- ação física principal do ambiente;
+- relação com carga, água, equipamento ou deslocamento;
+- escala;
+- presença e vulnerabilidade humana quando útil;
+- composição distinta dos demais perigos.
+
+FLUXO ESPECÍFICO
+1. extrair os Perigos Naturais e Ambientais canônicos;
+2. representar o ambiente como agente principal da cena;
+3. mostrar sinais compreensíveis de chuva, lama, correnteza, vegetação, insetos ou outras condições definidas;
+4. variar ponto de vista e situação sem inventar fauna específica;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não adicionar criatura ou espécie apenas para preencher a composição.
+Não transformar perigo ambiental comum em manifestação sobrenatural.
+Não omitir a floresta tropical quando ela for o ambiente canônico.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE PERIGOS NATURAIS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 17 — ARMAS
+
+NOME DE DISPARO
+ARMAS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Armas canônicas.
+
+FONTES PRINCIPAIS
+- Regras para lista, nomes, tecnologia, uso e propriedades;
+- Cenario para coerência histórica e tecnológica;
+- Images para representação visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- silhueta da arma;
+- escala e orientação;
+- material principal;
+- estado de uso ou manutenção;
+- elemento funcional distintivo;
+- forma de apresentação: isolada, apoiada, empunhada ou sendo preparada;
+- composição diferente dos cards vizinhos.
+
+FLUXO ESPECÍFICO
+1. extrair somente as Armas e Ferramentas de Combate definidas em Regras;
+2. tratar cada entrada canônica como elemento próprio;
+3. representar detalhes funcionais suficientes para distinguir armas semelhantes;
+4. usar personagem apenas quando a ação de uso melhorar a leitura da arma;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não modernizar mecanismos, munição, forma ou acessórios.
+Não inventar decoração histórica específica sem suporte canônico.
+A arma deve permanecer o foco principal do card.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE ARMAS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 18 — PROTEÇÕES
+
+NOME DE DISPARO
+PROTEÇÕES
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Proteções e Vestimentas canônicas.
+
+FONTES PRINCIPAIS
+- Regras para lista, nomes, função e Integridade;
+- Cenario para coerência histórica e ambiental;
+- Images para vestimenta, não nudez, materiais e textura.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- peça principal;
+- silhueta;
+- material;
+- região do corpo protegida;
+- forma de uso;
+- desgaste funcional;
+- pose neutra ou ação quando houver personagem;
+- diversidade de corpos e rostos quando vários cards utilizarem modelos humanos.
+
+FLUXO ESPECÍFICO
+1. extrair Proteções e Vestimentas de Regras;
+2. decidir para cada peça se a leitura é melhor isolada ou vestida;
+3. quando houver pessoa, variar corpo, rosto, idade aparente, pose e sexo aparente conforme Images;
+4. manter tecido comum claro e sem microtextura excessiva;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não sexualizar a apresentação de vestimentas.
+Não inventar peças de armadura não presentes no item representado.
+Não usar textura para substituir forma e construção da peça.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE PROTEÇÕES em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 19 — SUPRIMENTOS
+
+NOME DE DISPARO
+SUPRIMENTOS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Ferramentas, Utilitários, Munição e Consumíveis canônicos que não pertençam às coleções de Armas ou Proteções.
+
+FONTES PRINCIPAIS
+- Regras para lista, nomes, quantidade, Integridade e função;
+- Cenario para coerência histórica e logística;
+- Images para representação visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- objeto principal ou conjunto canônico inseparável;
+- escala;
+- material;
+- organização física do item;
+- sinal de uso;
+- relação com carga, manutenção, tratamento, iluminação, água ou alimento quando aplicável;
+- composição e orientação distintas.
+
+FLUXO ESPECÍFICO
+1. extrair Munição, Consumíveis, Ferramentas e Utilitários definidos em Regras, excluindo itens já tratados em ARMAS e PROTEÇÕES;
+2. preservar conjuntos canônicos como um único elemento quando o nome da regra representa um conjunto;
+3. usar natureza-morta, objeto em uso ou detalhe de expedição conforme o item;
+4. garantir leitura imediata da função sem adicionar texto interno;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não separar artificialmente um item canônico composto apenas para aumentar a coleção.
+Não inventar marcas, rótulos, números ou inscrições.
+Não transformar todo card em pilha genérica de equipamento.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE SUPRIMENTOS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 20 — PROVAÇÕES
+
+NOME DE DISPARO
+PROVAÇÕES
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Provações comuns e Provações do Desconhecido.
+
+FONTES PRINCIPAIS
+- Regras para nomes, natureza, efeitos e remoção;
+- Cenario para interpretação narrativa do desgaste e do Desconhecido;
+- Relatos quando houver situação diretamente associada;
+- Images para representação visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- natureza da Provação: Física, Biológica, Mental ou do Desconhecido;
+- sintoma ou consequência visual principal;
+- situação concreta que comunica a condição;
+- grau de exposição corporal permitido;
+- postura e expressão;
+- ambiente;
+- presença ou ausência de auxílio;
+- composição distinta das demais Provações.
+
+FLUXO ESPECÍFICO
+1. extrair a lista canônica de Provações na ordem da fonte;
+2. representar cada Provação por uma situação humana ou consequência concreta, evitando pictogramas abstratos;
+3. para Provações do Desconhecido, preservar ambiguidade sobre a causa;
+4. planejar diversidade de pessoas quando múltiplos cards mostrarem personagens;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não usar gore gratuito.
+Não transformar sofrimento em caricatura.
+Não adicionar sintomas não suportados pela fonte como se fossem canônicos.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE PROVAÇÕES em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 21 — RUMORES
+
+NOME DE DISPARO
+RUMORES
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Rumores e Sinais do Impossível canônicos.
+
+FONTES PRINCIPAIS
+- Cenario para lista e descrição dos Rumores e Sinais do Impossível;
+- Relatos quando um relato desenvolver o mesmo acontecimento;
+- Regras quando houver consequência mecânica relacionada;
+- Images para atmosfera e ambiguidade.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- sinal central;
+- local;
+- presença humana ou vestígio humano;
+- momento da descoberta;
+- grau de revelação;
+- explicação natural plausível que não seja excluída pela imagem;
+- foco de estranhamento;
+- composição distinta dos cards vizinhos.
+
+FLUXO ESPECÍFICO
+1. extrair somente Rumores e Sinais do Impossível explicitamente definidos;
+2. tratar cada rumor como imagem de descoberta, indício ou testemunho;
+3. mostrar o suficiente para produzir inquietação sem confirmar a explicação;
+4. variar entre paisagem, objeto, vestígio, arquitetura e presença humana conforme o conteúdo;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não resolver visualmente o mistério.
+Não adicionar entidade explícita quando a fonte descreve apenas sinal ou rumor.
+Não transformar o card em ilustração fantástica espetacular.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE RUMORES em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 22 — LOCAIS
+
+NOME DE DISPARO
+LOCAIS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO com Postos e Locais de Expedição explicitamente definidos nas fontes.
+
+FONTES PRINCIPAIS
+- Cenario para tipos de Postos, lugares, ambientes e coerência geográfica;
+- Regras para função de Postos Avançados e locais mecanicamente relevantes;
+- Relatos para locais que apareçam em acontecimentos narrativos;
+- Images para representação visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- tipo de local;
+- escala;
+- função do espaço;
+- estado: seguro, ocupado, abandonado, danificado ou ameaçado, somente quando suportado pela fonte;
+- relação com a floresta;
+- arquitetura ou formação natural dominante;
+- presença humana e atividade quando aplicável;
+- ponto de vista e profundidade distintos.
+
+FLUXO ESPECÍFICO
+1. extrair apenas locais e categorias de local explicitamente presentes nas fontes;
+2. não criar nomes próprios ou assentamentos novos para completar a coleção;
+3. distinguir postos seguros de estruturas apenas semelhantes a postos quando a fonte fizer essa diferença;
+4. enfatizar função, escala e pressão da floresta sobre estruturas humanas;
+5. executar o FLUXO BASE.
+
+TRAVAS
+Não inventar mapa, reino, povoado, missão ou ruína específica sem suporte canônico.
+Não representar automaticamente todo Posto como seguro.
+Não usar arquitetura anacrônica.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE LOCAIS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 23 — RELATOS
+
+NOME DE DISPARO
+RELATOS
+
+QUANDO USAR
+Para produzir FOLHAS ou uma COLEÇÃO baseada nos mini-contos e relatos canônicos de Relatos.
+
+FONTES PRINCIPAIS
+- Relatos para título, personagens, acontecimentos, diálogo implícito e atmosfera;
+- Cenario para coerência do mundo;
+- Regras para objetos, perigos, criaturas e consequências citadas;
+- Images para composição visual.
+
+MAPA VISUAL OBRIGATÓRIO POR CARD
+- título canônico do relato;
+- instante narrativo escolhido;
+- personagens presentes;
+- ação principal;
+- objeto, perigo ou sinal central;
+- ambiente;
+- expressão e postura;
+- informação que deve permanecer oculta para preservar o suspense;
+- composição distinta das demais cenas.
+
+FLUXO ESPECÍFICO
+1. extrair os relatos na ordem em que aparecem na fonte;
+2. tratar cada relato como um elemento independente da coleção;
+3. escolher um único instante visual forte por relato;
+4. não tentar condensar todos os acontecimentos do texto no mesmo card;
+5. usar somente o título canônico na montagem;
+6. preservar diálogos e informações verbais no texto-fonte; não inserir balões, legendas ou frases dentro da arte;
+7. executar o FLUXO BASE.
+
+TRAVAS
+Não alterar o desfecho do relato.
+Não revelar visualmente algo que o relato mantém ambíguo ou oculto.
+Não adicionar personagens, criaturas ou objetos que mudem o acontecimento narrado.
+
+ESTADO DE SAÍDA
+FOLHA ou COLEÇÃO DE RELATOS em FINAL RASTER.
+
+======================================================================
+
+COMANDOS RECOMENDADOS
+
+RODE: RASTER
+RODE: VINHETA
+RODE: CENA
+RODE: CARD
+RODE: FOLHA
+RODE: OCUPAÇÕES
+RODE: COLEÇÃO
+RODE: CORRIGIR
+RODE: MONTAR
+RODE: FINAL
+RODE: DIGITAL
+RODE: VERSÃO
+RODE: CRIATURAS
+RODE: RELÍQUIAS
+RODE: PERIGOS
+RODE: NATURAIS
+RODE: ARMAS
+RODE: PROTEÇÕES
+RODE: SUPRIMENTOS
+RODE: PROVAÇÕES
+RODE: RUMORES
+RODE: LOCAIS
+RODE: RELATOS
+
+REGRA FINAL
+
+Quando o usuário disparar um pipeline pelo nome, executar a sequência correspondente usando automaticamente as fontes mais recentes aplicáveis.
+Não pedir ao usuário para reescrever regras já registradas nas fontes.
+Se faltarem apenas dados que possam ser obtidos das fontes, consultar as fontes antes de perguntar.
+Se uma etapa exigir aprovação visual explícita, interromper somente no ponto de aprovação definido pelo pipeline.

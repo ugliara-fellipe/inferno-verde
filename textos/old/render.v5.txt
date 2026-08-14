@@ -1,0 +1,304 @@
+RENDER
+Versão 5 — especificação de saída raster para produção e exibição
+
+OBJETIVO
+
+Este arquivo define somente as regras técnicas de renderização e entrega raster das imagens do projeto.
+
+As regras visuais, estilísticas, narrativas, de composição, atmosfera, ornamentação, texto e formatos de imagem continuam definidas no arquivo Images.
+
+PRINCÍPIO
+
+RASTER é o formato final de produção.
+
+Para PRANCHAS, o raster final é resultado de composição determinística de cards individuais aprovados. A PRANCHA final não deve ser obtida ampliando uma única imagem gerada com vários cards.
+
+A imagem gerada deve ser preparada para:
+- impressão de alta qualidade;
+- visualização em monitores 4K;
+- uso em PDF;
+- uso digital;
+- preservação de linhas finas, hachuras seletivas e fundo branco.
+
+1. FORMATO FINAL
+
+Formato preferencial:
+PNG.
+
+Regras:
+- não usar JPEG como arquivo mestre;
+- evitar compressão com perdas;
+- preservar linhas, contornos e pequenas diferenças tonais;
+- fundo branco deve permanecer branco puro #FFFFFF;
+- manter o arquivo final em RGB/sRGB para uso geral e digital;
+- conversão para perfil específico de gráfica deve ocorrer apenas na etapa de fechamento editorial, quando necessário.
+
+2. REFERÊNCIA CENTRAL DE PRODUÇÃO — A4 A 400 PPI
+
+O padrão editorial de referência do projeto é A4.
+
+Dimensões físicas:
+- 210 × 297 mm;
+- aproximadamente 8,27 × 11,69 polegadas.
+
+Padrão mestre:
+400 PPI.
+
+Dimensões raster aproximadas em A4 a 400 PPI:
+- retrato: 3307 × 4677 px;
+- paisagem: 4677 × 3307 px.
+
+Princípio:
+A4 a 400 PPI é a referência principal para impressão e também oferece resolução suficiente para exibição em monitores 4K.
+
+3. IMPRESSÃO
+
+Padrão mínimo aceitável:
+300 PPI no tamanho físico final.
+
+Padrão recomendado e preferencial:
+400 PPI no tamanho físico final.
+
+Regras:
+- calcular a resolução a partir do tamanho físico real de uso;
+- nunca considerar apenas o número total de pixels;
+- não ampliar repetidamente uma imagem pequena;
+- preferir uma única etapa de upscale quando necessária;
+- validar a arte no tamanho real de impressão;
+- preservar linhas finas, detalhes pequenos e espaços brancos.
+
+4. MONITORES 4K
+
+O raster A4 a 400 PPI já supera 4K no eixo longo.
+
+Por isso:
+- não é necessário manter uma regra independente de 4K quando o arquivo mestre for preparado em A4 a 400 PPI;
+- o mesmo raster mestre pode servir para impressão e exibição em telas 4K;
+- derivados menores podem ser criados posteriormente para uso digital;
+- não reduzir o raster mestre apenas porque o destino imediato é uma tela.
+
+5. REGRAS POR FORMATO
+
+VINHETA
+
+VINHETA ocupa a largura total útil de uma página A4, de esquerda a direita, usando a mesma largura da CENA.
+
+Padrão de largura:
+- 3307 px em A4 retrato a 400 PPI.
+
+Regras:
+- a largura da VINHETA deve ser a mesma largura de uma CENA A4 em retrato;
+- a altura permanece variável conforme a composição;
+- não forçar proporção fixa;
+- não tratar VINHETA como pequena ilustração central ou lateral;
+- a VINHETA atravessa horizontalmente toda a largura útil da página;
+- manter 400 PPI como alvo;
+- preservar a proporção natural da composição;
+- calcular a altura em pixels a partir da proporção escolhida, mantendo 3307 px de largura;
+- se o layout usar A4 paisagem, usar a largura correspondente de 4677 px a 400 PPI;
+- 1 VINHETA = 1 arquivo independente.
+
+Princípio:
+VINHETA E CENA COMPARTILHAM A MESMA LARGURA DE PÁGINA.
+A DIFERENÇA PRINCIPAL É A ALTURA.
+
+CENA
+
+CENA é concebida para uso de página inteira.
+
+Padrão:
+- A4 retrato: 3307 × 4677 px;
+- A4 paisagem: 4677 × 3307 px;
+- 400 PPI.
+
+Regras:
+- preservar a proporção do layout;
+- não deformar a ilustração;
+- preparar margem e enquadramento considerando o uso editorial;
+- se houver sangria definida futuramente pelo layout, recalcular a resolução incluindo a área de sangria;
+- validar a imagem no tamanho A4 real.
+
+PRANCHA
+
+PRANCHA não deve ser limitada artificialmente ao tamanho A4 se isso reduzir a qualidade individual dos cards.
+
+Regras:
+- a PRANCHA final deve ser montada a partir dos arquivos individuais aprovados de cada card;
+- não usar como mestre uma geração única contendo vários cards;
+- calcular a resolução pela quantidade e dimensão dos cards;
+- preservar a resolução necessária por card;
+- usar A4 apenas como referência editorial, não como limite obrigatório da prancha mestre;
+- cada card deve permanecer adequado para recorte e uso independente;
+- não reduzir a resolução de cada card apenas para fazer a prancha caber em A4;
+- a montagem deve usar posicionamento, margens e gaps determinísticos;
+- não usar preenchimento generativo, extensão generativa ou reconstrução por inteligência artificial na etapa de montagem;
+- posições vazias permanecem branco puro.
+
+CARD
+
+Para cards verticais em proporção 1:2,5:
+
+Padrão mestre recomendado:
+1600 × 4000 pixels por card final.
+
+Regras:
+- manter exatamente 1:2,5;
+- nunca esticar ou comprimir;
+- a ilustração pode ser gerada em outra resolução nativa, mas deve ser preparada para o canvas final sem deformação;
+- preferir recorte controlado, expansão com branco ou uma única etapa de aumento de resolução em vez de deformação;
+- quando houver nome, ele é aplicado depois da geração da ilustração e faz parte do card final de 1600 × 4000 pixels;
+- reservar na parte inferior aproximadamente 12,5 por cento da altura final para o nome quando a coleção usar nomes, mantendo essa área branca e sem caixa;
+- a reserva de nome não é uma moldura e não deve possuir linha divisória obrigatória;
+- preservar nitidez suficiente para uso individual após recorte.
+
+PADRÃO DE MONTAGEM DA PRANCHA
+
+Para uma PRANCHA completa de 8 posições:
+- 4 colunas × 2 linhas;
+- card final: 1600 × 4000 pixels;
+- gap padrão entre cards: 160 pixels;
+- margem externa padrão: 160 pixels;
+- largura total padrão: 7200 pixels;
+- altura total padrão: 8480 pixels.
+
+Cálculo:
+- largura = 4 cards + 3 gaps internos + 2 margens externas;
+- altura = 2 cards + 1 gap interno + 2 margens externas.
+
+Se o projeto alterar deliberadamente gap ou margem, recalcular a dimensão total pela mesma fórmula. Nunca alterar a dimensão individual dos cards para compensar a mudança.
+
+6. PRANCHAS
+
+FLUXO TÉCNICO OBRIGATÓRIO
+
+1. receber os cards individuais já aprovados visualmente conforme Images;
+2. preparar cada card final em 1600 × 4000 pixels, ou no padrão mestre vigente, sem deformação;
+3. aplicar o nome canônico somente nesta etapa quando ele for autorizado;
+4. posicionar os cards no grid 4 × 2 conforme o mapa fechado da coleção;
+5. manter posições vazias completamente brancas;
+6. usar gaps e margens definidos pelo padrão de montagem;
+7. exportar a PRANCHA mestre em arquivo Portable Network Graphics;
+8. validar a PRANCHA completa e cards individuais em ampliação de 100 por cento.
+
+Ao renderizar uma PRANCHA:
+- calcular a resolução total a partir da resolução alvo de cada card;
+- incluir gaps e margens definidos pela composição;
+- não reduzir a resolução de cada card apenas para caber em uma dimensão arbitrária de prancha;
+- validar TODOS os cards individualmente em ampliação de 100 por cento, não apenas uma amostra;
+- verificar rostos, mãos, objetos pequenos, nomes e detalhes de cenário quando existirem;
+- confirmar que nenhum card depende de aumento excessivo de resolução após o recorte;
+- confirmar que todos os nomes correspondem ao mapa e não contêm numeração;
+- confirmar que nenhum card possui borda, moldura, filete ou linha de corte;
+- confirmar que a montagem não introduziu linhas retas acidentais no perímetro lógico dos cards;
+- confirmar que o fundo, gaps e posições vazias permanecem branco puro;
+- se um card falhar tecnicamente, corrigir ou substituir somente esse card e remontar a prancha;
+- não regenerar a PRANCHA inteira como imagem para corrigir um erro localizado.
+
+7. UPSCALE
+
+Upscale é permitido quando necessário, mas deve ser controlado.
+
+Regras:
+- realizar preferencialmente uma única etapa de upscale;
+- evitar ciclos sucessivos de ampliar, reduzir e ampliar;
+- preservar contornos e linhas finas;
+- não inventar microtextura;
+- não engrossar hachuras;
+- não transformar áreas brancas em ruído;
+- não produzir halos artificiais;
+- não usar sharpening excessivo.
+
+Se o upscale produzir aparência mais artificial, mais escura ou mais texturizada que a arte original, ele deve ser rejeitado.
+
+8. NITIDEZ
+
+A nitidez deve preservar a linguagem de gravura sem tornar a imagem agressivamente digital.
+
+Evitar:
+- sharpening excessivo;
+- halos brancos ou pretos em contornos;
+- linhas engrossadas;
+- microcontraste artificial;
+- aumento de textura em pele, roupas ou áreas claras.
+
+Priorizar:
+- contornos limpos;
+- detalhes legíveis;
+- áreas brancas preservadas;
+- transições coerentes;
+- hachuras distinguíveis sem se fundirem em manchas.
+
+9. VALIDAÇÃO PARA IMPRESSÃO
+
+Antes de considerar o raster final:
+- confirmar resolução em pixels;
+- confirmar PPI no tamanho físico desejado;
+- verificar a imagem em 100%;
+- verificar o tamanho real de impressão;
+- observar linhas finas, áreas muito escuras e hachuras;
+- confirmar que o branco permanece #FFFFFF;
+- confirmar que detalhes importantes não desaparecem;
+- confirmar que o contraste não fecha sombras excessivamente;
+- confirmar que texto, quando autorizado, continua legível.
+
+10. VALIDAÇÃO PARA 4K
+
+Antes de considerar o raster adequado para tela:
+- confirmar no mínimo 3840 px no maior eixo quando a imagem puder ocupar a tela inteira;
+- preferir 4096 px ou mais;
+- verificar a imagem em monitor ou prévia equivalente a 100%;
+- inspecionar bordas, linhas finas e detalhes pequenos;
+- garantir que não existam artefatos de upscale ou compressão.
+
+11. ARQUIVO DE ENTREGA
+
+Arquivo mestre:
+PNG.
+
+Evitar como mestre:
+- JPEG;
+- WebP com perdas;
+- imagens excessivamente comprimidas;
+- arquivos redimensionados para baixo sem necessidade.
+
+Derivados podem ser criados para:
+- PDF;
+- web;
+- prévias;
+- distribuição digital;
+- impressão.
+
+Os derivados nunca substituem o raster mestre de maior qualidade.
+
+12. REGRA FINAL DE RENDER
+
+Ordem operacional para VINHETA e CENA:
+
+1. gerar a arte conforme Images;
+2. aprovar visualmente a arte;
+3. definir o tamanho físico ou digital de destino;
+4. calcular a resolução necessária;
+5. realizar no máximo o aumento de resolução necessário;
+6. validar nitidez, contraste, linhas e espaços brancos;
+7. salvar o raster mestre em arquivo Portable Network Graphics;
+8. criar derivados apenas depois do raster final aprovado.
+
+Ordem operacional para PRANCHA:
+
+1. receber o mapa fechado da coleção definido em Images;
+2. receber cada ilustração individual de card aprovada;
+3. preparar cada card na proporção e resolução mestre;
+4. adicionar somente o nome canônico autorizado, sem numeração;
+5. montar deterministicamente o grid 4 × 2;
+6. manter gaps, margens e posições vazias em branco puro;
+7. validar todos os cards individualmente em ampliação de 100 por cento;
+8. validar dimensões, nomes, ordem, ausência de bordas e ausência de deformação na PRANCHA completa;
+9. salvar o raster mestre da PRANCHA em arquivo Portable Network Graphics;
+10. criar derivados apenas depois do raster mestre aprovado.
+
+PRINCÍPIO FINAL:
+
+QUALIDADE DE LINHA + RESOLUÇÃO SUFICIENTE + BRANCO PRESERVADO + UPSCALE CONTROLADO.
+
+A resolução deve servir à arte.
+Nunca sacrificar legibilidade, espaço branco ou qualidade de linha apenas para atingir um número arbitrário de pixels.

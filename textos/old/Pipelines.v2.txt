@@ -1,0 +1,403 @@
+O INFERNO VERDE — PIPELINES OPERACIONAIS
+Versão 2
+
+OBJETIVO
+
+Este arquivo reúne os fluxos operacionais canônicos do projeto e define nomes curtos e estáveis para disparar cada execução.
+
+Este arquivo não substitui Images, Render, Regras, Cenario, Relatos, Livro ou Diretivas.
+Ele apenas organiza COMO iniciar e encadear os processos já definidos nessas fontes.
+
+REGRA DE PRIORIDADE
+
+Ao executar qualquer pipeline:
+1. usar sempre as fontes de maior versão disponíveis;
+2. Regras define o conteúdo mecânico e a lista canônica;
+3. Cenario define o que existe e o que é coerente no mundo;
+4. Relatos define acontecimentos e atmosfera quando aplicável;
+5. Images define como representar visualmente;
+6. Render define preparação técnica, resolução e entrega raster;
+7. Diretivas define regras operacionais gerais de versionamento e uso das fontes;
+8. Pipelines define somente a sequência de execução e o nome de disparo.
+
+REGRA DE DISPARO
+
+O usuário pode iniciar um pipeline escrevendo:
+
+RODE: NOME DO PIPELINE
+
+Também são válidas formas naturais equivalentes, desde que o pipeline fique inequívoco.
+
+Exemplo:
+RODE: OCUPAÇÕES
+
+Quando um pipeline for disparado, não pedir ao usuário para repetir regras já definidas nas fontes.
+Usar automaticamente as versões mais recentes das fontes aplicáveis.
+
+======================================================================
+
+PIPELINE 1 — RASTER
+
+NOME DE DISPARO
+RASTER
+
+QUANDO USAR
+Para qualquer imagem individual que precise passar por validação visual antes da preparação em alta resolução.
+
+FLUXO
+1. consultar as fontes aplicáveis;
+2. gerar uma PREVIEW;
+3. apresentar a PREVIEW ao usuário;
+4. perguntar: “A PREVIEW está aprovada para gerar o FINAL RASTER?”;
+5. se houver alteração visual, gerar nova PREVIEW e retornar ao passo 3;
+6. após aprovação explícita, usar a PREVIEW aprovada como referência visual obrigatória;
+7. preparar o FINAL RASTER conforme Render;
+8. validar fidelidade visual, resolução, nitidez, branco, contraste e linhas;
+9. entregar o arquivo mestre final.
+
+TRAVA
+PREVIEW nunca é FINAL RASTER.
+Se a alta resolução exigir nova geração capaz de mudar a arte, essa nova saída volta a ser PREVIEW e exige nova aprovação.
+
+ESTADO DE SAÍDA
+FINAL RASTER aprovado tecnicamente.
+
+======================================================================
+
+PIPELINE 2 — VINHETA
+
+NOME DE DISPARO
+VINHETA
+
+QUANDO USAR
+Para criar uma única ilustração editorial integrada ao fluxo do texto.
+
+FLUXO
+1. identificar o conteúdo da VINHETA;
+2. consultar Regras, Cenario, Relatos e Images conforme aplicável;
+3. planejar foco, composição e ambiente;
+4. executar RASTER;
+5. preparar a VINHETA no tamanho e resolução definidos por Render;
+6. entregar um único arquivo independente.
+
+TRAVAS
+1 VINHETA = 1 imagem = 1 arquivo.
+Não combinar duas VINHETAS no mesmo arquivo.
+
+ESTADO DE SAÍDA
+VINHETA em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 3 — CENA
+
+NOME DE DISPARO
+CENA
+
+QUANDO USAR
+Para criar uma única ilustração narrativa concebida para página inteira.
+
+FLUXO
+1. identificar a situação narrativa;
+2. consultar Regras, Cenario, Relatos e Images conforme aplicável;
+3. planejar foco, profundidade ambiental e elementos essenciais;
+4. executar RASTER;
+5. preparar o raster de página inteira conforme Render;
+6. entregar um único arquivo independente.
+
+TRAVAS
+1 CENA = 1 imagem = 1 arquivo.
+Não combinar duas CENAS no mesmo arquivo.
+
+ESTADO DE SAÍDA
+CENA em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 4 — CARD
+
+NOME DE DISPARO
+CARD
+
+QUANDO USAR
+Para criar uma única ilustração destinada a ocupar uma posição de uma FOLHA.
+
+ENTRADAS OBRIGATÓRIAS
+- elemento canônico;
+- posição da FOLHA;
+- perfil visual definido no mapa de diversidade;
+- regras visuais da coleção.
+
+FLUXO
+1. confirmar o elemento e a posição no mapa da FOLHA;
+2. consultar as fontes canônicas aplicáveis;
+3. conferir o perfil visual daquele card;
+4. gerar uma única ilustração, sem nome, sem número, sem borda e sem moldura;
+5. apresentar como PREVIEW;
+6. solicitar aprovação explícita para FINAL RASTER;
+7. se houver correção, regenerar somente esse card;
+8. depois da aprovação, preparar o raster individual conforme Render;
+9. validar o card individual em ampliação de 100 por cento;
+10. marcar o card como APROVADO E PRONTO PARA MONTAGEM.
+
+TRAVAS
+Nunca gerar vários cards juntos neste pipeline.
+Nunca adicionar nome dentro da geração da arte.
+Nunca desenhar o perímetro lógico do card.
+
+ESTADO DE SAÍDA
+CARD DE FOLHA individual aprovado e rasterizado.
+
+======================================================================
+
+PIPELINE 5 — FOLHA
+
+NOME DE DISPARO
+FOLHA
+
+QUANDO USAR
+Para produzir uma FOLHA final contendo até 8 cards independentes em 4 colunas por 2 linhas.
+
+FLUXO
+1. obter a lista canônica dos elementos;
+2. selecionar somente os elementos pertencentes à FOLHA atual;
+3. fixar as posições A1, A2, A3, A4, B1, B2, B3 e B4;
+4. registrar posições vazias quando existirem;
+5. criar o mapa de diversidade visual dos cards ocupados;
+6. executar CARD individualmente para cada posição ocupada;
+7. não alterar cards já aprovados por causa de erro em outro card;
+8. depois que todos os cards necessários estiverem aprovados e rasterizados, adicionar os nomes canônicos por composição tipográfica;
+9. montar deterministicamente a FOLHA em 4 por 2;
+10. manter posições não utilizadas completamente brancas e vazias;
+11. produzir uma PREVIEW DE MONTAGEM quando a validação do conjunto for necessária;
+12. solicitar aprovação da montagem;
+13. corrigir somente montagem, tipografia ou card específico quando necessário;
+14. exportar o FINAL RASTER da FOLHA conforme Render;
+15. validar dimensões, ordem, nomes, gaps, ausência de bordas, diversidade e fidelidade aos cards aprovados.
+
+TRAVAS
+A FOLHA final nunca deve ser gerada diretamente pelo gerador de imagens.
+A FOLHA possui exatamente 8 posições em 4 colunas por 2 linhas.
+Cada card lógico mantém proporção 1:2,5.
+Nenhum card recebe número, índice, código ou ordinal.
+Nenhuma borda, moldura ou linha de perímetro é permitida.
+
+ESTADO DE SAÍDA
+FOLHA em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 6 — OCUPAÇÕES
+
+NOME DE DISPARO
+OCUPAÇÕES
+
+QUANDO USAR
+Para produzir uma FOLHA usando exclusivamente as Ocupações canônicas de Regras.
+
+FLUXO
+1. consultar a versão mais recente de Regras;
+2. extrair a lista canônica de Ocupações na ordem da fonte;
+3. identificar quais 8 Ocupações pertencem à FOLHA solicitada;
+4. criar o mapa de posições;
+5. criar o mapa de diversidade visual, incluindo idade aparente, sexo aparente, constituição, morfologia facial, pose, silhueta, ação profissional, equipamento dominante e ambiente;
+6. garantir diversidade real entre os 8 personagens;
+7. executar CARD para cada Ocupação;
+8. usar somente o nome canônico da Ocupação na montagem;
+9. executar a etapa de montagem do pipeline FOLHA;
+10. exportar o FINAL RASTER da FOLHA.
+
+TRAVAS
+Não inventar Ocupações.
+Não alterar a ordem sem pedido explícito.
+Não representar diversidade apenas por barba, cabelo, chapéu ou acessórios.
+Não repetir a mesma combinação estrutural de rosto, corpo e pose.
+
+ESTADO DE SAÍDA
+FOLHA DE OCUPAÇÕES em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 7 — COLEÇÃO
+
+NOME DE DISPARO
+COLEÇÃO
+
+QUANDO USAR
+Quando uma lista possui mais de 8 elementos e precisa ser distribuída em várias FOLHAS.
+
+FLUXO
+1. obter a lista canônica completa;
+2. contar os elementos;
+3. dividir a lista uma única vez em blocos sequenciais de até 8;
+4. calcular o número total de FOLHAS;
+5. registrar posição exata de cada elemento;
+6. registrar posições vazias da última FOLHA;
+7. criar o mapa global de diversidade e continuidade visual;
+8. executar FOLHA em sequência;
+9. marcar elementos concluídos como CONSUMIDOS;
+10. impedir repetição entre FOLHAS;
+11. preservar estilo, contraste, escala, proporção, espaçamento e linguagem ornamental da coleção;
+12. entregar cada FOLHA como arquivo mestre independente.
+
+TRAVAS
+A distribuição não muda espontaneamente depois que o mapa foi fechado.
+A interseção de elementos entre FOLHAS deve ser zero.
+A última FOLHA não amplia cards restantes para preencher posições vazias.
+
+ESTADO DE SAÍDA
+COLEÇÃO completa de FOLHAS em FINAL RASTER.
+
+======================================================================
+
+PIPELINE 8 — CORRIGIR
+
+NOME DE DISPARO
+CORRIGIR
+
+QUANDO USAR
+Quando apenas um card de uma FOLHA falhou visualmente ou tecnicamente.
+
+FLUXO
+1. identificar FOLHA, posição e elemento;
+2. preservar todos os demais cards aprovados;
+3. identificar a falha específica;
+4. gerar nova PREVIEW apenas para o card defeituoso;
+5. solicitar aprovação explícita;
+6. preparar novo raster individual;
+7. substituir somente aquele card na montagem;
+8. validar novamente a FOLHA montada;
+9. exportar nova versão do FINAL RASTER da FOLHA quando necessário.
+
+TRAVA
+Nunca regenerar a FOLHA inteira por causa de um erro localizado em um único card.
+
+ESTADO DE SAÍDA
+Card corrigido e FOLHA remontada quando aplicável.
+
+======================================================================
+
+PIPELINE 9 — MONTAR
+
+NOME DE DISPARO
+MONTAR
+
+QUANDO USAR
+Quando todos os cards necessários já possuem raster individual aprovado e falta apenas produzir o arquivo final da FOLHA.
+
+FLUXO
+1. conferir mapa e posições;
+2. conferir se todos os cards ocupados estão aprovados;
+3. inserir os cards nas posições corretas;
+4. aplicar nomes canônicos como tipografia editorial limpa sobre branco;
+5. manter gaps e posições vazias brancos;
+6. não desenhar bordas, molduras, caixas ou linhas de corte;
+7. produzir PREVIEW DE MONTAGEM quando necessário;
+8. solicitar aprovação da montagem;
+9. exportar o FINAL RASTER conforme Render;
+10. validar a FOLHA completa e cards individuais em ampliação de 100 por cento.
+
+ESTADO DE SAÍDA
+FOLHA montada e rasterizada.
+
+======================================================================
+
+PIPELINE 10 — FINAL
+
+NOME DE DISPARO
+FINAL
+
+QUANDO USAR
+Quando uma PREVIEW já foi explicitamente aprovada e deve ser preparada tecnicamente para produção.
+
+PRÉ-CONDIÇÃO
+Aprovação explícita da PREVIEW correspondente.
+
+FLUXO
+1. usar a PREVIEW aprovada como fonte visual;
+2. definir tamanho físico ou digital de destino;
+3. calcular a resolução necessária;
+4. realizar somente o upscale necessário e preferencialmente em uma única etapa;
+5. preservar composição, linhas, branco, contraste e detalhes;
+6. validar em ampliação de 100 por cento;
+7. validar PPI no tamanho físico final;
+8. salvar o arquivo mestre em Portable Network Graphics;
+9. criar derivados somente depois do mestre aprovado.
+
+TRAVA
+FINAL RASTER não autoriza reinterpretar ou redesenhar a PREVIEW aprovada.
+
+ESTADO DE SAÍDA
+Arquivo mestre de produção.
+
+======================================================================
+
+PIPELINE 11 — DIGITAL
+
+NOME DE DISPARO
+DIGITAL
+
+QUANDO USAR
+Para criar versão reduzida para página web, prévia, distribuição digital ou outro destino depois que já existe FINAL RASTER aprovado.
+
+FLUXO
+1. partir exclusivamente do FINAL RASTER;
+2. definir dimensão e limite de arquivo do destino;
+3. reduzir uma única vez quando possível;
+4. preservar proporção e legibilidade;
+5. manter fundo branco e linhas limpas;
+6. exportar no formato exigido pelo destino;
+7. preservar o FINAL RASTER original sem alterações.
+
+ESTADO DE SAÍDA
+Derivado digital vinculado ao raster mestre.
+
+======================================================================
+
+PIPELINE 12 — VERSÃO
+
+NOME DE DISPARO
+VERSÃO
+
+QUANDO USAR
+Quando um arquivo de regras, cenário, imagens, renderização, livro, relatos, diretivas ou pipelines precisar ser alterado.
+
+FLUXO
+1. localizar a versão mais alta do arquivo;
+2. usar essa versão como base;
+3. aplicar somente as alterações solicitadas;
+4. incrementar a versão;
+5. salvar como novo arquivo nome.versão.txt;
+6. preservar a versão anterior;
+7. disponibilizar a nova versão como source.
+
+TRAVAS
+Nunca editar silenciosamente uma versão antiga como se fosse a atual.
+Não usar abreviações no conteúdo dos arquivos.
+
+ESTADO DE SAÍDA
+Nova versão do source criada.
+
+======================================================================
+
+COMANDOS RECOMENDADOS
+
+RODE: RASTER
+RODE: VINHETA
+RODE: CENA
+RODE: CARD
+RODE: FOLHA
+RODE: OCUPAÇÕES
+RODE: COLEÇÃO
+RODE: CORRIGIR
+RODE: MONTAR
+RODE: FINAL
+RODE: DIGITAL
+RODE: VERSÃO
+
+REGRA FINAL
+
+Quando o usuário disparar um pipeline pelo nome, executar a sequência correspondente usando automaticamente as fontes mais recentes aplicáveis.
+Não pedir ao usuário para reescrever regras já registradas nas fontes.
+Se faltarem apenas dados que possam ser obtidos das fontes, consultar as fontes antes de perguntar.
+Se uma etapa exigir aprovação visual explícita, interromper somente no ponto de aprovação definido pelo pipeline.
