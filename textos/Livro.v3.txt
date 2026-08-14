@@ -1,0 +1,232 @@
+O INFERNO VERDE — GUIA DO LIVRO
+Versão 3
+OBJETIVO
+
+Este arquivo define a tipografia e a apresentação editorial do livro físico, PDF digital e página web em formato de livro corrido.
+O resultado final deve seguir a aparência da prévia tipográfica aprovada: página branca, texto preto, hierarquia editorial clássica, bastante espaço em branco, divisórias discretas e integração com as gravuras monocromáticas do projeto.
+
+PALETA
+
+- Fundo: branco puro.
+- Texto principal: preto.
+- Elementos secundários: tons neutros de cinza.
+- Não usar sépia, amarelo, bege ou cor de pergaminho.
+- Ornamentos e divisórias devem ser pretos ou cinza neutro.
+
+FAMÍLIAS TIPOGRÁFICAS
+
+EB Garamond
+Uso: títulos de capítulos e elementos editoriais solenes.
+A EB Garamond não deve ser usada como fonte principal de parágrafos longos.
+
+Noto Serif
+Uso: texto corrido, subtítulos, termos mecânicos, listas, tabelas simples, legendas, notas, referências rápidas, nomes de cards e interface textual do site.
+É a fonte serifada principal e canônica do projeto.
+
+PESOS CANÔNICOS DE NOTO SERIF
+- Regular: texto corrido, explicações, legendas e notas.
+- Italic: citações, relatos curtos, fragmentos e nuance editorial.
+- SemiBold: termos mecânicos, subtítulos menores, referência rápida e nomes de cards.
+- Bold: subtítulos de seção e advertências realmente importantes.
+
+REGRA DE PRODUÇÃO
+- para artefatos finais, usar a família Noto Serif real, nunca uma aproximação visual;
+- para nomes de cards, usar especificamente Noto Serif SemiBold;
+- não substituir silenciosamente Noto Serif por Times, Georgia, Liberation Serif, DejaVu Serif ou outra família;
+- se Noto Serif estiver indisponível em outro ambiente, instalar/fornecer a família aberta correta antes da composição final;
+- fallbacks são permitidos somente no carregamento transitório do site, não na produção de PDF, cards ou rasters finais.
+
+HIERARQUIA TIPOGRÁFICA
+
+Título do livro
+- EB Garamond Bold.
+- Grande e centralizado.
+- Pode usar caixa alta ou versaletes quando o layout permitir.
+- Não usar contorno, sombra ou efeito tridimensional.
+
+Título de capítulo
+- EB Garamond Bold.
+- Deve ser o elemento textual mais forte da página depois do título do livro.
+- Usar numeração somente quando fizer parte da estrutura do livro.
+- Manter espaço generoso antes e depois do título.
+
+Subtítulo de seção
+- Noto Serif Bold.
+- Menor que o título de capítulo e claramente maior que o texto corrido.
+- Preferir Maiúsculas Iniciais em vez de caixa alta integral.
+
+Subtítulo menor
+- Noto Serif SemiBold.
+- Usado para subdivisões internas curtas.
+
+Texto corrido
+- Noto Serif Regular.
+- Alinhamento à esquerda ou justificado com hifenização adequada no PDF impresso.
+- No site, priorizar alinhamento à esquerda para evitar espaços irregulares.
+- Não usar peso Bold em parágrafos inteiros.
+
+Termos mecânicos
+- Noto Serif SemiBold.
+- Usar o mesmo padrão para Presença, Bagagem, Provação, Integridade, Aptidão, Ocupação, Sequela, Cicatriz, Relíquia, Preparo e demais termos definidos pelas regras.
+- O destaque deve vir do peso da fonte, não de caixas coloridas.
+
+Citações, relatos curtos e fragmentos
+- Noto Serif Italic.
+- Podem receber recuo e uma linha vertical fina.
+- Não usar caixa opaca atrás da citação.
+
+Referência rápida
+- Noto Serif SemiBold para termos.
+- Noto Serif Regular para explicações.
+- Usar blocos compactos, mas preservar respiro entre grupos de informação.
+
+Legendas
+- Noto Serif Regular ou SemiBold.
+- Menores que o texto corrido.
+- Nunca competir visualmente com a ilustração.
+
+TEXTO DENTRO DE SVGs E CARDS
+
+- Usar Noto Serif para nomes e legendas, salvo título editorial que peça EB Garamond.
+- Texto deve permanecer como texto SVG real ou, quando estritamente necessário para produção gráfica, como curvas tipográficas limpas criadas a partir da fonte original.
+- Nunca vetorizar letras junto com a ilustração por traçado automático.
+- Remover completamente qualquer letra herdada da imagem gerada antes de adicionar o texto final.
+- Caixas de texto não possuem borda.
+- Caixas de texto não possuem preenchimento.
+- Fundo das caixas de texto é transparente.
+- É proibido usar retângulos brancos para cobrir tipografia antiga da imagem.
+
+TAMANHO E RITMO — LIVRO IMPRESSO / PDF
+
+Os valores abaixo são referências editoriais e podem ser ajustados proporcionalmente ao formato final da página sem alterar a hierarquia.
+
+Texto corrido
+- 10,5 a 11,5 pt.
+- Entrelinha aproximada de 1,35 a 1,5 vezes o corpo.
+
+Título de capítulo
+- aproximadamente 28 a 36 pt.
+
+Subtítulo de seção
+- aproximadamente 16 a 20 pt.
+
+Subtítulo menor
+- aproximadamente 12 a 14 pt.
+
+Legenda / nota
+- aproximadamente 8,5 a 9,5 pt.
+
+- Evitar linhas excessivamente longas.
+- O bloco principal deve permanecer confortável para leitura contínua.
+- Manter margens generosas e espaço claro entre seções.
+
+TAMANHO E RITMO — SITE
+
+Texto corrido
+- Noto Serif Regular.
+- Base recomendada: 18 a 20 px em telas comuns.
+- line-height recomendado: aproximadamente 1,55.
+- Limitar a largura da coluna principal para leitura confortável em monitores grandes.
+
+Título de capítulo
+- EB Garamond Bold.
+- Escala responsiva; aproximadamente 42 a 64 px em desktop conforme largura disponível.
+
+Subtítulo de seção
+- Noto Serif Bold.
+- aproximadamente 26 a 34 px em desktop.
+
+Subtítulo menor
+- Noto Serif SemiBold.
+- aproximadamente 20 a 24 px.
+
+- O site deve parecer uma página contínua de livro, não uma interface de aplicativo.
+- Evitar cartões de interface, sombras, gradientes, botões chamativos e painéis coloridos no conteúdo principal.
+- Separar capítulos com espaço, gravuras, ornamentos ou linhas discretas.
+
+COLUNA E COMPOSIÇÃO
+
+- Fundo branco contínuo.
+- Corpo de texto predominantemente em uma coluna.
+- Em páginas ou trechos especiais, uma coluna secundária pode ser usada para referência, legenda ou exemplo, seguindo a prévia aprovada.
+- Imagens podem interromper a coluna em largura total quando previsto no guia Images.
+- O texto não deve encostar em ilustrações; preservar respiro consistente.
+- Ornamentos devem ser discretos e monocromáticos.
+
+DIVISÓRIAS
+
+- Usar linhas finas, pequenos ornamentos ou espaço em branco.
+- Não usar caixas pesadas em torno de seções comuns.
+- Uma divisória nunca deve chamar mais atenção que o título da seção.
+
+ÊNFASE
+
+Ordem preferida para ênfase:
+- SemiBold para termo importante.
+- Italic para voz, citação ou nuance.
+- Bold para cabeçalhos ou advertências realmente importantes.
+
+Evitar:
+- sublinhado em texto editorial;
+- excesso de caixa alta;
+- excesso de negrito;
+- múltiplas famílias tipográficas na mesma página;
+- sombras, glow, bevel ou efeitos digitais.
+
+LISTAS
+
+- Usar bullets quando os itens não possuírem ordem obrigatória.
+- Usar números somente quando a sequência for necessária.
+- Manter o mesmo corpo tipográfico do texto corrido ou ligeiramente menor.
+- Não colocar cada bullet dentro de uma caixa.
+
+IMAGENS E TEXTO
+
+- Gravuras permanecem preto, branco e cinza sobre fundo branco.
+- O texto deve parecer parte do mesmo sistema editorial das imagens.
+- Quando uma imagem tiver título externo, usar EB Garamond ou Noto Serif conforme a hierarquia da página.
+- Quando uma imagem tiver legenda funcional, usar Noto Serif.
+- Nunca deixar tipografia rasterizada dentro da ilustração quando o mesmo texto puder ser composto no layout final.
+
+PDF
+
+- Incorporar as fontes usadas no PDF final.
+- Preservar texto como texto sempre que possível para seleção, busca e acessibilidade.
+- Não converter o corpo inteiro do livro em curvas.
+- Garantir contraste preto sobre branco.
+
+SITE
+
+- Usar Noto Serif e EB Garamond como webfonts canônicas.
+- Priorizar WOFF2 para entrega web.
+- Definir fallbacks serifados caso a fonte ainda não tenha carregado.
+- Evitar mudança brusca de layout durante o carregamento das fontes.
+- Manter a mesma hierarquia visual do PDF.
+
+FALLBACKS RECOMENDADOS — SOMENTE SITE
+
+Noto Serif:
+"Noto Serif", Georgia, "Times New Roman", serif
+
+EB Garamond:
+"EB Garamond", Garamond, Georgia, "Times New Roman", serif
+
+MODELO VISUAL A SEGUIR
+
+A página final deve reproduzir a lógica da prévia tipográfica aprovada:
+
+- cabeçalho ou abertura limpa;
+- título de capítulo grande em EB Garamond;
+- subtítulos claros em Noto Serif Bold;
+- corpo confortável em Noto Serif Regular;
+- termos importantes em Noto Serif SemiBold;
+- citações em Noto Serif Italic;
+- linhas e ornamentos finos;
+- bastante branco ao redor do texto;
+- integração com gravuras sem caixas pesadas;
+- contraste forte e aparência editorial clássica;
+- nenhuma cor além de preto, branco e tons neutros de cinza.
+
+REGRA CENTRAL
+
+O livro, o PDF e o site devem parecer três apresentações do mesmo objeto editorial. A tipografia, hierarquia, espaçamento e tratamento das imagens devem permanecer coerentes entre os três formatos.

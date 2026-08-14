@@ -1,6 +1,6 @@
 # O Inferno Verde — Guia de Uso
 
-**Versão 12**
+**Versão 14**
 
 Este README é um **guia rápido para usar o projeto**.
 
@@ -204,6 +204,24 @@ ARTE
 
 Nesse turno aparecem **somente as imagens**. O pipeline não mostra status, etapas ou opções junto da geração. Isso é intencional: impede que essas informações sejam interpretadas como parte da imagem.
 
+Por isso, **antes de `ARTE` o pipeline é obrigado a mostrar a linha `DEPOIS DA ARTE:`**. Se essa linha não aparecer, `ARTE` ainda não deve ser executado.
+
+Para uma imagem individual, você deve ver:
+
+```text
+AÇÕES: ARTE · AJUSTAR · CANCELAR
+DEPOIS DA ARTE: APROVAR · AJUSTAR · REFAZER · CANCELAR
+```
+
+Para um lote, você deve ver:
+
+```text
+AÇÕES: ARTE · AJUSTAR · CANCELAR
+DEPOIS DA ARTE: APROVAR TODAS · REVISAR · REFAZER SELECIONADAS · CANCELAR
+```
+
+Assim, depois que a imagem aparecer, você já sabe como continuar e não precisa perguntar quais são as opções.
+
 Depois de ver as imagens, use uma das opções que já foram mostradas antes da geração, por exemplo:
 
 ```text
@@ -232,6 +250,45 @@ CONTROLADOR
 ```
 
 O turno de ARTE é a única exceção à regra de mostrar o bloco de progresso em toda resposta. As opções pós-geração são mostradas imediatamente antes de entrar em ARTE e continuam válidas depois que as imagens aparecem.
+
+---
+
+
+## Coerência histórica automática
+
+Quando uma imagem envolver personagens, roupas, armas, ferramentas, equipamentos, construções ou outros elementos dependentes de época, você não precisa lembrar o pipeline de verificar o período.
+
+Antes da geração, ele consulta `Cenario`, `Regras`, `Relatos` e `Images` e executa um **GATE HISTÓRICO**.
+
+A referência atual do cenário é:
+
+```text
+séculos XV e XVI
+```
+
+O pipeline verifica, quando aplicável:
+
+- silhueta geral do vestuário;
+- chapéus e calçados;
+- bolsas, cintos e equipamentos;
+- armas e ferramentas;
+- tecnologia;
+- arquitetura e objetos;
+- itens claramente posteriores ao período.
+
+Exemplos de sinais que devem ser rejeitados quando incompatíveis:
+
+- fedora;
+- chapéu ou capacete de safári;
+- mochila moderna;
+- cartucheira moderna;
+- roupa de explorador do século XIX ou XX;
+- rifle moderno;
+- equipamento contemporâneo.
+
+Quando a fonte cita algo específico, como um **arcabuz**, esse elemento deve ser representado de maneira coerente com a referência histórica.
+
+Uma imagem com anacronismo crítico não deve chegar até você como PREVIEW válida: o pipeline deve refazê-la antes da aprovação.
 
 ---
 
@@ -279,10 +336,14 @@ aproxime o nome da imagem
 O pipeline deve fazer isso automaticamente. Antes de gerar ou montar qualquer arte ele consulta a versão mais recente de `Images`.
 
 Na etapa de nomes:
-- a fonte obrigatória é **Source Serif 4 Semibold**;
-- não existe fallback silencioso;
-- se a fonte estiver indisponível, o pipeline para e avisa;
+- a fonte canônica é **Noto Serif SemiBold**;
+- a família **Noto Serif** é a serifada principal do projeto;
+- o pipeline usa a fonte real disponível no ambiente, não uma aproximação;
+- não existe fallback silencioso para Times, Georgia, DejaVu Serif, Liberation Serif ou equivalente;
+- em outro ambiente, se Noto Serif estiver ausente, a etapa para até a família aberta correta ser disponibilizada;
 - o nome é colocado próximo da ilustração, não fixado arbitrariamente no rodapé.
+
+Para títulos editoriais e de capítulos, **EB Garamond** continua sendo a família canônica.
 
 Nas Folhas, a ornamentação também é planejada antes da geração. Alguns cards ficam sem ornamento e outros recebem fragmentos esparsos.
 
@@ -417,7 +478,7 @@ cards → aprovação → raster dos cards → conferir ornamentos → aplicar n
 
 A arte dos cards é criada individualmente. A Folha final é montada depois.
 
-Os nomes dos cards são adicionados editorialmente depois da aprovação da ilustração, usando Source Serif 4 Semibold e posicionamento próximo da arte. A ornamentação aprovada é preservada até o final.
+Os nomes dos cards são adicionados editorialmente depois da aprovação da ilustração, usando Noto Serif SemiBold e posicionamento próximo da arte. A ornamentação aprovada é preservada até o final.
 
 ---
 
